@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Mascot from './Mascot.svelte';
 	import { browser } from '$app/environment';
 
 	/** Bump the version to show the notice again to everyone (e.g. when the wording changes). */
@@ -52,7 +53,10 @@
 	onclose={() => (open = false)}
 >
 	<div class="box">
-		<h2 id="disc-title">Before you start</h2>
+		<div class="head">
+			<Mascot size={52} />
+			<h2 id="disc-title">Hoot hoot! Before you start</h2>
+		</div>
 		<div id="disc-body">
 			<p>
 				<b>The review material and the model answers in this app are AI-generated.</b> They may contain mistakes, outdated
@@ -93,8 +97,14 @@
 		border-top: 4px solid var(--accent);
 		border-radius: 14px;
 	}
+	.head {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		margin-bottom: 10px;
+	}
 	h2 {
-		margin: 0 0 10px;
+		margin: 0;
 		font-size: 18px;
 	}
 	p {
