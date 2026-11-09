@@ -1,8 +1,10 @@
 <script lang="ts">
 	import '../app.css';
 	import { store, storageStatus, type Theme } from '$lib/store.svelte';
+	import Disclaimer from '$lib/components/Disclaimer.svelte';
 
 	let { children } = $props();
+	let showDisclaimer = $state(false);
 
 	const themes: [Theme, string][] = [
 		['system', 'Auto'],
@@ -41,7 +43,30 @@
 
 {@render children()}
 
+<footer class="foot">
+	All review material and model answers are AI-generated and may contain errors.
+	<button class="btn-link" onclick={() => (showDisclaimer = true)}>Read the disclaimer</button>
+</footer>
+
+<Disclaimer bind:open={showDisclaimer} />
+
 <style>
+	.foot {
+		max-width: 1080px;
+		margin: 24px auto 0;
+		padding: 16px max(16px, env(safe-area-inset-left, 0px)) calc(24px + env(safe-area-inset-bottom, 0px));
+		font-size: 12px;
+		color: var(--text-2);
+	}
+	.btn-link {
+		background: none;
+		border: 0;
+		padding: 0;
+		font: inherit;
+		color: var(--accent-text);
+		text-decoration: underline;
+		cursor: pointer;
+	}
 	.top {
 		position: sticky;
 		top: 0;
