@@ -2,6 +2,7 @@
 	import '../app.css';
 	import { page } from '$app/state';
 	import { store, storageStatus, type Theme } from '$lib/store.svelte';
+	import { answerKey } from '$lib/answerkey.svelte';
 	import Mascot from '$lib/components/Mascot.svelte';
 	import Disclaimer from '$lib/components/Disclaimer.svelte';
 
@@ -24,6 +25,60 @@
 	const side = Math.random() < 0.5 ? 'left' : 'right';
 	let eggOpen = $state(false);
 
+	// ---- answer key easter egg: tap the owl 5 times quickly, or type "hoot" ----
+	let toast = $state('');
+	let toastTimer: ReturnType<typeof setTimeout> | undefined;
+	function flipAnswerKey() {
+		answerKey.toggle();
+		toast = answerKey.on ? 'Hoot! Answer key unlocked. Model answers are now showing.' : 'Answer key off. Back to honest practice.';
+		clearTimeout(toastTimer);
+		toastTimer = setTimeout(() => (toast = ''), 3500);
+	}
+	let taps: number[] = [];
+	let owlBump = $state(false);
+	// Hoot answers each tap so people can tell they're onto something.
+	const replies = ['Hoot?', 'Hoot hoot?', 'Two more…', 'One more!'];
+	let owlSays = $state('');
+	let saysTimer: ReturnType<typeof setTimeout> | undefined;
+	function tapOwl() {
+		const t = Date.now();
+		taps = [...taps.filter((x) => t - x < 2500), t];
+		owlBump = false;
+		requestAnimationFrame(() => (owlBump = true));
+		clearTimeout(saysTimer);
+		if (taps.length >= 5) {
+			taps = [];
+			owlSays = '';
+			flipAnswerKey();
+			return;
+		}
+		owlSays = replies[taps.length - 1];
+		saysTimer = setTimeout(() => (owlSays = ''), 2500);
+	}
+	// A riddle in the card. Light enough to miss, clear enough to solve.
+	const riddle = $derived(
+		answerKey.on
+			? 'Atty. Hoot is showing you the answers. Poke him five times to make him stop.'
+			: 'Atty. Hoot knows every model answer. Poke him five times and he might share.'
+	);
+	if (typeof window !== 'undefined') {
+		console.log(
+			'%c🦉 Atty. Hoot here.%c Psst: type "hoot" anywhere outside a text box to show every model answer. Type it again to hide them.',
+			'font-weight:bold;font-size:14px',
+			'font-size:12px'
+		);
+	}
+	let typed = '';
+	function onkeydown(e: KeyboardEvent) {
+		if (e.metaKey || e.ctrlKey || e.altKey || e.key.length !== 1) return;
+		if ((e.target as HTMLElement).closest('input, textarea, select, [contenteditable]')) return;
+		typed = (typed + e.key.toLowerCase()).slice(-4);
+		if (typed === 'hoot') {
+			typed = '';
+			flipAnswerKey();
+		}
+	}
+
 	const subjects = [
 		{ href: '/', label: 'Consti I', match: (p: string) => !p.startsWith('/crimpro') },
 		{ href: '/crimpro', label: 'Crim Pro', match: (p: string) => p.startsWith('/crimpro') }
@@ -35,6 +90,8 @@
 		['dark', 'Dark']
 	];
 </script>
+
+<svelte:window {onkeydown} />
 
 <header class="top">
 	<div class="top-in">
@@ -53,6 +110,11 @@
 				<a href={s.href} aria-current={s.match(page.url.pathname) ? 'page' : undefined}>{s.label}</a>
 			{/each}
 		</nav>
+		{#if answerKey.on}
+			<button class="keypill" onclick={flipAnswerKey} title="Model answers are showing everywhere. Crim Pro scores are not saved while this is on.">
+				🔑 Answer key <span class="x">· Turn off</span>
+			</button>
+		{/if}
 		<div class="seg theme" role="group" aria-label="Theme">
 			{#each themes as [value, label] (value)}
 				<button aria-pressed={store.prefs.theme === value} onclick={() => (store.prefs.theme = value)}>{label}</button>
@@ -88,15 +150,94 @@
 		✦
 	</button>
 	<div class="egg-card">
-		<Mascot size={56} />
+		<button class="owl-btn" class:bump={owlBump} onclick={tapOwl} onanimationend={() => (owlBump = false)} aria-label="Atty. Hoot">
+			<Mascot size={56} />
+		</button>
+		{#if owlSays}<span class="says" role="status">{owlSays}</span>{/if}
 		<div>
 			<p>{quip}</p>
+			<p class="riddle">{riddle}</p>
 			<a href="https://serocode.vercel.app/" target="_blank" rel="noopener noreferrer">See more of my work ↗</a>
 		</div>
 	</div>
 </aside>
 
+{#if toast}
+	<div class="toast" role="status">{toast}</div>
+{/if}
+
 <style>
+	.keypill {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		min-height: 30px;
+		padding: 0 10px;
+		border-radius: 999px;
+		border: 1px solid var(--accent-line);
+		background: var(--accent-soft);
+		color: var(--accent-text);
+		font-size: 12.5px;
+		font-weight: 600;
+		cursor: pointer;
+		white-space: nowrap;
+	}
+	.keypill .x {
+		font-weight: 500;
+		opacity: 0.8;
+	}
+	.owl-btn {
+		padding: 0;
+		border: 0;
+		background: none;
+		cursor: pointer;
+		flex: none;
+		border-radius: 50%;
+	}
+	.egg-card {
+		position: relative;
+	}
+	.says {
+		position: absolute;
+		top: -14px;
+		left: 34px;
+		padding: 3px 9px;
+		border-radius: 999px 999px 999px 4px;
+		background: var(--accent-strong);
+		color: var(--on-accent);
+		font-size: 12px;
+		font-weight: 700;
+		white-space: nowrap;
+		pointer-events: none;
+	}
+	.riddle {
+		font-size: 12px;
+		font-style: italic;
+		color: var(--text-2);
+	}
+	.owl-btn.bump {
+		animation: bump 0.25s ease;
+	}
+	@keyframes bump {
+		50% {
+			transform: scale(1.12) rotate(-6deg);
+		}
+	}
+	.toast {
+		position: fixed;
+		left: 50%;
+		bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+		transform: translateX(-50%);
+		z-index: 30;
+		max-width: calc(100vw - 32px);
+		padding: 10px 16px;
+		border-radius: 10px;
+		background: var(--text);
+		color: var(--surface);
+		font-size: 14px;
+		font-weight: 600;
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+	}
 	.foot {
 		max-width: 1080px;
 		margin: 24px auto 0;
@@ -112,14 +253,15 @@
 		align-items: center;
 		transition: transform 0.25s ease;
 	}
+	/* The ✦ tab sits on the inner edge, the part left peeking on screen; the card slides in behind it. */
 	.egg.left {
 		left: 0;
-		flex-direction: row;
+		flex-direction: row-reverse;
 		transform: translateX(calc(-100% + 22px));
 	}
 	.egg.right {
 		right: 0;
-		flex-direction: row-reverse;
+		flex-direction: row;
 		transform: translateX(calc(100% - 22px));
 	}
 	.egg:hover,

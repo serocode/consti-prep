@@ -8,6 +8,7 @@
 	import Reference from './Reference.svelte';
 	import ScoreScale from './ScoreScale.svelte';
 	import SelfCheck from './SelfCheck.svelte';
+	import { answerKey } from '$lib/answerkey.svelte';
 
 	let { problem }: { problem: Problem } = $props();
 
@@ -30,7 +31,7 @@
 	const idx = $derived(list.findIndex((p) => p.pid === pid));
 	const prev = $derived(list[idx - 1]);
 	const next = $derived(list[idx + 1]);
-	const revealed = $derived(phase !== 'write' || history.length > 0);
+	const revealed = $derived(phase !== 'write' || history.length > 0 || answerKey.on);
 
 	// elapsed timer while writing
 	let started = Date.now();
@@ -136,6 +137,13 @@
 				{/if}
 			{/if}
 		</article>
+
+		{#if answerKey.on && phase !== 'result'}
+			<section class="card keycard" aria-label="Answer key">
+				<div class="keyhead"><span class="tag tag-accent">🔑 Answer key</span><span class="muted" style="font-size:13px">Try it yourself first, then compare.</span></div>
+				<Reference {problem} open />
+			</section>
+		{/if}
 
 		{#if phase === 'write' || phase === 'retry'}
 			{#if phase === 'retry' && latest}
@@ -256,7 +264,7 @@
 					</div>
 				</div>
 
-				<Reference {problem} />
+				<Reference {problem} open={answerKey.on} />
 				<details class="disc">
 					<summary>Your answer · attempt {history.length}</summary>
 					<div class="disc-b"><AnswerView answer={latest.answer} /></div>
@@ -279,8 +287,27 @@
 </main>
 
 <style>
+	.keycard {
+		border-color: var(--accent-line);
+		overflow: hidden;
+	}
+	.keyhead {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 10px;
+		padding: 12px 24px;
+	}
+	.keycard :global(details.disc:first-of-type) {
+		border-top: 1px solid var(--border);
+	}
 	.paper {
 		padding: 26px 30px;
+	}
+	@media (max-width: 640px) {
+		.keyhead {
+			padding: 12px 16px;
+		}
 	}
 	.facts {
 		font-size: 18px;

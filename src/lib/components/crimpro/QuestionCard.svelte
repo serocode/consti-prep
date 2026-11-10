@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { QRef } from '$lib/crimpro';
 	import { md } from '$lib/text';
+	import { answerKey } from '$lib/answerkey.svelte';
 
 	let {
 		ref,
@@ -28,6 +29,8 @@
 	} = $props();
 
 	const q = $derived(ref.q);
+	/** Answer-key easter egg: show the right choice before (or without) a reveal. */
+	const keyed = $derived(answerKey.on && !reveal);
 	const earlier = $derived(ref.set.qs.slice(1, ref.k).filter((x) => x.tw));
 	const LETTERS = 'ABCD';
 
@@ -70,7 +73,7 @@
 	{#each order as oi, pos (oi)}
 		<button
 			class:sel={!reveal && oi === picked}
-			class:right={reveal && oi === q.a}
+			class:right={(reveal || keyed) && oi === q.a}
 			class:wrong={reveal && oi === picked && oi !== q.a}
 			aria-pressed={oi === picked}
 			disabled={locked}
@@ -82,7 +85,13 @@
 	{/each}
 </div>
 
-{#if reveal}
+{#if keyed}
+	<div class="fb key">
+		<b class="fb-h">🔑 Answer key</b>
+		<p><strong>Answer:</strong> {q.o[q.a]}</p>
+		<p>{@html md(q.ex)}</p>
+	</div>
+{:else if reveal}
 	{@const ok = picked === q.a}
 	<div class="fb" class:ok aria-live="polite">
 		<b class="fb-h">{ok ? 'Correct' : picked === null ? 'Not answered' : 'Not this time'}</b>
@@ -201,6 +210,13 @@
 	}
 	.fb.ok {
 		background: var(--success-soft);
+	}
+	.fb.key {
+		background: var(--accent-soft);
+		border: 1px solid var(--accent-line);
+	}
+	.fb.key .fb-h {
+		color: var(--accent-text);
 	}
 	.fb-h {
 		font-size: 12px;

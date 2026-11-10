@@ -1,6 +1,7 @@
 import { browser } from '$app/environment';
 import { PROBLEMS, type Problem } from './problems';
 import type { Check } from './rubric';
+import { answerKey } from './answerkey.svelte';
 
 /** Everything the app remembers lives in one localStorage key. */
 const KEY = 'alac-consti:v1';
@@ -238,6 +239,8 @@ export function recordAttempt(pid: string, attempt: Attempt) {
 
 /** Keeps the higher of the stored and new score for a Crim Pro twist set. */
 export function recordSetScore(id: string, score: number) {
+	// Scores earned with the answer key showing would inflate progress.
+	if (answerKey.on) return;
 	const prev = store.crimpro.best[id];
 	if (prev == null || score > prev) store.crimpro.best[id] = score;
 	saveNow();
@@ -245,6 +248,7 @@ export function recordSetScore(id: string, score: number) {
 
 /** Logs one answered Crim Pro question. */
 export function recordAnswer(qid: string, ok: boolean) {
+	if (answerKey.on) return;
 	const s = store.crimpro.q[qid];
 	if (s) {
 		s.n++;
@@ -255,6 +259,7 @@ export function recordAnswer(qid: string, ok: boolean) {
 }
 
 export function logExam(log: ExamLog) {
+	if (answerKey.on) return;
 	store.crimpro.exams.push(log);
 	saveNow();
 }
