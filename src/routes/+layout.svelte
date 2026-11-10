@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import { page } from '$app/state';
 	import { store, storageStatus, type Theme } from '$lib/store.svelte';
 	import Mascot from '$lib/components/Mascot.svelte';
 	import Disclaimer from '$lib/components/Disclaimer.svelte';
@@ -23,6 +24,11 @@
 	const side = Math.random() < 0.5 ? 'left' : 'right';
 	let eggOpen = $state(false);
 
+	const subjects = [
+		{ href: '/', label: 'Consti I', match: (p: string) => !p.startsWith('/crimpro') },
+		{ href: '/crimpro', label: 'Crim Pro', match: (p: string) => p.startsWith('/crimpro') }
+	];
+
 	const themes: [Theme, string][] = [
 		['system', 'Auto'],
 		['light', 'Light'],
@@ -40,9 +46,14 @@
 				<rect x="7" y="16" width="14" height="2" rx="1" style="fill:#EA580C" />
 				<rect x="7" y="20" width="8" height="2" rx="1" style="fill:var(--surface)" />
 			</svg>
-			<span class="stack"><b>ALAC</b><span>Consti I · Finals practice</span></span>
+			<span class="stack"><b>ALAC</b><span class="hide-sm">Finals practice</span></span>
 		</a>
-		<div class="seg" role="group" aria-label="Theme">
+		<nav class="subjects" aria-label="Subject">
+			{#each subjects as s (s.href)}
+				<a href={s.href} aria-current={s.match(page.url.pathname) ? 'page' : undefined}>{s.label}</a>
+			{/each}
+		</nav>
+		<div class="seg theme" role="group" aria-label="Theme">
 			{#each themes as [value, label] (value)}
 				<button aria-pressed={store.prefs.theme === value} onclick={() => (store.prefs.theme = value)}>{label}</button>
 			{/each}
@@ -201,6 +212,42 @@
 		align-items: center;
 		justify-content: space-between;
 		gap: 12px;
+	}
+	.subjects {
+		display: flex;
+		gap: 2px;
+		margin-right: auto;
+	}
+	.subjects a {
+		padding: 6px 10px;
+		border-radius: 6px;
+		font-size: 13.5px;
+		font-weight: 600;
+		color: var(--text-2);
+		text-decoration: none;
+		white-space: nowrap;
+	}
+	.subjects a:hover {
+		color: var(--text);
+		background: var(--surface-2);
+	}
+	.subjects a[aria-current='page'] {
+		color: var(--accent-text);
+		background: var(--accent-soft);
+	}
+	@media (max-width: 520px) {
+		/* Phones: brand + subjects on the first line, theme switch on its own line. */
+		.top-in {
+			flex-wrap: wrap;
+			row-gap: 8px;
+		}
+		.theme {
+			width: 100%;
+			justify-content: center;
+		}
+		.theme button {
+			flex: 1;
+		}
 	}
 	.brand {
 		display: flex;

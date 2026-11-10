@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { md, type Problem } from '$lib/problems';
+	import type { Problem } from '$lib/problems';
+	import { md } from '$lib/text';
 
 	let { problem, open = false }: { problem: Problem; open?: boolean } = $props();
 </script>

@@ -23,6 +23,10 @@
 	--warning-soft: #f7f0df;
 	--error: #ae3d36;
 	--error-soft: #f9e9e7;
+	--purple: #6b4bab;
+	--purple-soft: #f1edf8;
+	--teal: #1f6f6b;
+	--teal-soft: #e6f2f1;
 	--on-accent: #ffffff;
 	--focus: 0 0 0 3px rgba(234, 88, 12, 0.28);
 	--ui: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -51,6 +55,10 @@
 		--warning-soft: #2c2517;
 		--error: #e68c84;
 		--error-soft: #33201e;
+		--purple: #b9a2ec;
+		--purple-soft: #261f33;
+		--teal: #78c8c2;
+		--teal-soft: #172826;
 		color-scheme: dark;
 	}
 }
@@ -75,6 +83,10 @@
 	--warning-soft: #2c2517;
 	--error: #e68c84;
 	--error-soft: #33201e;
+	--purple: #b9a2ec;
+	--purple-soft: #261f33;
+	--teal: #78c8c2;
+	--teal-soft: #172826;
 	color-scheme: dark;
 }
 
@@ -116,6 +128,10 @@ a {
 :focus-visible {
 	outline: none;
 	box-shadow: var(--focus);
+}
+/* Focus moved by script (e.g. to the top of the next question) should not draw a ring. */
+[tabindex='-1']:focus-visible {
+	box-shadow: none;
 }
 [hidden] {
 	display: none !important;
@@ -314,6 +330,14 @@ a {
 .tag-bad {
 	background: var(--error-soft);
 	color: var(--error);
+}
+.tag-purple {
+	background: var(--purple-soft);
+	color: var(--purple);
+}
+.tag-teal {
+	background: var(--teal-soft);
+	color: var(--teal);
 }
 .tag-line {
 	background: transparent;
