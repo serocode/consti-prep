@@ -4,7 +4,7 @@
 	const crim = $derived(page.url.pathname.startsWith('/crimpro'));
 </script>
 
-<svelte:head><title>Not found · ALAC Finals Practice</title></svelte:head>
+<svelte:head><title>Not found · 1Law-C</title></svelte:head>
 
 <main class="page">
 	<div class="col">

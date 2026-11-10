@@ -49,7 +49,7 @@
 		const url = URL.createObjectURL(blob);
 		const a = document.createElement('a');
 		a.href = url;
-		a.download = `alac-consti-backup-${new Date().toISOString().slice(0, 10)}.json`;
+		a.download = `1law-c-backup-${new Date().toISOString().slice(0, 10)}.json`;
 		document.body.appendChild(a);
 		a.click();
 		a.remove();
@@ -65,7 +65,7 @@
 	}
 </script>
 
-<svelte:head><title>ALAC Consti Practice</title></svelte:head>
+<svelte:head><title>Consti I · 1Law-C</title></svelte:head>
 
 <main class="page">
 	<div class="between wrap intro">

@@ -6,7 +6,7 @@
 	const problem = $derived(BY_PID[data.pid]);
 </script>
 
-<svelte:head><title>Problem {problem.no} · ALAC Consti Practice</title></svelte:head>
+<svelte:head><title>Problem {problem.no} · Consti I · 1Law-C</title></svelte:head>
 
 {#key data.pid}
 	<Practice {problem} />

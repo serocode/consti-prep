@@ -2,7 +2,7 @@
 	import { FLIPS } from '$lib/crimpro';
 </script>
 
-<svelte:head><title>One fact flips it · Crim Pro</title></svelte:head>
+<svelte:head><title>One fact flips it · Crim Pro · 1Law-C</title></svelte:head>
 
 <div class="stack" style="gap:12px">
 	<p class="muted" style="max-width:64ch">

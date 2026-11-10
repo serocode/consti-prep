@@ -8,7 +8,7 @@
 	const s = $derived(store.crimpro.session);
 </script>
 
-<svelte:head><title>{s?.kind === 'practice' ? 'Practice' : 'Mock exam'} · Crim Pro</title></svelte:head>
+<svelte:head><title>{s?.kind === 'practice' ? 'Practice' : 'Mock exam'} · Crim Pro · 1Law-C</title></svelte:head>
 
 {#if !s}
 	<ExamSetup />

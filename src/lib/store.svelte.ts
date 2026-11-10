@@ -283,7 +283,7 @@ export function importJSON(text: string): { ok: true; count: number } | { ok: fa
 	try {
 		const s = JSON.parse(text);
 		if (!s || typeof s !== 'object' || !s.attempts || typeof s.attempts !== 'object') {
-			return { ok: false, error: 'That file is not an ALAC backup.' };
+			return { ok: false, error: 'That file is not a 1Law-C backup.' };
 		}
 		store.attempts = s.attempts;
 		store.drafts = s.drafts && typeof s.drafts === 'object' ? s.drafts : {};

@@ -1,9 +1,9 @@
 {
-  "name": "alac-consti",
+  "name": "1law-c",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "ALAC practice for Consti I finals: write in Answer, Legal Basis, Application, Conclusion and self-check against the bar's 0–5 rubric.",
+  "description": "1Law-C: finals practice for Consti I (ALAC answers self-checked against the bar's 0–5 rubric) and Crim Pro (Rules 110–127 twist drills and mock exams).",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",

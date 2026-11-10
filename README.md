@@ -1,4 +1,4 @@
-# ALAC · Finals practice
+# 1Law-C · Finals practice
 
 Two subjects in one app:
 
@@ -11,7 +11,7 @@ Two subjects in one app:
 - Guided mode (four boxes with sentence starters) or full-answer mode.
 - Self-check: your answer and the reference side by side, a five-item checklist that sets the rubric score, and a manual override.
 - Try again: rebuild from memory with your last attempt and the fixes visible, then see attempt-vs-attempt changes.
-- Progress, drafts and theme are saved in `localStorage` (key `alac-consti:v1`). Export/import a JSON backup from the home page to move between devices.
+- Progress, drafts and theme are saved in `localStorage` (key `alac-consti:v1`, kept from the app's old name so existing progress carries over). Export/import a JSON backup from the home page to move between devices.
 
 ## Crim Pro
 

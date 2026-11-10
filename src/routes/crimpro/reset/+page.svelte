@@ -17,7 +17,7 @@
 	];
 </script>
 
-<svelte:head><title>MCQ reset · Crim Pro</title></svelte:head>
+<svelte:head><title>MCQ reset · Crim Pro · 1Law-C</title></svelte:head>
 
 <div class="stack" style="gap:14px">
 	<div class="stack" style="gap:6px">

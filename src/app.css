@@ -1,4 +1,4 @@
-/* ALAC design tokens. Light is the default; dark follows the OS unless the user picks a theme. */
+/* 1Law-C design tokens. Light is the default; dark follows the OS unless the user picks a theme. */
 :root {
 	--bg: #f7f7f5;
 	--surface: #ffffff;

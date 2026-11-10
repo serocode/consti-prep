@@ -30,7 +30,7 @@
 	}
 </script>
 
-<svelte:head><title>Twist drills · Crim Pro</title></svelte:head>
+<svelte:head><title>Twist drills · Crim Pro · 1Law-C</title></svelte:head>
 
 {#if session && !session.finished}
 	<div class="note note-warn between wrap" style="margin-bottom:14px">

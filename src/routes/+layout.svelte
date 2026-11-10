@@ -95,7 +95,7 @@
 
 <header class="top">
 	<div class="top-in">
-		<a class="brand" href="/" aria-label="ALAC home">
+		<a class="brand" href="/" aria-label="1Law-C home">
 			<svg width="26" height="26" viewBox="0 0 28 28" aria-hidden="true">
 				<rect width="28" height="28" rx="6" style="fill:var(--text)" />
 				<rect x="7" y="8" width="14" height="2" rx="1" style="fill:var(--surface)" />
@@ -103,7 +103,7 @@
 				<rect x="7" y="16" width="14" height="2" rx="1" style="fill:#EA580C" />
 				<rect x="7" y="20" width="8" height="2" rx="1" style="fill:var(--surface)" />
 			</svg>
-			<span class="stack"><b>ALAC</b><span class="hide-sm">Finals practice</span></span>
+			<span class="stack"><b>1Law-C</b><span class="hide-sm">Finals practice</span></span>
 		</a>
 		<nav class="subjects" aria-label="Subject">
 			{#each subjects as s (s.href)}
@@ -399,8 +399,8 @@
 		color: var(--text);
 	}
 	.brand b {
-		letter-spacing: 0.14em;
-		font-size: 15px;
+		letter-spacing: 0.01em;
+		font-size: 16px;
 	}
 	.brand span span {
 		font-size: 12px;

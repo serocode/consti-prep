@@ -6,7 +6,7 @@
 	const set = $derived(SET_BY_ID[data.set]);
 </script>
 
-<svelte:head><title>{set.title} · Crim Pro</title></svelte:head>
+<svelte:head><title>{set.title} · Crim Pro · 1Law-C</title></svelte:head>
 
 {#key data.set}
 	<TwistDrill {set} />
