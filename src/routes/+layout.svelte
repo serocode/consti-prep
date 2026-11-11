@@ -1,12 +1,18 @@
 <script lang="ts">
 	import '../app.css';
 	import { page } from '$app/state';
+	import { dev } from '$app/environment';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 	import { store, storageStatus, type Theme } from '$lib/store.svelte';
 	import { answerKey } from '$lib/answerkey.svelte';
 	import Mascot from '$lib/components/Mascot.svelte';
 	import Disclaimer from '$lib/components/Disclaimer.svelte';
 
 	let { children } = $props();
+
+	// Anonymous visitor and page-view counts (Vercel Web Analytics: no cookies, nothing from localStorage is sent).
+	// Called here, not in +layout.ts, because it subscribes to the page store, which needs a component context.
+	injectAnalytics({ mode: dev ? 'development' : 'production' });
 	let showDisclaimer = $state(false);
 
 	// A different line each page load. Keep them light: this is a study app, not a stand-up set.

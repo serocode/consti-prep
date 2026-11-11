@@ -66,7 +66,7 @@
 				<li>Treat them as a study aid, not as legal authority or legal advice.</li>
 				<li>Verify every rule, article, and case against the Constitution, the Rules of Court, the decisions themselves, and your professor's materials.</li>
 				<li>If your professor's view differs from the model answer, follow your professor.</li>
-				<li>Your own answers, self-scores, and drill scores are saved only in this browser.</li>
+				<li>Your own answers, self-scores, and drill scores are saved only in this browser. The app counts visits anonymously (no cookies, no personal data), and never sends your answers.</li>
 			</ul>
 		</div>
 		<p class="tip">
