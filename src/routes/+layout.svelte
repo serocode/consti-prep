@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { page } from '$app/state';
-	import { dev } from '$app/environment';
+	import { browser, dev } from '$app/environment';
 	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 	import { store, storageStatus, type Theme } from '$lib/store.svelte';
 	import { answerKey } from '$lib/answerkey.svelte';
@@ -13,6 +13,31 @@
 	// Anonymous visitor and page-view counts (Vercel Web Analytics: no cookies, nothing from localStorage is sent).
 	// Called here, not in +layout.ts, because it subscribes to the page store, which needs a component context.
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
+
+	// Public visitor count in the footer. Each browser is counted once (a flag in localStorage, no id sent).
+	// Hidden until the API answers with a number, e.g. locally or before the database is connected.
+	const COUNTED = 'alac-consti:counted';
+	let visitors: number | null = $state(null);
+	async function loadVisitors() {
+		let seen = false;
+		try {
+			seen = localStorage.getItem(COUNTED) === '1';
+		} catch {
+			/* private mode: count as seen, so reloads do not inflate the number */
+			seen = true;
+		}
+		try {
+			const res = await fetch('/api/visitors', { method: seen ? 'GET' : 'POST' });
+			if (!res.ok) return;
+			const { visitors: n } = (await res.json()) as { visitors: number | null };
+			if (typeof n !== 'number') return;
+			visitors = n;
+			if (!seen) localStorage.setItem(COUNTED, '1');
+		} catch {
+			/* offline or no API: keep the counter hidden */
+		}
+	}
+	if (browser) loadVisitors();
 	let showDisclaimer = $state(false);
 
 	// A different line each page load. Keep them light: this is a study app, not a stand-up set.
@@ -147,6 +172,9 @@
 <footer class="foot">
 	All review material and model answers are AI-generated and may contain errors.
 	<button class="btn-link" onclick={() => (showDisclaimer = true)}>Read the disclaimer</button>
+	{#if visitors !== null}
+		<span class="visitors num">· {visitors.toLocaleString()} {visitors === 1 ? 'visitor' : 'visitors'}</span>
+	{/if}
 </footer>
 
 <Disclaimer bind:open={showDisclaimer} />
@@ -337,6 +365,9 @@
 		.egg {
 			transition: none;
 		}
+	}
+	.visitors {
+		white-space: nowrap;
 	}
 	.btn-link {
 		background: none;

@@ -26,5 +26,8 @@
     "onlyBuiltDependencies": [
       "esbuild"
     ]
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.41.0"
   }
 }

@@ -60,6 +60,11 @@ Both subjects are built on one "finals kit" (`src/lib/kit.ts`): a subject suppli
 
 SvelteKit 2 · Svelte 5 (runes) · TypeScript · `@sveltejs/adapter-vercel`. Every route is prerendered (`ssr = false`, `prerender = true`), so Vercel serves static files only.
 
+## Visitors
+
+- **Footer counter** (`src/routes/api/visitors/+server.ts`, the app's only server code): counts each browser once (a flag in localStorage, no id or cookie sent) in an Upstash Redis key `visitors`. It needs `KV_REST_API_URL` and `KV_REST_API_TOKEN` (set by Vercel's Upstash integration) or `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN`. Without them the API returns `null` and the counter stays hidden. Only same-origin POSTs count; this stops casual inflation, not a determined script.
+- **Vercel Web Analytics** (`injectAnalytics` in `src/routes/+layout.svelte`): page views and visitors per page, visible in the Vercel dashboard once Analytics is enabled for the project.
+
 ## Run locally
 
 ```bash
