@@ -3,6 +3,7 @@
 	import { tick } from 'svelte';
 	import RuleBody from '$lib/components/crimpro/RuleBody.svelte';
 	import { RULES } from '$lib/crimpro';
+	import { LIKELY_RULES } from '$lib/focus/crimpro';
 
 	let query = $state('');
 	let open: string | null = $state(null);
@@ -62,13 +63,16 @@
 					<button class="head" aria-expanded={o} onclick={() => toggle(r.id)}>
 						<span class="muted num rn">R {r.id}</span>
 						<span class="t">
-							<span class="name">{r.name}</span>
+							<span class="name">{r.name}{#if LIKELY_RULES[r.id]} <span class="tag tag-star" title={LIKELY_RULES[r.id]}>★ Likely</span>{/if}</span>
 							<span class="hook">{r.hook}</span>
 						</span>
 						<span class="chev" aria-hidden="true">{o ? '−' : '+'}</span>
 					</button>
 					{#if o}
-						<div class="body"><RuleBody rule={r} /></div>
+						<div class="body">
+							{#if LIKELY_RULES[r.id]}<p class="why-star"><b>★ Likely.</b> {LIKELY_RULES[r.id]}</p>{/if}
+							<RuleBody rule={r} />
+						</div>
 					{/if}
 				</article>
 			{/each}

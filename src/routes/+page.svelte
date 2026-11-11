@@ -2,6 +2,8 @@
 	import { goto } from '$app/navigation';
 	import { PARTS, PART_SHORT, PROBLEMS, TYPE_LABEL, TYPE_TAG, type CaseData, type PartNo, type Problem } from '$lib/problems';
 	import { scoreTag } from '$lib/rubric';
+	import ConstiTabs from '$lib/components/ConstiTabs.svelte';
+	import { LIKELY_CASES } from '$lib/focus/consti';
 	import { attemptsFor, bestScore, exportJSON, filteredProblems, importJSON, resetAll, store, type Prefs } from '$lib/store.svelte';
 
 	const list = $derived(filteredProblems());
@@ -68,6 +70,7 @@
 <svelte:head><title>Consti I · 1Law-C</title></svelte:head>
 
 <main class="page">
+	<ConstiTabs />
 	<div class="between wrap intro">
 		<div class="stack" style="gap:6px">
 			<h1>Answer the way the bar grades you.</h1>
@@ -134,6 +137,7 @@
 				<div class="group-h">
 					<span class="tag tag-line">{PART_SHORT[g.c.part]}</span>
 					<h2>{g.c.name}</h2>
+					{#if LIKELY_CASES[g.c.id]}<span class="tag tag-star" title={LIKELY_CASES[g.c.id]}>★ Likely</span>{/if}
 					<span class="muted cite hide-sm">{g.c.cite}</span>
 				</div>
 				<ul>

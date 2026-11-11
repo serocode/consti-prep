@@ -80,7 +80,10 @@
 			onclick={() => onpick?.(oi)}
 		>
 			<span class="letter sm">{LETTERS[pos]}</span>
-			<span>{q.o[oi]}</span>
+			<span>
+				{q.o[oi]}
+				{#if (reveal || keyed) && oi !== q.a}<span class="why">Why not: {q.why[oi]}</span>{/if}
+			</span>
 		</button>
 	{/each}
 </div>
@@ -172,6 +175,12 @@
 	}
 	.opts button:disabled {
 		cursor: default;
+	}
+	.why {
+		display: block;
+		margin-top: 4px;
+		font-size: 13px;
+		color: var(--text-2);
 	}
 	.opts button.sel {
 		border-color: var(--accent);

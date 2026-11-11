@@ -66,55 +66,6 @@
 {/if}
 
 <style>
-	.blk {
-		border-radius: 6px;
-		padding: 11px 14px;
-		background: var(--bg-k);
-	}
-	.blk h4 {
-		margin: 0 0 4px;
-		font-size: 11.5px;
-		font-weight: 700;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--fg-k);
-	}
-	.blk :global(ul),
-	.blk :global(ol) {
-		padding-left: 1.3em;
-	}
-	.blk :global(li) {
-		margin: 3px 0;
-	}
-	.k-mem {
-		--bg-k: var(--error-soft);
-		--fg-k: var(--error);
-	}
-	.k-req {
-		--bg-k: var(--english-soft);
-		--fg-k: var(--english);
-	}
-	.k-exc {
-		--bg-k: var(--success-soft);
-		--fg-k: var(--success);
-	}
-	.k-exx {
-		--bg-k: var(--warning-soft);
-		--fg-k: var(--warning);
-	}
-	.k-doc {
-		--bg-k: var(--purple-soft);
-		--fg-k: var(--purple);
-	}
-	.k-cls {
-		--bg-k: var(--teal-soft);
-		--fg-k: var(--teal);
-	}
-	.trap {
-		--bg-k: var(--accent-soft);
-		--fg-k: var(--accent-text);
-		border: 1px solid var(--accent-line);
-	}
 	.tbl {
 		overflow-x: auto;
 	}

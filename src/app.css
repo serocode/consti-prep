@@ -339,6 +339,18 @@ a {
 	background: var(--teal-soft);
 	color: var(--teal);
 }
+/* "★ Likely": flagged as most likely to come out in the exam. */
+.tag-star {
+	background: var(--accent-strong);
+	color: var(--on-accent);
+}
+.why-star {
+	font-size: 13.5px;
+	padding: 8px 10px;
+	border-radius: 6px;
+	background: var(--accent-soft);
+	border: 1px solid var(--accent-line);
+}
 .tag-line {
 	background: transparent;
 	border: 1px solid var(--border-strong);
@@ -423,6 +435,91 @@ textarea:focus {
 }
 textarea::placeholder {
 	color: var(--text-3);
+}
+/* Color-coded note blocks shared by every subject's rule cards:
+   red = memorize, blue = requisites, green = exceptions, amber = exception to exception,
+   purple = doctrine, teal = classification, orange outline = exam trap. */
+.blk {
+	border-radius: 6px;
+	padding: 11px 14px;
+	background: var(--bg-k, var(--surface-2));
+}
+.blk h4 {
+	margin: 0 0 4px;
+	font-size: 11.5px;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--fg-k, var(--text-2));
+}
+.blk ul,
+.blk ol {
+	padding-left: 1.3em;
+}
+.blk li {
+	margin: 3px 0;
+}
+.k-mem {
+	--bg-k: var(--error-soft);
+	--fg-k: var(--error);
+}
+.k-req {
+	--bg-k: var(--english-soft);
+	--fg-k: var(--english);
+}
+.k-exc {
+	--bg-k: var(--success-soft);
+	--fg-k: var(--success);
+}
+.k-exx {
+	--bg-k: var(--warning-soft);
+	--fg-k: var(--warning);
+}
+.k-doc {
+	--bg-k: var(--purple-soft);
+	--fg-k: var(--purple);
+}
+.k-cls {
+	--bg-k: var(--teal-soft);
+	--fg-k: var(--teal);
+}
+.blk.trap {
+	--bg-k: var(--accent-soft);
+	--fg-k: var(--accent-text);
+	border: 1px solid var(--accent-line);
+}
+.blk.plain {
+	--bg-k: var(--surface-2);
+	border: 1px solid var(--border);
+}
+/* Underline-style tabs inside a subject (Crim Pro, StatCon). */
+.subtabs {
+	display: flex;
+	gap: 4px;
+	overflow-x: auto;
+	scrollbar-width: none;
+	border-bottom: 1px solid var(--border);
+	margin-bottom: 20px;
+}
+.subtabs::-webkit-scrollbar {
+	display: none;
+}
+.subtabs a {
+	padding: 10px 12px;
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--text-2);
+	text-decoration: none;
+	white-space: nowrap;
+	border-bottom: 2px solid transparent;
+	margin-bottom: -1px;
+}
+.subtabs a:hover {
+	color: var(--text);
+}
+.subtabs a[aria-current='page'] {
+	color: var(--text);
+	border-bottom-color: var(--accent);
 }
 details.disc {
 	border-top: 1px solid var(--border);

@@ -1,0 +1,196 @@
+{
+	"private": [
+		["A minor may file on her own. Her parents' right arises only if she fails to file.", "Acts of lasciviousness is a private crime. The prosecutor cannot start it without a complaint.", "A guardian comes last in the order, and only if the minor does not file."],
+		["The right passes to the parents, grandparents, or guardian when the minor fails to file.", "The parents need no consent from the prosecutor to file.", "Her refusal does not end the case. The right passes to the next in order."],
+		["Rape stopped being a private crime in 1997.", "The victim's age does not matter. Rape is a public crime in all cases.", "Whether the offender is a public officer has nothing to do with who may file."],
+		["The offended spouse cannot choose. He must charge both if both are alive.", "The complaint itself must include both. The prosecutor cannot cure it later.", "Only the offended spouse may file for adultery, not the prosecutor on his own."],
+		["In adultery, pardon by the offended spouse bars the criminal case itself.", "Prescription is beside the point. The pardon already bars the case.", "The lover's knowledge of the pardon is not required."]
+	],
+	"amend": [
+		["Before plea, even a substantial amendment needs no leave.", "The offended party's consent is not needed to upgrade a charge.", "Amendment is allowed. There is no need to refile."],
+		["Downgrading is the exception to free amendment before plea.", "The accused's consent is not what the rule requires.", "The court gives leave, not the Secretary of Justice."],
+		["Leave of court cannot authorize a substantial amendment after plea.", "The cut-off is the plea, not the start of the defense evidence.", "Treachery turns homicide into murder. That changes the offense, so it is substantial."],
+		["A qualifying circumstance that was not alleged cannot be appreciated, even if proven.", "A variance does not acquit. He is convicted of the offense charged that is included in the one proved.", "An unalleged circumstance cannot produce a murder conviction at any penalty."],
+		["Homicide is included in murder, so he can still be convicted of homicide.", "No refiling is needed. The court convicts of the included offense.", "Conviction follows what is proven, not what the information says."]
+	],
+	"civil": [
+		["No separate case is needed. The civil action is deemed instituted.", "Actual damages need no filing fee up front.", "It is instituted by the rule itself, not by the prosecutor's request."],
+		["A civil action based on the crime cannot run alongside the criminal case.", "The rule suspends it at whatever stage it is in.", "It is suspended, not dismissed."],
+		["Only the civil action based on the crime is suspended. Quasi-delict is independent.", "An independent civil action needs no reservation.", "It may proceed at any time. Arraignment is not a condition."],
+		["Acquittal on reasonable doubt does not erase civil liability.", "The court may award damages in the same criminal case.", "An admission is not needed. Preponderance of evidence is enough."],
+		["It does not survive when the court finds the accused did not commit the act.", "An appeal does not decide this. The court's finding does.", "The kind of offense is irrelevant. The finding that he was not the driver controls."],
+		["Death extinguishes criminal liability. It cannot continue against the estate.", "The case is not suspended. The liability is extinguished.", "Civil liability based on the crime ends with the criminal case."]
+	],
+	"pi": [
+		["A lawful warrantless arrest is the exception. An inquest takes the place of the investigation.", "His consent is not needed for an inquest.", "He was caught in the act, so no warrant was needed."],
+		["Before filing, he gets a regular investigation only if he waives his right to be charged within the legal period.", "Bail is not a condition for asking for the investigation.", "No case is in court yet. The request goes to the prosecutor."],
+		["The period is 5 days, counted from learning of the filing.", "A late request is barred. The period is only 5 days.", "It is counted from learning of the filing, not from the arrest."],
+		["Lack of a preliminary investigation does not affect the court's jurisdiction.", "It is not a ground to quash. The remedy is to ask for the investigation before plea.", "Drug cases need it when the penalty reaches the threshold. The real point here is waiver."],
+		["The threshold is 4 years, 2 months, and 1 day, not 4 years.", "Detention does not decide this. The penalty does.", "It depends on the penalty, not on the complainant's request."]
+	],
+	"arrest": [
+		["What the search finds cannot justify the arrest after the fact.", "Hot pursuit needs a crime just committed and personal knowledge. A tip is neither.", "Being in a public place does not remove the need for a warrant."],
+		["Waiving the arrest does not cure the illegal search.", "The case is not dismissed. The court keeps jurisdiction.", "Objections to an arrest must be raised before plea, or they are waived."],
+		["An offense committed in the officers' presence allows a warrantless arrest.", "A lawful arrest allows a search of the person arrested.", "No barangay official is required for an arrest in the act."],
+		["That is true of a warrant of arrest, not a search warrant.", "Daytime service does not revive a warrant that lapsed after 10 days.", "A void warrant cannot be extended, least of all orally."],
+		["The two witnesses must live in the same locality.", "Members of the raiding team cannot serve as the required witnesses.", "A search may proceed without the owner if two local witnesses are present."],
+		["A search warrant must cover only one specific offense.", "Naming the branch is not the defect.", "The judge issues the warrant. No prosecutor's signature is needed."]
+	],
+	"bail": [
+		["Not when the offense is punishable by reclusion perpetua and the evidence of guilt is strong.", "Ability to pay does not make bail a right.", "Murder is bailable if the evidence of guilt is not strong."],
+		["The prosecutor's silence cannot waive the hearing.", "A high amount does not replace the required hearing.", "The trial court may grant bail, but only after a hearing."],
+		["That is the general rule, but not when the judgment changed the offense from non-bailable to bailable.", "Bail after conviction is discretionary, not forbidden.", "The prosecutor's consent does not give the trial court this power."],
+		["After conviction by the RTC, bail is no longer a matter of right.", "Bailable before conviction does not mean bail must be granted pending appeal.", "The Supreme Court is not the court that acts on this application."],
+		["She may also post bail with a judge in the place where she was arrested.", "The Supreme Court does not receive bail in the first instance.", "Bail is filed in court, not with the police."],
+		["Bail ends when the judgment of conviction becomes final.", "No amount of bail is allowed after finality.", "Nothing filed after finality brings bail back."]
+	],
+	"quash": [
+		["A bill of particulars cures vagueness, not lack of authority to file.", "Certiorari is not the first remedy when a motion to quash is available.", "There is no order or judgment yet to reconsider."],
+		["Only four grounds survive a plea, and this is not one of them.", "Lack of the head prosecutor's approval is not jurisdictional. It can be waived.", "The prosecutor's agreement cannot revive a waived ground."],
+		["Four grounds are never waived, and this is one of them.", "It is not waived at all, so the court's permission is not needed.", "He need not withdraw his plea to raise a ground that is never waived."],
+		["Self-defense clears him of guilt. It is not a mitigating circumstance, so it cancels the guilty plea.", "The rule supplies the result: a plea of not guilty is entered.", "A conditional plea is not accepted. A plea of not guilty is entered."],
+		["For a capital offense, the court cannot convict on the plea alone.", "The offended party's consent matters only for a plea to a lesser offense.", "The plea is not rejected. The court tests it and still receives evidence."],
+		["Only extinction of liability and double jeopardy bar a new information.", "No leave from the Court of Appeals is involved.", "The accused's consent is not needed to refile."]
+	],
+	"jeopardy": [
+		["That is the general rule, but a dismissal for denial of speedy trial is an exception.", "The one-year period belongs to provisional dismissal, not to this kind.", "New evidence cannot reopen an acquittal."],
+		["A provisional dismissal with the accused's consent is not an acquittal.", "The offended party needs only notice, not consent.", "It becomes permanent only after the time bar lapses."],
+		["Two years applies only when the penalty exceeds 6 years.", "There is a time bar: 1 year or 2 years.", "Leave of court cannot revive a case after the time bar."],
+		["A supervening fact that makes the offense graver is an exception to double jeopardy.", "His consent is not required.", "The death is the supervening fact that creates the graver offense."],
+		["The State cannot appeal an acquittal. That would be double jeopardy.", "No appeal period applies, because no appeal is allowed.", "The offended party may appeal only the civil aspect."]
+	],
+	"trial": [
+		["Absolute necessity is only one of five requisites. All must be present.", "His consent does not cure a missing requisite.", "The agreement of the co-accused is not a requisite."],
+		["The discharge acts as an acquittal only if he testifies as promised.", "He may be prosecuted again for the original offense, not only for perjury.", "Jeopardy does not protect a witness who refuses to testify as agreed."],
+		["Filing without leave waived his right to present evidence.", "The denial of a demurrer cannot be appealed before judgment.", "A denied demurrer sends the case to judgment, not dismissal."],
+		["With leave, he keeps the right to present evidence.", "The denial cannot be reviewed by certiorari before judgment.", "Nothing requires a plea of guilty."],
+		["Certiorari corrects only grave abuse of discretion, not errors of judgment.", "Filing on time does not help. The ground itself is not allowed.", "Who files does not matter. The acquittal stands."]
+	],
+	"judgment": [
+		["Promulgation proceeds in his absence. It is not reset.", "The judgment is valid. It is recorded and served.", "Absence does not acquit him. It costs him his remedies."],
+		["The old balance rule no longer applies. He gets a fresh period.", "The appeal period is 15 days, not 30.", "Filing the motion does not use up the period to appeal."],
+		["Only the accused may move for new trial, or the court with his consent.", "Timing is not the problem. The prosecution is the wrong party.", "The offended party's joining does not give the prosecution this remedy."],
+		["A favorable and applicable judgment benefits even an accused who did not appeal.", "He need not appeal to benefit.", "The benefit covers the criminal aspect too."],
+		["By appealing, the accused waives the protection against double jeopardy.", "The whole case is open even if only the accused appealed.", "The Court of Appeals may increase or reduce the penalty."],
+		["An appellant who jumps bail loses the right to pursue the appeal.", "Jumping bail does not raise the penalty.", "A new trial is not the consequence of jumping bail."],
+		["The application for probation already made the judgment final.", "Denial of probation does not revive the right to appeal.", "Leave of court cannot undo finality."]
+	],
+	"attach": [
+		["Provisional remedies are available in a criminal case that includes the civil action.", "Absconding is only one ground. Conversion by an employee is another.", "Attachment is provisional. It is sought while the case is pending."],
+		["It is available only when the civil action is deemed instituted.", "A bigger bond cannot replace the missing civil action.", "Who moves does not matter. The civil action is not in this case."],
+		["Disposing of property to avoid liability is a separate ground.", "Attachment is sought before judgment, to secure it.", "This ground applies to any accused, not only public officers."],
+		["Residing outside the Philippines is itself a ground for attachment.", "Attachment needs property here to attach.", "No approval from the foreign affairs department is required."]
+	],
+	"info": [
+		["The exact date is needed only when it is a material ingredient of the offense.", "The accused's consent is irrelevant to whether the information is sufficient.", "An approximate date is still required."],
+		["The caption does not control. The facts alleged do.", "A wrong caption does not void the information.", "The body alleges only one offense."],
+		["The victim's residence is not a venue for estafa.", "Venue in criminal cases is jurisdictional. Silence cannot confer it.", "Each court's territory is separate, even within Metro Manila."],
+		["Without objection, he may be convicted of every offense charged and proved.", "Duplicity is waived when it is not raised before trial.", "No new information is needed once the defect is waived."],
+		["Charging more than one offense is a ground to quash.", "A quash for duplicity does not bar refiling.", "The offended party's agreement is not needed."],
+		["The defect is waived when he does not object.", "The information is defective, not void.", "A guilty plea is not required to appreciate it."]
+	],
+	"prosecutor": [
+		["The offended party may intervene through counsel when the civil action is included.", "Intervention happens during the prosecution of the case, not after it.", "The accused has no say on the intervention."],
+		["Intervention depends on the civil action being in the criminal case.", "There is no limited intervention once the civil action is reserved.", "The prosecutor's agreement cannot supply the missing civil action."],
+		["The criminal aspect belongs to the State, under the public prosecutor's control.", "The authority must be written and must come from the head prosecutor.", "There is no light-offense exception in this situation."],
+		["The prosecutor's control yields to the court once the case is filed.", "The court is not bound by the Secretary of Justice's resolution.", "Withdrawal may be allowed if the court agrees after its own assessment."],
+		["The offended party may appeal only the civil aspect.", "Paying fees does not give her standing on the criminal aspect.", "The judge cannot authorize her to represent the People on appeal."]
+	],
+	"bp22": [
+		["That rule on reservation does not apply to bouncing check cases.", "Fees are paid because the civil action is included, not to allow a reservation.", "The court cannot allow what the rule forbids."],
+		["In bouncing check cases, the fees are paid in full upon filing.", "Filing fees are required, based on the amount of the check.", "The offended party pays upon filing. The accused does not pay later."],
+		["It is not dismissed. It may be joined with the criminal case.", "It is not an independent civil action.", "No rule suspends it forever."],
+		["Including the civil action does not open the case to counterclaims.", "Even a related counterclaim must be filed in a separate civil action.", "No counterclaim is allowed in the criminal case at any stage."],
+		["It must be filed before the prosecution rests.", "It may be filed during preliminary investigation or in court.", "The petition to suspend is filed in the criminal case, not the civil case."],
+		["Related issues are not enough. The civil action must have been filed first.", "Which case is decided first does not matter.", "Consolidation does not create a prejudicial question."]
+	],
+	"piwarrant": [
+		["A motion to dismiss cannot replace the counter-affidavit.", "No ground allows a motion to dismiss in place of a counter-affidavit.", "Leave does not make it allowed."],
+		["The investigation does not wait for a respondent who ignores the subpoena.", "The complaint is resolved on the complainant's evidence. It is not dismissed.", "There is no need to compel him. He simply loses the chance to answer."],
+		["An investigating prosecutor needs the head prosecutor's prior written approval.", "The defect can be waived if it is not raised before plea.", "The court does not dismiss on its own. The accused must raise it."],
+		["The judge cannot rely on the certification alone.", "The judge must make his own finding of probable cause.", "The judge evaluates the records. He need not hear witnesses."],
+		["Immediate dismissal is for a clear lack of probable cause, not for doubt.", "Judges no longer conduct preliminary investigations.", "The judge resolves the doubt himself by asking for more evidence."],
+		["A warrant cannot issue without probable cause.", "The rule lets the judge dismiss outright.", "The judge may dismiss without waiting for a motion."],
+		["The prosecutor's resolution is subject to review by the Secretary of Justice.", "No case is in court yet, so no court approval is needed.", "The respondent's consent is not required."]
+	],
+	"arrest2": [
+		["Hot pursuit does not require seeing the crime itself.", "A confession is not required for a valid arrest.", "No barangay official is needed."],
+		["Three days later is no longer “just committed.”", "A witness's statement is not the officers' own knowledge gathered right after the crime.", "There is no 7-day rule."],
+		["The officer need not have the warrant with him at the time of arrest.", "An arrest by warrant does not need the suspect's consent.", "He cannot refuse. He may only ask to see the warrant as soon as practicable."],
+		["A warrant of arrest is enough to enter and arrest him.", "The officer may break in after announcing himself and being refused.", "The officer need not stop at calling a lawyer."],
+		["A private person may also arrest in the same situations.", "No barangay official is required.", "Any private person may make the arrest."],
+		["An escapee may be retaken without a warrant.", "He may be retaken anywhere in the Philippines.", "He may be retaken at any time."]
+	],
+	"bail2": [
+		["Bail lasts well past arraignment.", "It continues through the defense evidence, up to promulgation.", "After conviction by the RTC, bail no longer continues as of right."],
+		["After arraignment, trial may go on without her.", "Her absence does not dismiss the case.", "Absence waives her presence. It is not an admission of guilt."],
+		["They first get 30 days to produce her and explain.", "Forfeiture is not final until they fail to produce her and explain.", "A new bond does not answer the forfeiture."],
+		["Cancellation on acquittal is automatic.", "An acquittal cannot be appealed, so there is nothing to wait for.", "Forfeiture is for failing to appear, not for being acquitted."],
+		["Detention equal to the maximum penalty requires immediate release.", "Reduced bail is for one detained for the minimum penalty, not the maximum.", "Release is not acquittal. The trial continues."],
+		["Bail does not allow leaving the country without permission.", "Officers may also re-arrest her.", "No prior cancellation of bail is needed."],
+		["Posting bail does not waive objections raised before plea.", "The kind of bail makes no difference.", "The prosecutor's objection has nothing to do with waiver."],
+		["Only a person in the custody of the law may apply for bail.", "No amount substitutes for custody.", "Custody is required for all offenses."]
+	],
+	"plea2": [
+		["The offended party and the prosecutor must also consent.", "The offended party's consent is also needed when present.", "No amendment of the information is needed."],
+		["If the offended party is absent despite notice, the prosecutor's consent is enough.", "No postponement is needed.", "Payment of damages is not a condition."],
+		["A change is still allowed after arraignment but before trial.", "No new information is required.", "The window is before trial, not during it."],
+		["An improvident plea of guilty may be withdrawn.", "It may be withdrawn even after sentence, before the judgment becomes final.", "The trial court itself may allow the withdrawal."],
+		["A bill of particulars is available in criminal cases.", "It must be filed before arraignment.", "The prosecutor's agreement is not needed."],
+		["He cannot plead if he cannot understand the charge.", "Counsel's presence does not cure the accused's incapacity.", "The arraignment is suspended. The case is not dismissed."],
+		["The accused must enter the plea personally.", "Recording it does not make it valid.", "There is no exception for a plea of not guilty."],
+		["A pre-trial admission needs the accused's own signature.", "Court approval cannot replace the missing signature.", "Without his signature, it cannot be used against him on any aspect."]
+	],
+	"quash2": [
+		["The facts do charge an offense. The problem is that liability has prescribed.", "Prescription has nothing to do with jurisdiction over his person.", "The form of the information is not the defect."],
+		["Extinction of liability is one of the four grounds never waived.", "It is not waived at all.", "Prescription extinguishes the criminal liability itself."],
+		["A conviction by a court without jurisdiction is void.", "Arraignment before a court without jurisdiction does not make jeopardy attach.", "The reason is lack of jurisdiction. Credit for time served is a different rule."],
+		["Jurisdiction over the person can be waived.", "The defect was waived when he pleaded without raising it.", "The prosecutor's agreement cannot revive a waived objection."],
+		["A plea to a lesser offense without the required consent does not bar the graver charge.", "New evidence is not the test.", "His consent is not required."],
+		["Facts discovered only after the plea allow the graver charge.", "His consent is not required.", "Death of the victim is a different exception, the supervening fact."],
+		["The information does allege an offense. It also alleges a justification.", "A defense shown in the information does not affect jurisdiction.", "There was no earlier case, so there is no double jeopardy."]
+	],
+	"trial2": [
+		["The order may be reversed when the accused admits the act but raises a lawful defense.", "The court may order it. The prosecution's agreement is not needed.", "Reverse trial exists in criminal procedure."],
+		["The rules allow conditional examination to preserve the testimony.", "An affidavit denies the accused his right to cross-examine.", "A prosecution witness must be examined before the court where the case is pending."],
+		["A defense witness may be examined before the other officers named in the rule.", "A notary public as such is not among them.", "The prosecutor is a party, not an examining officer."],
+		["Confrontation was satisfied when he cross-examined the witness earlier.", "His agreement is not needed.", "It may be used on the criminal aspect too."],
+		["Trial in absentia needs arraignment first.", "Appointing counsel does not replace arraignment.", "No waiting period replaces arraignment."],
+		["The right to dismissal under the rule was waived by not moving before trial.", "Dismissal is never automatic. The accused must move.", "The prosecutor's consent is not the issue. The waiver is."],
+		["The court should not free her if there is good cause to hold her for the proper offense.", "Theft was not charged and is not included in estafa.", "Estafa was not proven."],
+		["The judge may reopen before the judgment of conviction becomes final.", "The judge may reopen on his own or on either party's motion.", "Reopening happens in the trial court."]
+	],
+	"judg2": [
+		["An acquittal must state its basis and whether the act existed.", "The prosecutor's silence does not complete the judgment.", "An acquittal has no penalty to fix."],
+		["The court asks the executive judge of the place of confinement to promulgate.", "It is the executive judge there, not a clerk.", "There is no need to bring her to Cebu."],
+		["The clerk of court may promulgate when the judge is absent.", "The prosecutor is a party and cannot promulgate.", "Counsel for the accused cannot promulgate."],
+		["For a light offense, counsel or a representative may stand in.", "No warrant is needed for a light offense.", "Written consent is not required."],
+		["The evidence must be newly discovered, not merely new to the record.", "Credibility does not cure the lack of diligence.", "The prosecutor's agreement is not the test."],
+		["For newly discovered evidence, the old evidence stays.", "All evidence already presented stands, for both sides.", "Testimony stands as well as documents."],
+		["The proceedings affected by the irregularity are set aside.", "A new trial is not a dismissal.", "The original judgment is set aside, not affirmed."],
+		["New trial is available only before the judgment becomes final.", "Even newly discovered evidence must be raised before finality.", "Consent cannot reopen a final judgment."]
+	],
+	"appeal2": [
+		["From the MTC, the appeal goes to the RTC first.", "The Supreme Court is not the next court from the MTC.", "Right court, wrong mode. The appeal is by notice of appeal."],
+		["Notice of appeal is for RTC cases decided in its original jurisdiction.", "Certiorari is not a substitute for an available appeal.", "There is no automatic review here."],
+		["The case goes to the Court of Appeals first.", "Reclusion perpetua cases are not reviewed automatically. An appeal must be filed.", "The RTC acted in its original jurisdiction, so the mode is notice of appeal."],
+		["When the penalty is reclusion perpetua, the mode is notice of appeal.", "Review is not automatic.", "An appeal to the Supreme Court is available."],
+		["Notice of appeal applies only when the penalty is reclusion perpetua or life imprisonment.", "There is no automatic review.", "That petition is for going from the RTC to the Court of Appeals."],
+		["Not when the appellant is represented by counsel de oficio.", "The exception holds no matter how much time has passed.", "A motion by the Solicitor General does not remove the exception."],
+		["An appeal may be withdrawn before the records are forwarded.", "The trial court allows it while it still has the records.", "The prosecution's agreement is not needed."],
+		["Only the accused's own appeal opens the whole case.", "The penalty cannot be touched in an appeal on the civil aspect.", "The civil appeal never affects the criminal aspect by itself."],
+		["He may move for new trial in the Court of Appeals.", "A new case is not the remedy.", "The motion is filed where the appeal is pending."],
+		["A tie does not affirm a conviction.", "There is no remand. The tie ends in acquittal.", "The Chief Justice has no tie-breaking vote."]
+	],
+	"search2": [
+		["The application goes to a court with territory over the place of the crime.", "The Supreme Court does not issue search warrants in the first instance.", "The location of the police station is not the test."],
+		["Once a case is filed, only the court hearing it may issue the warrant.", "The regional option applies only before a case is filed.", "It is the court where the case is pending, not the executive judge."],
+		["An affidavit cannot replace the judge's personal examination.", "Detail in the affidavit does not replace searching questions.", "The prosecutor's signature is not required and does not cure the defect."],
+		["The rule is daytime service unless the warrant allows otherwise.", "Whether the occupant is awake is not the test.", "There is no weekend rule."],
+		["A detailed receipt is required.", "Media presence is not what the rule requires.", "Photographs are not what the rule requires."],
+		["Seized items go to the issuing judge, not the police.", "No period lets the police keep them.", "The duty to deliver to the judge applies whether or not a case is filed."],
+		["Plain view allows seizure of items outside the warrant.", "No second warrant is needed for items in plain view.", "Consent is not needed under plain view."],
+		["A valid search covers only the items in the warrant or in plain view.", "Relevance does not make an illegal seizure admissible.", "Illegally seized items are inadmissible for any purpose."],
+		["Before a case is filed, the motion goes to the issuing court.", "The justice department does not rule on the validity of a warrant.", "The Court of Appeals is not the first forum."]
+	]
+}

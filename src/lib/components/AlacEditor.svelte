@@ -1,16 +1,22 @@
 <script lang="ts">
+	import type { AlacProblem } from '$lib/problems';
 	import type { Draft, Mode } from '$lib/store.svelte';
 	import { SECTIONS, words, type Section } from './sections';
 
 	let {
 		draft,
 		mode,
+		boxes,
 		onsubmit
 	}: {
 		draft: Draft;
 		mode: Mode;
+		/** Subject-specific starters and placeholders (e.g. StatCon's "Jurisprudence provides that…"). */
+		boxes?: AlacProblem['boxes'];
 		onsubmit: () => void;
 	} = $props();
+
+	const sections: Section[] = $derived(SECTIONS.map((s) => ({ ...s, ...boxes?.[s.k] })));
 
 	const refs: Record<string, HTMLTextAreaElement | undefined> = $state({});
 
@@ -35,7 +41,7 @@
 </script>
 
 {#if mode === 'guided'}
-	{#each SECTIONS as s (s.k)}
+	{#each sections as s (s.k)}
 		<section class="sec card" class:app={s.app}>
 			<div class="sec-h">
 				<span class="letter" aria-hidden="true">{s.L}</span>

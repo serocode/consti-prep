@@ -1,0 +1,290 @@
+[
+	{
+		"id": "general-law",
+		"ch": 6,
+		"t": "General law",
+		"d": "A law that embraces a class of subjects or places and does not omit any subject or place naturally belonging to that class.",
+		"src": "Agpalo, Ch. VI",
+		"x": "Contrast with a special law. A general law is not overridden by a later special law; it is the special law that governs its narrower field."
+	},
+	{
+		"id": "special-law",
+		"ch": 6,
+		"t": "Special law",
+		"d": "A law that relates to particular persons or things of a class, or to a particular portion or section of the State only.",
+		"src": "Agpalo, Ch. VI",
+		"x": "A special law prevails over a general law on the same subject, whichever was enacted first (generalia specialibus non derogant)."
+	},
+	{
+		"id": "pari-materia",
+		"ch": 6,
+		"t": "Statutes in pari materia",
+		"d": "Statutes that relate to the same person or thing, have the same purpose or object, or cover the same specific subject matter. They are read together as one system.",
+		"src": "Agpalo, Ch. VI",
+		"x": "Any one of the three tests is enough, and the later law need not refer to the earlier one."
+	},
+	{
+		"id": "reference-statute",
+		"ch": 6,
+		"t": "Reference statute",
+		"d": "A statute that refers to other statutes and makes them applicable to the subject of the legislation, instead of repeating their terms.",
+		"src": "Agpalo, Ch. VI",
+		"x": "The law referred to is read in as it stood when adopted; later amendments are not included unless the reference statute says so."
+	},
+	{
+		"id": "supplemental-statute",
+		"ch": 6,
+		"t": "Supplemental statute",
+		"d": "A statute intended to supply deficiencies in an existing statute. It adds to or completes the existing law without changing its original text.",
+		"src": "Agpalo, Ch. VI",
+		"x": "Read together with the statute it supplements, as one law."
+	},
+	{
+		"id": "reenacted-statute",
+		"ch": 6,
+		"t": "Reenacted statute",
+		"d": "A statute that reenacts an earlier statute or provision in substantially the same words.",
+		"src": "Agpalo, Ch. VI",
+		"x": "It carries the settled construction of the earlier law. An amendment that changes the words is not a reenactment."
+	},
+	{
+		"id": "adopted-statute",
+		"ch": 6,
+		"t": "Adopted statute",
+		"d": "A statute patterned after or copied from a statute of a foreign country.",
+		"src": "Agpalo, Ch. VI",
+		"x": "It carries the construction the foreign courts gave it before adoption; later foreign rulings are only persuasive. Reenacted = domestic source; adopted = foreign source."
+	},
+	{
+		"id": "strict-construction",
+		"ch": 7,
+		"t": "Strict construction",
+		"d": "Construction according to the letter of the statute: it recognizes nothing that is not expressed, takes the words in their exact meaning, and admits no equitable extension.",
+		"src": "Agpalo, Ch. VII",
+		"x": "It does not mean the narrowest possible meaning; it only refuses to extend the law by implication (People v. Purisima)."
+	},
+	{
+		"id": "liberal-construction",
+		"ch": 7,
+		"t": "Liberal construction",
+		"d": "An equitable construction that enlarges the letter of a statute to accomplish its intended purpose, carry out its intent, or promote justice.",
+		"src": "Agpalo, Ch. VII",
+		"x": "It applies only when the language is doubtful. It cannot override clear text or engraft what the court thinks should be there."
+	},
+	{
+		"id": "penal-statute",
+		"ch": 7,
+		"t": "Penal statute",
+		"d": "A statute that defines crimes or offenses and prescribes the corresponding fines or punishments.",
+		"src": "Agpalo, Ch. VII",
+		"x": "Strictly construed against the State and liberally in favor of the accused."
+	},
+	{
+		"id": "tax-exemption",
+		"ch": 7,
+		"t": "Tax exemption",
+		"d": "A grant of immunity, express or implied, to particular persons or corporations from a tax that others in the same class must pay.",
+		"src": "Agpalo, Ch. VII",
+		"x": "Construed strictissimi juris against the claimant. Contrast a tax imposition, which is construed strictly against the government."
+	},
+	{
+		"id": "general-welfare-clause",
+		"ch": 7,
+		"t": "General welfare clause",
+		"d": "The provision of the Local Government Code (Sec. 16) that delegates police power to local government units for the health, safety, morals, peace, order and general welfare of their inhabitants.",
+		"src": "Agpalo, Ch. VII; R.A. 7160, Sec. 16",
+		"x": "Liberally construed in favor of the LGU, but an ordinance enacted under it still cannot contravene a statute (Magtajas)."
+	},
+	{
+		"id": "social-legislation",
+		"ch": 7,
+		"t": "Social legislation",
+		"d": "Laws that promote the welfare of the people, especially the less privileged, such as labor, tenancy, agrarian reform and social security laws.",
+		"src": "Agpalo, Ch. VII",
+		"x": "Doubts are resolved in favor of the persons the law protects; clear provisions are still applied as written."
+	},
+	{
+		"id": "mandatory-statute",
+		"ch": 8,
+		"t": "Mandatory statute",
+		"d": "A statute that commands, positively, that something be done or done in a particular way, or, negatively, that something not be done, leaving no choice but to obey.",
+		"src": "Agpalo, Ch. VIII",
+		"x": "Non-compliance makes the act void (Art. 5, Civil Code), unless the law itself allows its validity."
+	},
+	{
+		"id": "directory-statute",
+		"ch": 8,
+		"t": "Directory statute",
+		"d": "A statute that is permissive or merely outlines the act to be done, so that no injury results from ignoring it, or its purpose can be reached in another way with substantially the same result.",
+		"src": "Agpalo, Ch. VIII",
+		"x": "Directory does not mean optional. It must be followed, but a breach is only an irregularity that does not void the act."
+	},
+	{
+		"id": "consequences-test",
+		"ch": 8,
+		"t": "Consequences test",
+		"d": "The way to tell whether a provision is mandatory or directory: look at the consequences of holding it one way or the other, to find the legislative intent.",
+		"src": "Agpalo, Ch. VIII",
+		"x": "\"Shall\" and \"may\" are only presumptions; the consequences show the real intent."
+	},
+	{
+		"id": "prospective-statute",
+		"ch": 9,
+		"t": "Prospective statute",
+		"d": "A statute that operates on acts and transactions that have not yet occurred when it takes effect.",
+		"src": "Agpalo, Ch. IX",
+		"x": "Laws are presumed prospective: lex prospicit, non respicit (Art. 4, Civil Code)."
+	},
+	{
+		"id": "retroactive-statute",
+		"ch": 9,
+		"t": "Retroactive (retrospective) statute",
+		"d": "A statute that creates a new obligation, imposes a new duty, or attaches a new disability with respect to a transaction already past.",
+		"src": "Agpalo, Ch. IX",
+		"x": "Not unconstitutional as such. It is invalid only if it impairs contracts, violates due process, divests vested rights, or is ex post facto."
+	},
+	{
+		"id": "ex-post-facto",
+		"ch": 9,
+		"t": "Ex post facto law",
+		"d": "A law that, in a criminal matter, operates retroactively to the prejudice of the accused, for example by making criminal an act that was innocent when done, or by increasing the penalty after the fact.",
+		"src": "Art. III, Sec. 22; Agpalo, Ch. IX",
+		"x": "Limited to criminal or penal matters. A law favorable to the accused is not ex post facto."
+	},
+	{
+		"id": "bill-of-attainder",
+		"ch": 9,
+		"t": "Bill of attainder",
+		"d": "A legislative act that inflicts punishment on a specific person or definite class without judicial trial.",
+		"src": "Art. III, Sec. 22; Agpalo, Ch. IX; People v. Ferrer",
+		"x": "Its essence is the substitution of a legislative act for a judicial determination of guilt."
+	},
+	{
+		"id": "vested-right",
+		"ch": 9,
+		"t": "Vested right",
+		"d": "A right that is fixed, unalterable, absolute, complete and unconditional, whose exercise meets no obstacle, and which does not depend on a contingency.",
+		"src": "Agpalo, Ch. IX",
+		"x": "Contrast an inchoate or expectant right, a mere hope that later laws may defeat. No one has a vested right in a procedure or in a law staying unchanged."
+	},
+	{
+		"id": "procedural-law",
+		"ch": 9,
+		"t": "Procedural (remedial) law",
+		"d": "A law that prescribes the method of enforcing rights or obtaining redress for their invasion.",
+		"src": "Agpalo, Ch. IX",
+		"x": "Applies to actions pending when it takes effect, because no one has a vested right in a mode of procedure (with four exceptions)."
+	},
+	{
+		"id": "substantive-law",
+		"ch": 9,
+		"t": "Substantive law",
+		"d": "A law that creates, defines or regulates rights, as opposed to the method of enforcing them.",
+		"src": "Agpalo, Ch. IX",
+		"x": "Applied prospectively. Labels do not control; a \"procedural\" rule that takes away a right is substantive."
+	},
+	{
+		"id": "curative-statute",
+		"ch": 9,
+		"t": "Curative statute",
+		"d": "A statute enacted to cure defects in a prior law, or to validate legal proceedings, instruments or acts of public authorities that would otherwise be void for not complying with existing legal requirements.",
+		"src": "Agpalo, Ch. IX",
+		"x": "Retroactive by nature, but it cannot validate what the legislature could not have authorized in the first place, nor impair vested rights or contracts."
+	},
+	{
+		"id": "amendment",
+		"ch": 10,
+		"t": "Amendment",
+		"d": "The change or modification, by addition, deletion or alteration, of a statute that continues to exist in its amended form.",
+		"src": "Agpalo, Ch. X",
+		"x": "Contrast repeal, which abrogates the law. Unchanged parts of an amended law keep their meaning; parts omitted in the amended section are deemed repealed."
+	},
+	{
+		"id": "revision",
+		"ch": 10,
+		"t": "Revision",
+		"d": "A restatement of the whole law on a subject in a corrected or improved form, meant to take the place of the earlier law.",
+		"src": "Agpalo, Ch. X",
+		"x": "Provisions of the old law omitted in the revision are deemed repealed."
+	},
+	{
+		"id": "codification",
+		"ch": 10,
+		"t": "Codification",
+		"d": "The process of collecting and systematically arranging the laws on a subject into a code, often with changes and improvements.",
+		"src": "Agpalo, Ch. X",
+		"x": "Omitted provisions are repealed only if the code was meant to replace the whole subject (Mecano v. COA)."
+	},
+	{
+		"id": "repeal",
+		"ch": 10,
+		"t": "Repeal",
+		"d": "The total or partial abrogation or revocation of a law by a later law.",
+		"src": "Agpalo, Ch. X",
+		"x": "Repeal is prospective. It is not a declaration that the old law was void from the start."
+	},
+	{
+		"id": "express-repeal",
+		"ch": 10,
+		"t": "Express repeal",
+		"d": "A repeal declared in a repealing clause that specifically identifies the law or provision being repealed.",
+		"src": "Agpalo, Ch. X; Mecano v. COA",
+		"x": "A general repealing clause (\"all laws inconsistent herewith are repealed\") is NOT an express repeal."
+	},
+	{
+		"id": "implied-repeal",
+		"ch": 10,
+		"t": "Implied repeal",
+		"d": "A repeal that results when a later law is irreconcilably inconsistent with an earlier one, or covers the whole subject and is clearly meant as a substitute, without expressly saying so.",
+		"src": "Agpalo, Ch. X; Mecano v. COA",
+		"x": "Disfavored. The intent to repeal must be clear and manifest, and the courts first try to harmonize."
+	},
+	{
+		"id": "general-repealing-clause",
+		"ch": 10,
+		"t": "General repealing clause",
+		"d": "A clause stating that all laws or parts of laws inconsistent with the new act are repealed, without naming them.",
+		"src": "Agpalo, Ch. X; Magtajas",
+		"x": "It is not an express repeal. Any repeal under it must still be shown to be an implied repeal."
+	},
+	{
+		"id": "saving-clause",
+		"ch": 10,
+		"t": "Saving clause",
+		"d": "A provision in a repealing law that preserves rights, liabilities or pending actions arising under the repealed law.",
+		"src": "Agpalo, Ch. X",
+		"x": "With a saving clause, total repeal of a penal law does not end pending prosecutions."
+	},
+	{
+		"id": "constitution",
+		"ch": 11,
+		"t": "Constitution",
+		"d": "The written instrument, enacted by direct action of the people, by which the fundamental powers of government are established, limited and defined, and distributed among its departments for their safe and useful exercise for the benefit of the body politic.",
+		"src": "Agpalo, Ch. XI (Malcolm)",
+		"x": "It is the supreme law; every statute must conform to it."
+	},
+	{
+		"id": "self-executing",
+		"ch": 11,
+		"t": "Self-executing provision",
+		"d": "A constitutional provision that is complete in itself and operative without enabling legislation, or that supplies a sufficient rule by which the right it grants may be enjoyed or the duty it imposes enforced.",
+		"src": "Agpalo, Ch. XI; Manila Prince Hotel v. GSIS",
+		"x": "Provisions are presumed self-executing. Congress may still enact laws to enforce them, penalize violations, or supply details."
+	},
+	{
+		"id": "non-self-executing",
+		"ch": 11,
+		"t": "Non-self-executing provision",
+		"d": "A constitutional provision that only lays down a general principle or policy, or expressly defers to legislation, so it needs an implementing law before it can be enforced.",
+		"src": "Agpalo, Ch. XI; Tañada v. Angara; Kilosbayan v. Morato",
+		"x": "Art. II declarations of policy and provisions saying \"as may be provided by law\" are the usual examples."
+	},
+	{
+		"id": "contemporaneous-construction",
+		"ch": 11,
+		"t": "Contemporaneous construction",
+		"d": "The construction placed on a law or the Constitution, at or near the time of its adoption, by the officials charged with carrying it out.",
+		"src": "Agpalo, Ch. XI",
+		"x": "Persuasive and entitled to respect, but it never overrides clear text or a contrary judicial ruling."
+	}
+]

@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type { Problem } from '$lib/problems';
+	import type { AlacProblem } from '$lib/problems';
 	import { md } from '$lib/text';
 
-	let { problem, open = false }: { problem: Problem; open?: boolean } = $props();
+	let { problem, open = false }: { problem: AlacProblem; open?: boolean } = $props();
 </script>
 
 <details class="disc" {open}>

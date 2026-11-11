@@ -79,9 +79,14 @@
 		}
 	}
 
+	const under = (p: string, root: string) => p === root || p.startsWith(root + '/');
 	const subjects = [
-		{ href: '/', label: 'Consti I', match: (p: string) => !p.startsWith('/crimpro') },
-		{ href: '/crimpro', label: 'Crim Pro', match: (p: string) => p.startsWith('/crimpro') }
+		{ href: '/', label: 'Consti I', match: (p: string) => !['/crimlaw', '/crimpro', '/statcon', '/exam-day'].some((r) => under(p, r)) },
+		{ href: '/crimlaw', label: 'Crim Law', match: (p: string) => under(p, '/crimlaw') },
+		{ href: '/crimpro', label: 'Crim Pro', match: (p: string) => under(p, '/crimpro') },
+		{ href: '/statcon', label: 'StatCon', match: (p: string) => under(p, '/statcon') },
+		// Not a subject: the go-blank routine and typed-exam advice shared by all of them.
+		{ href: '/exam-day', label: 'Exam day', match: (p: string) => under(p, '/exam-day') }
 	];
 
 	const themes: [Theme, string][] = [
@@ -103,7 +108,7 @@
 				<rect x="7" y="16" width="14" height="2" rx="1" style="fill:#EA580C" />
 				<rect x="7" y="20" width="8" height="2" rx="1" style="fill:var(--surface)" />
 			</svg>
-			<span class="stack"><b>1Law-C</b><span class="hide-sm">Finals practice</span></span>
+			<span class="stack brand-t"><b>1Law-C</b><span class="hide-sm">Finals practice</span></span>
 		</a>
 		<nav class="subjects" aria-label="Subject">
 			{#each subjects as s (s.href)}
@@ -359,6 +364,12 @@
 		display: flex;
 		gap: 2px;
 		margin-right: auto;
+		min-width: 0;
+		overflow-x: auto;
+		scrollbar-width: none;
+	}
+	.subjects::-webkit-scrollbar {
+		display: none;
 	}
 	.subjects a {
 		padding: 6px 10px;
@@ -378,17 +389,20 @@
 		background: var(--accent-soft);
 	}
 	@media (max-width: 520px) {
-		/* Phones: brand + subjects on the first line, theme switch on its own line. */
+		/* Phones: brand and theme switch on the first row, the subject links on their own full row. */
 		.top-in {
 			flex-wrap: wrap;
-			row-gap: 8px;
+			row-gap: 6px;
 		}
-		.theme {
+		.subjects {
+			order: 3;
 			width: 100%;
-			justify-content: center;
+			margin: 0;
+			justify-content: space-between;
 		}
-		.theme button {
-			flex: 1;
+		.subjects a {
+			padding: 6px 6px;
+			font-size: 13px;
 		}
 	}
 	.brand {

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Problem } from '$lib/problems';
+	import type { AlacProblem } from '$lib/problems';
 	import { BANDS, CHECK_ITEMS, REASONING_ITEM, emptyCheck, scoreFromCheck, type Check, type CheckItem } from '$lib/rubric';
 	import type { Answer } from '$lib/store.svelte';
 	import Reference from './Reference.svelte';
@@ -12,7 +12,7 @@
 		onsave,
 		oncancel
 	}: {
-		problem: Problem;
+		problem: AlacProblem;
 		answer: Answer;
 		onsave: (check: Check, score: number, overridden: boolean) => void;
 		oncancel: () => void;

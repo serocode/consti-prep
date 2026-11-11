@@ -81,8 +81,7 @@
 		<div class="stack" style="gap:6px">
 			<h2 class="sum-h num">{set.title}: {score} / {set.qs.length}</h2>
 			<p class="muted">
-				Read down the list. Each row shows the one fact that changed and where the answer landed. This is the pattern your
-				professor tests.
+				Read down the list. Each row shows the one fact that changed and where the answer landed.
 				{#if store.crimpro.best[set.id] != null}Best so far: {store.crimpro.best[set.id]} / {set.qs.length}.{/if}
 			</p>
 		</div>

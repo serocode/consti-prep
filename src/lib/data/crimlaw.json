@@ -1,0 +1,3789 @@
+{
+	"E": [
+		{
+			"g": 1,
+			"art": "Art. 16",
+			"k": "cls",
+			"t": "Persons criminally liable",
+			"intro": "Who answers for a felony depends on how grave it is.",
+			"items": [
+				{
+					"h": "Grave and less grave felonies",
+					"d": "**Principals, accomplices, and accessories** are all liable."
+				},
+				{
+					"h": "Light felonies",
+					"d": "Only **principals and accomplices**. Accessories are never liable for light felonies."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 7 & 16",
+			"k": "mem",
+			"t": "Rules on light felonies",
+			"items": [
+				{
+					"h": "Punished only when consummated",
+					"d": "A light felony is punished only in its consummated stage."
+				},
+				{
+					"h": "Exception: against persons or property",
+					"d": "These are punished even when only attempted or frustrated."
+				},
+				{
+					"h": "No accessory liability",
+					"d": "Accessories are not liable for light felonies."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 16",
+			"k": "cls",
+			"t": "Two parties in a crime",
+			"items": [
+				{
+					"h": "Active subject",
+					"d": "The **criminal**. Only a **natural person** can be one, because a felony needs personal malice or negligence."
+				},
+				{
+					"h": "Passive subject",
+					"d": "The **injured party**, the holder of the injured right: a person, a juridical person, a group, or the State. A corpse or an animal cannot be one, **except** that defamation can blacken the memory of the dead."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 16",
+			"k": "list",
+			"t": "Why a corporation cannot be the active subject",
+			"items": [
+				{
+					"h": "No personal malice",
+					"d": "The Code requires that the culprit act with personal malice or negligence."
+				},
+				{
+					"h": "No willful purpose",
+					"d": "A juridical person cannot act with criminal intent."
+				},
+				{
+					"h": "Subsidiary imprisonment",
+					"d": "It cannot serve imprisonment in place of an unpaid fine."
+				},
+				{
+					"h": "Imprisonment",
+					"d": "Penalties of deprivation of liberty can be executed only against individuals."
+				},
+				{
+					"h": "Who answers instead",
+					"d": "The **officers, directors, or employees** who took part. Some special laws allow fines against corporations."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 17",
+			"k": "cls",
+			"t": "Three kinds of principals",
+			"items": [
+				{
+					"h": "By direct participation",
+					"d": "Those who **take a direct part** in carrying out the act."
+				},
+				{
+					"h": "By induction",
+					"d": "Those who **directly force or induce** others to commit it."
+				},
+				{
+					"h": "By indispensable cooperation",
+					"d": "Those who **cooperate by another act without which** the crime would not have been done."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 17(1)",
+			"k": "req",
+			"t": "Requisites: principal by direct participation (with others)",
+			"items": [
+				{
+					"h": "Participated in the criminal resolution",
+					"d": "They decided or conspired to commit the crime."
+				},
+				{
+					"h": "Carried it out personally",
+					"d": "Each did acts that directly tended to the same end."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 17(2)",
+			"k": "cls",
+			"t": "Two ways to be a principal by induction",
+			"items": [
+				{
+					"h": "By directly forcing another",
+					"d": "Through **irresistible force** or **uncontrollable fear**. The one forced is exempt; only the one who forced is liable."
+				},
+				{
+					"h": "By directly inducing another",
+					"d": "Through **price, reward, or promise**, or through **words of command** by someone with influence over the other."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 17(2)",
+			"k": "req",
+			"t": "Requisites: principal by inducement",
+			"items": [
+				{
+					"h": "Inducement made directly, with intent to procure the crime",
+					"d": "It must be aimed at getting the crime committed."
+				},
+				{
+					"h": "Inducement is the determining cause",
+					"d": "Without it, the crime would not have been committed. A thoughtless remark or casual advice is not enough."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 17(3)",
+			"k": "req",
+			"t": "Requisites: principal by indispensable cooperation",
+			"items": [
+				{
+					"h": "Participation in the criminal resolution",
+					"d": "There is conspiracy, or unity of purpose just before the crime."
+				},
+				{
+					"h": "Cooperation by an indispensable act",
+					"d": "Another act **without which the crime would not have been accomplished**."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 8 & 17",
+			"k": "doc",
+			"t": "Conspiracy: key rules",
+			"items": [
+				{
+					"h": "Act of one is the act of all",
+					"d": "Once conspiracy is shown, every conspirator is liable for the acts of the others done to carry out the plan."
+				},
+				{
+					"h": "Proof",
+					"d": "It need not be proved by direct evidence. It may be **inferred from acts** showing a common purpose, but it must be proved **beyond reasonable doubt**."
+				},
+				{
+					"h": "Mere presence is not enough",
+					"d": "Being present, or knowing of the plan, without taking part, does not make one a conspirator."
+				},
+				{
+					"h": "Exception: acts outside the plan",
+					"d": "A conspirator is not liable for another's acts that were **not part of the plan** and that he did not take part in, unless he could have prevented them and did not."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 18",
+			"k": "req",
+			"t": "Requisites: accomplice",
+			"items": [
+				{
+					"h": "Community of design",
+					"d": "Knowing the principal's criminal design, he concurs in it."
+				},
+				{
+					"h": "Cooperation by previous or simultaneous acts",
+					"d": "Acts that **are not indispensable**, done to give material or moral aid."
+				},
+				{
+					"h": "Relation between the acts",
+					"d": "His acts are connected to those of the principal."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 17 v. 18",
+			"k": "cls",
+			"t": "Indispensable cooperator vs. accomplice",
+			"items": [
+				{
+					"h": "Indispensable cooperator",
+					"d": "His act is **necessary**; without it, no crime. He is a principal."
+				},
+				{
+					"h": "Accomplice",
+					"d": "His act **merely helps**; the crime could happen without it. He gets one degree lower."
+				},
+				{
+					"h": "Doubt rule",
+					"d": "If it is unclear whether one is a principal or an accomplice, treat him as an **accomplice** (the milder liability)."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 19",
+			"k": "req",
+			"t": "Requisites: accessory",
+			"items": [
+				{
+					"h": "Knowledge of the crime",
+					"d": "He knows the crime was committed."
+				},
+				{
+					"h": "No part as principal or accomplice",
+					"d": "He did not take part in the crime itself."
+				},
+				{
+					"h": "Acts after the crime",
+					"d": "He takes part **after** its commission, in one of the three ways of Art. 19."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 19",
+			"k": "cls",
+			"t": "Three acts of accessories",
+			"items": [
+				{
+					"h": "Profiting or helping the offender profit",
+					"d": "Using or benefiting from the effects of the crime, or helping the offender do so."
+				},
+				{
+					"h": "Concealing or destroying",
+					"d": "The **body of the crime**, its effects, or instruments, to prevent its discovery."
+				},
+				{
+					"h": "Harboring, concealing, or helping the principal escape",
+					"d": "Liable **only** in the two cases below."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 19(3)",
+			"k": "exc",
+			"t": "When harboring the principal is punished",
+			"items": [
+				{
+					"h": "Public officer",
+					"d": "A public officer who **abuses his public functions** to harbor or help the principal (any crime)."
+				},
+				{
+					"h": "Private person",
+					"d": "Only when the principal is guilty of **treason, parricide, murder, an attempt on the life of the Chief Executive**, or is **known to be habitually guilty** of another crime."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 20",
+			"k": "exc",
+			"t": "Accessories exempt from liability (relatives)",
+			"intro": "These relatives are exempt when they act as accessories.",
+			"items": [
+				{
+					"h": "Spouse",
+					"d": ""
+				},
+				{
+					"h": "Ascendants and descendants",
+					"d": ""
+				},
+				{
+					"h": "Legitimate, natural, and adopted brothers and sisters",
+					"d": ""
+				},
+				{
+					"h": "Relatives by affinity within the same degrees",
+					"d": "In-laws in the same lines and degrees."
+				}
+			]
+		},
+		{
+			"g": 1,
+			"art": "Art. 20",
+			"k": "exx",
+			"t": "Exception to the relatives' exemption",
+			"items": [
+				{
+					"h": "Profiting from the crime",
+					"d": "A relative who **profits or helps the offender profit** from the effects of the crime (Art. 19, par. 1) is **not exempt**. The exemption covers only concealing and harboring, done out of family affection."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Title Three",
+			"k": "list",
+			"t": "Juridical conditions of penalty",
+			"items": [
+				{
+					"h": "Productive of suffering",
+					"d": "Without destroying the integrity of the person."
+				},
+				{
+					"h": "Commensurate",
+					"d": "In proportion to the offense."
+				},
+				{
+					"h": "Personal",
+					"d": "No one is punished for another's crime."
+				},
+				{
+					"h": "Legal",
+					"d": "It follows a judgment according to law."
+				},
+				{
+					"h": "Certain",
+					"d": "No one escapes its effects."
+				},
+				{
+					"h": "Equal",
+					"d": "The same for all."
+				},
+				{
+					"h": "Correctional",
+					"d": "It aims to reform."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Title Three",
+			"k": "list",
+			"t": "Theories justifying penalty",
+			"items": [
+				{
+					"h": "Prevention",
+					"d": "To prevent or suppress danger to the State."
+				},
+				{
+					"h": "Self-defense",
+					"d": "To protect society from the criminal."
+				},
+				{
+					"h": "Reformation",
+					"d": "To correct and reform the offender."
+				},
+				{
+					"h": "Exemplarity",
+					"d": "To deter others."
+				},
+				{
+					"h": "Justice",
+					"d": "Retribution for the wrong done."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Title Three",
+			"k": "list",
+			"t": "Purposes of penalty under the RPC",
+			"items": [
+				{
+					"h": "Retribution or expiation",
+					"d": "The penalty matches the gravity of the offense."
+				},
+				{
+					"h": "Correction or reformation",
+					"d": "Seen in the rules on serving penalties of deprivation of liberty."
+				},
+				{
+					"h": "Social defense",
+					"d": "Seen in the severity toward recidivists and habitual delinquents."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Art. 21",
+			"k": "doc",
+			"t": "No penalty without a law",
+			"items": [
+				{
+					"h": "Rule",
+					"d": "No felony is punishable by a penalty **not prescribed by law before** its commission."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Art. 22",
+			"k": "req",
+			"t": "Retroactive effect of penal laws: requisites",
+			"items": [
+				{
+					"h": "The law is favorable to the accused",
+					"d": "For example, it lowers the penalty or removes the crime."
+				},
+				{
+					"h": "The accused is not a habitual criminal",
+					"d": "Under Art. 62, par. 5."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Art. 22",
+			"k": "doc",
+			"t": "Retroactivity: notes",
+			"items": [
+				{
+					"h": "Applies even after final judgment",
+					"d": "A favorable law applies even if the convict is already serving sentence."
+				},
+				{
+					"h": "Applies to special laws",
+					"d": "The rule covers special penal laws too."
+				},
+				{
+					"h": "Exception: the new law says otherwise",
+					"d": "No retroactivity when the new law expressly makes itself prospective, or when the accused is a **habitual criminal**."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Art. 22",
+			"k": "list",
+			"t": "Constitutional limits on penalties",
+			"items": [
+				{
+					"h": "No ex post facto law",
+					"d": "No law punishing an act that was innocent when done, or increasing the penalty after the fact."
+				},
+				{
+					"h": "No cruel, degrading, or inhuman punishment",
+					"d": ""
+				},
+				{
+					"h": "No excessive fines",
+					"d": ""
+				},
+				{
+					"h": "No death penalty unless Congress provides it for heinous crimes",
+					"d": "RA 9346 (2006) now **prohibits** the death penalty."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Art. 23",
+			"k": "doc",
+			"t": "Pardon by the offended party",
+			"items": [
+				{
+					"h": "Rule: it does not end the criminal action",
+					"d": "A crime is an offense against the State."
+				},
+				{
+					"h": "Exception: Art. 344 crimes",
+					"d": "In **adultery and concubinage**, pardon before the case is filed bars it. In **seduction, abduction, and acts of lasciviousness**, the offender's **marriage** with the offended party extinguishes the action or penalty."
+				},
+				{
+					"h": "Civil liability",
+					"d": "The offended party may waive the civil liability, but only by **express** waiver."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Art. 24",
+			"k": "list",
+			"t": "Measures that are not penalties",
+			"items": [
+				{
+					"h": "Arrest and temporary detention of the accused",
+					"d": "Including detention due to insanity, imbecility, or illness requiring hospital confinement."
+				},
+				{
+					"h": "Commitment of a minor to an institution",
+					"d": ""
+				},
+				{
+					"h": "Suspension from employment or public office during trial",
+					"d": "Or in order to institute proceedings."
+				},
+				{
+					"h": "Fines and corrective measures by superior officials",
+					"d": "In the exercise of administrative or disciplinary powers."
+				},
+				{
+					"h": "Deprivation of rights and reparations under civil laws",
+					"d": "When the civil law establishes them in penal form."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Art. 25",
+			"k": "cls",
+			"t": "Principal penalties (by gravity)",
+			"items": [
+				{
+					"h": "Capital",
+					"d": "Death (prohibited by RA 9346)."
+				},
+				{
+					"h": "Afflictive",
+					"d": "**Reclusion perpetua, reclusion temporal**, perpetual or temporary absolute disqualification, perpetual or temporary special disqualification, **prision mayor**."
+				},
+				{
+					"h": "Correctional",
+					"d": "**Prision correccional, arresto mayor**, suspension, **destierro**."
+				},
+				{
+					"h": "Light",
+					"d": "**Arresto menor**, public censure."
+				},
+				{
+					"h": "Common to the three",
+					"d": "**Fine** and **bond to keep the peace**."
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Art. 25",
+			"k": "cls",
+			"t": "Accessory penalties",
+			"items": [
+				{
+					"h": "Perpetual or temporary absolute disqualification",
+					"d": ""
+				},
+				{
+					"h": "Perpetual or temporary special disqualification",
+					"d": ""
+				},
+				{
+					"h": "Suspension",
+					"d": "From public office, the right to vote and be voted for, or a profession or calling."
+				},
+				{
+					"h": "Civil interdiction",
+					"d": ""
+				},
+				{
+					"h": "Indemnification",
+					"d": ""
+				},
+				{
+					"h": "Forfeiture or confiscation",
+					"d": "Of the instruments and proceeds of the offense."
+				},
+				{
+					"h": "Payment of costs",
+					"d": ""
+				}
+			]
+		},
+		{
+			"g": 2,
+			"art": "Art. 25",
+			"k": "cls",
+			"t": "Other classifications of penalties",
+			"items": [
+				{
+					"h": "By subject matter",
+					"d": "Corporal (death); deprivation of freedom (reclusion, prision, arresto); restriction of freedom (destierro); deprivation of rights (disqualification, suspension); pecuniary (fine)."
+				},
+				{
+					"h": "By divisibility",
+					"d": "**Divisible** penalties have fixed duration and three periods. **Indivisible** penalties have no fixed duration (death, reclusion perpetua, perpetual disqualification, public censure)."
+				},
+				{
+					"h": "By severability",
+					"d": "**Principal** (imposed by the court) vs. **accessory** (deemed included in the principal)."
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Art. 28",
+			"k": "list",
+			"t": "Computation of penalties",
+			"items": [
+				{
+					"h": "Offender in prison",
+					"d": "Term counted from the day the judgment becomes **final**."
+				},
+				{
+					"h": "Offender not in prison",
+					"d": "Counted from the day he is **placed at the disposal** of the authorities."
+				},
+				{
+					"h": "Other penalties",
+					"d": "Counted from the day he **starts serving** them."
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Art. 29 (RA 10592)",
+			"k": "doc",
+			"t": "Credit for preventive imprisonment",
+			"items": [
+				{
+					"h": "Full credit",
+					"d": "If the detainee **agrees in writing** (with counsel) to abide by the disciplinary rules for convicted prisoners."
+				},
+				{
+					"h": "Four-fifths credit",
+					"d": "If he does **not** agree to abide by those rules."
+				},
+				{
+					"h": "Release once time served equals the maximum",
+					"d": "Once preventive imprisonment equals the **possible maximum** imprisonment for the offense charged, he is released at once, without prejudice to continuing the trial. For **destierro**, he is released after **30 days**."
+				},
+				{
+					"h": "Reclusion perpetua",
+					"d": "Credit is deducted from **30 years**."
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Art. 29",
+			"k": "exc",
+			"t": "Not entitled to the credit",
+			"items": [
+				{
+					"h": "Recidivists",
+					"d": "Or those previously convicted twice or more of any crime."
+				},
+				{
+					"h": "Those who did not surrender voluntarily",
+					"d": "When summoned to serve their sentence."
+				},
+				{
+					"h": "Habitual delinquents",
+					"d": ""
+				},
+				{
+					"h": "Escapees",
+					"d": ""
+				},
+				{
+					"h": "Persons charged with heinous crimes",
+					"d": ""
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Arts. 30–35",
+			"k": "cls",
+			"t": "Effects of disqualification, suspension, and interdiction",
+			"items": [
+				{
+					"h": "Absolute disqualification (Art. 30)",
+					"d": "Loss of public offices, even elective; loss of the right to vote and be voted for; disqualification from offices; loss of retirement pay or pension for the office forfeited."
+				},
+				{
+					"h": "Special disqualification from office (Art. 31)",
+					"d": "Loss of the office, profession, or calling affected; disqualification from similar offices."
+				},
+				{
+					"h": "Special disqualification from suffrage (Art. 32)",
+					"d": "Loss of the right to vote or be elected; cannot hold public office during the period."
+				},
+				{
+					"h": "Suspension (Art. 33)",
+					"d": "Cannot hold the office, or exercise the profession or right, **during** the suspension."
+				},
+				{
+					"h": "Civil interdiction (Art. 34)",
+					"d": "Loss of **parental authority, guardianship, marital authority**, the right to **manage** property, and the right to **dispose of property inter vivos**. He can still make a **will**."
+				},
+				{
+					"h": "Bond to keep the peace (Art. 35)",
+					"d": "Two sureties guarantee he will not commit the offense sought to be prevented. If he fails to give the bond, he is detained for up to **6 months** (grave or less grave felony) or **30 days** (light felony)."
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Art. 36",
+			"k": "doc",
+			"t": "Effects of pardon by the President",
+			"items": [
+				{
+					"h": "Public office and suffrage not restored",
+					"d": "Unless the pardon **expressly** restores them."
+				},
+				{
+					"h": "Civil indemnity not waived",
+					"d": "The pardon does not exempt the offender from civil liability."
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Art. 36",
+			"k": "req",
+			"t": "Limits on the pardoning power",
+			"items": [
+				{
+					"h": "Only after conviction by final judgment",
+					"d": ""
+				},
+				{
+					"h": "Not in impeachment cases",
+					"d": ""
+				},
+				{
+					"h": "Election offenses",
+					"d": "Need COMELEC's favorable recommendation."
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Art. 38",
+			"k": "mem",
+			"t": "Order of payment of pecuniary liabilities",
+			"intro": "When the offender's property is not enough for all:",
+			"items": [
+				{
+					"h": "1. Reparation of the damage caused",
+					"d": ""
+				},
+				{
+					"h": "2. Indemnification of consequential damages",
+					"d": ""
+				},
+				{
+					"h": "3. Fine",
+					"d": ""
+				},
+				{
+					"h": "4. Costs of the proceedings",
+					"d": ""
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Art. 39",
+			"k": "mem",
+			"t": "Subsidiary imprisonment: rules",
+			"intro": "One day for each amount equal to the highest minimum wage at the time of judgment (RA 10159).",
+			"items": [
+				{
+					"h": "Prison term + fine",
+					"d": "Not more than **one-third** of the sentence, and never more than **one year**."
+				},
+				{
+					"h": "Fine only, grave or less grave felony",
+					"d": "Not more than **6 months**."
+				},
+				{
+					"h": "Fine only, light felony",
+					"d": "Not more than **15 days**."
+				},
+				{
+					"h": "Penalty not served by confinement, but with fixed duration",
+					"d": "Same deprivation continues for the period."
+				},
+				{
+					"h": "Later acquired property",
+					"d": "Serving subsidiary imprisonment does not erase the fine if he later gets property."
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Art. 39",
+			"k": "exc",
+			"t": "No subsidiary imprisonment when…",
+			"items": [
+				{
+					"h": "Principal penalty is higher than prision correccional",
+					"d": "Prision mayor, reclusion temporal, reclusion perpetua."
+				},
+				{
+					"h": "Non-payment of reparation, indemnity, and costs",
+					"d": "Only the **fine** carries subsidiary imprisonment."
+				},
+				{
+					"h": "Penalty not served in prison and with no fixed duration",
+					"d": "For example, fine with public censure."
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Arts. 40–44",
+			"k": "cls",
+			"t": "Accessory penalties inherent in each principal penalty",
+			"items": [
+				{
+					"h": "Death (if not executed due to pardon)",
+					"d": "Perpetual absolute disqualification and civil interdiction for 30 years, unless remitted in the pardon."
+				},
+				{
+					"h": "Reclusion perpetua and reclusion temporal",
+					"d": "Civil interdiction for life or during the sentence, and **perpetual absolute disqualification**, which stays even if pardoned, unless expressly remitted."
+				},
+				{
+					"h": "Prision mayor",
+					"d": "**Temporary absolute disqualification** and perpetual special disqualification from suffrage, which stay even if pardoned, unless expressly remitted."
+				},
+				{
+					"h": "Prision correccional",
+					"d": "**Suspension** from public office, profession, or calling, and perpetual special disqualification from suffrage **if the term exceeds 18 months**."
+				},
+				{
+					"h": "Arresto",
+					"d": "**Suspension** of the right to hold office and the right of suffrage during the sentence."
+				}
+			]
+		},
+		{
+			"g": 3,
+			"art": "Art. 45",
+			"k": "exc",
+			"t": "Confiscation and forfeiture",
+			"items": [
+				{
+					"h": "Rule",
+					"d": "Every penalty carries forfeiture of the **proceeds and instruments** of the crime, in favor of the Government."
+				},
+				{
+					"h": "Exception: third person's property",
+					"d": "Not forfeited if it belongs to a **third person not liable** for the offense."
+				},
+				{
+					"h": "Contraband",
+					"d": "Articles not subject of lawful commerce are **destroyed**."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 47",
+			"k": "exc",
+			"t": "When death was not imposed (historical; RA 9346 now bars it)",
+			"items": [
+				{
+					"h": "Offender below 18 when the crime was committed",
+					"d": ""
+				},
+				{
+					"h": "Offender above 70",
+					"d": ""
+				},
+				{
+					"h": "Required votes not obtained on review",
+					"d": ""
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 48",
+			"k": "cls",
+			"t": "Two kinds of complex crimes",
+			"items": [
+				{
+					"h": "Compound crime",
+					"d": "A **single act** results in two or more grave or less grave felonies."
+				},
+				{
+					"h": "Complex crime proper",
+					"d": "An offense is a **necessary means** for committing another."
+				},
+				{
+					"h": "Penalty",
+					"d": "The penalty for the **most serious crime, in its maximum period**."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 48",
+			"k": "req",
+			"t": "Requisites: compound crime",
+			"items": [
+				{
+					"h": "Only a single act is performed",
+					"d": ""
+				},
+				{
+					"h": "It produces two or more grave or less grave felonies",
+					"d": "Light felonies are charged separately."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 48",
+			"k": "req",
+			"t": "Requisites: complex crime proper",
+			"items": [
+				{
+					"h": "At least two offenses are committed",
+					"d": ""
+				},
+				{
+					"h": "One is a necessary means to commit the other",
+					"d": "\"Necessary\" means needed in that case, not indispensable."
+				},
+				{
+					"h": "Both are punished under the same statute",
+					"d": "The RPC; Art. 48 does not apply to special laws."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 48",
+			"k": "exc",
+			"t": "When Art. 48 does not apply",
+			"items": [
+				{
+					"h": "Special complex crimes",
+					"d": "When the law fixes **one penalty** for two crimes (robbery with homicide, rape with homicide)."
+				},
+				{
+					"h": "One crime committed to conceal another",
+					"d": "These are separate crimes, not complexed."
+				},
+				{
+					"h": "Crimes under special laws",
+					"d": ""
+				},
+				{
+					"h": "Light felonies",
+					"d": "Charged separately."
+				},
+				{
+					"h": "Separate acts",
+					"d": "Several acts, each producing a crime, are separate crimes, unless done under a single criminal impulse."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 48",
+			"k": "cls",
+			"t": "Plurality of crimes",
+			"items": [
+				{
+					"h": "Formal or ideal plurality",
+					"d": "One criminal liability: Art. 48 complex crimes, special complex crimes, and **continued crimes**."
+				},
+				{
+					"h": "Real or material plurality",
+					"d": "Different crimes, each with its own penalty."
+				},
+				{
+					"h": "Plurality vs. recidivism",
+					"d": "Plurality has **no prior conviction**; recidivism requires a prior **final** conviction."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 49",
+			"k": "doc",
+			"t": "Crime committed different from that intended (error in personae)",
+			"items": [
+				{
+					"h": "Committed crime has a higher penalty",
+					"d": "Impose the penalty for the **intended** crime, in its **maximum** period."
+				},
+				{
+					"h": "Committed crime has a lower penalty",
+					"d": "Impose the penalty for the **committed** crime, in its **maximum** period."
+				},
+				{
+					"h": "Act is also an attempt or frustration of another crime with a higher penalty",
+					"d": "Impose the penalty for the attempted or frustrated crime, in its maximum period."
+				},
+				{
+					"h": "Scope",
+					"d": "Applies only when the intended and committed crimes **differ**. If they have the **same** penalty, error in personae changes nothing."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Arts. 50–57",
+			"k": "mem",
+			"t": "Penalty by stage and participation (degrees lower)",
+			"items": [
+				{
+					"h": "Principal",
+					"d": "Consummated: **as prescribed**. Frustrated: **1 lower**. Attempted: **2 lower**."
+				},
+				{
+					"h": "Accomplice",
+					"d": "Consummated: **1 lower**. Frustrated: **2 lower**. Attempted: **3 lower**."
+				},
+				{
+					"h": "Accessory",
+					"d": "Consummated: **2 lower**. Frustrated: **3 lower**. Attempted: **4 lower**."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 60",
+			"k": "exc",
+			"t": "Exceptions to Arts. 50–57",
+			"items": [
+				{
+					"h": "The law fixes a specific penalty",
+					"d": "For the frustrated or attempted stage, or for accomplices or accessories."
+				},
+				{
+					"h": "Accomplices punished as principals",
+					"d": "When the law treats them as principals (e.g., Art. 346, ascendants or guardians who cooperate in rape or acts of lasciviousness)."
+				},
+				{
+					"h": "Accessories punished as principals",
+					"d": "When the law makes the act a separate crime (e.g., knowingly receiving goods taken by brigands, Art. 307; fencing under PD 1612)."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 58",
+			"k": "doc",
+			"t": "Additional penalty for public officers who are accessories",
+			"items": [
+				{
+					"h": "Principal guilty of a grave felony",
+					"d": "Public officer who abused his functions as accessory (Art. 19(3)): **absolute perpetual disqualification**."
+				},
+				{
+					"h": "Principal guilty of a less grave felony",
+					"d": "**Absolute temporary disqualification**."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 59",
+			"k": "doc",
+			"t": "Penalty for impossible crimes",
+			"items": [
+				{
+					"h": "Penalty",
+					"d": "**Arresto mayor or a fine**, fixed by the court."
+				},
+				{
+					"h": "Basis",
+					"d": "The offender's **social danger** and **degree of criminality**."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 61",
+			"k": "mem",
+			"t": "Rules for graduating penalties",
+			"items": [
+				{
+					"h": "Single indivisible penalty",
+					"d": "Next lower: the penalty **next below** it in the scale."
+				},
+				{
+					"h": "Two indivisible penalties",
+					"d": "Next lower: the penalty **next below the lesser** of the two."
+				},
+				{
+					"h": "One or two indivisible penalties + maximum of a divisible penalty",
+					"d": "Next lower: the **medium and minimum** of that divisible penalty plus the **maximum** of the next one."
+				},
+				{
+					"h": "Several periods of different divisible penalties",
+					"d": "Next lower: the **periods immediately following**, taken from the next penalty if needed."
+				},
+				{
+					"h": "Cases not covered",
+					"d": "Apply the rules by analogy."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 62",
+			"k": "doc",
+			"t": "Effects of aggravating and mitigating circumstances",
+			"items": [
+				{
+					"h": "Constitutes a crime, or is part of the definition",
+					"d": "**Not** counted to raise the penalty."
+				},
+				{
+					"h": "Inherent in the crime",
+					"d": "**Not** counted (e.g., evident premeditation in robbery)."
+				},
+				{
+					"h": "Personal circumstances",
+					"d": "From moral attributes, private relations, or personal cause: they affect **only the person they attach to**."
+				},
+				{
+					"h": "Circumstances of material execution or means",
+					"d": "They affect only those who **knew of them** at the time of execution."
+				},
+				{
+					"h": "Habitual delinquency",
+					"d": "Additional penalty on top of the penalty for the last crime."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 62(5)",
+			"k": "req",
+			"t": "Requisites: habitual delinquency",
+			"items": [
+				{
+					"h": "Within 10 years",
+					"d": "From the date of **release or last conviction**."
+				},
+				{
+					"h": "Of specific crimes",
+					"d": "**Serious or less serious physical injuries, robbery, theft, estafa, or falsification**."
+				},
+				{
+					"h": "Third time or oftener",
+					"d": "He is found guilty of any of these a **third time** or more."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 62(5)",
+			"k": "mem",
+			"t": "Additional penalty for habitual delinquency",
+			"items": [
+				{
+					"h": "Third conviction",
+					"d": "Prision correccional, medium and maximum periods."
+				},
+				{
+					"h": "Fourth conviction",
+					"d": "Prision mayor, minimum and medium periods."
+				},
+				{
+					"h": "Fifth or more",
+					"d": "Prision mayor maximum to reclusion temporal minimum."
+				},
+				{
+					"h": "Cap",
+					"d": "Total of the two penalties cannot exceed **30 years**."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 62 v. 14(9)",
+			"k": "cls",
+			"t": "Habitual delinquency vs. recidivism",
+			"items": [
+				{
+					"h": "Crimes covered",
+					"d": "Habitual delinquency: only the five listed crimes. Recidivism: crimes in the **same title** of the Code."
+				},
+				{
+					"h": "Time",
+					"d": "Habitual delinquency: within **10 years**. Recidivism: no time limit."
+				},
+				{
+					"h": "Number of convictions",
+					"d": "Habitual delinquency: **third** time or more. Recidivism: **second** conviction is enough."
+				},
+				{
+					"h": "Effect",
+					"d": "Habitual delinquency: **additional penalty**. Recidivism: generic aggravating; can be **offset**."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 63",
+			"k": "mem",
+			"t": "Rules for indivisible penalties",
+			"items": [
+				{
+					"h": "Single indivisible penalty",
+					"d": "Applied **regardless** of any circumstance."
+				},
+				{
+					"h": "Two indivisible penalties, one aggravating",
+					"d": "Impose the **greater**."
+				},
+				{
+					"h": "Two indivisible penalties, no circumstances",
+					"d": "Impose the **lesser**."
+				},
+				{
+					"h": "Two indivisible penalties, mitigating only",
+					"d": "Impose the **lesser**."
+				},
+				{
+					"h": "Both present",
+					"d": "**Offset** them by weight."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 64",
+			"k": "mem",
+			"t": "Rules for divisible penalties (three periods)",
+			"items": [
+				{
+					"h": "No mitigating or aggravating",
+					"d": "**Medium** period."
+				},
+				{
+					"h": "Only a mitigating",
+					"d": "**Minimum** period."
+				},
+				{
+					"h": "Only an aggravating",
+					"d": "**Maximum** period."
+				},
+				{
+					"h": "Both",
+					"d": "**Offset** them; apply the rule for what remains."
+				},
+				{
+					"h": "Two or more mitigating, no aggravating",
+					"d": "Penalty **next lower** in degree, in the period the court finds proper (privileged)."
+				},
+				{
+					"h": "Many aggravating",
+					"d": "Still no higher than the **maximum period**."
+				},
+				{
+					"h": "Within the period",
+					"d": "The court fixes the exact term by the number and nature of circumstances and the harm done."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 64",
+			"k": "exc",
+			"t": "When Art. 64 does not apply",
+			"items": [
+				{
+					"h": "Indivisible penalties",
+					"d": "Art. 63 governs."
+				},
+				{
+					"h": "Penalties under special laws",
+					"d": "Unless the law adopts RPC penalty names."
+				},
+				{
+					"h": "Fines",
+					"d": "Art. 66 governs."
+				},
+				{
+					"h": "Felonies through negligence",
+					"d": "Art. 365 lets the court decide without regard to Art. 64."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Arts. 13, 64, 68, 69",
+			"k": "cls",
+			"t": "Ordinary vs. privileged mitigating",
+			"items": [
+				{
+					"h": "Ordinary mitigating",
+					"d": "Lowers the **period** only. Can be **offset** by aggravating."
+				},
+				{
+					"h": "Privileged mitigating",
+					"d": "Lowers the **degree**. **Cannot be offset**. Examples: minority (Art. 68), incomplete justifying or exempting with majority of requisites (Art. 69), two or more mitigating with no aggravating (Art. 64(5))."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Arts. 65–69",
+			"k": "list",
+			"t": "Special penalty rules",
+			"items": [
+				{
+					"h": "Art. 65",
+					"d": "Penalty not made of three periods: divide its time into **three equal parts**."
+				},
+				{
+					"h": "Art. 66",
+					"d": "Fines: consider circumstances and **especially the wealth or means** of the offender."
+				},
+				{
+					"h": "Art. 67",
+					"d": "Incomplete accident (Art. 12(4)): grave felony → arresto mayor max to prision correccional min; less grave → arresto mayor min and medium."
+				},
+				{
+					"h": "Art. 68",
+					"d": "Offender over 15 and under 18 who acted with discernment: penalty **next lower** in degree."
+				},
+				{
+					"h": "Art. 69",
+					"d": "Incomplete justifying or exempting circumstance, with a **majority** of requisites: **one or two degrees lower**."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 70",
+			"k": "mem",
+			"t": "Successive service of sentences",
+			"items": [
+				{
+					"h": "Simultaneous service if possible",
+					"d": "Penalties are served at the same time when their nature allows."
+				},
+				{
+					"h": "Otherwise, by order of severity",
+					"d": "Death, reclusion perpetua, reclusion temporal, prision mayor, prision correccional, arresto mayor, arresto menor, destierro, perpetual absolute disqualification, temporary absolute disqualification, suspension, public censure."
+				},
+				{
+					"h": "Three-fold rule",
+					"d": "Maximum total term: **three times the most severe** penalty imposed."
+				},
+				{
+					"h": "Cap",
+					"d": "Never more than **40 years**."
+				},
+				{
+					"h": "Scope",
+					"d": "It limits **service**, not the penalties the court imposes."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Art. 71",
+			"k": "mem",
+			"t": "Graduated scales",
+			"items": [
+				{
+					"h": "Scale No. 1",
+					"d": "Death → reclusion perpetua → reclusion temporal → prision mayor → prision correccional → arresto mayor → **destierro** → arresto menor → public censure → fine."
+				},
+				{
+					"h": "Scale No. 2",
+					"d": "Perpetual absolute disqualification → temporary absolute disqualification → suspension from public office, the right to vote and be voted for, profession or calling → public censure → fine."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Arts. 72–77",
+			"k": "list",
+			"t": "Other application rules",
+			"items": [
+				{
+					"h": "Art. 72",
+					"d": "Civil liabilities are paid in the order of the **dates of the judgments**."
+				},
+				{
+					"h": "Art. 73",
+					"d": "Accessory penalties are **deemed imposed** with the principal penalty."
+				},
+				{
+					"h": "Art. 74",
+					"d": "When the next higher penalty would be death without naming it, impose **reclusion perpetua** with the accessory penalties of Art. 40."
+				},
+				{
+					"h": "Art. 75",
+					"d": "Fines go up or down by **one-fourth of the maximum** for each degree; the minimum stays the same."
+				},
+				{
+					"h": "Art. 76",
+					"d": "Each divisible penalty is split into minimum, medium, and maximum periods (see the Numbers tab)."
+				},
+				{
+					"h": "Art. 77",
+					"d": "A complex penalty of **three distinct penalties**: each one forms a period."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Act 4103",
+			"k": "doc",
+			"t": "Indeterminate Sentence Law: how to fix the terms",
+			"items": [
+				{
+					"h": "RPC crime: maximum term",
+					"d": "The penalty properly imposed under the Code's rules, **after** considering all circumstances."
+				},
+				{
+					"h": "RPC crime: minimum term",
+					"d": "Anywhere within the penalty **one degree lower** than that prescribed by the Code for the offense (after privileged mitigating, before ordinary circumstances)."
+				},
+				{
+					"h": "Special law: maximum term",
+					"d": "Not more than the maximum fixed by that law."
+				},
+				{
+					"h": "Special law: minimum term",
+					"d": "Not less than the minimum fixed by that law."
+				},
+				{
+					"h": "Parole",
+					"d": "After serving the **minimum**, the Board of Pardons and Parole may release him on parole."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "Act 4103, Sec. 2",
+			"k": "exc",
+			"t": "ISLaw does not apply to",
+			"items": [
+				{
+					"h": "Those sentenced to death or life imprisonment (reclusion perpetua)",
+					"d": ""
+				},
+				{
+					"h": "Treason, conspiracy or proposal to commit treason",
+					"d": ""
+				},
+				{
+					"h": "Misprision of treason, rebellion, sedition, or espionage",
+					"d": ""
+				},
+				{
+					"h": "Piracy",
+					"d": ""
+				},
+				{
+					"h": "Habitual delinquents",
+					"d": ""
+				},
+				{
+					"h": "Those who escaped from confinement or evaded sentence",
+					"d": ""
+				},
+				{
+					"h": "Those who violated a conditional pardon",
+					"d": ""
+				},
+				{
+					"h": "Those whose maximum term does not exceed one year",
+					"d": ""
+				},
+				{
+					"h": "Those already sentenced by final judgment when the law took effect",
+					"d": ""
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "PD 968 (RA 10707)",
+			"k": "list",
+			"t": "Probation: key rules",
+			"items": [
+				{
+					"h": "When to apply",
+					"d": "Within the period to **perfect an appeal**, with the **trial court**."
+				},
+				{
+					"h": "Waiver of appeal",
+					"d": "Filing the application **waives the right to appeal**. No probation once an appeal is perfected."
+				},
+				{
+					"h": "Exception (RA 10707)",
+					"d": "If a non-probationable sentence is **modified on appeal** to a probationable one, he may apply before the modified decision becomes final."
+				},
+				{
+					"h": "Fine only",
+					"d": "Probation may be granted whether the sentence is imprisonment or a fine."
+				},
+				{
+					"h": "Order not appealable",
+					"d": "An order granting or denying probation cannot be appealed."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "PD 968, Sec. 9",
+			"k": "exc",
+			"t": "Disqualified from probation",
+			"items": [
+				{
+					"h": "Maximum term of more than 6 years",
+					"d": ""
+				},
+				{
+					"h": "Convicted of crimes against national security",
+					"d": "Including subversion."
+				},
+				{
+					"h": "Previously convicted by final judgment",
+					"d": "Of an offense punished by imprisonment of **more than 6 months and 1 day** and/or a fine of **more than P1,000**."
+				},
+				{
+					"h": "Once placed on probation",
+					"d": ""
+				},
+				{
+					"h": "Already serving sentence",
+					"d": "When the law's substantive provisions took effect."
+				}
+			]
+		},
+		{
+			"g": 4,
+			"art": "PD 968",
+			"k": "list",
+			"t": "Probation: criteria, denial, period",
+			"items": [
+				{
+					"h": "Criteria",
+					"d": "The offender's character, antecedents, environment, mental and physical condition, and available institutional and community resources."
+				},
+				{
+					"h": "Denied if",
+					"d": "(1) he needs correctional treatment best given in an institution; (2) there is undue risk he will commit another crime; or (3) probation would **depreciate the seriousness** of the offense."
+				},
+				{
+					"h": "Period",
+					"d": "Up to **2 years** if the sentence is not more than 1 year; up to **6 years** if more. Fine only: not less than, nor more than twice, the total days of subsidiary imprisonment."
+				},
+				{
+					"h": "Final discharge",
+					"d": "Restores civil rights lost and **totally extinguishes criminal liability** for the offense."
+				}
+			]
+		},
+		{
+			"g": 5,
+			"art": "Arts. 78–80",
+			"k": "doc",
+			"t": "Execution of penalties",
+			"items": [
+				{
+					"h": "Art. 78",
+					"d": "No penalty is executed except by **final judgment**, and only in the form prescribed by law."
+				},
+				{
+					"h": "Art. 79",
+					"d": "If the convict becomes **insane** after final sentence, execution of the **personal** penalty is suspended; **civil** liability is not. Once he recovers, the sentence is executed, unless it has prescribed."
+				},
+				{
+					"h": "Art. 80 (now RA 9344)",
+					"d": "A child in conflict with the law found guilty gets an automatic **suspended sentence**, until age **21** at most."
+				}
+			]
+		},
+		{
+			"g": 5,
+			"art": "RA 9344 (RA 10630)",
+			"k": "cls",
+			"t": "Children in conflict with the law",
+			"items": [
+				{
+					"h": "15 years old or below",
+					"d": "**Exempt** from criminal liability; undergoes an **intervention** program."
+				},
+				{
+					"h": "Above 15 but below 18, without discernment",
+					"d": "**Exempt**; intervention program."
+				},
+				{
+					"h": "Above 15 but below 18, with discernment",
+					"d": "Liable but entitled to **diversion** (if the penalty allows), a **privileged mitigating** circumstance, and a **suspended sentence**."
+				},
+				{
+					"h": "Civil liability",
+					"d": "An exempt child is still **civilly** liable."
+				}
+			]
+		},
+		{
+			"g": 5,
+			"art": "Art. 83",
+			"k": "exc",
+			"t": "Suspension of the death sentence (historical)",
+			"items": [
+				{
+					"h": "Woman, while pregnant or within one year after delivery",
+					"d": ""
+				},
+				{
+					"h": "Person over 70",
+					"d": "The sentence is commuted to reclusion perpetua."
+				}
+			]
+		},
+		{
+			"g": 5,
+			"art": "Arts. 87–88",
+			"k": "cls",
+			"t": "Destierro and arresto menor",
+			"items": [
+				{
+					"h": "Destierro (Art. 87)",
+					"d": "The convict may not enter the place named in the sentence, or within the radius set, which is **not more than 250 km and not less than 25 km**."
+				},
+				{
+					"h": "Arresto menor (Art. 88)",
+					"d": "Served in the municipal jail, or in the **offender's house** under surveillance, if the court so provides for health or other reasons."
+				},
+				{
+					"h": "Community service (Art. 88-a, RA 11362)",
+					"d": "The court may require community service in place of **arresto menor or arresto mayor**."
+				}
+			]
+		},
+		{
+			"g": 5,
+			"art": "Art. 87",
+			"k": "list",
+			"t": "When destierro is imposed",
+			"items": [
+				{
+					"h": "Death or serious physical injuries under exceptional circumstances",
+					"d": "Art. 247."
+				},
+				{
+					"h": "Failure to give bond for good behavior",
+					"d": "Art. 284 (threats)."
+				},
+				{
+					"h": "Penalty of the concubine in concubinage",
+					"d": "Art. 334."
+				},
+				{
+					"h": "When it is the penalty after lowering by degrees",
+					"d": ""
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Art. 89",
+			"k": "mem",
+			"t": "Total extinction of criminal liability",
+			"items": [
+				{
+					"h": "Death of the convict",
+					"d": "Personal penalties end. **Pecuniary** penalties end only if death occurs **before final judgment**."
+				},
+				{
+					"h": "Service of the sentence",
+					"d": ""
+				},
+				{
+					"h": "Amnesty",
+					"d": "Completely extinguishes the penalty and all its effects."
+				},
+				{
+					"h": "Absolute pardon",
+					"d": ""
+				},
+				{
+					"h": "Prescription of the crime",
+					"d": ""
+				},
+				{
+					"h": "Prescription of the penalty",
+					"d": ""
+				},
+				{
+					"h": "Marriage of the offended woman",
+					"d": "As provided in Art. 344 (and Art. 266-C for rape)."
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Art. 89(1)",
+			"k": "doc",
+			"t": "Death of the accused pending appeal (jurisprudence)",
+			"items": [
+				{
+					"h": "Criminal liability",
+					"d": "Extinguished."
+				},
+				{
+					"h": "Civil liability from the crime",
+					"d": "Also extinguished, because it depends on a conviction."
+				},
+				{
+					"h": "Civil liability from other sources",
+					"d": "**Survives**: law, contract, quasi-contract, quasi-delict. It may be pursued in a **separate civil action** against the estate."
+				},
+				{
+					"h": "Prescription",
+					"d": "The civil action's prescriptive period is interrupted while the criminal case was pending."
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Art. 89",
+			"k": "cls",
+			"t": "Pardon vs. amnesty",
+			"items": [
+				{
+					"h": "Who grants",
+					"d": "Pardon: President alone. Amnesty: President with the concurrence of a majority of all Members of Congress."
+				},
+				{
+					"h": "Crimes",
+					"d": "Pardon: usually ordinary crimes. Amnesty: usually political offenses, to classes of persons."
+				},
+				{
+					"h": "When",
+					"d": "Pardon: only after final conviction. Amnesty: before or after conviction."
+				},
+				{
+					"h": "Effect",
+					"d": "Pardon: removes the penalty, not the crime; civil liability stays. Amnesty: erases the offense itself."
+				},
+				{
+					"h": "Proof",
+					"d": "Pardon: a private act that must be pleaded and proved. Amnesty: a public act; courts take judicial notice."
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Art. 90",
+			"k": "mem",
+			"t": "Prescription of crimes",
+			"items": [
+				{
+					"h": "Death, reclusion perpetua, reclusion temporal",
+					"d": "**20 years**"
+				},
+				{
+					"h": "Other afflictive penalties",
+					"d": "**15 years**"
+				},
+				{
+					"h": "Correctional penalties",
+					"d": "**10 years**; arresto mayor: **5 years**"
+				},
+				{
+					"h": "Libel and similar offenses",
+					"d": "**1 year**"
+				},
+				{
+					"h": "Oral defamation and slander by deed",
+					"d": "**6 months**"
+				},
+				{
+					"h": "Light offenses",
+					"d": "**2 months**"
+				},
+				{
+					"h": "Compound penalty",
+					"d": "The **highest** penalty is the basis."
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Art. 91",
+			"k": "doc",
+			"t": "Computing prescription of crimes",
+			"items": [
+				{
+					"h": "Starts",
+					"d": "From the day the crime is **discovered** by the offended party, the authorities, or their agents."
+				},
+				{
+					"h": "Interrupted",
+					"d": "By filing the **complaint or information**, including a complaint before the prosecutor."
+				},
+				{
+					"h": "Runs again",
+					"d": "When the proceedings end **without conviction or acquittal**, or are unjustifiably stopped for reasons not imputable to him."
+				},
+				{
+					"h": "Does not run",
+					"d": "While the offender is **absent from the Philippines**."
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Art. 92",
+			"k": "mem",
+			"t": "Prescription of penalties",
+			"items": [
+				{
+					"h": "Death and reclusion perpetua",
+					"d": "**20 years**"
+				},
+				{
+					"h": "Other afflictive penalties",
+					"d": "**15 years**"
+				},
+				{
+					"h": "Correctional penalties",
+					"d": "**10 years**; arresto mayor: **5 years**"
+				},
+				{
+					"h": "Light penalties",
+					"d": "**1 year**"
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Art. 93",
+			"k": "doc",
+			"t": "Computing prescription of penalties",
+			"items": [
+				{
+					"h": "Starts",
+					"d": "From the day the convict **evades** service of sentence (it presupposes final judgment)."
+				},
+				{
+					"h": "Interrupted when he…",
+					"d": "(1) gives himself up; (2) is captured; (3) goes to a foreign country with which we have **no extradition treaty**; or (4) commits **another crime** before the period ends."
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Art. 94",
+			"k": "cls",
+			"t": "Partial extinction of criminal liability",
+			"items": [
+				{
+					"h": "Conditional pardon",
+					"d": "Exemption from punishment, subject to conditions. Violating it may lead to recommitment."
+				},
+				{
+					"h": "Commutation of sentence",
+					"d": "Reduces the duration or degree of the penalty."
+				},
+				{
+					"h": "Good conduct allowances",
+					"d": "Deductions from the term for good behavior (Arts. 97–98)."
+				},
+				{
+					"h": "Parole",
+					"d": "Release after serving the minimum of an indeterminate sentence, subject to conditions."
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Art. 97 (RA 10592)",
+			"k": "mem",
+			"t": "Good conduct time allowance (GCTA)",
+			"items": [
+				{
+					"h": "First 2 years",
+					"d": "**20 days** for each month of good behavior."
+				},
+				{
+					"h": "3rd to 5th year",
+					"d": "**23 days** per month."
+				},
+				{
+					"h": "6th to 10th year",
+					"d": "**25 days** per month."
+				},
+				{
+					"h": "11th year onward",
+					"d": "**30 days** per month."
+				},
+				{
+					"h": "Study, teaching, or mentoring",
+					"d": "Additional **15 days** per month."
+				},
+				{
+					"h": "Covers detention prisoners too",
+					"d": "Applies during preventive imprisonment as well."
+				}
+			]
+		},
+		{
+			"g": 6,
+			"art": "Arts. 98–99",
+			"k": "doc",
+			"t": "Special time allowance for loyalty (STAL) and who grants",
+			"items": [
+				{
+					"h": "Returns within 48 hours",
+					"d": "After a calamity or disorder (Art. 158) is declared over: **one-fifth** deducted from his sentence."
+				},
+				{
+					"h": "Chose to stay",
+					"d": "Did not leave despite the chance: **two-fifths**."
+				},
+				{
+					"h": "Who grants (Art. 99)",
+					"d": "The **Director of the Bureau of Corrections**, the **Chief of the BJMP**, and/or the **warden** of a provincial, district, municipal, or city jail."
+				},
+				{
+					"h": "Irrevocable",
+					"d": "Once granted, allowances **cannot be revoked**."
+				}
+			]
+		},
+		{
+			"g": 7,
+			"art": "Art. 100",
+			"k": "doc",
+			"t": "Civil liability of a person guilty of a felony",
+			"items": [
+				{
+					"h": "Rule",
+					"d": "Every person **criminally liable** is also **civilly liable**."
+				},
+				{
+					"h": "Exception: no damage",
+					"d": "Some crimes cause no damage to a private party (e.g., certain crimes against public order)."
+				},
+				{
+					"h": "Acquittal on reasonable doubt",
+					"d": "Civil liability **survives**; it needs only a preponderance of evidence."
+				},
+				{
+					"h": "Acquittal because the act did not exist or the accused did not do it",
+					"d": "Civil liability ex delicto is **extinguished**."
+				}
+			]
+		},
+		{
+			"g": 7,
+			"art": "Art. 100",
+			"k": "cls",
+			"t": "Sources of civil liability",
+			"items": [
+				{
+					"h": "Crime (ex delicto)",
+					"d": "Governed by the RPC."
+				},
+				{
+					"h": "Breach of contract (culpa contractual)",
+					"d": "Civil Code."
+				},
+				{
+					"h": "Quasi-delict (culpa aquiliana)",
+					"d": "Civil Code."
+				}
+			]
+		},
+		{
+			"g": 7,
+			"art": "Art. 101",
+			"k": "cls",
+			"t": "Civil liability despite exemption from criminal liability",
+			"items": [
+				{
+					"h": "Insane, imbecile, or minor (Art. 12(1), (2), (3))",
+					"d": "Those with **legal authority or control** over them, unless they show no fault or negligence; then the actor's own property answers."
+				},
+				{
+					"h": "State of necessity (Art. 11(4))",
+					"d": "The persons **who benefited** from the harm prevented, in proportion to the benefit."
+				},
+				{
+					"h": "Irresistible force or uncontrollable fear (Art. 12(5), (6))",
+					"d": "Primarily those who **used the force or caused the fear**; secondarily those who did the act."
+				},
+				{
+					"h": "Not covered",
+					"d": "No civil liability for the other justifying circumstances (e.g., self-defense) or for accident (Art. 12(4)) and insuperable cause (Art. 12(7))."
+				}
+			]
+		},
+		{
+			"g": 7,
+			"art": "Art. 102",
+			"k": "req",
+			"t": "Subsidiary liability of innkeepers",
+			"items": [
+				{
+					"h": "Crimes in their establishments",
+					"d": "When **they or their employees** violated municipal ordinances or police regulations."
+				},
+				{
+					"h": "Goods of guests taken by robbery or theft",
+					"d": "If the guest **notified** the innkeeper of the deposit and **followed his directions** on care of the goods."
+				},
+				{
+					"h": "Exception",
+					"d": "No liability for robbery **with violence or intimidation** of persons, **unless** done by the innkeeper's employees."
+				}
+			]
+		},
+		{
+			"g": 7,
+			"art": "Art. 103",
+			"k": "req",
+			"t": "Subsidiary liability of employers",
+			"items": [
+				{
+					"h": "Employer engaged in an industry or business",
+					"d": ""
+				},
+				{
+					"h": "Employee committed the felony in the discharge of his duties",
+					"d": ""
+				},
+				{
+					"h": "Employee convicted and insolvent",
+					"d": "The employer pays only if the employee cannot."
+				}
+			]
+		},
+		{
+			"g": 7,
+			"art": "Art. 104",
+			"k": "mem",
+			"t": "What civil liability includes",
+			"items": [
+				{
+					"h": "Restitution (Art. 105)",
+					"d": "Return of the **thing itself**, with allowance for deterioration, even from a third person who got it lawfully, unless the law bars recovery."
+				},
+				{
+					"h": "Reparation of the damage (Art. 106)",
+					"d": "The court fixes the amount, considering the price and the special sentimental value."
+				},
+				{
+					"h": "Indemnification for consequential damages (Art. 107)",
+					"d": "Damages suffered by the injured party, his family, or third persons."
+				}
+			]
+		},
+		{
+			"g": 7,
+			"art": "Arts. 108–111",
+			"k": "list",
+			"t": "Other civil liability rules",
+			"items": [
+				{
+					"h": "Art. 108",
+					"d": "The obligation passes to the **heirs** of the person liable; the right to demand passes to the heirs of the injured party."
+				},
+				{
+					"h": "Art. 109",
+					"d": "When several are liable, the court fixes the **share** of each."
+				},
+				{
+					"h": "Art. 110",
+					"d": "Principals, accomplices, and accessories are **solidarily** liable within their class, and **subsidiarily** liable for the shares of the others."
+				},
+				{
+					"h": "Art. 111",
+					"d": "One who **gratuitously** shared in the proceeds must restore the amount he received."
+				}
+			]
+		},
+		{
+			"g": 7,
+			"art": "Art. 112",
+			"k": "mem",
+			"t": "Extinction of civil liability",
+			"intro": "Same as other obligations under the Civil Code:",
+			"items": [
+				{
+					"h": "Payment or performance",
+					"d": ""
+				},
+				{
+					"h": "Loss of the thing due",
+					"d": ""
+				},
+				{
+					"h": "Condonation or remission",
+					"d": "An **express** waiver by the offended party."
+				},
+				{
+					"h": "Confusion or merger of rights",
+					"d": ""
+				},
+				{
+					"h": "Compensation",
+					"d": ""
+				},
+				{
+					"h": "Novation",
+					"d": ""
+				}
+			]
+		},
+		{
+			"g": 7,
+			"art": "Art. 113",
+			"k": "doc",
+			"t": "Civil liability survives",
+			"items": [
+				{
+					"h": "Rule",
+					"d": "The offender must still pay civil liability even after serving his sentence, or after **amnesty, pardon, commutation**, or any other reason he was not made to serve it."
+				}
+			]
+		}
+	],
+	"DF": [
+		{
+			"g": 1,
+			"t": "Principal by direct participation",
+			"a": "Art. 17(1)",
+			"d": "One who personally takes part in carrying out the acts that make up the crime."
+		},
+		{
+			"g": 1,
+			"t": "Principal by induction",
+			"a": "Art. 17(2)",
+			"d": "One who directly forces or induces another to commit a crime, the inducement being the determining cause of its commission."
+		},
+		{
+			"g": 1,
+			"t": "Principal by indispensable cooperation",
+			"a": "Art. 17(3)",
+			"d": "One who takes part in the criminal resolution and cooperates by an act without which the crime would not have been committed."
+		},
+		{
+			"g": 1,
+			"t": "Accomplice",
+			"a": "Art. 18",
+			"d": "One who, not being a principal, knows the criminal design of the principal and cooperates in its execution by previous or simultaneous acts that are not indispensable."
+		},
+		{
+			"g": 1,
+			"t": "Accessory",
+			"a": "Art. 19",
+			"d": "One who, knowing that a crime was committed and without taking part in it as principal or accomplice, takes part after its commission by profiting from it, concealing or destroying its evidence, or harboring or helping the principal escape."
+		},
+		{
+			"g": 1,
+			"t": "Conspiracy",
+			"a": "Art. 8",
+			"d": "Exists when two or more persons come to an agreement concerning the commission of a felony and decide to commit it."
+		},
+		{
+			"g": 1,
+			"t": "Proposal to commit a felony",
+			"a": "Art. 8",
+			"d": "Exists when the person who has decided to commit a felony proposes its execution to some other person or persons."
+		},
+		{
+			"g": 1,
+			"t": "Implied conspiracy",
+			"a": "Jurisprudence",
+			"d": "Conspiracy inferred from the acts of the accused before, during, and after the crime, which show a common purpose and concerted action."
+		},
+		{
+			"g": 1,
+			"t": "Collective criminal responsibility",
+			"a": "Arts. 8, 17",
+			"d": "When offenders are liable in the same manner and to the same extent, as in conspiracy, so that the act of one is the act of all."
+		},
+		{
+			"g": 1,
+			"t": "Quasi-collective criminal responsibility",
+			"a": "Art. 18",
+			"d": "When some offenders are principals and others are accomplices, so their liabilities differ in degree."
+		},
+		{
+			"g": 1,
+			"t": "Active subject",
+			"a": "Art. 16",
+			"d": "The criminal; only a natural person can be one."
+		},
+		{
+			"g": 1,
+			"t": "Passive subject",
+			"a": "Art. 16",
+			"d": "The injured party: the holder of the right injured by the crime."
+		},
+		{
+			"g": 2,
+			"t": "Penalty",
+			"a": "Title Three",
+			"d": "The suffering inflicted by the State for the violation of a law."
+		},
+		{
+			"g": 2,
+			"t": "Ex post facto law",
+			"a": "Constitution",
+			"d": "A law that punishes an act innocent when done, makes a crime more serious, increases the penalty, or changes the rules of evidence to the accused's disadvantage, after the fact."
+		},
+		{
+			"g": 2,
+			"t": "Habitual criminal (Art. 22)",
+			"a": "Art. 22, 62(5)",
+			"d": "A habitual delinquent, who cannot benefit from a retroactive penal law favorable to the accused."
+		},
+		{
+			"g": 2,
+			"t": "Principal penalty",
+			"a": "Art. 25",
+			"d": "A penalty the court expressly imposes in its judgment."
+		},
+		{
+			"g": 2,
+			"t": "Accessory penalty",
+			"a": "Art. 25",
+			"d": "A penalty deemed included in the principal penalty, even if not stated in the judgment."
+		},
+		{
+			"g": 2,
+			"t": "Afflictive penalty",
+			"a": "Art. 25",
+			"d": "Reclusion perpetua, reclusion temporal, absolute or special disqualification, and prision mayor; for fines, more than P1,200,000."
+		},
+		{
+			"g": 2,
+			"t": "Correctional penalty",
+			"a": "Art. 25",
+			"d": "Prision correccional, arresto mayor, suspension, and destierro; for fines, P40,000 to P1,200,000."
+		},
+		{
+			"g": 2,
+			"t": "Light penalty",
+			"a": "Art. 25",
+			"d": "Arresto menor and public censure; for fines, less than P40,000."
+		},
+		{
+			"g": 2,
+			"t": "Divisible penalty",
+			"a": "Art. 76",
+			"d": "A penalty with a fixed duration that can be divided into three periods: minimum, medium, and maximum."
+		},
+		{
+			"g": 2,
+			"t": "Indivisible penalty",
+			"a": "Art. 63",
+			"d": "A penalty with no fixed duration: death, reclusion perpetua, perpetual absolute or special disqualification, and public censure."
+		},
+		{
+			"g": 2,
+			"t": "Reclusion perpetua",
+			"a": "Art. 27",
+			"d": "An indivisible penalty of imprisonment from 20 years and 1 day to 40 years, with fixed accessory penalties."
+		},
+		{
+			"g": 2,
+			"t": "Life imprisonment",
+			"a": "Special laws",
+			"d": "A penalty under special laws with no fixed duration and no accessory penalties; unlike reclusion perpetua, it is not an RPC penalty."
+		},
+		{
+			"g": 2,
+			"t": "Destierro",
+			"a": "Art. 87",
+			"d": "A penalty barring the convict from entering a place named in the sentence, or within a set radius of not more than 250 km and not less than 25 km from it."
+		},
+		{
+			"g": 2,
+			"t": "Civil interdiction",
+			"a": "Art. 34",
+			"d": "Accessory penalty depriving the offender of parental authority, guardianship, marital authority, the right to manage property, and the right to dispose of it by acts between living persons."
+		},
+		{
+			"g": 2,
+			"t": "Bond to keep the peace",
+			"a": "Art. 35",
+			"d": "An undertaking with two sureties that the offender will not commit the offense sought to be prevented, and that they will pay the amount fixed if he does."
+		},
+		{
+			"g": 2,
+			"t": "Public censure",
+			"a": "Art. 25",
+			"d": "A light, indivisible penalty consisting of a formal reprimand by the court."
+		},
+		{
+			"g": 2,
+			"t": "Preventive imprisonment",
+			"a": "Art. 29",
+			"d": "Detention of the accused while the case is pending, because the offense is not bailable or he cannot post bail."
+		},
+		{
+			"g": 2,
+			"t": "Subsidiary imprisonment",
+			"a": "Art. 39",
+			"d": "A personal liability to be suffered by a convict who cannot pay the fine, at one day per amount equal to the highest minimum wage."
+		},
+		{
+			"g": 2,
+			"t": "Pecuniary liabilities",
+			"a": "Art. 38",
+			"d": "Reparation of damage, indemnification of consequential damages, fine, and costs."
+		},
+		{
+			"g": 2,
+			"t": "Costs",
+			"a": "Art. 37",
+			"d": "Fees and indemnities in the course of judicial proceedings, fixed by law or regulation, or amounts not subject to schedule."
+		},
+		{
+			"g": 2,
+			"t": "Forfeiture",
+			"a": "Art. 45",
+			"d": "Loss, in favor of the Government, of the proceeds and instruments of the crime."
+		},
+		{
+			"g": 3,
+			"t": "Complex crime",
+			"a": "Art. 48",
+			"d": "Two or more crimes punished with only one penalty, either because a single act produced them or because one was a necessary means to commit the other."
+		},
+		{
+			"g": 3,
+			"t": "Compound crime",
+			"a": "Art. 48",
+			"d": "A single act that results in two or more grave or less grave felonies."
+		},
+		{
+			"g": 3,
+			"t": "Complex crime proper",
+			"a": "Art. 48",
+			"d": "When an offense is a necessary means for committing another offense."
+		},
+		{
+			"g": 3,
+			"t": "Special complex crime",
+			"a": "Jurisprudence",
+			"d": "Two or more crimes the law itself treats as one, with a single fixed penalty, like robbery with homicide or rape with homicide."
+		},
+		{
+			"g": 3,
+			"t": "Continued crime (delito continuado)",
+			"a": "Jurisprudence",
+			"d": "A series of acts arising from one criminal impulse or resolution, treated as one crime, like taking several items from one place on one occasion."
+		},
+		{
+			"g": 3,
+			"t": "Continuing crime",
+			"a": "Jurisprudence",
+			"d": "A crime whose elements go on over a period or in several places, like rebellion or illegal detention, so it may be tried where any of its elements occurred."
+		},
+		{
+			"g": 3,
+			"t": "Plurality of crimes",
+			"a": "Art. 48",
+			"d": "Successive commission by the same person of different crimes, none of which has been the subject of a final conviction."
+		},
+		{
+			"g": 3,
+			"t": "Error in personae",
+			"a": "Art. 49",
+			"d": "Mistake in the identity of the victim; the offender hits the person he aimed at, but that person is not the one he intended."
+		},
+		{
+			"g": 3,
+			"t": "Aberratio ictus",
+			"a": "Art. 48",
+			"d": "Mistake in the blow; the offender aims at one person but hits another, usually giving rise to a compound crime."
+		},
+		{
+			"g": 3,
+			"t": "Degree",
+			"a": "Art. 71",
+			"d": "One entire penalty, or one unit, in the graduated scale."
+		},
+		{
+			"g": 3,
+			"t": "Period",
+			"a": "Art. 76",
+			"d": "One of three equal portions (minimum, medium, maximum) of a divisible penalty."
+		},
+		{
+			"g": 3,
+			"t": "Graduated scale",
+			"a": "Art. 71",
+			"d": "The ordered list of penalties used to raise or lower a penalty by degrees."
+		},
+		{
+			"g": 3,
+			"t": "Privileged mitigating circumstance",
+			"a": "Arts. 64, 68, 69",
+			"d": "A mitigating circumstance that lowers the penalty by one or more degrees and cannot be offset by aggravating circumstances."
+		},
+		{
+			"g": 3,
+			"t": "Habitual delinquent",
+			"a": "Art. 62(5)",
+			"d": "A person who, within 10 years from release or last conviction for serious or less serious physical injuries, robbery, theft, estafa, or falsification, is found guilty of any of them a third time or oftener."
+		},
+		{
+			"g": 3,
+			"t": "Recidivist",
+			"a": "Art. 14(9)",
+			"d": "One who, at the time of trial for a crime, has been previously convicted by final judgment of another crime in the same title of the Code."
+		},
+		{
+			"g": 3,
+			"t": "Three-fold rule",
+			"a": "Art. 70",
+			"d": "The maximum period a convict serves for several penalties is three times the most severe, but never more than 40 years."
+		},
+		{
+			"g": 3,
+			"t": "Indeterminate sentence",
+			"a": "Act 4103",
+			"d": "A sentence with a minimum and a maximum term, after the minimum of which the convict may be released on parole."
+		},
+		{
+			"g": 3,
+			"t": "Parole",
+			"a": "Act 4103",
+			"d": "Conditional release of a convict after serving the minimum of an indeterminate sentence, under the supervision of a parole officer."
+		},
+		{
+			"g": 3,
+			"t": "Probation",
+			"a": "PD 968",
+			"d": "A disposition under which a defendant, after conviction and sentence, is released subject to conditions imposed by the court and to the supervision of a probation officer."
+		},
+		{
+			"g": 3,
+			"t": "Probationer",
+			"a": "PD 968",
+			"d": "A person placed on probation."
+		},
+		{
+			"g": 3,
+			"t": "Probation officer",
+			"a": "PD 968",
+			"d": "One who investigates for the court a referral for probation or supervises a probationer, or both."
+		},
+		{
+			"g": 4,
+			"t": "Child in conflict with the law",
+			"a": "RA 9344",
+			"d": "A child alleged, accused, or adjudged to have committed an offense under Philippine law."
+		},
+		{
+			"g": 4,
+			"t": "Discernment",
+			"a": "RA 9344",
+			"d": "The mental capacity of a child to understand the difference between right and wrong and the consequences of the act."
+		},
+		{
+			"g": 4,
+			"t": "Diversion",
+			"a": "RA 9344",
+			"d": "An alternative, child-appropriate process of deciding the responsibility and treatment of a child in conflict with the law, without formal court proceedings."
+		},
+		{
+			"g": 4,
+			"t": "Intervention",
+			"a": "RA 9344",
+			"d": "A series of activities designed to address the issues that caused the child to commit an offense, for a child who is exempt from criminal liability."
+		},
+		{
+			"g": 4,
+			"t": "Suspended sentence",
+			"a": "RA 9344",
+			"d": "Deferment of the sentence of a child found guilty, who is placed under disposition measures instead, until age 21 at most."
+		},
+		{
+			"g": 5,
+			"t": "Total extinction of criminal liability",
+			"a": "Art. 89",
+			"d": "The complete end of criminal liability, so the offender can no longer be prosecuted or made to serve."
+		},
+		{
+			"g": 5,
+			"t": "Partial extinction of criminal liability",
+			"a": "Art. 94",
+			"d": "Reduction of criminal liability, by conditional pardon, commutation, good conduct allowances, or parole."
+		},
+		{
+			"g": 5,
+			"t": "Amnesty",
+			"a": "Art. 89",
+			"d": "An act of the sovereign power granting oblivion or general pardon for a past offense, usually political, to classes of persons, with the concurrence of Congress."
+		},
+		{
+			"g": 5,
+			"t": "Absolute pardon",
+			"a": "Art. 89",
+			"d": "An act of grace by the President, after final conviction, exempting the offender from the punishment the law inflicts, without conditions."
+		},
+		{
+			"g": 5,
+			"t": "Conditional pardon",
+			"a": "Art. 94",
+			"d": "Exemption from punishment subject to conditions; once delivered and accepted, it is treated as a contract between the President and the convict."
+		},
+		{
+			"g": 5,
+			"t": "Commutation of sentence",
+			"a": "Art. 94",
+			"d": "Reduction of the duration or degree of the penalty imposed."
+		},
+		{
+			"g": 5,
+			"t": "Prescription of crime",
+			"a": "Art. 90",
+			"d": "The loss or forfeiture of the right of the State to prosecute the offender after a certain time."
+		},
+		{
+			"g": 5,
+			"t": "Prescription of penalty",
+			"a": "Art. 92",
+			"d": "The loss or forfeiture of the right of the Government to execute the final sentence after a certain time."
+		},
+		{
+			"g": 5,
+			"t": "Good conduct time allowance (GCTA)",
+			"a": "Art. 97",
+			"d": "Deductions from the term of a prisoner for good conduct, at rates that rise with years served."
+		},
+		{
+			"g": 5,
+			"t": "Special time allowance for loyalty (STAL)",
+			"a": "Art. 98",
+			"d": "A deduction of one-fifth (or two-fifths) of the sentence of a prisoner who returns within 48 hours after a calamity is declared over (or chooses to stay)."
+		},
+		{
+			"g": 6,
+			"t": "Civil liability ex delicto",
+			"a": "Art. 100",
+			"d": "The civil liability arising from the crime itself, which depends on the criminal liability."
+		},
+		{
+			"g": 6,
+			"t": "Restitution",
+			"a": "Art. 105",
+			"d": "Return of the very thing taken, with allowance for any deterioration or decrease in value."
+		},
+		{
+			"g": 6,
+			"t": "Reparation",
+			"a": "Art. 106",
+			"d": "Payment for the damage caused, fixed by the court considering the price of the thing and its sentimental value."
+		},
+		{
+			"g": 6,
+			"t": "Indemnification for consequential damages",
+			"a": "Art. 107",
+			"d": "Payment for losses suffered by the injured party, his family, or third persons because of the crime."
+		},
+		{
+			"g": 6,
+			"t": "Subsidiary civil liability",
+			"a": "Arts. 102–103",
+			"d": "Liability that arises only when the person primarily liable cannot pay, like that of employers and innkeepers."
+		},
+		{
+			"g": 6,
+			"t": "Solidary liability (Art. 110)",
+			"a": "Art. 110",
+			"d": "Liability where each of the principals, accomplices, or accessories within the same class may be made to pay the whole share of that class."
+		},
+		{
+			"g": 6,
+			"t": "Prejudicial question",
+			"a": "Rule 111",
+			"d": "An issue in a civil case that is similar or intimately related to the issue in the criminal case, and whose resolution determines whether the criminal action may proceed."
+		}
+	],
+	"P": [
+		{
+			"id": "induction",
+			"g": 1,
+			"title": "Principal by induction",
+			"art": "Art. 17(2)",
+			"rule": "An inducer is a principal only if the inducement was made directly, with intent to have the crime committed, and was the determining cause of the crime.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Paid to kill",
+					"facts": "Ana wants her business rival Carlo dead. She offers Ben P100,000 to kill Carlo and pays him half in advance. Ben had no reason of his own to harm Carlo. Two days later, Ben shoots and kills Carlo. Ana was at home when it happened.",
+					"q": "What is Ana's participation in the killing of Carlo?",
+					"hint": "Ana did not shoot. What did she do that made Ben act?",
+					"alac": [
+						"Ana is a principal by induction.",
+						"The law provides that principals include those who directly force or induce others to commit a crime. Jurisprudence provides that the inducement must be made directly, with the intention of procuring the commission of the crime, and must be the determining cause of the crime, such as by giving a price, reward, or promise.",
+						"Here, Ana directly offered Ben P100,000 to kill Carlo and paid half in advance. Ben had no reason of his own to kill Carlo, so the money was the determining cause of the killing. It does not matter that Ana was not at the scene.",
+						"Therefore, Ana is liable as a principal by induction, while Ben is a principal by direct participation."
+					],
+					"key": "Presence at the scene is not needed for a principal by induction. Ask: was the inducement direct, and would the crime have happened without it?"
+				},
+				{
+					"t": "same",
+					"label": "Leader's command",
+					"facts": "Dino leads a fraternity whose members obey him without question. During a rumble, members surround Elmer but hesitate. Dino shouts, “Patayin ninyo siya, ngayon na!” The members immediately stab Elmer to death. Before Dino's order, none of them had planned to kill Elmer.",
+					"q": "Is Dino liable as a principal?",
+					"hint": "Words can be inducement. Whose words, and when?",
+					"alac": [
+						"Yes. Dino is a principal by induction.",
+						"The law provides that those who directly induce others to commit a crime are principals. Jurisprudence provides that words of command can be inducement when uttered by one who has influence or ascendancy over the person induced, with the intent to procure the crime, and when they are the determining cause of the crime.",
+						"Here, Dino is the leader whom the members obey without question. He gave a direct order to kill while the members were hesitating, and they stabbed Elmer right after. They had no prior plan to kill him, so Dino's command was the determining cause.",
+						"Therefore, Dino is liable as a principal by induction."
+					],
+					"key": "Commands work as inducement when the speaker has ascendancy and the words come before and cause the act. Note the hesitation: it shows the order was the determining cause."
+				},
+				{
+					"t": "twist",
+					"label": "Drunken remark",
+					"facts": "At a drinking session, Fely, annoyed at her neighbor Gina, says, “Sana mamatay na 'yang si Gina.” Hector, who had his own long-running feud with Gina, hears this. A week later, Hector kills Gina because of their feud. Fely never talked to Hector about Gina again.",
+					"q": "Is Fely liable as a principal by induction?",
+					"hint": "Was her remark aimed at getting Hector to act, and was it what made him act?",
+					"alac": [
+						"No. Fely is not liable as a principal by induction.",
+						"The law provides that those who directly induce others to commit a crime are principals. Jurisprudence provides that the inducement must be made directly with the intention of procuring the crime and must be its determining cause; a thoughtless expression or a casual wish is not inducement.",
+						"Here, Fely's words were a passing remark made while drinking, not a request directed at Hector. Hector killed Gina because of his own feud, not because of what Fely said. Her remark was neither intended to procure the crime nor its determining cause.",
+						"Therefore, Fely is not criminally liable for Gina's death."
+					],
+					"key": "TWIST: a thoughtless or casual remark is not inducement. If the doer had his own motive, the words were not the determining cause."
+				}
+			]
+		},
+		{
+			"id": "cooperation",
+			"g": 1,
+			"title": "Indispensable cooperation vs. accomplice",
+			"art": "Arts. 17(3), 18",
+			"rule": "One who joins the criminal plan and does an act without which the crime could not be done is a principal; one who only helps with a non-essential act, knowing the plan, is an accomplice.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Teller opens the vault",
+					"facts": "Ivy, a bank teller, agrees with Jojo to steal cash from the bank's vault. The vault can only be opened with a code that only Ivy knows. At night, Ivy opens the vault and leaves. Jojo takes P2 million.",
+					"q": "What is Ivy's participation?",
+					"hint": "Could Jojo have taken the money without Ivy's act?",
+					"alac": [
+						"Ivy is a principal by indispensable cooperation.",
+						"The law provides that principals include those who cooperate in the commission of the offense by another act without which it would not have been accomplished. Jurisprudence provides that such a cooperator must take part in the criminal resolution and do an act that is indispensable to the crime.",
+						"Here, Ivy agreed with Jojo to steal the cash, so she took part in the criminal resolution. Only she knew the vault code, so without her opening it, Jojo could not have taken the money.",
+						"Therefore, Ivy is a principal by indispensable cooperation and has the same liability as Jojo."
+					],
+					"key": "Test: remove the act. If the crime could not have happened without it, the cooperator is a principal."
+				},
+				{
+					"t": "same",
+					"label": "Guard disables the alarm",
+					"facts": "Kiko, the only guard of a warehouse, agrees with a gang to let them steal appliances. The warehouse has one gate and an alarm only Kiko can turn off. On the agreed night, Kiko turns off the alarm and unlocks the gate. The gang loads the appliances into a truck.",
+					"q": "Is Kiko a principal or an accomplice?",
+					"hint": "Was his act needed, and was he part of the plan?",
+					"alac": [
+						"Kiko is a principal by indispensable cooperation.",
+						"The law provides that one who cooperates by an act without which the crime would not have been accomplished is a principal. Jurisprudence provides that he must take part in the criminal resolution and his act must be indispensable.",
+						"Here, Kiko agreed with the gang beforehand, so he shared in the criminal resolution. The warehouse had only one gate and an alarm only he could turn off. Without his acts, the gang could not have entered and taken the appliances.",
+						"Therefore, Kiko is a principal by indispensable cooperation, not a mere accomplice."
+					],
+					"key": "Both requisites must be present: (1) part of the plan; (2) act without which the crime would not happen."
+				},
+				{
+					"t": "twist",
+					"label": "Self-appointed lookout",
+					"facts": "Leo learns, just minutes before, that his friend Mario plans to break into a house to steal. There is no agreement between them. On his own, Leo stands at the corner to warn Mario if anyone comes. No one comes. Mario could have done the theft without a lookout, and he takes jewelry worth P50,000.",
+					"q": "What is Leo's participation?",
+					"hint": "Was there an agreement? Was his act indispensable?",
+					"alac": [
+						"Leo is an accomplice.",
+						"The law provides that accomplices are those who, not being principals, cooperate in the execution of the offense by previous or simultaneous acts. Jurisprudence provides that an accomplice knows the criminal design and concurs in it, but his acts are not indispensable; if there is doubt whether one is a principal or an accomplice, he is treated as an accomplice.",
+						"Here, there was no agreement between Leo and Mario, so there was no conspiracy. Leo knew of the plan and helped by acting as a lookout at the same time as the theft, but Mario could have done the theft without him.",
+						"Therefore, Leo is an accomplice and gets a penalty one degree lower than the principal."
+					],
+					"key": "TWIST: a lookout WITH conspiracy is a principal (act of one is the act of all). WITHOUT conspiracy and with a non-essential act, he is only an accomplice."
+				}
+			]
+		},
+		{
+			"id": "conspiracy",
+			"g": 1,
+			"title": "Conspiracy",
+			"art": "Art. 8",
+			"rule": "When conspiracy is proved, the act of one is the act of all; it may be inferred from concerted acts, but mere presence or knowledge is not conspiracy.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Division of labor in a robbery",
+					"facts": "Nilo, Omar, and Pia agree to rob a convenience store. Nilo stands guard outside. Omar points a knife at the cashier. Pia takes P30,000 from the register. They escape together and split the money.",
+					"q": "Is Nilo, who only stood guard, liable for the robbery as a principal?",
+					"hint": "Did they agree beforehand?",
+					"alac": [
+						"Yes. Nilo is liable as a principal.",
+						"The law provides that a conspiracy exists when two or more persons agree to commit a felony and decide to commit it. Jurisprudence provides that once conspiracy is proved, the act of one is the act of all, and each conspirator is liable as a principal regardless of the part he played.",
+						"Here, the three agreed to rob the store and divided the tasks: Nilo kept guard, Omar intimidated the cashier, and Pia took the money. They escaped together and shared the loot. Nilo's role was part of the common plan.",
+						"Therefore, Nilo is liable as a principal of robbery, like Omar and Pia."
+					],
+					"key": "In conspiracy, the extent of each one's acts does not matter. All are principals."
+				},
+				{
+					"t": "same",
+					"label": "Conspiracy shown by acts",
+					"facts": "There is no evidence that Quino, Rey, and Sam talked before the crime. Witnesses saw Quino block Toto's path, Rey grab Toto's arms from behind, and Sam stab Toto three times. All three then ran off together in the same direction. Toto died.",
+					"q": "May Quino and Rey be held liable for Toto's death even though only Sam stabbed him?",
+					"hint": "Can conspiracy be proved without direct evidence of an agreement?",
+					"alac": [
+						"Yes. Quino and Rey are liable for Toto's death as co-principals.",
+						"The law provides that conspiracy exists when two or more persons agree to commit a felony and decide to commit it. Jurisprudence provides that conspiracy need not be proved by direct evidence; it may be inferred from the acts of the accused before, during, and after the crime that show a common purpose and concerted action.",
+						"Here, Quino blocked Toto, Rey held his arms, and Sam stabbed him, each act supporting the others toward one goal. They then fled together. These acts show a common design to kill Toto, even without proof of a prior meeting.",
+						"Therefore, conspiracy is shown, and all three are liable as principals for Toto's death."
+					],
+					"key": "Implied conspiracy: look at acts before, during, and after. Concerted acts toward one goal = conspiracy."
+				},
+				{
+					"t": "twist",
+					"label": "Watching from nearby",
+					"facts": "Ursula is a friend of Vic and Wil. She is standing at a nearby store when Vic and Wil beat up Xander. She does not say or do anything to help them, and she does not leave with them. She stays and later tells the police what she saw.",
+					"q": "Is Ursula a co-conspirator of Vic and Wil?",
+					"hint": "What did she actually do?",
+					"alac": [
+						"No. Ursula is not a co-conspirator.",
+						"The law provides that conspiracy requires an agreement to commit a felony and a decision to commit it. Jurisprudence provides that mere presence at the scene, or knowledge of the crime, without any act showing agreement or cooperation, is not conspiracy.",
+						"Here, Ursula was only at a nearby store. She did nothing to help Vic and Wil, did not flee with them, and even reported what she saw to the police. Being their friend and being present are not enough.",
+						"Therefore, Ursula is not a co-conspirator and is not criminally liable."
+					],
+					"key": "TWIST: presence + friendship ≠ conspiracy. There must be an act showing she joined the plan."
+				}
+			]
+		},
+		{
+			"id": "accessory",
+			"g": 1,
+			"title": "Acts of accessories",
+			"art": "Art. 19",
+			"rule": "An accessory knows of the crime and takes part only after it, by profiting, concealing or destroying evidence, or harboring the principal (the last only for public officers abusing their office, or for specific grave crimes).",
+			"p": [
+				{
+					"t": "same",
+					"label": "Buying a stolen phone",
+					"facts": "Yuri steals a new phone worth P60,000. The next day, he offers it to Zeny for P5,000, telling her, “Ninakaw ko 'to kahapon.” Zeny buys it and uses it as her own.",
+					"q": "What is Zeny's liability under the Revised Penal Code?",
+					"hint": "Zeny was not involved in the theft. What did she do after it?",
+					"alac": [
+						"Zeny is liable as an accessory to theft.",
+						"The law provides that accessories are those who, knowing that a crime was committed, without having taken part in it as principals or accomplices, take part afterward by profiting themselves or assisting the offender to profit from the effects of the crime.",
+						"Here, Zeny did not take part in the theft. She knew the phone was stolen because Yuri told her so. She then bought it at a very low price and used it, profiting from the effects of the crime.",
+						"Therefore, Zeny is liable as an accessory to theft."
+					],
+					"key": "She may instead be charged as a FENCE under PD 1612, a separate crime with a heavier penalty. Under the RPC, she is an accessory."
+				},
+				{
+					"t": "same",
+					"label": "Helping bury the body",
+					"facts": "After Abe kills Bert in a fight, he calls his friend Caloy. Caloy, knowing what happened, helps Abe carry Bert's body into a forest and bury it so that no one will find it. Caloy was not present during the killing.",
+					"q": "What is Caloy's liability?",
+					"hint": "What did Caloy do, and why?",
+					"alac": [
+						"Caloy is liable as an accessory to homicide.",
+						"The law provides that accessories include those who, knowing of the crime and not having taken part in it, conceal or destroy the body of the crime, its effects, or instruments, to prevent its discovery.",
+						"Here, Caloy knew that Abe had killed Bert, and he did not take part in the killing. He helped bury the body in a forest so that no one would find it, which is concealing the body of the crime to prevent its discovery.",
+						"Therefore, Caloy is liable as an accessory to homicide."
+					],
+					"key": "“Body of the crime” (corpus delicti) means the fact that a crime was committed, but hiding the actual corpse qualifies."
+				},
+				{
+					"t": "twist",
+					"label": "Hiding a friend who committed homicide",
+					"facts": "Dante kills Ely in a sudden fight; the crime is homicide. Dante has no prior convictions. His friend Edwin, a private citizen and not related to him, lets Dante hide in his house for a week to avoid arrest, knowing what Dante did.",
+					"q": "Is Edwin liable as an accessory?",
+					"hint": "Harboring is punished only in specific situations. Check who Edwin is and what the crime was.",
+					"alac": [
+						"No. Edwin is not liable as an accessory.",
+						"The law provides that harboring, concealing, or assisting the escape of the principal makes one an accessory only if (1) he is a public officer who abuses his public functions, or (2) the principal is guilty of treason, parricide, murder, an attempt on the life of the Chief Executive, or is known to be habitually guilty of some other crime.",
+						"Here, Edwin is a private citizen, not a public officer. Dante's crime is homicide, which is not among the listed crimes, and Dante has no prior convictions. Neither situation applies.",
+						"Therefore, Edwin is not criminally liable as an accessory."
+					],
+					"key": "TWIST: harboring is the narrowest accessory act. Private person + homicide = not liable. Change homicide to murder and he becomes liable."
+				}
+			]
+		},
+		{
+			"id": "relatives",
+			"g": 1,
+			"title": "Relatives exempt as accessories",
+			"art": "Art. 20",
+			"rule": "Spouses, ascendants, descendants, siblings, and in-laws in the same degrees are exempt as accessories, except when they profit or help the offender profit from the crime.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Wife hides husband",
+					"facts": "Fidel kills his neighbor with treachery; the crime is murder. His wife, Gloria, knowing this, hides him in their attic for a month and lies to the police that he left for Manila.",
+					"q": "Is Gloria criminally liable as an accessory?",
+					"hint": "Murder is one of the crimes where harboring is punished. But who is Gloria?",
+					"alac": [
+						"No. Gloria is exempt from criminal liability.",
+						"The law provides that harboring or concealing a principal guilty of murder makes one an accessory. However, the law also exempts from liability as accessories the spouse, ascendants, descendants, brothers and sisters, and relatives by affinity within the same degrees, except those who profit or help the offender profit.",
+						"Here, Gloria hid Fidel, who committed murder, so her act would normally make her an accessory. But she is his wife, and she did not profit from the crime. She acted only to protect her husband.",
+						"Therefore, Gloria is exempt from criminal liability."
+					],
+					"key": "Art. 20 is based on family affection. Check (1) the relationship, then (2) whether the relative profited."
+				},
+				{
+					"t": "same",
+					"label": "Brother-in-law throws away the gun",
+					"facts": "Hugo shoots and kills a man. His wife's brother, Ivan, knowing this, takes the gun and throws it into the sea so the police will not find it.",
+					"q": "Is Ivan liable as an accessory?",
+					"hint": "Is a brother-in-law covered by the exemption?",
+					"alac": [
+						"No. Ivan is exempt from criminal liability.",
+						"The law provides that one who conceals or destroys the instruments of the crime to prevent its discovery is an accessory, but exempts relatives such as brothers and sisters and relatives by affinity within the same degrees, unless they profit from the crime.",
+						"Here, Ivan destroyed the gun to prevent discovery, which is an act of an accessory. But Ivan is Hugo's brother-in-law, a relative by affinity in the same degree as a brother. He did not profit from the crime.",
+						"Therefore, Ivan is exempt from criminal liability."
+					],
+					"key": "Relatives by affinity in the same degrees are covered: parents-in-law, children-in-law, brothers- and sisters-in-law."
+				},
+				{
+					"t": "twist",
+					"label": "Mother sells the stolen jewelry",
+					"facts": "Jun steals jewelry from his employer. He gives it to his mother, Kaye, telling her it was stolen. Kaye sells the jewelry for P80,000 and keeps P40,000 for herself.",
+					"q": "Is Kaye exempt from liability because she is Jun's mother?",
+					"hint": "Which act of an accessory did Kaye commit?",
+					"alac": [
+						"No. Kaye is not exempt and is liable as an accessory.",
+						"The law provides that ascendants are exempt from liability as accessories, except those who profit themselves or assist the offender to profit by the effects of the crime.",
+						"Here, Kaye knew the jewelry was stolen. She sold it and kept part of the money, which is profiting from the effects of the crime. This act is not covered by the exemption, even though she is Jun's mother.",
+						"Therefore, Kaye is liable as an accessory to theft."
+					],
+					"key": "TWIST: the exemption protects affection, not greed. A relative who PROFITS is liable."
+				}
+			]
+		},
+		{
+			"id": "retro",
+			"g": 2,
+			"title": "Retroactive effect of penal laws",
+			"art": "Art. 22",
+			"rule": "A penal law favorable to the accused applies retroactively, even after final judgment, unless the accused is a habitual criminal.",
+			"p": [
+				{
+					"t": "same",
+					"label": "New law raises value brackets",
+					"facts": "Lito was convicted with finality of theft and is serving his sentence. A new law later raises the property values used to fix the penalty for theft. Under the new law, the value of what Lito stole now carries a lower penalty. Lito is not a habitual delinquent.",
+					"q": "May Lito benefit from the new law even though his conviction is already final?",
+					"hint": "Does finality of judgment stop a favorable law from applying?",
+					"alac": [
+						"Yes. Lito may benefit from the new law.",
+						"The law provides that penal laws shall have a retroactive effect insofar as they favor the person guilty of a felony, who is not a habitual criminal, even if final sentence has been pronounced and the convict is serving it.",
+						"Here, the new law lowers the penalty for the value of what Lito stole, so it favors him. Lito is not a habitual delinquent. The fact that his conviction is final and he is serving sentence does not matter.",
+						"Therefore, Lito is entitled to have the lower penalty applied to him."
+					],
+					"key": "Retroactivity reaches even final judgments. Only two things block it: the law is unfavorable, or the convict is a habitual criminal."
+				},
+				{
+					"t": "same",
+					"label": "The crime is repealed",
+					"facts": "Mila is on trial for a crime under the Revised Penal Code. While her case is pending, Congress passes a law that completely repeals the article punishing her act, without any saving clause.",
+					"q": "What happens to Mila's case?",
+					"hint": "What is more favorable than a lower penalty?",
+					"alac": [
+						"Mila's case must be dismissed.",
+						"The law provides that penal laws favorable to the accused have retroactive effect. Jurisprudence provides that when a law absolutely repeals a crime without a saving clause, the act is no longer punishable, and pending cases must be dismissed.",
+						"Here, the law punishing Mila's act was completely repealed while her case was pending, and there is no saving clause. The repeal is the most favorable change possible for her.",
+						"Therefore, Mila can no longer be convicted, and her case must be dismissed."
+					],
+					"key": "Absolute repeal = decriminalization = dismissal, unless the repealing law has a saving clause."
+				},
+				{
+					"t": "twist",
+					"label": "Habitual delinquent wants the new law",
+					"facts": "Nestor has been convicted of theft three times within ten years and has been declared a habitual delinquent. A new law lowers the penalty for theft of the value involved in his latest case. He asks the court to apply the new, lower penalty.",
+					"q": "Is Nestor entitled to the lower penalty?",
+					"hint": "Who is excluded from the benefit of a favorable law?",
+					"alac": [
+						"No. Nestor is not entitled to the lower penalty.",
+						"The law provides that penal laws favorable to the accused have retroactive effect, but only for a person who is not a habitual criminal.",
+						"Here, Nestor has been declared a habitual delinquent after three theft convictions within ten years. The law expressly excludes habitual criminals from the benefit of retroactivity, even if the new law is favorable.",
+						"Therefore, Nestor cannot benefit from the new law."
+					],
+					"key": "TWIST: the only person-based exception to retroactivity is the habitual criminal (Art. 62, par. 5)."
+				}
+			]
+		},
+		{
+			"id": "preventive",
+			"g": 2,
+			"title": "Credit for preventive imprisonment",
+			"art": "Art. 29",
+			"rule": "A detainee gets full credit if he agrees in writing to follow prison rules, four-fifths if not; recidivists, habitual delinquents, escapees, those charged with heinous crimes, and those who failed to surrender are excluded.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Agreed in writing",
+					"facts": "Omar was detained for 2 years while his case was being tried. On the first day of detention, he agreed in writing, with his lawyer's help, to follow the same disciplinary rules as convicted prisoners. He is convicted and sentenced to 6 years. He is not a recidivist and was not charged with a heinous crime.",
+					"q": "How much of his preventive imprisonment will be credited?",
+					"hint": "Full or four-fifths?",
+					"alac": [
+						"Omar is entitled to full credit of 2 years.",
+						"The law provides that offenders who have undergone preventive imprisonment shall be credited with the full time of their detention if they agree voluntarily in writing, with the assistance of counsel, to abide by the disciplinary rules imposed on convicted prisoners, unless they are excluded by law.",
+						"Here, Omar agreed in writing, with his lawyer, to follow the rules for convicted prisoners. He is not a recidivist and was not charged with a heinous crime, so he is not excluded.",
+						"Therefore, the full 2 years will be credited, and he has 4 years left to serve."
+					],
+					"key": "Full credit needs a WRITTEN agreement with COUNSEL to follow the rules for convicted prisoners."
+				},
+				{
+					"t": "same",
+					"label": "Did not agree",
+					"facts": "Pedro was detained for 2 years during trial. He refused to sign any agreement to follow the disciplinary rules for convicted prisoners. He is convicted and sentenced to 6 years. He is not excluded by law from the credit.",
+					"q": "How much of his preventive imprisonment will be credited?",
+					"hint": "What fraction applies when he does not agree?",
+					"alac": [
+						"Pedro is entitled to four-fifths of 2 years, or 1 year, 7 months, and 6 days.",
+						"The law provides that a detainee who does not agree to abide by the disciplinary rules for convicted prisoners shall be credited with four-fifths of the time of his preventive imprisonment.",
+						"Here, Pedro refused to agree to follow the rules. His detention was 2 years, or 24 months. Four-fifths of 24 months is 19.2 months, which is 1 year, 7 months, and 6 days.",
+						"Therefore, he is credited with 1 year, 7 months, and 6 days."
+					],
+					"key": "No agreement = 4/5, not zero. Compute in months: months × 0.8."
+				},
+				{
+					"t": "twist",
+					"label": "Recidivist detainee",
+					"facts": "Quintin was detained for 2 years while being tried for theft. He signed the written agreement with counsel to follow the prison rules. He is convicted. He had a prior final conviction for estafa, a crime in the same title of the Code as theft.",
+					"q": "Is Quintin entitled to credit for his preventive imprisonment?",
+					"hint": "Check the list of persons excluded from the credit.",
+					"alac": [
+						"No. Quintin is not entitled to the credit.",
+						"The law provides credit for preventive imprisonment, but excludes recidivists, those previously convicted twice or more of any crime, habitual delinquents, escapees, persons charged with heinous crimes, and those who fail to surrender voluntarily when summoned to serve their sentence.",
+						"Here, Quintin has a prior final conviction for estafa, which is in the same title as theft, so he is a recidivist. Being a recidivist excludes him, even though he signed the agreement.",
+						"Therefore, Quintin gets no credit for his preventive imprisonment."
+					],
+					"key": "TWIST: signing the agreement does not help if he falls under an exclusion. Check the exclusions first."
+				}
+			]
+		},
+		{
+			"id": "subsidiary",
+			"g": 2,
+			"title": "Subsidiary imprisonment",
+			"art": "Art. 39",
+			"rule": "An insolvent convict serves subsidiary imprisonment for the unpaid fine: up to one-third of the term (max 1 year) with imprisonment, 6 months for a fine-only grave or less grave felony, 15 days for a light felony, and none if the penalty is higher than prision correccional.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Arresto mayor plus fine",
+					"facts": "Rosa is sentenced to 4 months of arresto mayor and a fine. She has no property and cannot pay the fine.",
+					"q": "What is the maximum subsidiary imprisonment Rosa may serve?",
+					"hint": "With a prison term, the limit is a fraction of that term.",
+					"alac": [
+						"Rosa may serve at most 1 month and 10 days of subsidiary imprisonment.",
+						"The law provides that when the principal penalty is imprisonment and a fine, the subsidiary imprisonment for an insolvent convict shall not exceed one-third of the term of the sentence, and in no case more than one year.",
+						"Here, Rosa's prison term is 4 months, and she cannot pay the fine. One-third of 4 months is 1 month and 10 days, which is below the one-year limit.",
+						"Therefore, her subsidiary imprisonment cannot exceed 1 month and 10 days."
+					],
+					"key": "Two caps: one-third of the term AND never more than one year. Apply whichever is lower."
+				},
+				{
+					"t": "same",
+					"label": "Fine only, light felony",
+					"facts": "Sonny is convicted of a light felony and sentenced to pay a fine only. He cannot pay.",
+					"q": "What is the maximum subsidiary imprisonment he may serve?",
+					"hint": "Fine only: is the felony grave, less grave, or light?",
+					"alac": [
+						"Sonny may serve at most 15 days of subsidiary imprisonment.",
+						"The law provides that when the principal penalty is a fine only, the subsidiary imprisonment shall not exceed six months if the culprit is prosecuted for a grave or less grave felony, and shall not exceed fifteen days if prosecuted for a light felony.",
+						"Here, Sonny is sentenced to a fine only, and his crime is a light felony. He cannot pay the fine.",
+						"Therefore, his subsidiary imprisonment cannot exceed 15 days."
+					],
+					"key": "Fine only: 6 months (grave or less grave) or 15 days (light)."
+				},
+				{
+					"t": "twist",
+					"label": "Prision mayor plus fine",
+					"facts": "Tina is sentenced to 8 years of prision mayor and a fine, plus civil indemnity to the victim. She is insolvent. The prosecutor asks that she serve subsidiary imprisonment for the unpaid fine and indemnity.",
+					"q": "Should subsidiary imprisonment be imposed?",
+					"hint": "Is there a penalty level above which there is no subsidiary imprisonment? And does it cover civil indemnity?",
+					"alac": [
+						"No. Subsidiary imprisonment should not be imposed.",
+						"The law provides that subsidiary imprisonment shall not be imposed when the principal penalty is higher than prision correccional. It also applies only to the fine, not to reparation, indemnity, or costs.",
+						"Here, Tina's principal penalty is prision mayor, which is higher than prision correccional. Also, the civil indemnity is not a fine, so it can never be the basis of subsidiary imprisonment.",
+						"Therefore, Tina will not serve subsidiary imprisonment for either the fine or the indemnity."
+					],
+					"key": "TWIST: above prision correccional → no subsidiary imprisonment. And civil indemnity NEVER carries it."
+				}
+			]
+		},
+		{
+			"id": "complex",
+			"g": 3,
+			"title": "Complex crimes",
+			"art": "Art. 48",
+			"rule": "When a single act produces two or more grave or less grave felonies, or one offense is a necessary means to commit another, only the penalty for the most serious crime is imposed, in its maximum period.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Grenade into a room",
+					"facts": "Uly throws a hand grenade into a small room where three of his enemies are drinking. The explosion kills all three. Uly threw only one grenade.",
+					"q": "How many crimes did Uly commit, and what penalty applies?",
+					"hint": "Count the acts, not the victims.",
+					"alac": [
+						"Uly committed one complex (compound) crime of multiple homicide, punished by the penalty for the most serious crime in its maximum period.",
+						"The law provides that when a single act constitutes two or more grave or less grave felonies, the penalty for the most serious crime shall be imposed, in its maximum period.",
+						"Here, Uly performed only one act: throwing a single grenade. That one act caused three deaths, each a grave felony. This is a compound crime, not three separate crimes.",
+						"Therefore, Uly is liable for a complex crime of multiple homicide, and the penalty for homicide is imposed in its maximum period."
+					],
+					"key": "One act, many grave or less grave felonies = compound crime. The penalty is still ONE, in its maximum period."
+				},
+				{
+					"t": "same",
+					"label": "Falsification to hide malversation",
+					"facts": "Vilma, a municipal treasurer, alters official receipts to show that smaller amounts were collected. She then pockets the difference, totaling P500,000. The falsification was how she was able to take the money.",
+					"q": "What crime or crimes did Vilma commit?",
+					"hint": "Was one offense used as a means to commit the other?",
+					"alac": [
+						"Vilma committed the complex crime of malversation through falsification of public documents.",
+						"The law provides that when an offense is a necessary means for committing another, the penalty for the more serious crime shall be imposed, in its maximum period. Jurisprudence provides that the offenses must be punished under the same statute and that one must be a necessary means for the other.",
+						"Here, Vilma falsified official receipts, which are public documents, as her means of taking public funds. Both falsification and malversation are punished under the Revised Penal Code. The falsification was the means to commit the malversation.",
+						"Therefore, Vilma is liable for a complex crime, and the penalty for the more serious crime is imposed in its maximum period."
+					],
+					"key": "Complex crime proper: offense A is the MEANS to commit offense B, both under the RPC."
+				},
+				{
+					"t": "twist",
+					"label": "Three separate shots",
+					"facts": "Waldo, armed with a pistol, fires one shot at Ana, then turns and fires one shot at Ben, then a third shot at Cora. Each shot is aimed at a different person and kills that person.",
+					"q": "Is Waldo liable for a complex crime of multiple homicide?",
+					"hint": "How many acts did he perform?",
+					"alac": [
+						"No. Waldo is liable for three separate crimes of homicide.",
+						"The law provides for a complex crime only when a single act produces two or more grave or less grave felonies, or when one offense is a necessary means for another. Jurisprudence provides that when each death results from a separate act, there are as many crimes as there are acts.",
+						"Here, Waldo fired three separate shots, each aimed at and killing a different person. Each shot was a distinct act. No single act caused all three deaths, and no killing was a means to commit another.",
+						"Therefore, Waldo is liable for three separate homicides, each with its own penalty."
+					],
+					"key": "TWIST: separate acts = separate crimes. Do not count victims; count acts. (Contrast the single grenade.)"
+				}
+			]
+		},
+		{
+			"id": "error",
+			"g": 3,
+			"title": "Crime different from that intended",
+			"art": "Art. 49",
+			"rule": "When the crime committed differs from the one intended (error in personae), the lesser of the two penalties is imposed in its maximum period; if the penalties are the same, there is no effect.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Meant to kill his father",
+					"facts": "Xavier plans to kill his father. In the dark, he stabs a man he believes is his father. The man turns out to be a stranger, who dies.",
+					"q": "What penalty should be imposed on Xavier?",
+					"hint": "Compare the penalty for parricide (intended) and homicide (committed).",
+					"alac": [
+						"The penalty for homicide, in its maximum period.",
+						"The law provides that if the penalty for the felony committed is lower than that for the felony intended, the penalty for the felony committed shall be imposed, in its maximum period.",
+						"Here, Xavier intended to commit parricide, which carries reclusion perpetua. Because of his mistake, he committed homicide, which carries reclusion temporal, a lower penalty.",
+						"Therefore, Xavier is liable for homicide, punished by reclusion temporal in its maximum period."
+					],
+					"key": "Art. 49 always gives the LOWER of the two penalties, but in its MAXIMUM period."
+				},
+				{
+					"t": "same",
+					"label": "Meant to kill a stranger",
+					"facts": "Yolly plans to kill a stranger who insulted her. In the dark, she stabs a woman she believes is the stranger. The woman turns out to be Yolly's own mother, who dies.",
+					"q": "What penalty should be imposed on Yolly?",
+					"hint": "Now the committed crime has the higher penalty.",
+					"alac": [
+						"The penalty for homicide, in its maximum period.",
+						"The law provides that if the penalty for the felony committed is higher than that for the offense the accused intended to commit, the penalty for the intended offense shall be imposed, in its maximum period.",
+						"Here, Yolly intended to commit homicide, which carries reclusion temporal. Because of her mistake, she killed her mother, which is parricide, with the higher penalty of reclusion perpetua.",
+						"Therefore, the penalty for homicide, reclusion temporal, is imposed in its maximum period."
+					],
+					"key": "Whichever way the mistake goes, the result is the lower penalty, in its maximum period."
+				},
+				{
+					"t": "twist",
+					"label": "Two strangers",
+					"facts": "Zaldy aims to kill Abner, a stranger. In the dark, he stabs Bong, another stranger he mistook for Abner. Bong dies.",
+					"q": "Does Zaldy's mistake affect his penalty?",
+					"hint": "Compare the intended and committed crimes.",
+					"alac": [
+						"No. Zaldy's mistake has no effect on his penalty.",
+						"The law provides that the special rule on penalties for a crime different from that intended applies only when the felony committed is different from that intended. Jurisprudence provides that when the intended and committed crimes carry the same penalty, error in personae does not change the liability.",
+						"Here, Zaldy intended to kill Abner and actually killed Bong. Both are homicide, with the same penalty. His mistake in the identity of the victim does not change the crime or the penalty.",
+						"Therefore, Zaldy is liable for homicide, with the penalty applied normally."
+					],
+					"key": "TWIST: same crime, same penalty → Art. 49 does nothing. It matters only when the crimes differ (e.g., homicide vs. parricide)."
+				}
+			]
+		},
+		{
+			"id": "degrees",
+			"g": 3,
+			"title": "Penalties by stage and participation",
+			"art": "Arts. 50–57",
+			"rule": "Principals get the prescribed penalty (consummated), one degree lower (frustrated), or two lower (attempted); accomplices one more degree lower, accessories two more; accessories are never liable for light felonies.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Accomplice to homicide",
+					"facts": "Carmen, knowing Dodong's plan to kill Ely, lends him a flashlight to find Ely's house at night. Dodong kills Ely. Carmen's help was useful but not necessary. Homicide is punished by reclusion temporal.",
+					"q": "What penalty should be imposed on Carmen?",
+					"hint": "Find Carmen's role, then count degrees in Scale No. 1.",
+					"alac": [
+						"Prision mayor.",
+						"The law provides that the penalty next lower in degree than that prescribed for the consummated felony shall be imposed upon the accomplices.",
+						"Here, Carmen knew of the plan and helped with an act that was not necessary, so she is an accomplice. The homicide was consummated, and its penalty is reclusion temporal. One degree lower in the graduated scale is prision mayor.",
+						"Therefore, Carmen's penalty is prision mayor, in the period fixed by the circumstances."
+					],
+					"key": "Scale No. 1: RP → RT → PM → PC → arresto mayor → destierro → arresto menor. Accomplice to consummated = 1 step down."
+				},
+				{
+					"t": "same",
+					"label": "Attempted homicide",
+					"facts": "Efren stabs Fred intending to kill him, but misses Fred's vital organs because Fred dodges and runs away. The wound is not fatal and would not have been even without treatment. Efren did not perform all the acts of execution.",
+					"q": "What penalty should be imposed on Efren as principal?",
+					"hint": "Which stage is this, and how many degrees down?",
+					"alac": [
+						"Prision correccional.",
+						"The law provides that the penalty lower by two degrees than that prescribed for the consummated felony shall be imposed upon the principal in an attempted felony.",
+						"Here, Efren did not perform all the acts of execution because Fred dodged and ran away, so the homicide is only attempted. Homicide is punished by reclusion temporal. Two degrees lower is prision correccional.",
+						"Therefore, Efren's penalty is prision correccional, in the proper period."
+					],
+					"key": "Principal: attempted = 2 degrees down. Frustrated would be 1 degree down (prision mayor)."
+				},
+				{
+					"t": "twist",
+					"label": "Accessory to a light felony",
+					"facts": "Gerry slaps and punches Henry, causing slight physical injuries that heal in five days; the crime is a light felony. Gerry's friend Iggy, who was not involved, hides Gerry's bloody shirt to keep it from the police.",
+					"q": "Is Iggy liable as an accessory?",
+					"hint": "Who is liable for light felonies?",
+					"alac": [
+						"No. Iggy is not liable.",
+						"The law provides that only principals and accomplices are liable for light felonies. Accessories are not liable for light felonies.",
+						"Here, Gerry's crime is slight physical injuries, a light felony. Iggy's act of hiding the shirt would make him an accessory in a grave or less grave felony, but not in a light felony.",
+						"Therefore, Iggy is not criminally liable."
+					],
+					"key": "TWIST: before counting degrees, check if the accessory can be liable at all. Light felony = no accessory liability."
+				}
+			]
+		},
+		{
+			"id": "art64",
+			"g": 3,
+			"title": "Mitigating and aggravating circumstances",
+			"art": "Art. 64",
+			"rule": "For divisible penalties: none → medium; one mitigating → minimum; one aggravating → maximum; both → offset; two or more mitigating with no aggravating → penalty next lower in degree.",
+			"p": [
+				{
+					"t": "same",
+					"label": "One mitigating",
+					"facts": "Jose is convicted of homicide, punished by reclusion temporal (12 years and 1 day to 20 years). He voluntarily surrendered, which is mitigating. There is no aggravating circumstance.",
+					"q": "In what period should the penalty be imposed?",
+					"hint": "One mitigating, no aggravating.",
+					"alac": [
+						"In the minimum period: 12 years and 1 day to 14 years and 8 months.",
+						"The law provides that when only a mitigating circumstance is present in the commission of the act, the penalty prescribed by law shall be imposed in its minimum period.",
+						"Here, the penalty for homicide is reclusion temporal. Jose has one mitigating circumstance, voluntary surrender, and no aggravating circumstance. The minimum period of reclusion temporal is 12 years and 1 day to 14 years and 8 months.",
+						"Therefore, the penalty is reclusion temporal in its minimum period."
+					],
+					"key": "Ordinary mitigating moves the PERIOD, not the degree."
+				},
+				{
+					"t": "same",
+					"label": "One of each",
+					"facts": "Karl is convicted of homicide, punished by reclusion temporal. He voluntarily surrendered (mitigating), but committed the crime at night, which was purposely sought (aggravating).",
+					"q": "In what period should the penalty be imposed?",
+					"hint": "What happens when both kinds are present?",
+					"alac": [
+						"In the medium period: 14 years, 8 months, and 1 day to 17 years and 4 months.",
+						"The law provides that when there are both mitigating and aggravating circumstances, the court shall offset them according to their relative weight. If nothing remains, the penalty is imposed in its medium period.",
+						"Here, Karl has one mitigating circumstance (voluntary surrender) and one aggravating circumstance (nighttime). They offset each other, leaving no circumstance.",
+						"Therefore, the penalty is reclusion temporal in its medium period."
+					],
+					"key": "Offsetting is one-for-one. After offsetting, apply the rule for what is left."
+				},
+				{
+					"t": "twist",
+					"label": "Two mitigating, no aggravating",
+					"facts": "Lino is convicted of homicide, punished by reclusion temporal. He voluntarily surrendered and pleaded guilty before the prosecution presented evidence. Both are mitigating. There is no aggravating circumstance.",
+					"q": "What penalty should be imposed?",
+					"hint": "This is no longer about the period.",
+					"alac": [
+						"Prision mayor, in the period the court finds proper.",
+						"The law provides that when there are two or more mitigating circumstances and no aggravating circumstance, the court shall impose the penalty next lower to that prescribed by law, in the period it may deem applicable, according to the number and nature of the circumstances.",
+						"Here, Lino has two mitigating circumstances, voluntary surrender and plea of guilty, and no aggravating circumstance. The penalty prescribed is reclusion temporal, so the penalty next lower is prision mayor.",
+						"Therefore, the penalty is prision mayor, in the period the court deems applicable."
+					],
+					"key": "TWIST: two or more mitigating + zero aggravating = one DEGREE lower (privileged). A single aggravating would cancel this effect."
+				}
+			]
+		},
+		{
+			"id": "habitual",
+			"g": 3,
+			"title": "Habitual delinquency",
+			"art": "Art. 62(5)",
+			"rule": "A person found guilty a third time or oftener of serious or less serious physical injuries, robbery, theft, estafa, or falsification, within 10 years from his last release or conviction, is a habitual delinquent and gets an additional penalty.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Theft, estafa, robbery",
+					"facts": "Mario was convicted of theft in 2015 and released in 2016. He was convicted of estafa in 2019 and released in 2020. In 2026, he is convicted of robbery.",
+					"q": "Is Mario a habitual delinquent? If so, what additional penalty applies?",
+					"hint": "Check the crimes, the count, and the 10-year window.",
+					"alac": [
+						"Yes. Mario is a habitual delinquent and should get the additional penalty of prision correccional in its medium and maximum periods.",
+						"The law provides that a person is a habitual delinquent if, within ten years from his release or last conviction of serious or less serious physical injuries, robbery, theft, estafa, or falsification, he is found guilty of any of these crimes a third time or oftener. On the third conviction, an additional penalty of prision correccional in its medium and maximum periods is imposed.",
+						"Here, theft, estafa, and robbery are all listed crimes. The robbery conviction in 2026 is his third, and it came within ten years from his release in 2020 and his conviction in 2019.",
+						"Therefore, Mario is a habitual delinquent and must also suffer the additional penalty."
+					],
+					"key": "Three checks: (1) listed crimes only; (2) third time or more; (3) each within 10 years of the last release or conviction."
+				},
+				{
+					"t": "same",
+					"label": "Asks for an indeterminate sentence",
+					"facts": "Nora is declared a habitual delinquent after her fourth estafa conviction within ten years. Her penalty for the latest estafa is prision mayor. Her lawyer asks the court to give her an indeterminate sentence so she can be paroled.",
+					"q": "Is Nora entitled to an indeterminate sentence?",
+					"hint": "Who is excluded from the Indeterminate Sentence Law?",
+					"alac": [
+						"No. Nora is not entitled to an indeterminate sentence.",
+						"The law provides that the Indeterminate Sentence Law shall not apply to habitual delinquents, among others.",
+						"Here, Nora has been declared a habitual delinquent after four estafa convictions within ten years. As a habitual delinquent, she falls under the exclusions of the law.",
+						"Therefore, the court must impose a straight penalty plus the additional penalty for habitual delinquency, without an indeterminate sentence."
+					],
+					"key": "Habitual delinquency shuts out the ISLaw and Art. 22 retroactivity. Remember both effects."
+				},
+				{
+					"t": "twist",
+					"label": "Third conviction is homicide",
+					"facts": "Oca was convicted of theft in 2016 and of robbery in 2020. In 2025, he is convicted of homicide. All three convictions are within ten years of each other.",
+					"q": "Is Oca a habitual delinquent?",
+					"hint": "Check the list of crimes.",
+					"alac": [
+						"No. Oca is not a habitual delinquent.",
+						"The law provides that habitual delinquency covers only the crimes of serious or less serious physical injuries, robbery, theft, estafa, and falsification, committed a third time or oftener within the ten-year period.",
+						"Here, theft and robbery are listed crimes, but homicide is not. Oca has only two convictions for listed crimes, not three.",
+						"Therefore, Oca is not a habitual delinquent, and no additional penalty is imposed."
+					],
+					"key": "TWIST: the third conviction must also be a listed crime. Homicide, murder, rape, or drug offenses do not count."
+				}
+			]
+		},
+		{
+			"id": "threefold",
+			"g": 3,
+			"title": "Three-fold rule",
+			"art": "Art. 70",
+			"rule": "When a convict has several penalties that cannot be served at the same time, he serves at most three times the most severe penalty, never more than 40 years.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Five sentences of six years",
+					"facts": "Pablo is convicted of five separate estafa cases. He is sentenced to 6 years in each case, a total of 30 years.",
+					"q": "How many years will Pablo actually serve?",
+					"hint": "Find the most severe penalty and multiply.",
+					"alac": [
+						"Pablo will serve 18 years.",
+						"The law provides that the maximum duration of the convict's sentence shall not be more than three times the length of time corresponding to the most severe of the penalties imposed, and in no case shall it exceed forty years.",
+						"Here, the most severe penalty is 6 years. Three times 6 years is 18 years, which is less than his total of 30 years and less than 40 years.",
+						"Therefore, Pablo will serve only 18 years."
+					],
+					"key": "Compare three numbers: the total of all sentences, 3 × the most severe, and 40. He serves the lowest."
+				},
+				{
+					"t": "same",
+					"label": "The 40-year cap",
+					"facts": "Queenie is convicted of several crimes. Her most severe sentence is 20 years, and her sentences add up to 75 years.",
+					"q": "How many years will Queenie actually serve?",
+					"hint": "Three times the most severe is how much? Is there a ceiling?",
+					"alac": [
+						"Queenie will serve 40 years.",
+						"The law provides that the maximum duration of the sentence shall not be more than three times the most severe penalty imposed, and in no case shall it exceed forty years.",
+						"Here, three times her most severe sentence of 20 years is 60 years, which is less than her total of 75 years. But the law sets an absolute limit of 40 years.",
+						"Therefore, Queenie will serve 40 years."
+					],
+					"key": "The 40-year cap wins over the three-fold result when that result is higher."
+				},
+				{
+					"t": "twist",
+					"label": "Total is already lower",
+					"facts": "Rafael is sentenced to 2 years, 1 year, and 6 months in three separate cases. The total is 3 years and 6 months. He asks the court to apply the three-fold rule.",
+					"q": "Does the three-fold rule change the time he serves?",
+					"hint": "Is the rule meant to increase anything?",
+					"alac": [
+						"No. Rafael serves the total of 3 years and 6 months.",
+						"The law provides that the maximum duration of the sentence shall not be more than three times the most severe penalty, and in no case more than forty years. Jurisprudence provides that the rule only limits service; it applies only when the total of the penalties exceeds three times the most severe.",
+						"Here, three times his most severe sentence of 2 years is 6 years. His total of 3 years and 6 months is already lower than 6 years.",
+						"Therefore, the three-fold rule does not apply, and he serves 3 years and 6 months."
+					],
+					"key": "TWIST: the three-fold rule is a ceiling, not a formula. If the total is lower, he serves the total."
+				}
+			]
+		},
+		{
+			"id": "isl",
+			"g": 3,
+			"title": "Indeterminate Sentence Law",
+			"art": "Act 4103",
+			"rule": "For RPC crimes, the maximum term is the penalty properly imposed after considering all circumstances, and the minimum is within the penalty one degree lower than that prescribed; for special laws, the terms stay within the law's range; the law does not apply when the maximum term is one year or less, among other exclusions.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Homicide with one mitigating",
+					"facts": "Sandro is convicted of homicide, punished by reclusion temporal. He voluntarily surrendered, and there is no aggravating circumstance. He is not excluded from the Indeterminate Sentence Law.",
+					"q": "Give a proper indeterminate sentence.",
+					"hint": "Maximum: apply Art. 64. Minimum: one degree lower, any period.",
+					"alac": [
+						"For example: 8 years and 1 day of prision mayor, as minimum, to 14 years and 8 months of reclusion temporal, as maximum.",
+						"The law provides that for crimes under the Revised Penal Code, the maximum term is the penalty that may be properly imposed under the Code's rules, and the minimum term is within the range of the penalty next lower to that prescribed by the Code for the offense.",
+						"Here, homicide carries reclusion temporal. With one mitigating and no aggravating circumstance, the maximum term falls within its minimum period, 12 years and 1 day to 14 years and 8 months. The penalty next lower is prision mayor, 6 years and 1 day to 12 years, and the minimum term may be anywhere within it.",
+						"Therefore, a proper sentence is 8 years and 1 day of prision mayor, as minimum, to 14 years and 8 months of reclusion temporal, as maximum."
+					],
+					"key": "Circumstances affect only the MAXIMUM. The MINIMUM can be anywhere in the next lower penalty."
+				},
+				{
+					"t": "same",
+					"label": "Special law: 6 to 12 years",
+					"facts": "Teresa is convicted under a special law that punishes the offense with imprisonment of 6 to 12 years. The law does not use RPC penalty names.",
+					"q": "How should the indeterminate sentence be fixed?",
+					"hint": "For special laws, what are the limits of the minimum and maximum?",
+					"alac": [
+						"The maximum must not exceed 12 years, and the minimum must not be less than 6 years; for example, 6 years, as minimum, to 8 years, as maximum.",
+						"The law provides that for offenses punished by special laws, the court shall sentence the accused to an indeterminate sentence whose maximum shall not exceed the maximum fixed by that law and whose minimum shall not be less than the minimum prescribed by it.",
+						"Here, the special law punishes the offense with 6 to 12 years. So the maximum term cannot go above 12 years, and the minimum term cannot go below 6 years.",
+						"Therefore, a proper sentence is, for example, 6 years, as minimum, to 8 years, as maximum."
+					],
+					"key": "Special laws: no “one degree lower” rule. Both terms stay inside the law's own range."
+				},
+				{
+					"t": "twist",
+					"label": "Four months of arresto mayor",
+					"facts": "Ursula is convicted of a crime and the proper penalty, after considering all circumstances, is 4 months of arresto mayor. Her lawyer asks for an indeterminate sentence.",
+					"q": "Should the court impose an indeterminate sentence?",
+					"hint": "Check the exclusions based on the length of the maximum term.",
+					"alac": [
+						"No. The court should impose a straight penalty of 4 months.",
+						"The law provides that the Indeterminate Sentence Law shall not apply when the maximum term of imprisonment does not exceed one year.",
+						"Here, Ursula's penalty is 4 months of arresto mayor, which does not exceed one year.",
+						"Therefore, the Indeterminate Sentence Law does not apply, and the court should impose a straight penalty of 4 months."
+					],
+					"key": "TWIST: one year or less → straight penalty. Also excluded: reclusion perpetua, habitual delinquents, escapees, and others."
+				}
+			]
+		},
+		{
+			"id": "probation",
+			"g": 3,
+			"title": "Probation",
+			"art": "PD 968 (RA 10707)",
+			"rule": "An offender whose maximum term does not exceed 6 years may apply for probation within the period to appeal; filing an appeal bars probation, except when a non-probationable penalty is reduced on appeal to a probationable one.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Maximum of exactly 6 years",
+					"facts": "Vince is sentenced to 2 years, 4 months, and 1 day, as minimum, to 6 years, as maximum. He has no prior conviction and has never been on probation. Five days after the judgment, he files an application for probation with the trial court, without appealing.",
+					"q": "Is Vince qualified to apply for probation?",
+					"hint": "The limit is “more than” 6 years.",
+					"alac": [
+						"Yes. Vince is qualified to apply for probation.",
+						"The law provides that offenders sentenced to a maximum term of imprisonment of more than six years are disqualified from probation, and that the application must be filed with the trial court within the period for perfecting an appeal.",
+						"Here, Vince's maximum term is exactly 6 years, not more than 6 years. He has no prior conviction and was never on probation. He applied within the appeal period and did not appeal.",
+						"Therefore, Vince is qualified to apply for probation, subject to the court's evaluation."
+					],
+					"key": "The disqualification is MORE than 6 years. Exactly 6 years is still probationable. Look at the MAXIMUM term."
+				},
+				{
+					"t": "same",
+					"label": "Appeal first, probation later",
+					"facts": "Wena is sentenced to a maximum term of 4 years. She appeals to the Court of Appeals, which affirms her conviction and the same penalty. She then applies for probation.",
+					"q": "May Wena still be granted probation?",
+					"hint": "What is the effect of perfecting an appeal?",
+					"alac": [
+						"No. Wena can no longer be granted probation.",
+						"The law provides that no application for probation shall be granted if the defendant has perfected an appeal from the judgment of conviction, and that filing an application for probation is a waiver of the right to appeal.",
+						"Here, Wena chose to appeal her conviction, and the Court of Appeals affirmed the same probationable penalty. Her penalty was probationable from the start, so she should have applied instead of appealing.",
+						"Therefore, Wena's application must be denied."
+					],
+					"key": "Probation and appeal are alternatives. If the original penalty was probationable and she appealed, probation is lost."
+				},
+				{
+					"t": "twist",
+					"label": "Penalty reduced on appeal",
+					"facts": "Xyza is convicted of frustrated homicide and sentenced to a maximum of 10 years, which is not probationable. She appeals. The Court of Appeals finds her guilty only of attempted homicide and reduces the maximum term to 4 years. Before the decision becomes final, she applies for probation without seeking further review.",
+					"q": "May Xyza apply for probation?",
+					"hint": "Was the original penalty probationable?",
+					"alac": [
+						"Yes. Xyza may apply for probation.",
+						"The law provides that when a judgment of conviction imposing a non-probationable penalty is appealed and modified to impose a probationable penalty, the defendant may apply for probation based on the modified decision before it becomes final, provided she does not seek further review of it.",
+						"Here, Xyza's original 10-year maximum was not probationable, so she could not have applied for probation then. The Court of Appeals reduced her maximum term to 4 years, which is probationable. She applied before finality and did not seek further review.",
+						"Therefore, Xyza may apply for probation."
+					],
+					"key": "TWIST: the appeal bar does not apply when the ORIGINAL penalty was non-probationable and the appellate court made it probationable."
+				}
+			]
+		},
+		{
+			"id": "death",
+			"g": 4,
+			"title": "Death of the accused",
+			"art": "Art. 89(1)",
+			"rule": "Death before final judgment extinguishes criminal liability and the civil liability based solely on the crime; civil liability from other sources survives; death after final judgment ends personal penalties, but pecuniary liabilities may still be collected from the estate.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Dies while appeal is pending",
+					"facts": "Yael is convicted of homicide and ordered to pay P100,000 in civil indemnity to the victim's heirs. While his appeal is pending in the Court of Appeals, he dies of a heart attack. The heirs ask the court to make Yael's estate pay the indemnity.",
+					"q": "Can the civil indemnity still be collected in the criminal case?",
+					"hint": "Was the judgment already final when he died?",
+					"alac": [
+						"No. The civil indemnity can no longer be collected in the criminal case.",
+						"The law provides that criminal liability is totally extinguished by the death of the convict, and that pecuniary liabilities are extinguished when death occurs before final judgment. Jurisprudence provides that death pending appeal extinguishes both the criminal liability and the civil liability based solely on the crime.",
+						"Here, Yael died while his appeal was pending, so there was no final judgment yet. The indemnity was based only on the crime of homicide.",
+						"Therefore, the criminal case and the civil liability arising from it are extinguished. The heirs may file a separate civil action only if they have a claim based on another source, such as a quasi-delict."
+					],
+					"key": "Death BEFORE final judgment: criminal + civil ex delicto are gone. Civil liability from other sources survives in a separate action."
+				},
+				{
+					"t": "same",
+					"label": "Dies before arraignment",
+					"facts": "An information for estafa is filed against Zandro for failing to return P500,000 that Anton entrusted to him under a written agreement. Before arraignment, Zandro dies. Anton asks the court to continue the case against Zandro's estate to recover the money.",
+					"q": "May the criminal case continue against the estate? What can Anton do?",
+					"hint": "Separate the criminal case from the source of the obligation.",
+					"alac": [
+						"No. The criminal case must be dismissed, but Anton may file a separate civil action against the estate based on their agreement.",
+						"The law provides that the death of the accused before final judgment totally extinguishes criminal liability. Jurisprudence provides that the civil liability based solely on the crime is also extinguished, but civil liability based on other sources, like a contract, survives and may be pursued in a separate civil action against the estate.",
+						"Here, Zandro died before arraignment, long before any final judgment. The criminal case cannot continue. But Anton's claim also comes from their written agreement, which is a contract.",
+						"Therefore, the criminal case is dismissed, and Anton may sue the estate in a separate civil action based on the contract."
+					],
+					"key": "Name the other source of the obligation (contract, quasi-delict, law, quasi-contract) to show the civil claim survives."
+				},
+				{
+					"t": "twist",
+					"label": "Dies after final judgment",
+					"facts": "Abet is convicted of estafa with finality. He is sentenced to imprisonment and ordered to pay a fine and P300,000 in civil indemnity. One year into his sentence, he dies in prison. His heirs say his death wiped out everything.",
+					"q": "Are the fine and the civil indemnity extinguished?",
+					"hint": "When did he die, before or after final judgment?",
+					"alac": [
+						"No. The fine and the civil indemnity may still be collected from his estate.",
+						"The law provides that criminal liability is totally extinguished by the death of the convict as to the personal penalties, but as to pecuniary penalties, liability is extinguished only when death occurs before final judgment.",
+						"Here, Abet died after his conviction had become final. His prison term, a personal penalty, ends with his death. But the fine and civil indemnity are pecuniary liabilities fixed by a final judgment.",
+						"Therefore, the fine and civil indemnity survive and may be collected from Abet's estate."
+					],
+					"key": "TWIST: death AFTER final judgment ends only PERSONAL penalties. Pecuniary liabilities survive against the estate."
+				}
+			]
+		},
+		{
+			"id": "prescription",
+			"g": 4,
+			"title": "Prescription of crimes",
+			"art": "Arts. 90–91",
+			"rule": "Crimes prescribe in periods based on their penalty (light offenses in 2 months, arresto mayor in 5 years, other correctional penalties in 10 years, and so on), counted from discovery, interrupted by filing a complaint, and not running while the offender is abroad.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Light offense filed late",
+					"facts": "On March 1, Bebot insults and pushes Carlo in front of witnesses, a light offense punished by arresto menor. Carlo knows of it the same day. He files his complaint with the prosecutor on June 15 of the same year.",
+					"q": "Has the crime prescribed?",
+					"hint": "What is the prescriptive period for light offenses?",
+					"alac": [
+						"Yes. The crime has prescribed.",
+						"The law provides that light offenses prescribe in two months, and that the period starts from the day the crime is discovered by the offended party, the authorities, or their agents.",
+						"Here, the offense is a light offense, so it prescribes in two months. Carlo discovered it on March 1, the day it happened. By June 15, more than three months had passed.",
+						"Therefore, the crime has prescribed, and Bebot can no longer be prosecuted."
+					],
+					"key": "Light offenses: 2 months. Count from DISCOVERY."
+				},
+				{
+					"t": "same",
+					"label": "Discovered years later",
+					"facts": "In 2014, Dory secretly forges a signature on a document. The crime is punished by prision correccional, a correctional penalty. The forgery is discovered by the offended party only in 2022. A complaint is filed with the prosecutor in 2024.",
+					"q": "Has the crime prescribed?",
+					"hint": "When does the period start?",
+					"alac": [
+						"No. The crime has not prescribed.",
+						"The law provides that crimes punishable by correctional penalties prescribe in ten years, and that the period starts from the day the crime is discovered by the offended party, the authorities, or their agents, and is interrupted by the filing of the complaint.",
+						"Here, the crime is punished by prision correccional, a correctional penalty, so it prescribes in ten years. Although it was committed in 2014, it was discovered only in 2022. The complaint was filed in 2024, only two years after discovery.",
+						"Therefore, the crime has not prescribed."
+					],
+					"key": "Do not count from the date of commission. Count from DISCOVERY. Arresto mayor is the exception: 5 years."
+				},
+				{
+					"t": "twist",
+					"label": "Offender left the country",
+					"facts": "Efren commits a crime punished by arresto mayor, which prescribes in five years. The offended party discovers it the same day in January 2018. One month later, Efren leaves for Dubai and stays there for five years, until February 2023. The complaint is filed in March 2024.",
+					"q": "Has the crime prescribed?",
+					"hint": "Does the period run while he is abroad?",
+					"alac": [
+						"No. The crime has not prescribed.",
+						"The law provides that crimes punishable by arresto mayor prescribe in five years, counted from discovery, and that the period shall not run when the offender is absent from the Philippines.",
+						"Here, the crime was discovered in January 2018, and only one month ran before Efren left. The period stopped while he was in Dubai for five years. It ran again only from February 2023. By March 2024, only about one year and two months had run in total.",
+						"Therefore, the crime has not prescribed."
+					],
+					"key": "TWIST: absence from the Philippines STOPS the clock. Add only the time he was here."
+				}
+			]
+		},
+		{
+			"id": "acquittal",
+			"g": 4,
+			"title": "Acquittal and civil liability",
+			"art": "Art. 100",
+			"rule": "Every person criminally liable is also civilly liable; acquittal on reasonable doubt does not erase civil liability, but acquittal because the act did not happen or the accused did not do it does.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Acquitted on reasonable doubt",
+					"facts": "Fe is charged with reckless imprudence resulting in damage to property after her car hits Gil's store. The court acquits her because the evidence does not prove her negligence beyond reasonable doubt. However, the evidence shows that it is more likely than not that she was negligent, and the damage is P200,000.",
+					"q": "May the court still order Fe to pay for the damage?",
+					"hint": "What is the standard of proof for civil liability?",
+					"alac": [
+						"Yes. The court may still hold Fe civilly liable.",
+						"The law provides that every person criminally liable is also civilly liable. Jurisprudence provides that acquittal on reasonable doubt does not extinguish civil liability, because civil liability needs only a preponderance of evidence.",
+						"Here, Fe was acquitted only because her negligence was not proven beyond reasonable doubt. The court found that the evidence shows she was more likely than not negligent, and that the damage was P200,000.",
+						"Therefore, the court may still order Fe to pay Gil for the damage."
+					],
+					"key": "Reasonable doubt acquittal ≠ no civil liability. Different standards of proof."
+				},
+				{
+					"t": "same",
+					"label": "No separate civil case filed",
+					"facts": "Hector is convicted of physical injuries. The offended party, Iris, never filed a separate civil case, never reserved the right to file one, and never waived it. The court orders Hector to pay her medical expenses. Hector argues that Iris never asked for damages in a civil case.",
+					"q": "Was the court correct in awarding damages?",
+					"hint": "What happens to the civil action when the criminal case is filed?",
+					"alac": [
+						"Yes. The court was correct.",
+						"The law provides that every person criminally liable for a felony is also civilly liable. The rules provide that the civil action for recovery of civil liability arising from the offense is deemed instituted with the criminal action, unless the offended party waives it, reserves the right to file it separately, or files it before the criminal action.",
+						"Here, Iris did not waive, reserve, or separately file her civil action. So her civil action was deemed instituted with the criminal case. Hector was convicted, so he is also civilly liable.",
+						"Therefore, the court correctly ordered Hector to pay Iris's medical expenses."
+					],
+					"key": "The civil action rides with the criminal case automatically unless waived, reserved, or filed first."
+				},
+				{
+					"t": "twist",
+					"label": "Accused did not do it",
+					"facts": "Jojo is charged with theft of a motorcycle. The trial shows that another man, Kiko, took it, and that Jojo was in another city that day. The court acquits Jojo, finding that he did not commit the act. The owner asks that Jojo still pay for the motorcycle.",
+					"q": "May Jojo be held civilly liable?",
+					"hint": "Why was Jojo acquitted?",
+					"alac": [
+						"No. Jojo cannot be held civilly liable.",
+						"The law provides that every person criminally liable is also civilly liable. Jurisprudence provides that civil liability arising from the crime is extinguished when the acquittal is based on a finding that the act from which civil liability might arise did not exist, or that the accused did not commit it.",
+						"Here, the court found that Kiko, not Jojo, took the motorcycle, and that Jojo was in another city. The acquittal is not merely on reasonable doubt; it is a finding that Jojo did not commit the act.",
+						"Therefore, Jojo has no civil liability for the motorcycle."
+					],
+					"key": "TWIST: WHY the accused was acquitted decides civil liability. “Not the author” or “no act” = no civil liability ex delicto."
+				}
+			]
+		},
+		{
+			"id": "art101",
+			"g": 4,
+			"title": "Civil liability despite exemption",
+			"art": "Art. 101",
+			"rule": "Exemption from criminal liability does not always remove civil liability: guardians answer for the insane or minors, those benefited answer in a state of necessity, and those who used force or caused fear answer first; but there is no civil liability in self-defense and other justifying circumstances.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Insane person causes injury",
+					"facts": "Lando, who has been insane for years, attacks a neighbor and breaks his arm while his guardian, his older brother, was drinking with friends and left him unsupervised. Lando is exempt from criminal liability because of insanity.",
+					"q": "Who is civilly liable for the neighbor's injury?",
+					"hint": "Exemption is not the end of the question.",
+					"alac": [
+						"Lando's guardian, his older brother, is civilly liable.",
+						"The law provides that exemption from criminal liability due to insanity does not include exemption from civil liability, and that the civil liability shall devolve upon those having legal authority or control over the insane person, unless there was no fault or negligence on their part. If they are not liable, the insane person's own property answers.",
+						"Here, Lando is exempt from criminal liability because he is insane. His older brother is his guardian and left him unsupervised while drinking, which shows negligence.",
+						"Therefore, the brother, as guardian, is civilly liable for the neighbor's injury."
+					],
+					"key": "For insane persons and minors: guardian first (unless no fault), then the actor's own property."
+				},
+				{
+					"t": "same",
+					"label": "Destroying a house to stop a fire",
+					"facts": "A fire is spreading toward a crowded barangay. To stop it, Mila, a barangay official, orders the demolition of Nonoy's small house, which stands in the fire's path. The fire stops there, and twenty houses are saved. Mila is exempt from criminal liability under the state of necessity.",
+					"q": "Who should pay Nonoy for his house?",
+					"hint": "Who benefited?",
+					"alac": [
+						"The owners of the twenty houses that were saved should pay, in proportion to the benefit each received.",
+						"The law provides that in cases falling under the state of necessity, the persons for whose benefit the harm has been prevented shall be civilly liable in proportion to the benefit they may have received.",
+						"Here, Mila acted in a state of necessity to stop the fire. Nonoy's house was destroyed, but this saved twenty other houses. The owners of those houses are the persons who benefited.",
+						"Therefore, the owners of the saved houses are civilly liable to Nonoy, each in proportion to the benefit received."
+					],
+					"key": "State of necessity: those who BENEFITED pay, not the actor."
+				},
+				{
+					"t": "twist",
+					"label": "Self-defense",
+					"facts": "Oscar is attacked with a knife by Paeng without provocation. Oscar grabs a stick and hits Paeng once on the arm, which stops the attack and breaks Paeng's arm. The court finds that Oscar acted in complete self-defense. Paeng asks that Oscar at least pay his hospital bill.",
+					"q": "Is Oscar civilly liable for Paeng's hospital bill?",
+					"hint": "Which circumstances still carry civil liability?",
+					"alac": [
+						"No. Oscar is not civilly liable.",
+						"The law provides civil liability despite exemption only in specific cases: insanity, imbecility, and minority; state of necessity; and irresistible force or uncontrollable fear. Jurisprudence provides that in self-defense and other justifying circumstances, there is no crime and no civil liability, because the act is lawful.",
+						"Here, Oscar acted in complete self-defense, which is a justifying circumstance. His act was lawful, so there is no crime and no civil liability. Self-defense is not among the cases where civil liability remains.",
+						"Therefore, Oscar does not have to pay Paeng's hospital bill."
+					],
+					"key": "TWIST: justifying (except state of necessity) = no crime, no civil liability. Exempting = no crime liability, but civil liability may remain."
+				}
+			]
+		},
+		{
+			"id": "art103",
+			"g": 4,
+			"title": "Employer's subsidiary liability",
+			"art": "Art. 103",
+			"rule": "An employer engaged in industry is subsidiarily liable for felonies committed by an employee in the discharge of his duties, when the employee is convicted and insolvent.",
+			"p": [
+				{
+					"t": "same",
+					"label": "Bus driver on his route",
+					"facts": "Quinto, a driver of a bus company, hits a pedestrian while driving on his assigned route. He is convicted of reckless imprudence resulting in homicide and ordered to pay P150,000. He has no property to pay it.",
+					"q": "Is the bus company liable?",
+					"hint": "List the requisites and check each one.",
+					"alac": [
+						"Yes. The bus company is subsidiarily liable.",
+						"The law provides that persons and corporations engaged in any kind of industry are subsidiarily liable for felonies committed by their employees in the discharge of their duties. Jurisprudence requires that the employee be convicted and found insolvent.",
+						"Here, the bus company is engaged in the transport business. Quinto was driving on his assigned route, so he was in the discharge of his duties. He was convicted and cannot pay.",
+						"Therefore, the bus company must pay the P150,000 as subsidiary liability."
+					],
+					"key": "Three requisites: (1) employer in industry; (2) felony in the discharge of duties; (3) employee convicted and insolvent."
+				},
+				{
+					"t": "same",
+					"label": "Delivery rider on a delivery run",
+					"facts": "Rina works as a rider for a delivery company. While delivering an order, she runs a red light and injures a pedestrian. She is convicted of reckless imprudence resulting in serious physical injuries and ordered to pay P80,000. A writ of execution against her is returned unsatisfied because she has no property.",
+					"q": "Can the pedestrian collect from the delivery company?",
+					"hint": "Same requisites.",
+					"alac": [
+						"Yes. The pedestrian can collect from the delivery company.",
+						"The law provides that persons and corporations engaged in any kind of industry are subsidiarily liable for felonies committed by their employees in the discharge of their duties, once the employee is convicted and shown to be insolvent.",
+						"Here, the delivery company is engaged in business. Rina was making a delivery when she hit the pedestrian, so she was in the discharge of her duties. She was convicted, and her insolvency is shown by the unsatisfied writ.",
+						"Therefore, the delivery company is subsidiarily liable for the P80,000."
+					],
+					"key": "Insolvency is usually shown by a writ of execution returned unsatisfied."
+				},
+				{
+					"t": "twist",
+					"label": "Driver on his day off",
+					"facts": "Santi is a company driver. On his day off, without permission, he takes the company van for a family outing and hits a tricycle, injuring the passengers. He is convicted of reckless imprudence and is insolvent. The victims seek to hold the company subsidiarily liable.",
+					"q": "Is the company subsidiarily liable under the Revised Penal Code?",
+					"hint": "Was he acting in the discharge of his duties?",
+					"alac": [
+						"No. The company is not subsidiarily liable under the Revised Penal Code.",
+						"The law provides that employers engaged in industry are subsidiarily liable only for felonies committed by their employees in the discharge of their duties.",
+						"Here, Santi was on his day off, used the van without permission, and was on a personal family outing. He was not performing any duty for the company when the accident happened.",
+						"Therefore, the requisite of discharge of duties is missing, and the company is not subsidiarily liable."
+					],
+					"key": "TWIST: using the company's vehicle is not enough. The felony must be done IN the discharge of duties."
+				}
+			]
+		}
+	],
+	"GROUPS": {
+		"1": "I · Persons liable",
+		"2": "II · Penalties",
+		"3": "III · Duration & effects",
+		"4": "IV · Application",
+		"5": "V · Execution",
+		"6": "VI · Extinction",
+		"7": "VII · Civil liability"
+	},
+	"DGROUPS": {
+		"1": "Persons liable",
+		"2": "Penalties",
+		"3": "Application",
+		"4": "Children",
+		"5": "Extinction",
+		"6": "Civil liability"
+	},
+	"PGROUPS": {
+		"1": "Persons liable",
+		"2": "Penalties",
+		"3": "Application",
+		"4": "Extinction & civil"
+	},
+	"SPOT": [
+		[
+			"Someone paid, ordered, or forced another to commit the crime",
+			"induction"
+		],
+		[
+			"Someone did one act the crime could not happen without",
+			"cooperation"
+		],
+		[
+			"Several people acted together; no proof of a meeting",
+			"conspiracy"
+		],
+		[
+			"Someone helped only AFTER the crime",
+			"accessory"
+		],
+		[
+			"The helper is a spouse, parent, child, sibling, or in-law",
+			"relatives"
+		],
+		[
+			"A new law lowered the penalty or repealed the crime",
+			"retro"
+		],
+		[
+			"Detained during trial; how much is credited?",
+			"preventive"
+		],
+		[
+			"Convict cannot pay the fine",
+			"subsidiary"
+		],
+		[
+			"One act, many victims; or one crime used to commit another",
+			"complex"
+		],
+		[
+			"Wrong victim because of mistaken identity",
+			"error"
+		],
+		[
+			"Frustrated or attempted; accomplice or accessory: what penalty?",
+			"degrees"
+		],
+		[
+			"Mitigating and aggravating circumstances: which period?",
+			"art64"
+		],
+		[
+			"Third conviction for theft, robbery, estafa, falsification, or physical injuries",
+			"habitual"
+		],
+		[
+			"Many sentences; how long does he actually serve?",
+			"threefold"
+		],
+		[
+			"Give the minimum and maximum of the sentence",
+			"isl"
+		],
+		[
+			"Can the convict avoid prison on probation?",
+			"probation"
+		],
+		[
+			"The accused died",
+			"death"
+		],
+		[
+			"Too much time passed before filing",
+			"prescription"
+		],
+		[
+			"Accused acquitted; is he still civilly liable?",
+			"acquittal"
+		],
+		[
+			"Exempt or justified; who pays the damage?",
+			"art101"
+		],
+		[
+			"Employee committed the felony; can the employer be made to pay?",
+			"art103"
+		]
+	]
+}

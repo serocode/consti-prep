@@ -1,4 +1,5 @@
 import raw from './data/crimpro.json';
+import rawWhy from './data/crimpro-why.json';
 
 /** A titled list inside a rule card (requisites, exceptions, exceptions to exceptions). */
 export interface Titled {
@@ -36,6 +37,8 @@ export interface Question {
 	/** Index into `o` of the correct choice. */
 	a: number;
 	ex: string;
+	/** Why each choice is wrong, by index into `o` (empty for the correct choice). */
+	why: string[];
 }
 
 export interface TwistSet {
@@ -57,6 +60,18 @@ export interface Flip {
 export type NumberRow = [string, string, string];
 
 const data = raw as unknown as { R: Rule[]; S: TwistSet[]; F: Flip[]; N: NumberRow[] };
+
+// Attach the wrong-choice reasons. The file lists, per question, the reasons for the wrong choices in order.
+const WHY = rawWhy as Record<string, string[][]>;
+for (const s of data.S) {
+	const rows = WHY[s.id];
+	if (!rows || rows.length !== s.qs.length) throw new Error(`crimpro-why.json: set "${s.id}" needs ${s.qs.length} rows`);
+	s.qs.forEach((q, k) => {
+		if (rows[k].length !== q.o.length - 1) throw new Error(`crimpro-why.json: ${s.id}[${k}] needs ${q.o.length - 1} reasons`);
+		const wrong = [...rows[k]];
+		q.why = q.o.map((_, i) => (i === q.a ? '' : wrong.shift()!));
+	});
+}
 
 export const RULES = data.R;
 export const SETS = data.S;

@@ -1,0 +1,1973 @@
+{
+	"CH": {
+		"6": "Ch. VI · Statute Read as a Whole and with Other Statutes",
+		"7": "Ch. VII · Strict or Liberal Construction",
+		"8": "Ch. VIII · Mandatory and Directory Statutes",
+		"9": "Ch. IX · Prospective and Retroactive Statutes",
+		"10": "Ch. X · Amendment, Revision, Codification and Repeal",
+		"11": "Ch. XI · Constitutional Construction"
+	},
+	"E": [
+		{
+			"id": "6.1",
+			"ch": 6,
+			"kind": "req",
+			"order": true,
+			"t": "Steps when two provisions of the same statute seem to conflict",
+			"src": "Agpalo §6.05",
+			"mem": "R-P-L: Reconcile → Plan → Last",
+			"it": [
+				[
+					"Reconcile and harmonize them",
+					"Find a reading where both provisions work. This always comes first."
+				],
+				[
+					"If they truly cannot be reconciled, prefer the one that best fits the statute's general plan and purpose",
+					"The provision more in line with the law's overall design reflects legislative intent better."
+				],
+				[
+					"If there is no basis to choose, the provision last in position prevails",
+					"It is treated as the latest expression of the legislative will, unless a contrary intent appears."
+				]
+			],
+			"trap": "Never start with \"last in position.\" And it applies only within ONE statute; between two statutes use generalia specialibus or leges posteriores."
+		},
+		{
+			"id": "6.2",
+			"ch": 6,
+			"kind": "req",
+			"t": "Tests for statutes in pari materia",
+			"src": "Agpalo §6.15",
+			"mem": "Same WHO · same WHY · same WHAT (any one is enough)",
+			"it": [
+				[
+					"They relate to the same person or thing",
+					"Both laws govern the same people, class, or thing (e.g., the same PPA personnel in Corona)."
+				],
+				[
+					"They have the same purpose or object",
+					"Both aim at the same goal even if worded differently."
+				],
+				[
+					"They cover the same specific subject matter",
+					"The same specific subject, not merely the same broad field such as \"tax laws.\""
+				]
+			],
+			"trap": "The tests are alternative, not cumulative. The later law need not mention the earlier one."
+		},
+		{
+			"id": "6.3",
+			"ch": 6,
+			"kind": "doc",
+			"t": "Why statutes on the same subject must be harmonized",
+			"src": "Agpalo §6.17; Corona v. CA",
+			"mem": "Knows · No war · No waste",
+			"it": [
+				[
+					"The legislature is presumed to know the existing laws",
+					"It enacts a new law with the old ones in mind, intending them to fit together."
+				],
+				[
+					"The legislature is not presumed to want two hostile systems on one subject",
+					"Conflict is never presumed; a reading without conflict is preferred."
+				],
+				[
+					"Otherwise lawmaking would be a useless and idle ceremony, and the law uncertain",
+					"Harmonizing produces a uniform system of jurisprudence."
+				]
+			],
+			"trap": "This is the flip side of the presumption against implied repeal (Ch. X)."
+		},
+		{
+			"id": "6.4",
+			"ch": 6,
+			"kind": "exc",
+			"t": "When the special law does NOT prevail over the general law",
+			"src": "Agpalo §6.22",
+			"mem": "C-V-R: Clear intent · Vague special law · Roles reversed",
+			"it": [
+				[
+					"The legislature clearly intended the later general law to cover the whole subject and repeal inconsistent laws",
+					"Clear intent overcomes the presumption. A general repealing clause alone is not enough (Magtajas)."
+				],
+				[
+					"The special law only states a general rule, while the general law states a specific rule on the point",
+					"Labels do not control; the law that speaks specifically on the disputed point wins."
+				],
+				[
+					"The general law treats the subject in particular, and the special law treats it in general",
+					"The rule assumes the special law is the more particular one; reverse the roles and the result reverses."
+				]
+			],
+			"trap": "Rule first: a special law prevails over a general law WHICHEVER was enacted first. These three are the only exceptions."
+		},
+		{
+			"id": "6.5",
+			"ch": 6,
+			"kind": "cls",
+			"t": "Statutes related to other statutes, and the rule for each",
+			"src": "Agpalo §§6.23–6.28",
+			"mem": "Refers · Supplies · Repeats · Abroad",
+			"it": [
+				[
+					"Reference statute",
+					"Borrows another law by pointing to it; the borrowed law is read in as it stood at adoption. Later amendments are not included unless stated."
+				],
+				[
+					"Supplemental statute",
+					"Fills gaps in an existing law without changing its text; read together with it as one whole."
+				],
+				[
+					"Reenacted statute",
+					"Repeats an earlier law in substantially the same words; it carries the earlier law's settled construction."
+				],
+				[
+					"Adopted statute",
+					"Copied from a foreign law; carries the foreign courts' construction made before adoption. Later foreign rulings are only persuasive."
+				]
+			],
+			"trap": "Reenacted = domestic source. Adopted = foreign source. An amendment that changes the words is not a reenactment."
+		},
+		{
+			"id": "6.6",
+			"ch": 6,
+			"kind": "req",
+			"t": "Requisites of a saving construction (harmony with the Constitution)",
+			"src": "Agpalo §6.14; Garcia v. COMELEC",
+			"mem": "Two readings · One unconstitutional · Other reasonable",
+			"it": [
+				[
+					"The statute is fairly open to two or more constructions",
+					"There must be real ambiguity."
+				],
+				[
+					"One construction would make it unconstitutional",
+					"Or raise a grave constitutional doubt."
+				],
+				[
+					"The other construction is reasonable and fits the statute's words and purpose",
+					"Then the court adopts the valid reading."
+				]
+			],
+			"trap": "Cumulative. A court cannot rewrite a clear statute to save it; if the only reasonable reading is unconstitutional, the law is void."
+		},
+		{
+			"id": "6.7",
+			"ch": 6,
+			"kind": "num",
+			"t": "Latin maxims of Chapter VI",
+			"src": "Agpalo Ch. VI; Corona; Magtajas",
+			"mem": "Save the law (3) · Harmonize laws (2) · Pick the special (1)",
+			"it": [
+				[
+					"Interpretatio fienda est ut res magis valeat quam pereat",
+					"Interpret a law so it works rather than fails."
+				],
+				[
+					"Utile per inutile non vitiatur",
+					"The useful is not spoiled by the useless."
+				],
+				[
+					"Surplusagium non nocet",
+					"Surplus words do no harm; they do not invalidate the law."
+				],
+				[
+					"Interpretare et concordare leges legibus est optimus interpretandi modus",
+					"The best interpretation harmonizes laws with other laws (Corona, Magtajas)."
+				],
+				[
+					"Distingue tempora et concordabis jura",
+					"Distinguish the times and the laws will agree."
+				],
+				[
+					"Generalia specialibus non derogant",
+					"A general law does not override a special law."
+				]
+			],
+			"trap": "Surplusagium non nocet is about VALIDITY. The rule that every word must be given meaning is a different rule (Manila Lodge)."
+		},
+		{
+			"id": "7.1",
+			"ch": 7,
+			"kind": "req",
+			"t": "Factors that decide strict or liberal construction",
+			"src": "Agpalo §7.01",
+			"mem": "N-P-M: Nature · Purpose · Mischief",
+			"it": [
+				[
+					"The nature of the statute",
+					"What kind of law it is: penal, tax, social, remedial, a grant of privilege."
+				],
+				[
+					"The purpose to be served",
+					"A protective purpose favors liberal reading; a burdening purpose favors strict reading."
+				],
+				[
+					"The mischief to be remedied",
+					"Read the law to suppress the evil it targets and advance the remedy."
+				]
+			],
+			"trap": "Either approach applies only when the language is doubtful. A clear law is simply applied."
+		},
+		{
+			"id": "7.2",
+			"ch": 7,
+			"kind": "cls",
+			"t": "Statutes strictly construed, and against whom",
+			"src": "Agpalo §§7.07–7.25",
+			"mem": "Laws that BURDEN you or give someone a SPECIAL ADVANTAGE",
+			"it": [
+				[
+					"Penal statutes",
+					"Against the State, in favor of the accused."
+				],
+				[
+					"Statutes in derogation of rights",
+					"Confined to cases clearly within them."
+				],
+				[
+					"Statutes authorizing expropriation",
+					"Against the expropriating authority, for the owner."
+				],
+				[
+					"Statutes granting privileges",
+					"Against the grantee, who must strictly meet the conditions."
+				],
+				[
+					"Legislative grants of property or money to LGUs",
+					"Against the grantee LGU, for the public (Manila Lodge)."
+				],
+				[
+					"Statutes on removal or suspension of officials",
+					"Only the grounds and procedure provided."
+				],
+				[
+					"Naturalization laws",
+					"Against the applicant."
+				],
+				[
+					"Statutes imposing taxes and customs duties",
+					"Against the government, for the taxpayer."
+				],
+				[
+					"Statutes granting tax exemptions",
+					"Strictissimi juris against the claimant."
+				],
+				[
+					"Statutes concerning the sovereign",
+					"A burdensome law does not bind the State unless it is named."
+				],
+				[
+					"Statutes authorizing suits against the government",
+					"Consent is strictly construed; no garnishment of public funds."
+				],
+				[
+					"Statutes prescribing formalities of wills",
+					"Formalities must be observed (with substantial compliance for the attestation clause)."
+				],
+				[
+					"Exceptions and provisos",
+					"Strictly but reasonably; doubts favor the general rule."
+				]
+			],
+			"trap": "Tax IMPOSITIONS are strict against the government; tax EXEMPTIONS are strict against the claimant. Opposite directions."
+		},
+		{
+			"id": "7.3",
+			"ch": 7,
+			"kind": "cls",
+			"t": "Statutes liberally construed, and in whose favor",
+			"src": "Agpalo §§7.26–7.37",
+			"mem": "Laws that PROTECT or FORGIVE",
+			"it": [
+				[
+					"General social legislation",
+					"Labor, tenancy, land reform, social security — for the protected persons."
+				],
+				[
+					"The general welfare clause",
+					"For the LGU."
+				],
+				[
+					"Grants of powers to LGUs",
+					"Fair doubt as to a power is resolved for the LGU (LGC Sec. 5(a))."
+				],
+				[
+					"Statutes on the prescriptive period to collect taxes",
+					"For the taxpayer."
+				],
+				[
+					"Election laws",
+					"To give effect to the will of the voters."
+				],
+				[
+					"Amnesty proclamations",
+					"For those claiming amnesty."
+				],
+				[
+					"Statutes on prescription of crimes",
+					"For the accused; they are acts of grace."
+				],
+				[
+					"Adoption statutes",
+					"For the child."
+				],
+				[
+					"Veteran and pension laws",
+					"For the beneficiaries."
+				],
+				[
+					"The Rules of Court",
+					"For a just, speedy and inexpensive disposition."
+				]
+			],
+			"trap": "LGU POWERS are liberal, but LGU property GRANTS and LGU TAX ordinances are strict."
+		},
+		{
+			"id": "7.4",
+			"ch": 7,
+			"kind": "exc",
+			"t": "Limits of liberal construction",
+			"src": "Agpalo §§7.03–7.04 (study grouping)",
+			"mem": "No enlarge · No force · No add · No override",
+			"it": [
+				[
+					"It cannot enlarge a clear and unambiguous provision",
+					"Clear text is applied as written."
+				],
+				[
+					"It cannot force words out of their natural meaning",
+					"Words get a fair meaning, not a strained one."
+				],
+				[
+					"It cannot engraft what the court thinks ought to be there",
+					"That is judicial legislation."
+				],
+				[
+					"It cannot prevail over categorical provisions of law",
+					"Liberal policy yields to an express command."
+				]
+			],
+			"trap": "Social legislation does not mean the worker always wins; only doubtful provisions are resolved in his favor."
+		},
+		{
+			"id": "7.5",
+			"ch": 7,
+			"kind": "exc",
+			"t": "Limits of strict construction of penal statutes",
+			"src": "Agpalo §7.12; People v. Purisima",
+			"mem": "Not narrowest · Not against purpose · Not absurd · Intent wins",
+			"it": [
+				[
+					"It does not mean the narrowest possible meaning",
+					"Words keep their fair meaning; strictness only refuses extension by implication."
+				],
+				[
+					"It must not defeat the law's intent, policy and purpose",
+					"It is only one factor in finding intent."
+				],
+				[
+					"The spirit prevails over a letter that leads to absurdity or injustice",
+					"Purisima read P.D. 9 with its whereas clauses."
+				],
+				[
+					"Between two readings, the one carrying out the law's manifest intent prevails",
+					"Even over a reading that would exempt the accused."
+				]
+			],
+			"trap": "A literal gap does not automatically free the accused."
+		},
+		{
+			"id": "7.6",
+			"ch": 7,
+			"kind": "exc",
+			"t": "Qualifications on the strict construction of tax exemptions",
+			"src": "Agpalo §7.21; Maceda v. Macaraeg",
+			"mem": "Clear → apply · Government \"all forms\" → broad · Provisos → narrow",
+			"it": [
+				[
+					"A clear exemption is applied as written",
+					"Strictness resolves doubt; it does not add conditions."
+				],
+				[
+					"A government instrumentality's exemption from \"all forms of taxes\" is read broadly",
+					"Covers direct and indirect taxes (Maceda: NPC)."
+				],
+				[
+					"Exceptions and provisos within a tax law are themselves strictly construed",
+					"This can favor the taxpayer."
+				]
+			],
+			"trap": "Strictissimi juris is the rule, but these three qualify it."
+		},
+		{
+			"id": "7.7",
+			"ch": 7,
+			"kind": "cls",
+			"t": "Two branches of the general welfare clause",
+			"src": "Agpalo §7.27; LGC Sec. 16",
+			"mem": "Carry-out branch · Police-power branch",
+			"it": [
+				[
+					"Ordinances necessary to carry into effect powers and duties conferred by law",
+					"Implements specific grants of power."
+				],
+				[
+					"Ordinances for health, safety, prosperity, morals, peace, good order, comfort and convenience",
+					"Police power proper, independent of a specific grant."
+				]
+			],
+			"trap": "Even under the welfare clause, an ordinance cannot contravene a statute (Magtajas)."
+		},
+		{
+			"id": "7.8",
+			"ch": 7,
+			"kind": "doc",
+			"t": "Rules of interpretation in Section 5, Local Government Code",
+			"src": "R.A. 7160, Sec. 5",
+			"mem": "Powers liberal · Taxes strict · Welfare liberal · Old contracts kept · Customs fill gaps",
+			"it": [
+				[
+					"LGU powers are liberally interpreted in the LGU's favor",
+					"Doubt favors devolution and the lower LGU."
+				],
+				[
+					"Tax ordinances and revenue measures are strictly construed against the LGU",
+					"Liberally for the taxpayer; LGU tax exemptions are strict against the claimant."
+				],
+				[
+					"General welfare provisions are liberally interpreted",
+					"To give LGUs more room for development."
+				],
+				[
+					"Existing contractual rights follow their original terms",
+					"Rights existing when the Code took effect are governed by the original terms or the law then in force."
+				],
+				[
+					"Customs and traditions may fill gaps",
+					"Where no law or jurisprudence applies."
+				]
+			],
+			"trap": "Sec. 5 never lets an ordinance prevail over a national statute."
+		},
+		{
+			"id": "8.1",
+			"ch": 8,
+			"kind": "req",
+			"t": "Questions under the consequences test (mandatory or directory?)",
+			"src": "Agpalo §§8.03–8.04",
+			"mem": "R-T-A-S-P: mostly \"yes\" → mandatory",
+			"it": [
+				[
+					"Does the statute state a result for non-compliance?",
+					"\"Shall be void,\" \"deemed approved\" — likely mandatory."
+				],
+				[
+					"Would third persons suffer if the officer fails to act?",
+					"If others' rights depend on it, it is mandatory."
+				],
+				[
+					"Does the law give no alternative way to comply?",
+					"One way only → tends to be mandatory."
+				],
+				[
+					"Is it a matter of substance rather than form?",
+					"Substance → mandatory; form → directory."
+				],
+				[
+					"Would disregarding it injure the public more?",
+					"Greater public harm → mandatory."
+				]
+			],
+			"trap": "The test is legislative intent, seen through consequences. There is no universal rule."
+		},
+		{
+			"id": "8.2",
+			"ch": 8,
+			"kind": "req",
+			"t": "When a requirement is directory",
+			"src": "Agpalo §§8.01, 8.04",
+			"mem": "No rights · No injury · Same result",
+			"it": [
+				[
+					"No substantial rights depend on it",
+					"Nobody's rights are protected by the step."
+				],
+				[
+					"No injury can result from ignoring it",
+					"Skipping it harms no one."
+				],
+				[
+					"Its purpose can be achieved another way with substantially the same result",
+					"The goal is reached without literal compliance."
+				]
+			],
+			"trap": "\"Directory\" does not mean optional. It must still be followed; breach just does not void the act."
+		},
+		{
+			"id": "8.3",
+			"ch": 8,
+			"kind": "cls",
+			"t": "Statutes or requirements held mandatory",
+			"src": "Agpalo §§8.10–8.19",
+			"mem": "Each protects someone's rights or the tribunal's authority",
+			"it": [
+				[
+					"Statutes conferring power on public officers",
+					"On public interest or private rights, even if worded \"may.\""
+				],
+				[
+					"Statutes granting benefits",
+					"The steps to avail of the benefit."
+				],
+				[
+					"Jurisdictional requirements",
+					"E.g., publication in land registration; written claim for tax refund."
+				],
+				[
+					"Time for litigants to act or appeal",
+					"Including timely payment of docket fees."
+				],
+				[
+					"Procedural requirements that are jurisdictional, essential, or protective",
+					"Steps of the essence or for the parties' protection."
+				],
+				[
+					"Election laws on conduct, enforced before the election",
+					"In a direct proceeding before election day."
+				],
+				[
+					"Election laws on qualifications and disqualifications",
+					"Votes for a disqualified candidate are void."
+				],
+				[
+					"Qualifications for public office",
+					"Continuing: at the start and throughout the term."
+				],
+				[
+					"Protective provisions in tax assessment",
+					"E.g., notice of assessment within the period."
+				],
+				[
+					"Procedure for public auction sales",
+					"Non-compliance voids the sale."
+				]
+			],
+			"trap": "Litigant deadlines are mandatory; deadlines for judges to decide are directory."
+		},
+		{
+			"id": "8.4",
+			"ch": 8,
+			"kind": "cls",
+			"t": "Statutes or requirements held directory",
+			"src": "Agpalo §§8.20–8.23",
+			"mem": "Guide · Manner · Time to decide · Constitutional periods (all about officials)",
+			"it": [
+				[
+					"Requirements for the guidance of officers",
+					"For order and dispatch, unless with negative words."
+				],
+				[
+					"Requirements on the manner of judicial action",
+					"How judges perform their functions."
+				],
+				[
+					"Periods within which officials or courts must decide",
+					"A late decision is valid, subject to exceptions."
+				],
+				[
+					"Constitutional time limits for deciding cases",
+					"Late decisions stay valid; the judge may be sanctioned (Art. VIII, Sec. 15(4))."
+				]
+			],
+			"trap": "A judge deciding after the period does not lose jurisdiction."
+		},
+		{
+			"id": "8.5",
+			"ch": 8,
+			"kind": "exc",
+			"t": "When an election-conduct rule stays mandatory even after the election",
+			"src": "Agpalo §8.15",
+			"mem": "Obstructs · Essential · Expressly fatal",
+			"it": [
+				[
+					"Its violation obstructs the free casting of votes or the ascertainment of the result",
+					"The defect goes to whether the result reflects the voters' will."
+				],
+				[
+					"It affects an essential element of the election",
+					"Without it there is no valid election."
+				],
+				[
+					"The statute expressly declares the act essential or its omission fatal",
+					"The legislature itself said so."
+				]
+			],
+			"trap": "General rule: conduct rules are mandatory BEFORE the election, directory AFTER, to protect innocent voters."
+		},
+		{
+			"id": "8.6",
+			"ch": 8,
+			"kind": "exc",
+			"t": "When a time limit for an official or court is mandatory",
+			"src": "Agpalo §8.22; PAFLU v. Sec. of Labor",
+			"mem": "Essence · Negative words · Power ends",
+			"it": [
+				[
+					"Time is of the essence",
+					"The act is useless if done late."
+				],
+				[
+					"The statute uses negative words",
+					"\"Shall not act after…\""
+				],
+				[
+					"The period limits the officer's power",
+					"E.g., \"if not acted upon in 30 days, deemed approved.\""
+				]
+			],
+			"trap": "These are exceptions to the rule that periods for officials are directory."
+		},
+		{
+			"id": "8.7",
+			"ch": 8,
+			"kind": "num",
+			"t": "Constitutional periods to decide or resolve",
+			"src": "Art. VIII, Sec. 15; Art. IX-A, Sec. 7",
+			"mem": "24 · 12 · 3 · 60",
+			"it": [
+				[
+					"Supreme Court: 24 months",
+					"Art. VIII, Sec. 15(1)."
+				],
+				[
+					"Lower collegiate courts: 12 months",
+					"Unless reduced by the Supreme Court (CA, Sandiganbayan, CTA)."
+				],
+				[
+					"Other lower courts: 3 months",
+					"Trial courts."
+				],
+				[
+					"Constitutional Commissions: 60 days",
+					"Art. IX-A, Sec. 7."
+				]
+			],
+			"trap": "The Constitution calls them mandatory, yet a late decision is still valid (Sec. 15(4))."
+		},
+		{
+			"id": "8.8",
+			"ch": 8,
+			"kind": "doc",
+			"t": "When \"shall\" means \"may,\" and \"may\" means \"shall\"",
+			"src": "Agpalo §§8.06–8.10 (study grouping)",
+			"mem": "\"Shall\" relaxes when nothing depends on it; \"may\" hardens when someone depends on it",
+			"it": [
+				[
+					"\"Shall\" → \"may\": when context or intent requires",
+					"The provision, read as a whole, is a mere guide."
+				],
+				[
+					"\"Shall\" → \"may\": when no public benefit or private right needs it to be imperative",
+					"Nothing depends on strict compliance."
+				],
+				[
+					"\"May\" → \"shall\": when justice or public duty requires the act",
+					"The act is owed, not optional."
+				],
+				[
+					"\"May\" → \"shall\": when an officer is given power over public interest or private rights",
+					"The power is held for others."
+				]
+			],
+			"trap": "\"Shall\" is only a presumption of mandatory. Negative words are almost always mandatory."
+		},
+		{
+			"id": "9.1",
+			"ch": 9,
+			"kind": "exc",
+			"t": "Constitutional limits on retroactive laws",
+			"src": "Agpalo §9.05; Art. III, Secs. 1, 10, 22",
+			"mem": "C-D-V-E: Contracts · Due process · Vested rights · Ex post facto",
+			"it": [
+				[
+					"It cannot impair the obligation of contracts",
+					"Art. III, Sec. 10."
+				],
+				[
+					"It cannot deprive a person of property without due process",
+					"Art. III, Sec. 1."
+				],
+				[
+					"It cannot divest vested rights",
+					"Fixed, established rights cannot be taken by later law."
+				],
+				[
+					"It cannot be an ex post facto law",
+					"Art. III, Sec. 22; criminal matters only."
+				]
+			],
+			"trap": "Retroactive laws are not unconstitutional as such. Only these four make them invalid."
+		},
+		{
+			"id": "9.2",
+			"ch": 9,
+			"kind": "cls",
+			"order": true,
+			"t": "Kinds of ex post facto laws",
+			"src": "Calder v. Bull; In re Kay Villegas Kami",
+			"mem": "Criminalize · Aggravate · Punish more · Prove less · Penalize as civil · Remove protection",
+			"it": [
+				[
+					"Makes criminal an act that was innocent when done, and punishes it",
+					"Criminalizes past conduct."
+				],
+				[
+					"Aggravates a crime, making it greater than when committed",
+					"Upgrades the offense after the fact."
+				],
+				[
+					"Inflicts a greater penalty than the law provided when the crime was committed",
+					"Retroactive penalty increase."
+				],
+				[
+					"Alters rules of evidence to convict on less or different proof",
+					"Lowers the bar for conviction."
+				],
+				[
+					"Claims to regulate civil rights only, but in effect penalizes something lawful when done",
+					"A penalty disguised as civil regulation."
+				],
+				[
+					"Deprives the accused of a lawful protection he was already entitled to",
+					"E.g., a former acquittal or an amnesty."
+				]
+			],
+			"trap": "Ex post facto is limited to criminal or penal matters. A law FAVORABLE to the accused is not ex post facto."
+		},
+		{
+			"id": "9.3",
+			"ch": 9,
+			"kind": "req",
+			"t": "Elements of a bill of attainder",
+			"src": "Agpalo §9.08; People v. Ferrer",
+			"mem": "Legislature · Singles out · Punishes · No trial",
+			"it": [
+				[
+					"A legislative act",
+					"Not judicial or executive."
+				],
+				[
+					"That singles out a specific person or definite class",
+					"By name or easily identified traits."
+				],
+				[
+					"That inflicts punishment",
+					"A deprivation by way of punishment."
+				],
+				[
+					"Without judicial trial",
+					"Legislative, not judicial, determination of guilt."
+				]
+			],
+			"trap": "The essence is the lack of a judicial trial."
+		},
+		{
+			"id": "9.4",
+			"ch": 9,
+			"kind": "exc",
+			"t": "When a favorable penal law does NOT apply retroactively",
+			"src": "Art. 22, RPC; Agpalo §9.09",
+			"mem": "Habitual · Expressly excluded · Elects old law",
+			"it": [
+				[
+					"The accused is a habitual criminal",
+					"As defined in Art. 62(5), RPC."
+				],
+				[
+					"The new law expressly says it will not apply to pending cases",
+					"The legislature may limit the benefit."
+				],
+				[
+					"The accused himself invokes the old law",
+					"The benefit is his to claim."
+				]
+			],
+			"trap": "Art. 22 helps even a convict already serving a final sentence (remedy: habeas corpus)."
+		},
+		{
+			"id": "9.5",
+			"ch": 9,
+			"kind": "cls",
+			"t": "Statutes that may be given retroactive effect",
+			"src": "Agpalo §§9.05–9.23; Art. 2253, Civil Code",
+			"mem": "Express · Favorable penal · Procedural · Curative · Police power · New rights",
+			"it": [
+				[
+					"Statutes that expressly provide for it",
+					"If they do not violate the four constitutional limits."
+				],
+				[
+					"Penal laws favorable to the accused",
+					"Except habitual criminals."
+				],
+				[
+					"Procedural laws",
+					"They apply to pending cases, with exceptions."
+				],
+				[
+					"Curative statutes",
+					"If they impair no vested rights or contracts."
+				],
+				[
+					"Remedial statutes under the police power",
+					"Even if they affect contracts, where intent is clearly retroactive."
+				],
+				[
+					"Statutes creating new rights",
+					"If they do not impair vested rights of the same origin."
+				]
+			],
+			"trap": "A curative law cannot validate what the legislature could not have authorized in the first place."
+		},
+		{
+			"id": "9.6",
+			"ch": 9,
+			"kind": "exc",
+			"t": "When a procedural law is NOT applied to pending cases",
+			"src": "Agpalo §9.20",
+			"mem": "Law says no · Unfeasible or unjust · Due process issues · Vested rights",
+			"it": [
+				[
+					"The law expressly or impliedly says otherwise",
+					"It may limit itself to cases filed later."
+				],
+				[
+					"Application is not feasible or would work injustice",
+					"E.g., a new step that can no longer be taken."
+				],
+				[
+					"It would involve intricate due process problems or impair court independence",
+					"Constitutional concerns override."
+				],
+				[
+					"It would impair a vested right or contract",
+					"The general constitutional limit."
+				]
+			],
+			"trap": "No one has a vested right in procedure — that is why the general rule is retroactive application."
+		},
+		{
+			"id": "9.7",
+			"ch": 9,
+			"kind": "cls",
+			"t": "Statutes given prospective effect only",
+			"src": "Agpalo §§9.06–9.16 (study grouping)",
+			"mem": "Hurts the accused, takes rights, or changes the forum mid-case",
+			"it": [
+				[
+					"Penal laws unfavorable to the accused",
+					"The ex post facto ban."
+				],
+				[
+					"Substantive laws",
+					"They create, define, or regulate rights."
+				],
+				[
+					"Laws that would impair vested rights",
+					"Including rights in judgments."
+				],
+				[
+					"Laws that would impair contracts",
+					"Subject to the police power."
+				],
+				[
+					"Laws changing jurisdiction, as to pending cases",
+					"Unless they provide otherwise."
+				],
+				[
+					"Amendatory and repealing statutes",
+					"Also presumed prospective."
+				],
+				[
+					"New doctrines overruling old ones, as to good-faith reliance",
+					"Jabinal; Co v. CA."
+				]
+			],
+			"trap": "A court keeps jurisdiction it already acquired, even if a new law transfers jurisdiction."
+		},
+		{
+			"id": "9.8",
+			"ch": 9,
+			"kind": "doc",
+			"t": "Things in which no one has a vested right",
+			"src": "Agpalo §§9.10–9.13 (study grouping)",
+			"mem": "Old rule · Old remedy · Old silence · A hope",
+			"it": [
+				[
+					"A rule of law staying unchanged",
+					"Congress may change laws for the future."
+				],
+				[
+					"A particular remedy or mode of procedure",
+					"Hence procedural laws reach pending cases."
+				],
+				[
+					"The omission to legislate",
+					"No one can demand that Congress stay silent."
+				],
+				[
+					"Inchoate or expectant rights",
+					"Mere expectations are not vested."
+				]
+			],
+			"trap": "Use this list to explain WHY a procedural or new law may apply despite a party's objection."
+		},
+		{
+			"id": "10.1",
+			"ch": 10,
+			"kind": "doc",
+			"t": "How an amended statute is construed",
+			"src": "Agpalo §10.05",
+			"mem": "Together · As if always · Untouched stays · Omitted goes · Retained continues",
+			"it": [
+				[
+					"The statute and its amendment are read together",
+					"They form one law."
+				],
+				[
+					"The amended act is treated as if the original were repealed and a new law adopted in the amended form",
+					"The amendment is part of the law as if it had always been there."
+				],
+				[
+					"Unchanged parts keep the same meaning and effect",
+					"The amendment does not disturb what it does not touch."
+				],
+				[
+					"Parts of the amended section omitted in the amendment are deemed repealed",
+					"If restated without a part, that part is gone."
+				],
+				[
+					"Retained portions continue the old law, not a new enactment",
+					"Rights and periods continue uninterrupted."
+				]
+			],
+			"trap": "Deleting an exception in an amendment shows intent to withdraw it."
+		},
+		{
+			"id": "10.2",
+			"ch": 10,
+			"kind": "doc",
+			"t": "Effects of an amendment",
+			"src": "Agpalo §§10.07–10.10",
+			"mem": "Forward · Pending cases kept · Void amendment = old law stands · Complete = independent",
+			"it": [
+				[
+					"It operates prospectively",
+					"No retroactive effect unless intended and allowed."
+				],
+				[
+					"Laws altering jurisdiction do not apply to pending cases",
+					"Unless they so provide."
+				],
+				[
+					"If the amendment is unconstitutional, the original law stays in force",
+					"As if the amendment never existed."
+				],
+				[
+					"An amendatory act complete in itself is treated as an independent act",
+					"Read on its own terms."
+				]
+			],
+			"trap": "A void amendment does not destroy the original law."
+		},
+		{
+			"id": "10.3",
+			"ch": 10,
+			"kind": "cls",
+			"t": "Two categories of implied repeal",
+			"src": "Mecano v. COA; Agpalo §10.19",
+			"mem": "Clash or Replace",
+			"it": [
+				[
+					"Irreconcilable conflict",
+					"The later act repeals the earlier only to the extent of the conflict."
+				],
+				[
+					"The later act covers the whole subject and is clearly meant as a substitute",
+					"It replaces the earlier law even without conflict on every point."
+				]
+			],
+			"trap": "Implied repeals are disfavored; the intent must be clear and manifest."
+		},
+		{
+			"id": "10.4",
+			"ch": 10,
+			"kind": "req",
+			"t": "Requisites of implied repeal by irreconcilable inconsistency",
+			"src": "Agpalo §10.20",
+			"mem": "Same subject · Can't harmonize · Can't both work · Same goal",
+			"it": [
+				[
+					"The two laws cover the same subject matter",
+					"They must be in pari materia."
+				],
+				[
+					"They are so clearly inconsistent that they cannot be harmonized",
+					"Different wording alone is not enough."
+				],
+				[
+					"Both cannot be given effect",
+					"Enforcing one nullifies the other."
+				],
+				[
+					"They have the same object or purpose",
+					"Different objects → both may stand."
+				]
+			],
+			"trap": "All four must be present. Harmonize first (Ch. VI)."
+		},
+		{
+			"id": "10.5",
+			"ch": 10,
+			"kind": "exc",
+			"t": "What does NOT repeal a law",
+			"src": "Art. 7, Civil Code; Mecano; Magtajas (study grouping)",
+			"mem": "Disuse · Drift · Duplicates · Dragnet clause · Different words",
+			"it": [
+				[
+					"Disuse, custom, or contrary practice",
+					"Art. 7: laws are repealed only by later laws."
+				],
+				[
+					"A change in conditions",
+					"May call for a new law, but does not end the old one."
+				],
+				[
+					"The mere fact that a later law deals with the same subject",
+					"It may be cumulative or a continuation."
+				],
+				[
+					"A general repealing clause by itself",
+					"\"All laws inconsistent herewith are repealed\" is not an express repeal."
+				],
+				[
+					"A mere difference in wording",
+					"Different words are not repugnance."
+				]
+			],
+			"trap": "A general repealing clause is NOT an express repeal; any repeal under it must be shown as implied."
+		},
+		{
+			"id": "10.6",
+			"ch": 10,
+			"kind": "cls",
+			"t": "Other instances of implied repeal",
+			"src": "Agpalo §§10.19–10.22",
+			"mem": "Reason gone · Negative words · Authority gone · Code replaces · Reenactment replaces",
+			"it": [
+				[
+					"The later act nullifies the reason or purpose of the earlier",
+					"The earlier law loses all meaning."
+				],
+				[
+					"The later law is in negative terms",
+					"It prohibits a thing or requires a certain manner and no other."
+				],
+				[
+					"Express repeal of the provision giving an official authority",
+					"Implies repeal of what he enforced under it."
+				],
+				[
+					"A later revision or codification covers the whole subject",
+					"Omitted provisions are deemed repealed."
+				],
+				[
+					"A later reenactment of the whole subject substitutes for the earlier law",
+					"What is omitted is repealed."
+				]
+			],
+			"trap": "For codes, omitted provisions are repealed only if the code was meant to replace the whole subject (Mecano)."
+		},
+		{
+			"id": "10.7",
+			"ch": 10,
+			"kind": "doc",
+			"t": "Effects of repeal",
+			"src": "Agpalo §§10.30–10.39 (study grouping)",
+			"mem": "Stops · Stays · Survives · Sticks · Sinks · Sits · Still owed · Set free",
+			"it": [
+				[
+					"The law becomes inoperative from the repealing act's effectivity",
+					"Repeal is prospective, not a declaration of nullity."
+				],
+				[
+					"Acts done under the old law remain valid",
+					"Repeal does not undo the past."
+				],
+				[
+					"Vested rights survive",
+					"Including contract rights and rights of action."
+				],
+				[
+					"Contracts are not affected",
+					"They keep their terms."
+				],
+				[
+					"Pending actions founded on the repealed law are defeated",
+					"Unless vested rights or a saving clause."
+				],
+				[
+					"Jurisdiction already acquired is not lost",
+					"A later decision stays valid."
+				],
+				[
+					"Taxes assessed under a repealed tax law remain collectible",
+					"Unless the repealing law says otherwise."
+				],
+				[
+					"Total repeal of a penal law ends pending prosecutions",
+					"Unless reenacted or saved."
+				]
+			],
+			"trap": "Rights not yet vested may be defeated by repeal."
+		},
+		{
+			"id": "10.8",
+			"ch": 10,
+			"kind": "exc",
+			"t": "When total repeal of a penal law does NOT end pending cases",
+			"src": "Agpalo §§10.37–10.38",
+			"mem": "Reenacted or Saved",
+			"it": [
+				[
+					"The repealing act reenacts the offense",
+					"Pending cases continue; the more favorable penalty applies."
+				],
+				[
+					"The repealing act has a saving clause",
+					"It expressly says pending actions continue."
+				]
+			],
+			"trap": "Expiration of a temporary penal law, unlike repeal, does not end pending cases."
+		},
+		{
+			"id": "10.9",
+			"ch": 10,
+			"kind": "doc",
+			"t": "When a repealing law is itself repealed or annulled",
+			"src": "Agpalo §§10.40–10.41",
+			"mem": "Void → never repealed · Express → stays dead · Implied → comes back",
+			"it": [
+				[
+					"If the repealing law is declared unconstitutional, the earlier law was never repealed",
+					"A void law has no effect."
+				],
+				[
+					"If an express repealing law is repealed, the first law is NOT revived unless expressly provided",
+					"The express repeal survives."
+				],
+				[
+					"If an implied repealing law is repealed, the first law IS revived unless otherwise provided",
+					"The conflict that displaced it is gone."
+				]
+			],
+			"trap": "\"Repealing the repealer always revives the first law\" is wrong for express repeals."
+		},
+		{
+			"id": "11.1",
+			"ch": 11,
+			"kind": "doc",
+			"order": true,
+			"t": "The three maxims of constitutional construction",
+			"src": "Francisco v. House of Representatives",
+			"mem": "WORDS → REASON → WHOLE",
+			"it": [
+				[
+					"Verba legis",
+					"Give the words their ordinary meaning, except technical terms."
+				],
+				[
+					"Ratio legis est anima",
+					"If ambiguous, follow the intent of the framers."
+				],
+				[
+					"Ut magis valeat quam pereat",
+					"Read the Constitution as a whole so every part has effect."
+				]
+			],
+			"trap": "Start with the words, not with the framers' intent."
+		},
+		{
+			"id": "11.2",
+			"ch": 11,
+			"kind": "doc",
+			"order": true,
+			"t": "Rules on reading constitutional language",
+			"src": "Agpalo §11.05; J.M. Tuason v. LTA",
+			"mem": "Text first · Ordinary meaning · Broad sense · Plain = apply",
+			"it": [
+				[
+					"The language itself is the primary source of meaning",
+					"The words express the objective sought."
+				],
+				[
+					"Words are given their ordinary meaning",
+					"It is not a lawyer's document; technical terms excepted."
+				],
+				[
+					"Words are used in a broad sense",
+					"To cover all contingencies."
+				],
+				[
+					"Plain language is applied as written",
+					"No construction needed; courts cannot alter it."
+				]
+			],
+			"trap": "Technical terms take their technical meaning."
+		},
+		{
+			"id": "11.3",
+			"ch": 11,
+			"kind": "cls",
+			"t": "Aids to constitutional construction",
+			"src": "Agpalo §§11.06–11.12",
+			"mem": "History · Debates · Contemporaries · Precedents · Phrasing · Consequences",
+			"it": [
+				[
+					"The realities at the time of adoption and the object sought",
+					"History and the evils to be remedied."
+				],
+				[
+					"Proceedings of the convention or commission",
+					"Persuasive, not controlling (Civil Liberties Union)."
+				],
+				[
+					"Contemporaneous construction and writings",
+					"Early practical construction by officials."
+				],
+				[
+					"Previous laws and judicial rulings",
+					"Show what the framers meant by certain terms."
+				],
+				[
+					"Changes in phraseology",
+					"A change in wording suggests a change in meaning."
+				],
+				[
+					"Consequences of alternative constructions",
+					"Prefer the reading that avoids absurd results."
+				]
+			],
+			"trap": "The people ratified the text, not the debates."
+		},
+		{
+			"id": "11.4",
+			"ch": 11,
+			"kind": "doc",
+			"t": "Rules of general application in constitutional construction",
+			"src": "Agpalo §§11.13–11.16",
+			"mem": "Whole · Mandatory · Forward · Statcon rules adapted",
+			"it": [
+				[
+					"The Constitution is construed as a whole",
+					"No provision is read alone; a specific provision qualifies a general one."
+				],
+				[
+					"Its provisions are presumed mandatory",
+					"Directory only when unmistakably manifest."
+				],
+				[
+					"It operates prospectively",
+					"Unless it clearly provides otherwise."
+				],
+				[
+					"Rules of statutory construction apply where appropriate",
+					"Subject to the Constitution's supremacy."
+				]
+			],
+			"trap": "Congress's failure to implement a provision does not make it directory."
+		},
+		{
+			"id": "11.5",
+			"ch": 11,
+			"kind": "req",
+			"t": "Signs that a provision is self-executing",
+			"src": "Agpalo §11.17; Manila Prince Hotel (study grouping)",
+			"mem": "Complete · Applicable · No deferral · Command",
+			"it": [
+				[
+					"It is complete in itself",
+					"No blanks for Congress to fill."
+				],
+				[
+					"It supplies a sufficient rule to enjoy the right or enforce the duty",
+					"A court can apply it to facts."
+				],
+				[
+					"It does not expressly defer to legislation",
+					"\"As may be provided by law\" signals otherwise."
+				],
+				[
+					"It is phrased as a command, not a mere policy",
+					"Art. II policies are generally not self-executing."
+				]
+			],
+			"trap": "Presumption: provisions ARE self-executing unless the contrary is clearly intended."
+		},
+		{
+			"id": "11.6",
+			"ch": 11,
+			"kind": "doc",
+			"t": "What Congress may still do even if a provision is self-executing",
+			"src": "Agpalo §11.17",
+			"mem": "Enforce · Penalize · Detail",
+			"it": [
+				[
+					"Enact laws to enforce it",
+					"Machinery to make enforcement easier."
+				],
+				[
+					"Impose penalties for its violation",
+					"Sanctions the Constitution does not state."
+				],
+				[
+					"Supply minor details",
+					"Without contradicting the provision."
+				]
+			],
+			"trap": "Self-executing does not bar Congress from legislating on the subject."
+		},
+		{
+			"id": "11.7",
+			"ch": 11,
+			"kind": "num",
+			"order": true,
+			"t": "Philippine constitutions",
+			"src": "Agpalo §11.01",
+			"mem": "1899 · 1935 · 1943 · 1973 · 1986 · 1987",
+			"it": [
+				[
+					"1899 Malolos Constitution",
+					"First Philippine Republic."
+				],
+				[
+					"1935 Constitution",
+					"Commonwealth and post-war Republic."
+				],
+				[
+					"1943 Constitution",
+					"Japanese occupation."
+				],
+				[
+					"1973 Constitution",
+					"Martial-law era."
+				],
+				[
+					"1986 Freedom Constitution",
+					"Provisional (Proclamation No. 3)."
+				],
+				[
+					"1987 Constitution",
+					"In force."
+				]
+			],
+			"trap": "The Freedom Constitution was provisional."
+		}
+	],
+	"RULES": {
+		"6": [
+			[
+				"Read the statute as a whole",
+				"Meaning comes from the whole law, not an isolated word; one part may qualify another (Catiis, Aquino).",
+				"It explains the text but cannot add a requirement the text omits (Aquino)."
+			],
+			[
+				"Special provision is an exception to a general provision (same statute)",
+				"The general provision governs the rest.",
+				"Unless a clear contrary intent appears (e.g., \"notwithstanding\")."
+			],
+			[
+				"Give effect to every word",
+				"Avoid readings that make a word useless (Manila Lodge).",
+				"Truly redundant words are disregarded, not fatal (surplusagium non nocet)."
+			],
+			[
+				"Construe in harmony with the Constitution",
+				"Adopt the reading that keeps the law valid.",
+				"Only if the text is fairly open to it."
+			],
+			[
+				"Special law prevails over general law",
+				"Whichever came first; the general law governs everything else (Corona, Magtajas).",
+				"Three exceptions (§6.22)."
+			],
+			[
+				"Statutes in pari materia are read together",
+				"As one system; the later law need not mention the earlier.",
+				"Laws on different specific subjects are not in pari materia."
+			]
+		],
+		"7": [
+			[
+				"Strict or liberal only when language is doubtful",
+				"Clear text is applied as written.",
+				"Liberal construction cannot become judicial legislation."
+			],
+			[
+				"Penal laws: strictly against the State",
+				"No one is punished unless clearly within the law.",
+				"Not the narrowest meaning; spirit beats absurd letter (Purisima)."
+			],
+			[
+				"Tax: impositions against government; exemptions against claimant",
+				"Exemptions are never presumed.",
+				"Clear exemptions applied as written; government \"all forms\" read broadly."
+			],
+			[
+				"Public grants strictly against the grantee",
+				"Manila Lodge: a grant to a city is read for the public.",
+				"Grants of POWERS to LGUs are now liberal."
+			],
+			[
+				"Social legislation and LGU powers liberally construed",
+				"Doubts favor labor and the LGU.",
+				"A tax ordinance is strict against the LGU; an ordinance cannot defy a statute."
+			]
+		],
+		"8": [
+			[
+				"Mandatory vs. directory",
+				"Mandatory: breach voids the act. Directory: breach is only an irregularity.",
+				"Art. 5, Civil Code: acts against mandatory laws are void unless the law allows validity."
+			],
+			[
+				"Test is legislative intent seen through consequences",
+				"No universal rule.",
+				"Not mandatory if it would cause hardship to the innocent public or absurd results."
+			],
+			[
+				"\"Shall\" presumed mandatory; \"may\" permissive; negative words mandatory",
+				"These are presumptions.",
+				"Interchangeable when intent and context require."
+			],
+			[
+				"Election conduct: mandatory before, directory after",
+				"To protect innocent voters.",
+				"Three exceptions; qualifications are always mandatory."
+			],
+			[
+				"Periods for officials to decide are directory",
+				"A late decision is valid.",
+				"Mandatory if time is essential, negative words, or power ends."
+			]
+		],
+		"9": [
+			[
+				"Laws are presumed prospective",
+				"Lex prospicit, non respicit. Doubt is resolved against retroactivity.",
+				"Yields to clear intent and to laws retroactive by nature."
+			],
+			[
+				"Retroactivity allowed within four limits",
+				"Contracts, due process, vested rights, ex post facto.",
+				"If a law expressly says it is retroactive, the only question is constitutionality."
+			],
+			[
+				"Favorable penal laws are retroactive (Art. 22, RPC)",
+				"Even for convicts already serving sentence.",
+				"Not for habitual criminals, express exclusion, or if accused elects old law."
+			],
+			[
+				"Procedural laws apply to pending cases",
+				"No vested right in procedure.",
+				"Four exceptions (§9.20)."
+			],
+			[
+				"Interpretation is retroactive; overruling is prospective",
+				"Legis interpretatio legis vim obtinet.",
+				"Protects only good-faith reliance (Jabinal)."
+			]
+		],
+		"10": [
+			[
+				"Amendments are read with the original as one law",
+				"Unchanged parts continue; omitted parts are repealed.",
+				"Amendment by implication is not favored."
+			],
+			[
+				"Repeal is express or implied",
+				"Express names the law; everything else is implied.",
+				"A general repealing clause is NOT express."
+			],
+			[
+				"Implied repeal is disfavored",
+				"Two categories; four requisites for conflict.",
+				"Harmonize first."
+			],
+			[
+				"Repeal is prospective",
+				"Past acts, vested rights, contracts, assessed taxes survive.",
+				"Total repeal of a penal law ends pending cases unless reenacted or saved."
+			],
+			[
+				"Repealing the repealer",
+				"Express → first law stays repealed; implied → revived.",
+				"Void repealer → never repealed."
+			]
+		],
+		"11": [
+			[
+				"Purpose: realize the intent of framers and people",
+				"Sought first in the words.",
+				"The ratified text controls over individual framers' views."
+			],
+			[
+				"Verba legis → Ratio legis → Ut magis valeat",
+				"In that order (Francisco).",
+				"Ratio legis cannot override clear text."
+			],
+			[
+				"Read as a whole",
+				"A specific provision qualifies a general one (Civil Liberties Union).",
+				"Harmonize before choosing."
+			],
+			[
+				"Presumed mandatory",
+				"Directory only when unmistakably manifest.",
+				"The Constitution may itself fix the consequence (Art. VIII, Sec. 15(4))."
+			],
+			[
+				"Presumed self-executing",
+				"Enforceable without a statute (Manila Prince Hotel).",
+				"Not for mere policies or provisions deferring to law (Tañada; Kilosbayan)."
+			]
+		]
+	},
+	"CASES": [
+		{
+			"id": "catiis",
+			"name": "Catiis v. Court of Appeals",
+			"cite": "2006",
+			"ch": "Ch. VI (statute as a whole)",
+			"doc": "Read the statute as a whole; one word cannot be read apart from the sentence that qualifies it; a statutory definition controls.",
+			"facts": "Four persons were charged with syndicated estafa under P.D. 1689. The complainant argued that \"any person or persons\" meant even fewer than five could commit it.",
+			"issue": "Can fewer than five persons commit syndicated estafa? Is bail a matter of right?",
+			"ruling": "No. \"Any person\" is qualified by the same sentence defining a syndicate as five or more. With four accused and no aggravating circumstance alleged, only reclusion temporal applies, so bail is a matter of right.",
+			"trap": "The Court did not rest on \"penal laws are strictly construed\"; it rested on the text and the definition."
+		},
+		{
+			"id": "aquino",
+			"name": "Aquino v. Quezon City",
+			"cite": "2006",
+			"ch": "Ch. VI (whole statute); Ch. VIII (notice in tax sales)",
+			"doc": "A statute is read as a whole and each part in context; courts will not read into a statute a requirement it does not contain.",
+			"facts": "Owners lost lots at tax auctions. One received only a mailed notice (no posting or publication); another kept an old address and never received the mailed notice.",
+			"issue": "Is the notice of delinquency required before a tax sale? Must the notice of sale be actually received?",
+			"ruling": "Yes, the notice of delinquency is a prerequisite to any remedy, but direct mailed notice suffices. No, actual receipt is not required; mailing to the tax-record address is enough. Sales upheld.",
+			"trap": "Posting and publication were held not indispensable where direct notice was mailed."
+		},
+		{
+			"id": "manilalodge",
+			"name": "Manila Lodge No. 761 v. Court of Appeals",
+			"cite": "1976",
+			"ch": "Ch. VI (every word given effect); Ch. VII (public grants strict)",
+			"doc": "A public grant is strictly construed against the grantee; every word is given effect; express authority over one part excludes the rest (expressio unius).",
+			"facts": "A law declared reclaimed Luneta land \"property of the City of Manila\" and authorized the City to lease or sell only the north-end hotel site. The City sold a south-end portion to a private club.",
+			"issue": "Was the land patrimonial property the City could sell?",
+			"ruling": "No. It is property of public dominion. If the City could already sell it, the words \"hereby authorized\" would be useless; and authority over the north end excludes the south end. The sale was void.",
+			"trap": "Good faith of the later buyer could not create title from a void sale."
+		},
+		{
+			"id": "corona",
+			"name": "Corona v. Court of Appeals",
+			"cite": "1992",
+			"ch": "Ch. VI (in pari materia; special vs general)",
+			"doc": "A later special law inconsistent with a prior general law prevails to the extent of the inconsistency, as a partial implied repeal or an exception; laws in pari materia are harmonized.",
+			"facts": "The DOTC Secretary's board heard graft cases against PPA port managers. The PPA Charter gave the PPA General Manager power to discipline personnel; the Civil Service Law gave department heads general disciplinary power.",
+			"issue": "Who has original jurisdiction over PPA personnel?",
+			"ruling": "The PPA General Manager. The DOTC Secretary has only appellate jurisdiction. The two laws are harmonized: the special charter governs the original stage; the general law still operates on appeal.",
+			"trap": "The Secretary did not lose all control; he keeps appellate review. No one may be both complainant and judge."
+		},
+		{
+			"id": "magtajas",
+			"name": "Magtajas v. Pryce Properties",
+			"cite": "1994",
+			"ch": "Ch. VI (harmonize; special vs general); Ch. X (implied repeal disfavored)",
+			"doc": "Noscitur a sociis; implied repeals are disfavored; harmonize statutes; a later general law does not repeal an earlier special law absent clear intent; an ordinance cannot contravene a statute.",
+			"facts": "Cagayan de Oro passed ordinances banning casinos to stop a PAGCOR casino, citing the LGC power to suppress \"gambling and other prohibited games of chance.\"",
+			"issue": "Does that LGC power cover legal PAGCOR gambling? Did the LGC repeal P.D. 1869?",
+			"ruling": "No. \"Gambling\" is read with \"other prohibited games of chance,\" so it means illegal gambling. The LGC's general repealing clause did not repeal P.D. 1869. The ordinances are void.",
+			"trap": "The Court did not rule on whether gambling is moral; that is for Congress."
+		}
+	],
+	"MAX": [
+		[
+			"Interpretatio fienda est ut res magis valeat quam pereat",
+			"Interpret a law so it works rather than fails.",
+			"VI"
+		],
+		[
+			"Utile per inutile non vitiatur",
+			"The useful is not spoiled by the useless.",
+			"VI"
+		],
+		[
+			"Surplusagium non nocet",
+			"Surplusage does no harm.",
+			"VI"
+		],
+		[
+			"Interpretare et concordare leges legibus est optimus interpretandi modus",
+			"The best interpretation harmonizes laws with laws.",
+			"VI"
+		],
+		[
+			"Distingue tempora et concordabis jura",
+			"Distinguish the times and you will harmonize the laws.",
+			"VI"
+		],
+		[
+			"Generalia specialibus non derogant",
+			"General things do not derogate from special things.",
+			"VI"
+		],
+		[
+			"Expressio unius est exclusio alterius",
+			"Express mention of one thing excludes others (Manila Lodge).",
+			"VI–VII"
+		],
+		[
+			"Noscitur a sociis",
+			"A word is known by its companions (Magtajas).",
+			"VI"
+		],
+		[
+			"Strictissimi juris",
+			"With the strictest construction — tax exemptions.",
+			"VII"
+		],
+		[
+			"Lex prospicit, non respicit",
+			"The law looks forward, not backward.",
+			"IX"
+		],
+		[
+			"Legis interpretatio legis vim obtinet",
+			"The interpretation of a law has the force of law.",
+			"IX"
+		],
+		[
+			"Vigilantibus et non dormientibus jura subveniunt",
+			"The law aids the vigilant, not those who sleep on their rights.",
+			"IX"
+		],
+		[
+			"Leges posteriores priores contrarias abrogant",
+			"Later laws repeal earlier contrary laws.",
+			"X"
+		],
+		[
+			"Verba legis",
+			"The words of the law (ordinary meaning first).",
+			"XI"
+		],
+		[
+			"Ratio legis est anima",
+			"The reason of the law is its soul.",
+			"XI"
+		],
+		[
+			"Ut magis valeat quam pereat",
+			"That it may be effective rather than fail (read as a whole).",
+			"XI"
+		]
+	],
+	"PROBS": [
+		{
+			"id": "p1",
+			"ch": 6,
+			"t": "Two sections of one law disagree",
+			"drill": "A licensing law says in Section 4 that a business license is valid for one year. Section 15 of the same law says the license is valid for three years. The rest of the law requires annual inspections and annual fees. A business owner claims a three-year validity because Section 15 comes later. Is he correct?",
+			"alac": [
+				"No. The license is valid for one year.",
+				"Jurisprudence provides that when two provisions of the same statute appear to conflict, the court first tries to reconcile them. If they cannot be reconciled, it prefers the provision that best fits the general plan and purpose of the statute. Only if there is no basis to choose does the provision last in position prevail.",
+				"Here, the two sections cannot both apply. But the law's general plan — annual inspections and annual fees — presupposes a one-year license, so Section 4 better fits the purpose of the statute. The court never reaches the last-in-position rule, which is only the final step.",
+				"Therefore, Section 4 prevails, and the license is valid for one year."
+			],
+			"key": "Recite the steps in order: Reconcile → Plan → Last. Students lose points by jumping straight to \"the later section wins.\""
+		},
+		{
+			"id": "p2",
+			"ch": 6,
+			"t": "Special law vs. later general law",
+			"drill": "A 2010 calamity law allows government offices to buy relief goods directly, without bidding, during a declared calamity. A 2024 procurement law requires public bidding for \"all\" government purchases and states that \"all laws inconsistent herewith are repealed.\" During a 2026 typhoon, a mayor buys relief goods directly. Is the purchase valid?",
+			"alac": [
+				"Yes. The purchase is valid.",
+				"Jurisprudence provides that a special law prevails over a general law on the same subject, whichever was enacted first, and a later general law does not repeal an earlier special law unless the legislature clearly intended it. The law provides that a general repealing clause is not an express repeal.",
+				"Here, the calamity law deals particularly with purchases during calamities, while the procurement law deals with all purchases in general. The 2024 law does not name the calamity law; its repealing clause is only general and does not clearly show intent to repeal it. The two can be harmonized: bidding is the rule, and the calamity law is the exception.",
+				"Therefore, the calamity law still applies, and the direct purchase is valid."
+			],
+			"key": "\"The later law always prevails\" is the trap. Special beats general regardless of date, unless one of the three exceptions applies (Magtajas)."
+		},
+		{
+			"id": "p3",
+			"ch": 6,
+			"t": "In pari materia",
+			"drill": "Law A, from 1990, creates a cooperative tax exemption for \"duly registered cooperatives.\" Law B, from 2008, sets the requirements for registering cooperatives but does not mention Law A. A cooperative registered under Law B claims the exemption. The BIR says Law B cannot be used to interpret Law A because Law B never mentions it. Is the BIR correct?",
+			"alac": [
+				"No, the BIR is not correct.",
+				"Jurisprudence provides that statutes are in pari materia when they relate to the same person or thing, have the same purpose or object, or cover the same specific subject. Such statutes are read together as one system, and the later law need not refer to the earlier one.",
+				"Here, both laws relate to the same thing — cooperatives — and Law B defines what it means to be duly registered. That is enough to make them in pari materia, even if Law B never mentions Law A.",
+				"Therefore, Law B may be read together with Law A to determine what a duly registered cooperative is."
+			],
+			"key": "The tests are alternative; any one is enough."
+		},
+		{
+			"id": "p4",
+			"ch": 7,
+			"t": "Claiming a tax exemption",
+			"drill": "A law exempts \"hospitals operated exclusively for charitable purposes\" from real property tax. A private hospital that rents out part of its building to a pharmacy chain claims the exemption for the entire property. Should the exemption be granted in full?",
+			"alac": [
+				"No, not in full.",
+				"Jurisprudence provides that tax exemptions are construed strictissimi juris against the claimant. They are never presumed, and the claimant must show a clear grant. A clear exemption, however, is applied as written.",
+				"Here, the exemption covers hospitals operated exclusively for charitable purposes. The portion rented to a pharmacy chain is used for a commercial purpose, not exclusively charitable. Reading the exemption strictly, that portion is not covered.",
+				"Therefore, the hospital cannot claim the exemption for the leased portion."
+			],
+			"key": "Impositions are strict against the government; exemptions are strict against the claimant."
+		},
+		{
+			"id": "p5",
+			"ch": 7,
+			"t": "Ambiguous penal statute",
+			"drill": "A law punishes anyone who \"carries a bladed weapon outside his residence.\" A cook is arrested while walking home from work with the kitchen knife he uses at the restaurant, wrapped in a bag. The law's whereas clauses say it aims to curb weapons used to commit crimes and cause public disorder. Should he be convicted?",
+			"alac": [
+				"No.",
+				"Jurisprudence provides that penal laws are strictly construed against the State and liberally in favor of the accused. But strict construction does not mean the narrowest reading; the spirit of the law prevails over a literal reading that leads to absurd or unjust results, and the whereas clauses may show the law's purpose.",
+				"Here, the law's purpose is to curb weapons used for crime and disorder. The cook carried a work tool, wrapped, on his way home, with no connection to any crime or disorder. Convicting him would apply the letter of the law in a way its purpose does not support, much like the kitchen-knife problem in People v. Purisima.",
+				"Therefore, he should not be convicted."
+			],
+			"key": "Name both ideas: strict construction for the accused, AND spirit over absurd letter."
+		},
+		{
+			"id": "p6",
+			"ch": 7,
+			"t": "LGU power vs. LGU tax",
+			"drill": "A city passes (1) an ordinance requiring CCTV cameras in all bars, citing the general welfare clause, and (2) a tax ordinance imposing a \"security fee\" on bars. Both are challenged as unclear in scope. How should each be construed?",
+			"alac": [
+				"The CCTV ordinance is construed liberally for the city; the tax ordinance is construed strictly against the city.",
+				"The law provides that powers of LGUs and the general welfare clause are liberally interpreted in favor of the LGU, and any fair doubt about a power is resolved in its favor. However, tax ordinances and revenue measures are construed strictly against the LGU and liberally in favor of the taxpayer.",
+				"Here, the CCTV ordinance is a police-power measure under the general welfare clause, so doubts favor the city. The security fee is a revenue measure, so doubts about its scope favor the bar owners.",
+				"Therefore, the CCTV ordinance is read liberally, and the security fee is read strictly against the city."
+			],
+			"key": "\"Anything involving an LGU is liberal\" is the trap."
+		},
+		{
+			"id": "p7",
+			"ch": 8,
+			"t": "Late appeal vs. late decision",
+			"drill": "(a) A litigant pays the appellate docket fees one day after the appeal period. (b) A trial judge decides a case 100 days after it was submitted, beyond the 90-day constitutional period. Are the appeal and the decision valid?",
+			"alac": [
+				"(a) The appeal is not perfected. (b) The decision is valid.",
+				"Jurisprudence provides that periods for litigants to act or appeal, including payment of docket fees, are mandatory and jurisdictional. On the other hand, periods within which courts must decide are directory; the Constitution itself provides that a late decision remains valid, though the judge may be held administratively liable.",
+				"(a) Here, the litigant paid late, so the mandatory period was not met and the appeal is not perfected. (b) The judge decided late, but this is a directory period; the decision stays valid, and the judge may face sanctions.",
+				"Therefore, the appeal fails, but the late decision is valid."
+			],
+			"key": "Litigant deadlines = mandatory. Judge deadlines = directory."
+		},
+		{
+			"id": "p8",
+			"ch": 8,
+			"t": "Election irregularity found after the election",
+			"drill": "An election law says ballot coupons \"shall\" be detached before the ballot is placed in the box. In one precinct, the coupons were not detached. After the election, the losing candidate asks to annul those ballots. Nothing shows the irregularity affected how people voted or the counting. Should the ballots be annulled?",
+			"alac": [
+				"No.",
+				"Jurisprudence provides that election laws on the conduct of elections are mandatory if enforced before the election, but generally directory after the election, so innocent voters are not disenfranchised. They remain mandatory only if the violation obstructed the free casting of votes or the result, affected an essential element, or the law expressly declares the act fatal.",
+				"Here, the challenge came after the election. Nothing shows the irregularity affected the voting or the count, it does not go to an essential element, and the law does not declare the omission fatal.",
+				"Therefore, the provision is directory at this stage, and the ballots should be counted."
+			],
+			"key": "Before vs. after the election, plus the three exceptions."
+		},
+		{
+			"id": "p9",
+			"ch": 8,
+			"t": "\"Deemed approved\"",
+			"drill": "A law says: \"The Secretary shall act on an application within 30 days; if not acted upon within that period, the application shall be deemed approved.\" The Secretary denies an application on day 45. Is the denial valid?",
+			"alac": [
+				"No.",
+				"Jurisprudence provides that periods for officials to act are generally directory, but they are mandatory when the time is intended as a limitation of the officer's power, as when the law says the application is deemed approved after the period.",
+				"Here, the law states a consequence for inaction: the application is deemed approved after 30 days. This shows the period limits the Secretary's power. On day 31, the application was already approved, so the Secretary had no more power to deny it on day 45.",
+				"Therefore, the denial is void."
+			],
+			"key": "A stated consequence (\"deemed approved,\" \"void\") points to mandatory."
+		},
+		{
+			"id": "p10",
+			"ch": 9,
+			"t": "Favorable penal law and the habitual criminal",
+			"drill": "A new law reduces the penalty for estafa. (a) Ana, convicted of estafa last year and now serving her sentence, asks for the lower penalty. (b) Ben, convicted of estafa for the third time within ten years of his last conviction, asks for the same. Should they get the lower penalty?",
+			"alac": [
+				"(a) Yes. (b) No.",
+				"The law provides that penal laws have retroactive effect insofar as they favor the accused, even if a final sentence has been pronounced and the convict is serving it. This does not apply to a habitual criminal, when the new law expressly excludes pending cases, or when the accused invokes the old law.",
+				"(a) Here, Ana is serving a final sentence, but the law still benefits her because it is favorable and she is not a habitual criminal. (b) Ben is a habitual criminal under the Revised Penal Code, so the exception applies to him.",
+				"Therefore, Ana gets the lower penalty, but Ben does not."
+			],
+			"key": "Art. 22 reaches even final judgments — but never habitual criminals."
+		},
+		{
+			"id": "p11",
+			"ch": 9,
+			"t": "New procedural rule and a pending case",
+			"drill": "While a civil case is pending, a new rule shortens the period to file a reply from 10 days to 5 days. The plaintiff, who received the answer under the old rule, argues the old 10-day period should apply to him. Is he correct?",
+			"alac": [
+				"No, the new rule applies.",
+				"Jurisprudence provides that procedural laws apply to actions pending at the time of their passage, because no one has a vested right in a particular procedure or remedy. The exceptions are when the law provides otherwise, when application is not feasible or would work injustice, when it raises intricate due process problems, or when it impairs vested rights.",
+				"Here, the reply period is a matter of procedure. Nothing shows that applying the new period would be unfeasible or unjust, as long as the plaintiff still has time to comply.",
+				"Therefore, the new 5-day period applies to his pending case."
+			],
+			"key": "If applying the new rule would cut off a step the party can no longer take, the injustice exception applies."
+		},
+		{
+			"id": "p12",
+			"ch": 9,
+			"t": "Overruled doctrine and good-faith reliance",
+			"drill": "In 2020, the Supreme Court held that secret agents appointed by a governor could carry firearms without a license. Relying on this, X carried an unlicensed firearm as an appointed agent in 2022. In 2024, the Court overruled the 2020 doctrine. X is prosecuted for his 2022 act. Should he be convicted?",
+			"alac": [
+				"No.",
+				"Jurisprudence provides that a judicial interpretation of a statute is part of the law from its enactment, but when a doctrine is overruled, the new doctrine applies prospectively and does not prejudice those who relied on the old one in good faith.",
+				"Here, X acted in 2022 in good-faith reliance on the 2020 doctrine, which was then the law. The 2024 overruling cannot be applied to punish him for an act that was lawful under the doctrine in force at the time.",
+				"Therefore, X should be acquitted."
+			],
+			"key": "First interpretation → retroactive to enactment. Overruling → prospective (People v. Jabinal)."
+		},
+		{
+			"id": "p13",
+			"ch": 10,
+			"t": "General repealing clause",
+			"drill": "A 1975 special law exempts a government corporation from local taxes. A 1991 general law on local governments ends with: \"All laws inconsistent with this Code are hereby repealed or modified accordingly.\" It does not list the 1975 law among the laws it expressly repeals. A city now taxes the corporation. Was the exemption repealed?",
+			"alac": [
+				"No.",
+				"The law provides that an express repeal must identify the law repealed; a general repealing clause is not an express repeal. Jurisprudence provides that implied repeals are disfavored, a later general law does not repeal an earlier special law unless the legislature clearly intended it, and the requisites of implied repeal must be clearly shown.",
+				"Here, the 1991 law did not name the 1975 law. Its general repealing clause alone does not show clear intent to repeal the special exemption. The two laws can be harmonized: the general rule allows local taxation, and the special law remains an exception.",
+				"Therefore, the exemption was not repealed, and the city cannot tax the corporation."
+			],
+			"key": "\"All laws inconsistent herewith are repealed\" ≠ express repeal (Mecano; Magtajas)."
+		},
+		{
+			"id": "p14",
+			"ch": 10,
+			"t": "Total repeal of a penal law",
+			"drill": "Maria is being tried under a penal law. While her case is pending, Congress totally repeals that law. The repealing law does not reenact the offense and has no saving clause. Should her case continue?",
+			"alac": [
+				"No. The case should be dismissed.",
+				"Jurisprudence provides that the total and absolute repeal of a penal law deprives the courts of authority to punish persons charged under it, so pending cases must be dismissed. The exceptions are when the repealing law reenacts the offense or contains a saving clause.",
+				"Here, the law was totally repealed, the offense was not reenacted, and there is no saving clause.",
+				"Therefore, the court loses authority to try and punish her, and the case must be dismissed."
+			],
+			"key": "Compare: a temporary penal law that EXPIRES does not end pending cases."
+		},
+		{
+			"id": "p15",
+			"ch": 10,
+			"t": "Repealing the repealer",
+			"drill": "Act B (2015) expressly repealed Act A (2000). In 2025, Act C repealed Act B but said nothing about Act A. Is Act A back in force?",
+			"alac": [
+				"No.",
+				"The law provides that when a law that expressly repealed an earlier law is itself repealed, the earlier law is not revived unless expressly provided. If the earlier law was only impliedly repealed, it is generally revived when the repealing law is repealed.",
+				"Here, Act B expressly repealed Act A. Act C repealed Act B but did not expressly revive Act A.",
+				"Therefore, Act A remains repealed."
+			],
+			"key": "Express → stays dead. Implied → comes back. Void repealer → never repealed."
+		},
+		{
+			"id": "p16",
+			"ch": 11,
+			"t": "Self-executing provision without a statute",
+			"drill": "The Constitution provides that in granting rights and concessions covering the national patrimony, \"the State shall give preference to qualified Filipinos.\" A government corporation awards a hotel to a foreign bidder over a qualified Filipino bidder who matched the bid. The corporation argues that no law implements the provision yet. Is the provision enforceable?",
+			"alac": [
+				"Yes, it is enforceable.",
+				"Jurisprudence provides that constitutional provisions are presumed self-executing unless the contrary is clearly intended. A provision is self-executing if it is complete in itself, supplies a rule a court can apply, does not defer to legislation, and is phrased as a command.",
+				"Here, the provision is phrased as a command (\"shall give preference\"), it states a complete rule a court can apply to these facts, and it does not say \"as may be provided by law.\" The lack of an implementing law does not prevent its enforcement.",
+				"Therefore, the provision is self-executing, and the Filipino bidder must be preferred."
+			],
+			"key": "Policies in Art. II and provisions that defer to law are generally NOT self-executing (Tañada; Kilosbayan)."
+		},
+		{
+			"id": "p17",
+			"ch": 11,
+			"t": "Clear text vs. convention debates",
+			"drill": "A constitutional provision is clear on its face. A party presents speeches from the Constitutional Commission showing that some commissioners intended a different meaning. Should the court follow the speeches?",
+			"alac": [
+				"No.",
+				"Jurisprudence provides that the words of the Constitution are first given their ordinary meaning (verba legis). Only if the words are ambiguous does the court look to the framers' intent (ratio legis est anima). Convention debates are persuasive, not controlling, because the people ratified the text, not the debates.",
+				"Here, the provision is clear, so there is no room for construction. The commissioners' speeches cannot change clear words that the people ratified.",
+				"Therefore, the court should apply the clear text."
+			],
+			"key": "Words first. Debates only if ambiguous — and even then only persuasive."
+		},
+		{
+			"id": "p18",
+			"ch": 6,
+			"t": "Ordinance vs. statute (Magtajas pattern)",
+			"drill": "A national law authorizes a government corporation to operate lotto outlets nationwide. A province passes an ordinance banning all lotto outlets, citing its power under the Local Government Code to suppress \"gambling and other prohibited games of chance.\" Is the ordinance valid?",
+			"alac": [
+				"No.",
+				"Jurisprudence provides that a word takes its meaning from the words associated with it (noscitur a sociis), that statutes must be harmonized and implied repeals are disfavored, and that an ordinance cannot contravene a statute because the delegate cannot be superior to its principal.",
+				"Here, \"gambling\" is read with \"other prohibited games of chance,\" so it refers only to illegal gambling. The national law allows lotto, so it is not prohibited gambling. The Local Government Code did not repeal the national law. The province cannot ban what Congress allows.",
+				"Therefore, the ordinance is void."
+			],
+			"key": "Cite the three Magtajas ideas: noscitur a sociis, harmonize/no implied repeal, ordinance cannot defy statute."
+		},
+		{
+			"id": "p19",
+			"ch": 6,
+			"t": "Whole statute and a definition (Catiis pattern)",
+			"drill": "A law imposes a heavier penalty on \"any person or persons who commit illegal recruitment in large scale,\" and in the same sentence defines large scale as \"committed against three or more persons.\" A recruiter defrauds two persons. The complainant argues that \"any person\" shows the heavier penalty applies to any illegal recruitment. Is he correct?",
+			"alac": [
+				"No.",
+				"Jurisprudence provides that a statute is read as a whole, one part may be qualified by another, and where the law itself defines a term, the definition controls and is simply applied.",
+				"Here, \"any person\" cannot be read apart from the same sentence, which defines large scale as against three or more persons. Only two persons were defrauded, so the definition is not met.",
+				"Therefore, the heavier penalty does not apply."
+			],
+			"key": "Like Catiis, rely on the whole sentence and the statutory definition — not on \"penal laws are strictly construed.\""
+		}
+	],
+	"TRAPS": {
+		"6": [
+			"\"The later law always prevails.\" Harmonize first; special beats general whichever is later.",
+			"\"The special law always prevails.\" Not under the three §6.22 exceptions.",
+			"Starting with \"last in position prevails.\" It is the third step.",
+			"Treating \"whole statute\" and \"in pari materia\" as the same rule (one law vs. several laws)."
+		],
+		"7": [
+			"Strict means the narrowest meaning. It only means no extension beyond fair meaning.",
+			"Liberal construction can override clear text. It cannot.",
+			"Tax exemptions are strict against the government. They are strict against the CLAIMANT.",
+			"Everything about LGUs is liberal. Powers yes; property grants and tax ordinances no."
+		],
+		"8": [
+			"\"Shall\" always means mandatory. It is only a presumption.",
+			"A judge who decides late loses jurisdiction. The decision is valid.",
+			"Litigants' late appeals are excused like judges' late decisions. Litigant deadlines are mandatory.",
+			"\"Directory\" means optional. It must still be followed."
+		],
+		"9": [
+			"Every retroactive law is unconstitutional. Only those hitting the four limits.",
+			"Ex post facto covers civil laws. Criminal matters only.",
+			"A favorable penal law cannot help a convict with a final judgment. Art. 22 says it can.",
+			"A law transferring jurisdiction applies to pending cases. Jurisdiction already acquired stays."
+		],
+		"10": [
+			"A general repealing clause is an express repeal. It is not.",
+			"Disuse repeals a law. It never does (Art. 7, Civil Code).",
+			"Repeal voids the old law from the start. Repeal is prospective.",
+			"Repealing the repealer always revives the first law. Not if the first repeal was express."
+		],
+		"11": [
+			"Start with the framers' intent. Start with the words.",
+			"Provisions are presumed directory. They are presumed mandatory.",
+			"No implementing law means unenforceable. Provisions are presumed self-executing.",
+			"Convention debates control. They are only persuasive."
+		]
+	}
+}

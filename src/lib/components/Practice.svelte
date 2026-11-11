@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
-	import { PARTS, TYPE_LABEL, TYPE_TAG, type Problem } from '$lib/problems';
+	import type { AlacProblem } from '$lib/problems';
 	import { BANDS, CHECK_ITEMS, REASONING_ITEM, emptyCheck, fixesFor, scoreTag, type Check } from '$lib/rubric';
 	import { attemptsFor, draftFor, navList, recordAttempt, setLastScore, store, type Answer, type Attempt } from '$lib/store.svelte';
 	import AlacEditor from './AlacEditor.svelte';
@@ -10,7 +10,7 @@
 	import SelfCheck from './SelfCheck.svelte';
 	import { answerKey } from '$lib/answerkey.svelte';
 
-	let { problem }: { problem: Problem } = $props();
+	let { problem }: { problem: AlacProblem } = $props();
 
 	type Phase = 'write' | 'check' | 'result' | 'retry';
 
@@ -27,7 +27,7 @@
 	let pending: Answer | null = $state(null);
 	let blankWarn = $state(false);
 
-	const list = $derived(navList(pid));
+	const list = $derived(navList(problem));
 	const idx = $derived(list.findIndex((p) => p.pid === pid));
 	const prev = $derived(list[idx - 1]);
 	const next = $derived(list[idx + 1]);
@@ -106,11 +106,11 @@
 <main class="page">
 	<div class="col">
 		<div class="between wrap">
-			<a class="btn btn-ghost btn-sm" href="/" style="margin-left:-12px">‹ All problems</a>
+			<a class="btn btn-ghost btn-sm" href={problem.home.href} style="margin-left:-12px">‹ {problem.home.label}</a>
 			<div class="row">
 				<span class="muted num hide-sm" style="font-size:13px">{idx + 1} of {list.length}</span>
-				<a class="btn btn-ghost btn-sm" href={prev ? `/p/${prev.pid}` : undefined} aria-disabled={!prev}>‹ Prev</a>
-				<a class="btn btn-ghost btn-sm" href={next ? `/p/${next.pid}` : undefined} aria-disabled={!next}>Next ›</a>
+				<a class="btn btn-ghost btn-sm" href={prev?.href} aria-disabled={!prev}>‹ Prev</a>
+				<a class="btn btn-ghost btn-sm" href={next?.href} aria-disabled={!next}>Next ›</a>
 			</div>
 		</div>
 
@@ -118,8 +118,7 @@
 			<div class="between wrap" style="margin-bottom:14px">
 				<h1 id="ptitle" class="eyebrow">Problem {problem.no} · {problem.label}</h1>
 				<div class="row wrap">
-					<span class="tag tag-line">{PARTS[problem.c.part]}</span>
-					<span class={TYPE_TAG[problem.type]}>{TYPE_LABEL[problem.type]}</span>
+					{#each problem.tags as t (t.label)}<span class={t.cls}>{t.label}</span>{/each}
 				</div>
 			</div>
 			<p class="facts legal">{problem.facts}</p>
@@ -170,7 +169,7 @@
 				<span class="muted num" style="font-size:13px">{fmt(elapsed)} elapsed</span>
 			</div>
 
-			<AlacEditor {draft} mode={store.prefs.mode} onsubmit={submit} />
+			<AlacEditor {draft} mode={store.prefs.mode} boxes={problem.boxes} onsubmit={submit} />
 
 			{#if blankWarn}
 				<div class="note note-warn" role="alert">
@@ -260,7 +259,7 @@
 					</div>
 					<div class="row wrap">
 						<button class="btn btn-primary btn-lg" onclick={startRetry}>Reconstruct my answer</button>
-						{#if next}<a class="btn btn-secondary btn-lg" href="/p/{next.pid}">Next problem</a>{:else}<a class="btn btn-secondary btn-lg" href="/">All problems</a>{/if}
+						{#if next}<a class="btn btn-secondary btn-lg" href={next.href}>Next problem</a>{:else}<a class="btn btn-secondary btn-lg" href={problem.home.href}>{problem.home.label}</a>{/if}
 					</div>
 				</div>
 

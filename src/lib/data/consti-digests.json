@@ -1,0 +1,142 @@
+{
+	"marcos": {
+		"facts": "After the 1986 EDSA Revolution, former President Marcos lived in exile in Hawaii. When he was dying, he asked to come home. President Aquino barred his return. She cited threats to national security, such as coup attempts and the communist insurgency. Marcos and his family asked the Supreme Court to order the government to issue them travel documents.",
+		"issue": "May the President bar a citizen from returning to the Philippines, even if no law or constitutional provision expressly gives that power?",
+		"ruling": "Yes. The petition was dismissed. Executive power is more than the sum of the powers listed in the Constitution. The President has residual powers to protect the general welfare. The right to return to one's country is different from the right to travel. The President had a factual basis for the decision, so there was no grave abuse of discretion."
+	},
+	"risos": {
+		"facts": "Former President Estrada was convicted of plunder and sentenced to reclusion perpetua with perpetual absolute disqualification. President Arroyo pardoned him. The pardon said he was “restored to his civil and political rights.” A “whereas” clause noted that he had publicly committed not to seek any elective office. In 2013 he ran for Mayor of Manila. Risos-Vidal asked COMELEC to disqualify him. COMELEC dismissed the petition, and Estrada won.",
+		"issue": "Did the pardon restore Estrada's right to run for public office?",
+		"ruling": "Yes. The petition was dismissed. The pardon was absolute, and its text restoring “civil and political rights” was clear. That includes the right to vote and to be voted for. The “whereas” clause is not part of the operative text, so it is not a condition. A law cannot limit the President's pardoning power beyond the limits in the Constitution."
+	},
+	"trillanes": {
+		"facts": "Senator Trillanes, a former Navy officer, took part in the 2003 Oakwood mutiny and the 2007 Manila Peninsula incident. In 2010, President Aquino granted amnesty to the participants through a proclamation that Congress concurred in. Trillanes was granted amnesty. In 2018, President Duterte issued a proclamation declaring Trillanes's amnesty void from the beginning, on the claim that he did not file an application or admit guilt, and ordered his arrest.",
+		"issue": "May the President alone revoke an amnesty that was already granted with the concurrence of Congress?",
+		"ruling": "No. The revoking proclamation was declared unconstitutional. Amnesty is a joint act of the President and Congress, so the President cannot revoke it alone. Revoking it without notice and hearing also violated due process. Reviving the dismissed criminal cases would violate the rule against double jeopardy. Letting the Department of National Defense process amnesty applications was a valid delegation."
+	},
+	"pangilinan": {
+		"facts": "The Philippines became a party to the Rome Statute of the International Criminal Court in 2011, with the concurrence of the Senate. In March 2018, President Duterte announced the country's withdrawal and sent notice to the United Nations. The withdrawal took effect one year later. Several senators and other petitioners argued that the withdrawal needed the concurrence of the Senate.",
+		"issue": "Is the President's withdrawal from a treaty valid without the concurrence of the Senate? Do the petitioners have standing?",
+		"ruling": "The petitions were dismissed for being moot, because the withdrawal had already taken effect. The senators also lacked standing, because the Senate as a body passed no resolution questioning the withdrawal. As guidance, the Court said the President may withdraw from a treaty that is contrary to the Constitution or a statute. But the President cannot withdraw alone when the Senate made its concurrence subject to its consent to withdrawal, or when a later law implements the treaty."
+	},
+	"colmenares": {
+		"facts": "The government signed loan agreements with Chinese lenders for the Chico River Pump Irrigation Project and the Kaliwa Dam Project. The agreements had confidentiality clauses, among other terms. Colmenares and other petitioners challenged the loans and named President Duterte as a respondent. They also asked that the loan documents be made public.",
+		"issue": "(1) May a sitting President be sued? (2) Are the foreign loans valid? (3) Can a confidentiality clause keep the loan documents secret?",
+		"ruling": "(1) No. A sitting President is immune from suit, so the President was dropped and the case continued against the other officials. (2) Yes. The loans were made with the prior concurrence of the Monetary Board, as the Constitution requires. (3) No. A confidentiality clause cannot defeat the people's right to information on foreign loans obtained or guaranteed by the government."
+	},
+	"garafil": {
+		"facts": "In the last weeks before the 2010 election ban on appointments, President Arroyo signed more than 800 appointments. Many appointment papers were signed before the ban but were sent out, received, or accepted only after the ban began. President Aquino issued Executive Order No. 2 recalling these “midnight appointments.” Velicaria-Garafil and other appointees challenged the order.",
+		"issue": "Is an appointment valid if the President signed it before the ban, but the other steps were completed after the ban began?",
+		"ruling": "No. The appointments were void and Executive Order No. 2 was valid. Appointment is a process with four steps: (1) authority to appoint and evidence of its exercise, (2) transmittal of the appointment paper, (3) receipt by the appointee, and (4) acceptance, shown by taking the oath or assuming office. All four must be completed before the ban begins."
+	},
+	"decastro": {
+		"facts": "Chief Justice Puno was due to retire on May 17, 2010, seven days after the presidential election. The vacancy would arise during the two-month ban on appointments before a presidential election. Several petitions asked whether the outgoing President could appoint the next Chief Justice and whether the JBC should submit its list of nominees.",
+		"issue": "Does the ban on appointments two months before a presidential election cover appointments to the Supreme Court?",
+		"ruling": "No. The ban is found in the article on the Executive Department and does not cover the Judiciary. The Constitution says a vacancy in the Supreme Court “shall” be filled within 90 days, which is mandatory. The JBC process already guards against the abuses the ban targets. The Court directed the JBC to submit its list, and it reversed its earlier contrary ruling."
+	},
+	"belgica": {
+		"facts": "After the 2013 pork barrel scandal, petitioners challenged the Priority Development Assistance Fund (PDAF) in the budget law. Under the PDAF, each legislator received a lump sum and chose the projects after the budget was passed. Petitioners also challenged the President's use of the Malampaya Funds for “such other purposes as may be hereafter directed by the President,” and of the Presidential Social Fund for “priority infrastructure development projects.”",
+		"issue": "Are the PDAF and these presidential lump-sum fund provisions constitutional?",
+		"ruling": "No. The PDAF is unconstitutional. Letting legislators take part in executing the budget after it is passed violates the separation of powers. A lump sum with no specific purpose is not a proper item, so it defeats the President's item veto. The quoted phrases on the Malampaya Funds and the Presidential Social Fund are also void, because they give the President no sufficient standard. That is undue delegation of legislative power."
+	},
+	"sereno": {
+		"facts": "Sereno was appointed Chief Justice in 2012. In 2018, the Solicitor General filed a petition for quo warranto in the Supreme Court. He claimed she was not eligible because she failed to file her Statements of Assets, Liabilities and Net Worth (SALNs) for many years as a professor and did not submit them to the JBC as required. Sereno argued that an impeachable officer can be removed only by impeachment and that the one-year period to file quo warranto had lapsed.",
+		"issue": "(1) May an impeachable officer be ousted by quo warranto? (2) Did the action prescribe?",
+		"ruling": "(1) Yes. The petition was granted and Sereno was ousted. The Constitution says impeachable officers “may” be removed by impeachment, which is permissive. Impeachment covers offenses committed in office. Quo warranto tests whether the person was eligible when appointed. Her failure to file SALNs showed a lack of proven integrity, a constitutional qualification. (2) No. Prescription does not run against the State."
+	},
+	"jardeleza": {
+		"facts": "Solicitor General Jardeleza applied for a vacancy in the Supreme Court. Chief Justice Sereno, as JBC chair, questioned his integrity because of his legal strategy in the West Philippine Sea arbitration. She invoked the JBC rule that an applicant whose integrity is challenged needs a unanimous vote. Jardeleza was not given the charges in writing or enough time to answer. He got a majority of the votes but was left out of the shortlist.",
+		"issue": "Was the unanimity rule properly applied? Was Jardeleza denied due process?",
+		"ruling": "The petition was granted, and Jardeleza was deemed included in the shortlist. A disagreement over legal strategy is not a question of integrity, so the unanimity rule did not apply. JBC proceedings are special in nature, but due process still applies when an applicant's integrity is challenged. The applicant must get notice and a chance to be heard. The Supreme Court may correct the JBC through its power of supervision."
+	},
+	"villanueva": {
+		"facts": "Judge Villanueva had been a first-level court judge for a little over a year when he applied for vacancies in the Regional Trial Court. The JBC did not include him, because of its policy that a first-level court judge must serve for five years before qualifying for promotion to a second-level court. He claimed the policy added a qualification not found in the Constitution and violated equal protection.",
+		"issue": "May the JBC require five years of service as a first-level court judge before promotion to a second-level court?",
+		"ruling": "Yes. The petition was dismissed. The JBC may set reasonable standards to measure proven competence, in addition to the minimum qualifications. Experience is a reasonable classification, so equal protection is not violated. An applicant has no vested right to be nominated. But the Court said the policy should have been published, and it directed the JBC to publish it."
+	},
+	"chavez": {
+		"facts": "The Constitution gives the JBC seven members, including “a representative of the Congress.” In practice, Congress sent two representatives, one from the Senate and one from the House, and each had one full vote. This made eight members. Chavez, a nominee for Chief Justice, challenged the practice.",
+		"issue": "May Congress have more than one representative in the JBC?",
+		"ruling": "No. The words “a representative of the Congress” are clear and mean only one. The JBC was designed with seven members, and an odd number avoids a deadlock. Congress is entitled to only one seat and one vote. Under the operative fact doctrine, the JBC's earlier acts remain valid."
+	},
+	"aguinaldo": {
+		"facts": "A law created six new seats of Associate Justice in the Sandiganbayan. The JBC submitted six separate shortlists, one for each new seat, and numbered the seats. President Aquino did not follow the clusters. He appointed more than one nominee from the same shortlist. Nominees who were left out challenged the appointments.",
+		"issue": "Is the President bound by the JBC's clustering of nominees when several vacancies exist at the same time?",
+		"ruling": "No. The petition was dismissed and the appointments were upheld. Clustering limits the President's choice to one list per seat, which impairs the power to appoint. It also lets the JBC decide seniority, which follows from the order of appointment by the President. The President may choose from all the nominees for the simultaneous vacancies."
+	},
+	"recoa": {
+		"facts": "Retired Chief Justices and Associate Justices bought the vehicles and other property assigned to them when they retired. The prices followed a formula set by the bodies that enjoy fiscal autonomy. The Commission on Audit said its own formula should have been used and that the justices underpaid.",
+		"issue": "May the Commission on Audit require the Judiciary to use COA's valuation formula when the Court disposes of its own property?",
+		"ruling": "No. The sales were valid. Fiscal autonomy gives the Judiciary full flexibility to allocate and use its resources, including disposing of its property under its own guidelines. The Commission on Audit may still audit the Judiciary, but it cannot dictate the valuation the Court uses."
+	},
+	"jdf": {
+		"facts": "Members of Congress filed bills to abolish the Judiciary Development Fund and to move its money to the national treasury. A private citizen wrote to the Supreme Court. He asked the Court to act and to stop Congress from passing the bills, to protect judicial independence and fiscal autonomy.",
+		"issue": "May the Supreme Court rule on the validity of bills that are still pending in Congress?",
+		"ruling": "No. The petition was denied. Judicial power requires an actual case or controversy. A bill is not yet a law and has hurt no one, so there is nothing to decide. The petitioner also had no standing, and the requisites of mandamus were absent."
+	},
+	"castaneda": {
+		"facts": "A woman learned that her marriage had been declared void in a case she was never notified of. She filed an administrative complaint against the judge who decided it. While the administrative case was pending, the judge died.",
+		"issue": "Should an administrative case against a judge continue after the judge dies while the case is pending?",
+		"ruling": "No. The case was dismissed. The death of the respondent while an administrative case is pending ends the case. The respondent can no longer defend herself or ask for reconsideration, and any penalty would fall on her heirs. This differs from retirement or resignation, which does not end a case filed while the respondent was still in office."
+	},
+	"caronan": {
+		"facts": "Richard Caronan did not finish college. He used the name and school records of his brother, Patrick Caronan, to enter law school and take the Bar. He passed and practiced law as “Atty. Patrick A. Caronan.” The real Patrick filed a complaint.",
+		"issue": "May a person who was admitted to the Bar under another person's name and records keep practicing law?",
+		"ruling": "No. The name “Patrick A. Caronan” was ordered stricken from the Roll of Attorneys, and Richard was barred from being admitted to the Bar. The practice of law is a privilege, not a right. He lacked the required education and the good moral character needed for admission. Years of practice do not cure an admission obtained by fraud."
+	},
+	"brillantes": {
+		"facts": "The COMELEC Chairman was named to head a fact-finding body and had to leave his post for a time. President Aquino designated Associate Commissioner Yorac as Acting Chairman of the COMELEC. Brillantes challenged the designation.",
+		"issue": "May the President designate an acting chairman of a Constitutional Commission?",
+		"ruling": "No. The designation was unconstitutional. The Constitutional Commissions are independent. An acting head named by the President holds the post at the President's pleasure, which destroys that independence. The Constitution also forbids temporary or acting appointments to the Commissions. The members of the Commission choose who will act as chairman in the meantime."
+	},
+	"funa": {
+		"facts": "Villar was a COA Commissioner with a seven-year term. Four years into his term, the COA Chairman's term expired. The President appointed Villar as Chairman. Villar claimed a fresh seven-year term as Chairman. Funa challenged the appointment. Villar later resigned, but the Court still decided the case.",
+		"issue": "May a sitting Commissioner be appointed Chairman, and for how long?",
+		"ruling": "Villar's appointment was unconstitutional. When a term expires, the next appointment must be for a full seven years. Villar could not be given that, because his total service would go over seven years. A Commissioner may be promoted to Chairman only when the vacancy is caused by death, resignation, disability, or removal by impeachment, and only for the unexpired portion of the term. In every case, total service must not exceed seven years, and one who has served a full term can never be reappointed."
+	},
+	"pililla": {
+		"facts": "The general manager of a local water district reached the retirement age of 65. The water district's board appointed him again as general manager on a coterminous basis. The Civil Service Commission refused to approve the appointment. It said the post was a career position, so he had to retire.",
+		"issue": "Is the position of general manager of a water district primarily confidential?",
+		"ruling": "Yes. The appointment was upheld. The general manager works closely with the board and holds its trust, so the position is primarily confidential. Courts, not the Civil Service Commission, have the final say on the nature of a position, based on the nature of the job. A primarily confidential employee holds office only while the confidence lasts. When confidence is lost, the term expires. That is not a removal."
+	},
+	"ppi": {
+		"facts": "For the 1995 elections, COMELEC issued a resolution directing newspapers to give free print space of at least half a page, called “Comelec Space,” for election information. The Philippine Press Institute, a group of newspaper publishers, challenged the resolution.",
+		"issue": "May COMELEC compel newspapers to donate print space?",
+		"ruling": "No. The provision was void insofar as it compelled the donation. Forcing a newspaper to give free space is a taking of private property for public use without just compensation. It is not a valid exercise of police power, because no necessity for the taking was shown. The power to “supervise or regulate” media during elections does not include the power to take property."
+	},
+	"penera": {
+		"facts": "Peñera filed her certificate of candidacy for mayor. On that same day, before the campaign period began, she and her supporters held a motorcade. She was disqualified for premature campaigning. The Supreme Court first affirmed her disqualification. She moved for reconsideration.",
+		"issue": "Is a person who has filed a certificate of candidacy liable for premature campaigning for acts done before the campaign period starts?",
+		"ruling": "No. The Court reversed itself and granted her motion. Under the law, a person who files a certificate of candidacy is considered a candidate only at the start of the campaign period. Unlawful acts that apply to a candidate take effect only then. So partisan political acts done before the campaign period are not premature campaigning."
+	},
+	"seneres": {
+		"facts": "Two officers of the Buhay party-list group each claimed to be its president. Each filed a list of nominees for the 2007 elections. COMELEC recognized the list of Robles, the president whose term had already expired. Buhay won seats. The nominees of Robles were proclaimed, took their oath, and assumed office. Señeres then went to the Supreme Court to question the COMELEC ruling.",
+		"issue": "Who has jurisdiction over a challenge to party-list nominees who have been proclaimed and have assumed office? Could Robles still act as president?",
+		"ruling": "The petition was dismissed. Once a winning candidate is proclaimed, takes the oath, and assumes office as a Member of the House, the House of Representatives Electoral Tribunal has sole jurisdiction over contests on the election, returns, and qualifications. Robles also validly acted in a hold-over capacity until a successor was elected. Señeres was estopped from questioning his authority."
+	},
+	"lp": {
+		"facts": "COMELEC set a deadline for the registration of political parties and coalitions for the 2010 elections. Months after the deadline, the Nacionalista Party and the Nationalist People's Coalition asked COMELEC to register their coalition and to accredit it as the dominant minority party. COMELEC granted the registration. The Liberal Party challenged it.",
+		"issue": "May COMELEC register a coalition after the deadline, so that it can be accredited?",
+		"ruling": "No. COMELEC committed grave abuse of discretion. Registration must come before accreditation. Registration is not a mere recognition of a fact. It calls for COMELEC's evaluation. The deadline for registration is mandatory and applies to coalitions too. COMELEC cannot ignore its own deadline."
+	},
+	"galindo": {
+		"facts": "State auditors of the Commission on Audit were assigned to a government water agency. They received allowances, bonuses, and other benefits from that agency. The Commission on Audit, acting as their employer, found them administratively liable and penalized them. The auditors went straight to the Supreme Court on certiorari.",
+		"issue": "(1) What is the remedy against a decision of the Commission on Audit disciplining its own personnel? (2) Were the auditors liable?",
+		"ruling": "(1) The petition was dismissed. When the Commission on Audit acts as disciplining authority over its own staff, it does not act under its audit power. The remedy is an appeal to the Civil Service Commission, not certiorari to the Supreme Court. (2) Yes. Auditors may not receive pay or benefits from the agencies they audit, and substantial evidence supported the finding."
+	},
+	"bsp": {
+		"facts": "The Commission on Audit issued an adverse audit ruling against the Bangko Sentral ng Pilipinas. In doing so, it applied rules that govern government-owned or controlled corporations. The Bangko Sentral argued that it is not a government-owned or controlled corporation. (This summary of the facts is brief; read the full text for the details of the audit.)",
+		"issue": "Is the Bangko Sentral a government-owned or controlled corporation? Is it subject to audit by the Commission on Audit?",
+		"ruling": "The Bangko Sentral is not a government-owned or controlled corporation. It has no capital stock divided into shares and no members, so it is neither a stock nor a non-stock corporation. It is a government instrumentality with corporate powers and the independent central monetary authority. Laws made for government-owned or controlled corporations do not apply to it. The Commission on Audit may still audit it, but it must apply the correct law."
+	},
+	"miaa": {
+		"facts": "The City of Pasay assessed the Manila International Airport Authority for real property tax on the airport lands and buildings in the city and threatened to sell them at public auction. The Authority claimed it was exempt.",
+		"issue": "Are the airport lands and buildings of the Authority subject to real property tax?",
+		"ruling": "No. The Authority is a government instrumentality vested with corporate powers, not a government-owned or controlled corporation. The airport lands and buildings are property of public dominion owned by the Republic, so they are exempt from real property tax and cannot be sold at auction. The exception is any portion leased to private persons, which is taxable."
+	},
+	"chrea": {
+		"facts": "The Commission on Human Rights approved a plan to upgrade and reclassify some of its positions and to create new ones, using its savings. It claimed it had fiscal autonomy and did not need the approval of the Department of Budget and Management. The Department denied the plan. The employees' association of the Commission challenged the plan.",
+		"issue": "May the Commission on Human Rights upgrade and reclassify positions without the approval of the Department of Budget and Management?",
+		"ruling": "No. The Constitution grants fiscal autonomy only to the Judiciary, the Constitutional Commissions, and the Ombudsman. The Commission on Human Rights is independent, but it is not one of them. Upgrading or reclassifying positions needs the approval of the Department of Budget and Management under the Salary Standardization Law."
+	}
+}

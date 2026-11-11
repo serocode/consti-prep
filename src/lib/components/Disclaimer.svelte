@@ -70,8 +70,9 @@
 			</ul>
 		</div>
 		<p class="tip">
-			<b>Best way to use this app:</b> keep pressing <b>Random problem</b> on the home page. On the bar, you won't know which
-			question is coming, so don't study the problems in order.
+			<b>Best way to use this app:</b> start with each subject's <b>★ Exam focus</b>, then keep pressing
+			<b>Random problem</b>. On the exam, you won't know which question is coming, so don't study the problems in order.
+			See <b>Exam day</b> for the go-blank routine.
 		</p>
 		<div class="actions">
 			<button class="btn btn-primary" onclick={accept}>I understand</button>

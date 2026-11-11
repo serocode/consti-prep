@@ -3,6 +3,7 @@
 	import { QUESTION_COUNT, RULES, SETS } from '$lib/crimpro';
 	import { pool, setProgress, startFrom } from '$lib/crimpro-exam';
 	import { store } from '$lib/store.svelte';
+	import { LIKELY_SETS } from '$lib/focus/crimpro';
 
 	let rule = $state('all');
 	const list = $derived(SETS.filter((s) => rule === 'all' || s.rules.includes(rule)));
@@ -103,6 +104,7 @@
 			{@const b = store.crimpro.best[s.id]}
 			{@const p = progById[s.id]}
 			<a class="card set" href="/crimpro/drill/{s.id}">
+				{#if LIKELY_SETS[s.id]}<span class="tag tag-star" title={LIKELY_SETS[s.id]}>★ Likely</span>{/if}
 				<span class="muted num" style="font-size:12px">Rule {s.rules.join(', ')}</span>
 				<span class="st">{s.title}</span>
 				<span class="muted num" style="font-size:13px">{s.qs.length} linked questions{p.seen ? ` · ${p.right}/${s.qs.length} right` : ''}</span>

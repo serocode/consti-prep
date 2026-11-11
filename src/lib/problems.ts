@@ -29,17 +29,45 @@ interface Twin {
 	key: string;
 }
 
-export interface Problem {
+export type Subject = 'consti' | 'statcon' | 'crimlaw';
+export type AlacKey = 'a' | 'l' | 'p' | 'c';
+
+/** The rule material shown under "Rule and provisions" on a problem. */
+export interface RefSource {
+	name: string;
+	cite: string;
+	rule: string;
+	mem: string[];
+	doc: string[];
+}
+
+/** Anything the ALAC practice screen (write → self-check → retry) can run on, from any subject. */
+export interface AlacProblem {
+	subject: Subject;
 	pid: string;
 	no: number;
-	c: CaseData;
-	type: ProblemType;
 	label: string;
 	facts: string;
 	q: string;
 	hint: string;
+	/** Reference answer: Answer, Legal Basis, Application, Conclusion. */
 	alac: string[];
 	key: string;
+	c: RefSource;
+	href: string;
+	tags: { label: string; cls: string }[];
+	/** Where "All problems" leads. */
+	home: { href: string; label: string };
+	/** Per-box overrides of the sentence starters and placeholder. */
+	boxes?: Partial<Record<AlacKey, { starters?: string[]; placeholder?: string }>>;
+	/** The list Prev/Next walks through. Without it, the Consti list and filters are used. */
+	nav?: () => AlacProblem[];
+}
+
+export interface Problem extends AlacProblem {
+	subject: 'consti';
+	c: CaseData;
+	type: ProblemType;
 }
 
 const data = raw as unknown as { PARTS: Record<string, string>; D: CaseData[]; TW: Twin[] };
@@ -61,26 +89,34 @@ export const TYPE_TAG: Record<ProblemType, string> = { drill: 'tag', same: 'tag 
 
 export const CASES = data.D;
 
+const HOME = { href: '/', label: 'All problems' };
+
+function make(c: CaseData, pid: string, type: ProblemType, rest: Pick<Problem, 'label' | 'facts' | 'q' | 'hint' | 'alac' | 'key'>): Problem {
+	return {
+		subject: 'consti',
+		pid,
+		no: 0,
+		c,
+		type,
+		...rest,
+		href: `/p/${pid}`,
+		tags: [
+			{ label: PARTS[c.part], cls: 'tag tag-line' },
+			{ label: TYPE_LABEL[type], cls: TYPE_TAG[type] }
+		],
+		home: HOME
+	};
+}
+
 function build(): Problem[] {
 	const out: Problem[] = [];
 	for (const c of data.D) {
-		out.push({
-			pid: `${c.id}-drill`,
-			no: 0,
-			c,
-			type: 'drill',
-			label: 'Case drill',
-			facts: c.drill,
-			q: '',
-			hint: `Memory hook: ${c.hook}`,
-			alac: c.alac,
-			key: c.key
-		});
+		out.push(make(c, `${c.id}-drill`, 'drill', { label: 'Case drill', facts: c.drill, q: '', hint: `Memory hook: ${c.hook}`, alac: c.alac, key: c.key }));
 		let i = 0;
 		for (const t of data.TW) {
 			if (t.c !== c.id) continue;
 			i++;
-			out.push({ pid: `${c.id}-t${i}`, no: 0, c, type: t.t, label: t.label, facts: t.facts, q: t.q, hint: t.hint, alac: t.alac, key: t.key });
+			out.push(make(c, `${c.id}-t${i}`, t.t, { label: t.label, facts: t.facts, q: t.q, hint: t.hint, alac: t.alac, key: t.key }));
 		}
 	}
 	out.forEach((p, i) => (p.no = i + 1));

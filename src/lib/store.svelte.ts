@@ -1,5 +1,5 @@
 import { browser } from '$app/environment';
-import { PROBLEMS, type Problem } from './problems';
+import { PROBLEMS, type AlacProblem, type Problem } from './problems';
 import type { Check } from './rubric';
 import { answerKey } from './answerkey.svelte';
 
@@ -85,22 +85,71 @@ export interface CrimPro {
 	session: Session | null;
 }
 
+/** Flashcard self-rating. */
+export type Rating = 'got' | 'shaky' | 'blank';
+
+/** One question on a finals-kit (StatCon, Crim Law) written mock exam. */
+export interface KitItem {
+	kind: 'enum' | 'term' | 'prob';
+	id: string;
+}
+
+/** A written mock exam (enumerations, definitions, ALAC problems). Lives in the store so a reload resumes it. */
+export interface KitExam {
+	label: string;
+	items: KitItem[];
+	/** Written answers by key: `enum:6.1`, `term:repeal`, `prob:sc-p1:a` … `:c`. */
+	answers: Record<string, string>;
+	/** Self-marked points by item key (`enum:6.1`); missing = not marked yet. */
+	marks: Record<string, number>;
+	started: number;
+	finished: number | null;
+	/** Marks have been entered and the result logged. */
+	graded: boolean;
+}
+
+export interface KitExamLog {
+	at: number;
+	label: string;
+	score: number;
+	total: number;
+	secs: number;
+}
+
+/** What a finals kit (StatCon, Crim Law) remembers. */
+export interface KitState {
+	/** Flashcard ratings by card key (`e6.1`, `t:repeal`, `m<maxim>`, `c<case>`). */
+	ratings: Record<string, Rating>;
+	/** Group (chapter or part) filter on the problem list: 'all' or the group id. */
+	ch: string;
+	/** How enumeration cards open. */
+	emode: 'recall' | 'study';
+	exam: KitExam | null;
+	exams: KitExamLog[];
+}
+
 export interface Saved {
 	version: 1;
 	attempts: Record<string, Attempt[]>;
 	drafts: Record<string, Draft>;
 	prefs: Prefs;
 	crimpro: CrimPro;
+	statcon: KitState;
+	crimlaw: KitState;
 }
 
 export const emptyDraft = (): Draft => ({ a: '', l: '', p: '', c: '', full: '' });
+
+const emptyKit = (): KitState => ({ ratings: {}, ch: 'all', emode: 'recall', exam: null, exams: [] });
 
 const defaults = (): Saved => ({
 	version: 1,
 	attempts: {},
 	drafts: {},
 	prefs: { mode: 'guided', theme: 'system', part: 'all', type: 'all', status: 'all' },
-	crimpro: { best: {}, q: {}, exams: [], session: null }
+	crimpro: { best: {}, q: {}, exams: [], session: null },
+	statcon: emptyKit(),
+	crimlaw: emptyKit()
 });
 
 const obj = <T>(x: unknown): Record<string, T> => (x && typeof x === 'object' && !Array.isArray(x) ? (x as Record<string, T>) : {});
@@ -112,6 +161,17 @@ function loadCrimPro(c: Partial<CrimPro> | undefined): CrimPro {
 		q: obj(c?.q),
 		exams: Array.isArray(c?.exams) ? c.exams : [],
 		session: s && Array.isArray(s.qids) && Array.isArray(s.picks) && Array.isArray(s.orders) ? s : null
+	};
+}
+
+function loadKit(c: Partial<KitState> | undefined): KitState {
+	const x = c?.exam;
+	return {
+		ratings: obj(c?.ratings),
+		ch: typeof c?.ch === 'string' ? c.ch : 'all',
+		emode: c?.emode === 'study' ? 'study' : 'recall',
+		exam: x && Array.isArray(x.items) && x.answers && x.marks ? x : null,
+		exams: Array.isArray(c?.exams) ? c.exams : []
 	};
 }
 
@@ -127,7 +187,9 @@ function load(): Saved {
 			attempts: s.attempts && typeof s.attempts === 'object' ? s.attempts : {},
 			drafts: s.drafts && typeof s.drafts === 'object' ? s.drafts : {},
 			prefs: { ...d.prefs, ...(s.prefs ?? {}) },
-			crimpro: loadCrimPro(s.crimpro)
+			crimpro: loadCrimPro(s.crimpro),
+			statcon: loadKit(s.statcon),
+			crimlaw: loadKit(s.crimlaw)
 		};
 	} catch {
 		return d;
@@ -213,10 +275,11 @@ export function filteredProblems(): Problem[] {
 	});
 }
 
-/** The list a problem page navigates within: the current filter, or everything if the problem is outside it. */
-export function navList(pid: string): Problem[] {
+/** The list a problem page navigates within: the subject's current filter, or all its problems if this one is outside it. */
+export function navList(p: AlacProblem): AlacProblem[] {
+	if (p.nav) return p.nav();
 	const list = filteredProblems();
-	return list.some((p) => p.pid === pid) ? list : PROBLEMS;
+	return list.some((x) => x.pid === p.pid) ? list : PROBLEMS;
 }
 
 // ---------- mutations ----------
@@ -243,6 +306,13 @@ export function recordSetScore(id: string, score: number) {
 	if (answerKey.on) return;
 	const prev = store.crimpro.best[id];
 	if (prev == null || score > prev) store.crimpro.best[id] = score;
+	saveNow();
+}
+
+/** Logs a graded finals-kit mock exam (skipped while the answer key is showing). */
+export function logKitExam(state: KitState, log: KitExamLog) {
+	if (answerKey.on) return;
+	state.exams.push(log);
 	saveNow();
 }
 
@@ -290,6 +360,8 @@ export function importJSON(text: string): { ok: true; count: number } | { ok: fa
 		if (s.prefs) store.prefs = { ...store.prefs, ...s.prefs };
 		// Backups made before Crim Pro existed have no `crimpro`; keep the current scores then.
 		if (s.crimpro) store.crimpro = loadCrimPro(s.crimpro);
+		if (s.statcon) store.statcon = loadKit(s.statcon);
+		if (s.crimlaw) store.crimlaw = loadKit(s.crimlaw);
 		return { ok: true, count: Object.keys(s.attempts).length };
 	} catch {
 		return { ok: false, error: 'That file could not be read. Choose the .json file you exported.' };
@@ -301,4 +373,6 @@ export function resetAll() {
 	store.attempts = d.attempts;
 	store.drafts = d.drafts;
 	store.crimpro = d.crimpro;
+	store.statcon = d.statcon;
+	store.crimlaw = d.crimlaw;
 }
