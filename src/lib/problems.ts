@@ -29,7 +29,7 @@ interface Twin {
 	key: string;
 }
 
-export type Subject = 'consti' | 'statcon' | 'crimlaw';
+export type Subject = 'consti' | 'statcon' | 'crimlaw' | 'pfr';
 export type AlacKey = 'a' | 'l' | 'p' | 'c';
 
 /** The rule material shown under "Rule and provisions" on a problem. */

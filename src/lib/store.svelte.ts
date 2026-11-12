@@ -90,7 +90,7 @@ export type Rating = 'got' | 'shaky' | 'blank';
 
 /** One question on a finals-kit (StatCon, Crim Law) written mock exam. */
 export interface KitItem {
-	kind: 'enum' | 'term' | 'prob';
+	kind: 'enum' | 'term' | 'mcq' | 'prob';
 	id: string;
 }
 
@@ -98,7 +98,7 @@ export interface KitItem {
 export interface KitExam {
 	label: string;
 	items: KitItem[];
-	/** Written answers by key: `enum:6.1`, `term:repeal`, `prob:sc-p1:a` … `:c`. */
+	/** Written answers by key: `enum:6.1`, `term:repeal`, `prob:sc-p1:a` … `:c`; for MCQs, the picked index (`mcq:m12` → "2"). */
 	answers: Record<string, string>;
 	/** Self-marked points by item key (`enum:6.1`); missing = not marked yet. */
 	marks: Record<string, number>;
@@ -126,6 +126,8 @@ export interface KitState {
 	emode: 'recall' | 'study';
 	exam: KitExam | null;
 	exams: KitExamLog[];
+	/** Last picked choice per MCQ id, for kits with MCQs (PFR). */
+	mcq: Record<string, number>;
 }
 
 export interface Saved {
@@ -136,11 +138,12 @@ export interface Saved {
 	crimpro: CrimPro;
 	statcon: KitState;
 	crimlaw: KitState;
+	pfr: KitState;
 }
 
 export const emptyDraft = (): Draft => ({ a: '', l: '', p: '', c: '', full: '' });
 
-const emptyKit = (): KitState => ({ ratings: {}, ch: 'all', emode: 'recall', exam: null, exams: [] });
+const emptyKit = (): KitState => ({ ratings: {}, ch: 'all', emode: 'recall', exam: null, exams: [], mcq: {} });
 
 const defaults = (): Saved => ({
 	version: 1,
@@ -149,7 +152,8 @@ const defaults = (): Saved => ({
 	prefs: { mode: 'guided', theme: 'system', part: 'all', type: 'all', status: 'all' },
 	crimpro: { best: {}, q: {}, exams: [], session: null },
 	statcon: emptyKit(),
-	crimlaw: emptyKit()
+	crimlaw: emptyKit(),
+	pfr: emptyKit()
 });
 
 const obj = <T>(x: unknown): Record<string, T> => (x && typeof x === 'object' && !Array.isArray(x) ? (x as Record<string, T>) : {});
@@ -171,7 +175,8 @@ function loadKit(c: Partial<KitState> | undefined): KitState {
 		ch: typeof c?.ch === 'string' ? c.ch : 'all',
 		emode: c?.emode === 'study' ? 'study' : 'recall',
 		exam: x && Array.isArray(x.items) && x.answers && x.marks ? x : null,
-		exams: Array.isArray(c?.exams) ? c.exams : []
+		exams: Array.isArray(c?.exams) ? c.exams : [],
+		mcq: obj(c?.mcq)
 	};
 }
 
@@ -189,7 +194,8 @@ function load(): Saved {
 			prefs: { ...d.prefs, ...(s.prefs ?? {}) },
 			crimpro: loadCrimPro(s.crimpro),
 			statcon: loadKit(s.statcon),
-			crimlaw: loadKit(s.crimlaw)
+			crimlaw: loadKit(s.crimlaw),
+			pfr: loadKit(s.pfr)
 		};
 	} catch {
 		return d;
@@ -362,6 +368,7 @@ export function importJSON(text: string): { ok: true; count: number } | { ok: fa
 		if (s.crimpro) store.crimpro = loadCrimPro(s.crimpro);
 		if (s.statcon) store.statcon = loadKit(s.statcon);
 		if (s.crimlaw) store.crimlaw = loadKit(s.crimlaw);
+		if (s.pfr) store.pfr = loadKit(s.pfr);
 		return { ok: true, count: Object.keys(s.attempts).length };
 	} catch {
 		return { ok: false, error: 'That file could not be read. Choose the .json file you exported.' };
@@ -375,4 +382,5 @@ export function resetAll() {
 	store.crimpro = d.crimpro;
 	store.statcon = d.statcon;
 	store.crimlaw = d.crimlaw;
+	store.pfr = d.pfr;
 }

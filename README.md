@@ -1,9 +1,10 @@
 # 1Law-C · Finals practice
 
-Four subjects in one app:
+Five subjects in one app:
 
 - **Consti I** (`/`): practice finals problems in the ALAC format (Answer, Legal Basis, Application, Conclusion), then check yourself against the reference answer and the bar's 0–5 rubric.
 - **Crim Law I** (`/crimlaw`): finals kit for RPC Book One, Arts. 16–113, in the professor's format: enumerations with a brief explanation of each item, definitions of terms, and ALAC scenario problems, plus a written mock exam and a numbers self-test.
+- **PFR** (`/pfr`, hidden): not in the header until unlocked by typing `family` outside a text box or tapping the logo three times quickly (remembered per device in `alac-consti:pfr`; repeat to hide; direct links always work). A finals kit for the Family Code, Art. 74 to Other Provisions: tricky MCQs (every wrong choice explained, linked chains), ALAC problems, enumerations, definitions, case digests, distinctions, a past exam with checked keys, and an MCQ + ALAC mock exam.
 - **StatCon** (`/statcon`): finals kit for Agpalo Chapters VI–XI in the professor's format: enumerations with a brief explanation of each item, definitions of terms, and scenario problems answered in ALAC, plus a written mock exam.
 - **Crim Pro** (`/crimpro`): the Twist Kit for Rules 110–127. Twist-drill MCQ sets where each question changes one fact, color-coded rule cards, "one fact flips it" pairs, a numbers self-test, and a reason for every wrong choice.
 
@@ -28,6 +29,13 @@ The content follows one study spec, in this order: **★ Exam focus → enumerat
 ## Finals kits (StatCon, Crim Law I)
 
 Both subjects are built on one "finals kit" (`src/lib/kit.ts`): a subject supplies its groups (chapters or parts), enumerations, terms and ALAC problems, and every screen is shared (`src/lib/components/kit/`). Each kit keeps its own slice of the store (`store.statcon`, `store.crimlaw`: flashcard ratings, filters, the running mock exam, exam history). To add another subject in this format, build a `Kit` from its data and add thin route wrappers.
+
+## PFR
+
+- 78 enumerations, 40 definitions (`src/lib/data/pfr-terms.json`, AI-written), 44 case digests, 11 distinction tables, 102 MCQs, 75 ALAC problems (25 topics × 2 direct + 1 twist), 53 past-exam items (15 doubtful keys), and a numbers table.
+- **MCQ drill** (`/pfr/mcq`): by topic (★ Likely / not answered / missed) or as 11 linked chains, where each step names the one fact that changed. Choices are shuffled (77 of the 102 answers are “B” in the source), except questions whose choices refer to other choices (“Both B and C”, “None of the choices”). Every wrong choice has a “Why not” (`src/lib/data/pfr-why.json`, one row per question, reasons for the wrong choices in order; checked at load).
+- **Mock exam**: multiple choice (checked automatically, with a fixed per-exam shuffle) then ALAC problems (self-marked on the 0–5 rubric). Kits choose their exam parts with `examParts`.
+- The source's “Article 36 / Article 147” Law part was rewritten without article numbers, per the ALAC rule.
 
 ## Crim Law I
 
@@ -89,10 +97,14 @@ src/lib/problems.ts           builds the 112 problems and their ids (/p/marcos-t
 src/lib/crimpro.ts            Crim Pro types and lookups
 src/lib/crimpro-exam.ts       Crim Pro question pools, exam/practice sessions, progress
 src/lib/focus/                exam focus per subject: ranked likely questions and ★ Likely flags
-src/lib/components/FocusView.svelte, NumberTable.svelte, ConstiTabs.svelte   shared across subjects
+src/lib/components/FocusView.svelte, NumberTable.svelte, CaseDigests.svelte, McqChoices.svelte, ConstiTabs.svelte   shared across subjects
 src/routes/exam-day/          If I go blank + ExamSoft tips (all subjects)
 src/routes/consti/            Consti exam focus, case digests, numbers
-src/lib/kit.ts                finals-kit types (Kit, KitEnum, KitTerm, KitProblem), color kinds, card keys
+src/lib/kit.ts                finals-kit types (Kit, KitEnum, KitTerm, KitProblem, KitMcq, KitChain), color kinds, card keys
+src/lib/mcq.ts                the Mcq type and the shuffle rule shared by Crim Pro and PFR
+src/lib/digest.ts             the case-digest type shared by Consti, StatCon and PFR
+src/lib/data/pfr*.json        PFR content, definitions, and wrong-choice reasons
+src/lib/pfr.ts                the PFR kit (MCQs, chains, focus, digests, distinctions, past exam)
 src/lib/kit-exam.ts           finals-kit written mock exam: build, mark, score
 src/lib/data/statcon.json     StatCon enumerations, rules, traps, cases, maxims, ALAC problems
 src/lib/data/statcon-terms.json  StatCon definitions of terms
@@ -113,6 +125,8 @@ src/routes/statcon/(kit)/     StatCon tabs (thin wrappers) + its own rules, case
 src/routes/statcon/p/[pid]/   one StatCon ALAC problem (shared Practice screen)
 src/routes/crimlaw/(kit)/     Crim Law tabs (thin wrappers) + its own numbers, guide
 src/routes/crimlaw/p/[pid]/   one Crim Law ALAC problem (shared Practice screen)
+src/routes/pfr/(kit)/         PFR tabs (thin wrappers) + its own distinctions, numbers, past exam, guide
+src/routes/pfr/p/[pid]/       one PFR ALAC problem (shared Practice screen)
 ```
 
 ## Rubric → checklist

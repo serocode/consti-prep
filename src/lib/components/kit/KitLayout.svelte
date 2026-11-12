@@ -17,6 +17,7 @@
 		{ href: `${kit.base}/enumerations`, label: 'Enumerations' },
 		{ href: `${kit.base}/terms`, label: 'Definitions' },
 		...mid.map((t) => ({ href: `${kit.base}/${t.path}`, label: t.label })),
+		...(kit.mcqs ? [{ href: `${kit.base}/mcq`, label: 'MCQ drill' }] : []),
 		{ href: `${kit.base}/problems`, label: 'ALAC problems' },
 		{ href: `${kit.base}/exam`, label: 'Mock exam' },
 		{ href: `${kit.base}/drill`, label: 'Flashcards' },

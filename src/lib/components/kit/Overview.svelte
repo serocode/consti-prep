@@ -6,6 +6,9 @@
 	const st = $derived(kit.state());
 	const r = $derived(st.ratings);
 	const maxims = $derived(kit.maxims ?? []);
+	const mcqs = $derived(kit.mcqs ?? []);
+	const mcqDone = $derived(mcqs.filter((m) => st.mcq[m.id] !== undefined).length);
+	const mcqRight = $derived(mcqs.filter((m) => st.mcq[m.id] === m.a).length);
 	const tally = (keys: string[]) => {
 		const n = { got: 0, shaky: 0, blank: 0 };
 		for (const k of keys) if (r[k]) n[r[k]]++;
@@ -39,19 +42,27 @@
 
 	<div class="parts">
 		<a class="card part" href="{kit.base}/enumerations">
-			<span class="eyebrow">I · Enumeration</span>
+			<span class="eyebrow">Enumeration</span>
 			<b class="num">{enums.got}<small>/ {enums.total} lists known</small></b>
 			<div class="bar"><i style="width:{(enums.got / enums.total) * 100}%"></i></div>
 			<span class="muted s">Name every item and explain each in one line.{enums.shaky + enums.blank ? ` ${enums.shaky + enums.blank} need work.` : ''}</span>
 		</a>
 		<a class="card part" href="{kit.base}/terms">
-			<span class="eyebrow">II · Definition of terms</span>
+			<span class="eyebrow">Definition of terms</span>
 			<b class="num">{terms.got}<small>/ {terms.total} {maxims.length ? 'terms and maxims' : 'terms known'}</small></b>
 			<div class="bar"><i style="width:{(terms.got / terms.total) * 100}%"></i></div>
 			<span class="muted s">{kit.terms.length} terms{maxims.length ? ` and ${maxims.length} Latin maxims` : ''}. Define each in a sentence or two.</span>
 		</a>
+		{#if mcqs.length}
+			<a class="card part" href="{kit.base}/mcq">
+				<span class="eyebrow">Multiple choice</span>
+				<b class="num">{mcqRight}<small>/ {mcqs.length} answered correctly</small></b>
+				<div class="bar"><i style="width:{(mcqRight / mcqs.length) * 100}%"></i></div>
+				<span class="muted s">{mcqDone ? `${mcqDone} answered, ${mcqDone - mcqRight} missed.` : 'Tricky questions; every wrong choice is explained.'}</span>
+			</a>
+		{/if}
 		<a class="card part" href="{kit.base}/problems">
-			<span class="eyebrow">III · Problems (ALAC)</span>
+			<span class="eyebrow">Problems (ALAC)</span>
 			<b class="num">{answered.length}<small>/ {kit.problems.length} answered</small></b>
 			<div class="bar"><i style="width:{(answered.length / kit.problems.length) * 100}%"></i></div>
 			<span class="muted s">{answered.length ? `Average best score ${avg.toFixed(1)} / 5.` : 'Write in ALAC and self-check on the 0–5 rubric.'}</span>
@@ -76,6 +87,7 @@
 			<li><b>Learn the lists.</b> Enumerations in <i>Study mode</i>: memory aid first, then each item and its one-line explanation.</li>
 			<li><b>Recall them cold.</b> Switch to <i>Recall mode</i> and fill the numbered slots before you tap Show. Rate each list.</li>
 			<li><b>Define the terms.</b> Definitions in <i>Self-test</i>. Say the definition before you reveal it.</li>
+			{#if mcqs.length}<li><b>Drill the multiple choice.</b> Read each “Why not” after you answer, then redo your misses. Use <i>Linked chains</i> to practice spotting the one fact that changes the answer.</li>{/if}
 			<li><b>Answer problems in ALAC.</b> Spot the topic (see the Answer guide), then write and self-check. Use Random problem so you can't guess the topic from the list.</li>
 			<li><b>Sit a mock exam.</b> Mark yourself strictly. What you miss goes to the flashcards; drill those until the exam.</li>
 		</ol>

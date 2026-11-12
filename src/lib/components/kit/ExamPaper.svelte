@@ -2,7 +2,8 @@
 	import { onDestroy } from 'svelte';
 	import { fmtTime } from '$lib/crimpro-exam';
 	import { modelEnumeration, type Kit } from '$lib/kit';
-	import { answered, endExam, enumOf, itemKey, probOf, submitExam, termOf } from '$lib/kit-exam';
+	import McqChoices from '../McqChoices.svelte';
+	import { answered, endExam, enumOf, examParts, itemKey, mcqOf, mcqOrder, mcqPick, probOf, submitExam, termOf, PART_META } from '$lib/kit-exam';
 	import type { KitExam } from '$lib/store.svelte';
 	import { answerKey } from '$lib/answerkey.svelte';
 
@@ -12,9 +13,7 @@
 	const timer = setInterval(() => (now = Date.now()), 1000);
 	onDestroy(() => clearInterval(timer));
 
-	const enums = $derived(x.items.filter((it) => it.kind === 'enum'));
-	const terms = $derived(x.items.filter((it) => it.kind === 'term'));
-	const probs = $derived(x.items.filter((it) => it.kind === 'prob'));
+	const parts = $derived(examParts(kit, x));
 	const done = $derived(x.items.filter((it) => answered(x, it)).length);
 
 	let confirmSubmit = $state(false);
@@ -44,61 +43,53 @@
 		<span class="clock num" aria-label="Time elapsed">{fmtTime((now - x.started) / 1000)}</span>
 	</div>
 
-	{#if enums.length}
+	{#each parts as part (part.kind)}
 		<section class="part">
-			<h2 class="ph">I. Enumeration</h2>
-			<p class="muted pi">Enumerate, and briefly explain each item.</p>
-			{#each enums as it, k (it.id)}
-				{@const e = enumOf(kit, it)}
+			<h2 class="ph">{part.label}</h2>
+			<p class="muted pi">{PART_META[part.kind].intro}</p>
+			{#each part.items as it, k (it.id)}
 				<div class="q card">
-					<p class="qt legal"><span class="qn num">{k + 1}.</span> {e.t}.</p>
-					<textarea rows="6" bind:value={x.answers[itemKey(it)]} placeholder="There are … They are: (1) … — this means …" aria-label="Answer to: {e.t}"></textarea>
-					{#if answerKey.on}<p class="key">🔑 {modelEnumeration(e)}</p>{/if}
+					{#if it.kind === 'enum'}
+						{@const e = enumOf(kit, it)}
+						<p class="qt legal"><span class="qn num">{k + 1}.</span> {e.t}.</p>
+						<textarea rows="6" bind:value={x.answers[itemKey(it)]} placeholder="There are … They are: (1) … — this means …" aria-label="Answer to: {e.t}"></textarea>
+						{#if answerKey.on}<p class="key">🔑 {modelEnumeration(e)}</p>{/if}
+					{:else if it.kind === 'term'}
+						{@const t = termOf(kit, it)}
+						<p class="qt legal"><span class="qn num">{k + 1}.</span> {t.t}</p>
+						<textarea rows="3" bind:value={x.answers[itemKey(it)]} placeholder="{t.t} is …" aria-label="Define {t.t}"></textarea>
+						{#if answerKey.on}<p class="key">🔑 {t.d}</p>{/if}
+					{:else if it.kind === 'mcq'}
+						{@const m = mcqOf(kit, it)}
+						<span class="qn num">{k + 1}.</span>
+						<McqChoices
+							q={m}
+							order={mcqOrder(kit, x, it)}
+							picked={mcqPick(x, it)}
+							keys={false}
+							onpick={(oi) => (x.answers[itemKey(it)] = String(oi))}
+						/>
+					{:else}
+						{@const p = probOf(kit, it)}
+						<p class="qt legal"><span class="qn num">{k + 1}.</span> {p.facts}</p>
+						{#if p.q}<p class="qt legal" style="font-weight:600">{p.q}</p>{/if}
+						{#each ALAC as [s, L, title], i (s)}
+							<label class="alac">
+								<span class="letter sm" title={title}>{L}</span>
+								<textarea
+									rows={s === 'p' ? 4 : s === 'l' ? 3 : 2}
+									bind:value={x.answers[`${itemKey(it)}:${s}`]}
+									placeholder={p.boxes?.[s as 'a' | 'l' | 'p' | 'c']?.placeholder ?? ['Yes / No.', 'The law provides that …', 'Here, …', 'Therefore, …'][i]}
+									aria-label="{title} for problem {k + 1}"
+								></textarea>
+							</label>
+							{#if answerKey.on}<p class="key">🔑 {p.alac[i]}</p>{/if}
+						{/each}
+					{/if}
 				</div>
 			{/each}
 		</section>
-	{/if}
-
-	{#if terms.length}
-		<section class="part">
-			<h2 class="ph">II. Definition of terms</h2>
-			<p class="muted pi">Define each term.</p>
-			{#each terms as it, k (it.id)}
-				{@const t = termOf(kit, it)}
-				<div class="q card">
-					<p class="qt legal"><span class="qn num">{k + 1}.</span> {t.t}</p>
-					<textarea rows="3" bind:value={x.answers[itemKey(it)]} placeholder="{t.t} is …" aria-label="Define {t.t}"></textarea>
-					{#if answerKey.on}<p class="key">🔑 {t.d}</p>{/if}
-				</div>
-			{/each}
-		</section>
-	{/if}
-
-	{#if probs.length}
-		<section class="part">
-			<h2 class="ph">III. Problems</h2>
-			<p class="muted pi">Answer each problem in ALAC: Answer, Legal Basis, Application, Conclusion.</p>
-			{#each probs as it, k (it.id)}
-				{@const p = probOf(kit, it)}
-				<div class="q card">
-					<p class="qt legal"><span class="qn num">{k + 1}.</span> {p.facts}</p>
-					{#if p.q}<p class="qt legal" style="font-weight:600">{p.q}</p>{/if}
-					{#each ALAC as [s, L, title], i (s)}
-						<label class="alac">
-							<span class="letter sm" title={title}>{L}</span>
-							<textarea
-								rows={s === 'p' ? 4 : s === 'l' ? 3 : 2}
-								bind:value={x.answers[`${itemKey(it)}:${s}`]}
-								placeholder={p.boxes?.[s as 'a' | 'l' | 'p' | 'c']?.placeholder ?? ['Yes / No.', 'The law provides that …', 'Here, …', 'Therefore, …'][i]}
-								aria-label="{title} for problem {k + 1}"
-							></textarea>
-						</label>
-						{#if answerKey.on}<p class="key">🔑 {p.alac[i]}</p>{/if}
-					{/each}
-				</div>
-			{/each}
-		</section>
-	{/if}
+	{/each}
 
 	{#if confirmSubmit}
 		<div class="note note-warn row wrap" role="alert">

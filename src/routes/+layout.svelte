@@ -99,22 +99,61 @@
 			'font-size:12px'
 		);
 	}
+	// ---- hidden subject easter egg: PFR (Persons and Family Relations) ----
+	// Unlock by typing "family" outside a text box, or by tapping the logo three times quickly (for phones).
+	// Remembered on this device; doing it again hides PFR. The pages always work by direct link.
+	const PFR_KEY = 'alac-consti:pfr';
+	let pfrOn = $state(false);
+	if (browser) {
+		try {
+			pfrOn = localStorage.getItem(PFR_KEY) === '1';
+		} catch {
+			/* private mode: starts hidden */
+		}
+	}
+	function flipPfr() {
+		pfrOn = !pfrOn;
+		try {
+			if (pfrOn) localStorage.setItem(PFR_KEY, '1');
+			else localStorage.removeItem(PFR_KEY);
+		} catch {
+			/* private mode: lasts until reload */
+		}
+		toast = pfrOn ? 'Hidden subject unlocked: PFR is now in the header.' : 'PFR hidden again.';
+		clearTimeout(toastTimer);
+		toastTimer = setTimeout(() => (toast = ''), 3500);
+	}
+	let logoTaps: number[] = [];
+	function tapLogo() {
+		const t = Date.now();
+		logoTaps = [...logoTaps.filter((x) => t - x < 1500), t];
+		if (logoTaps.length >= 3) {
+			logoTaps = [];
+			flipPfr();
+		}
+	}
+
 	let typed = '';
 	function onkeydown(e: KeyboardEvent) {
 		if (e.metaKey || e.ctrlKey || e.altKey || e.key.length !== 1) return;
 		if ((e.target as HTMLElement).closest('input, textarea, select, [contenteditable]')) return;
-		typed = (typed + e.key.toLowerCase()).slice(-4);
-		if (typed === 'hoot') {
+		typed = (typed + e.key.toLowerCase()).slice(-6);
+		if (typed.endsWith('hoot')) {
 			typed = '';
 			flipAnswerKey();
+		} else if (typed === 'family') {
+			typed = '';
+			flipPfr();
 		}
 	}
 
 	const under = (p: string, root: string) => p === root || p.startsWith(root + '/');
 	const subjects = [
-		{ href: '/', label: 'Consti I', match: (p: string) => !['/crimlaw', '/crimpro', '/statcon', '/exam-day'].some((r) => under(p, r)) },
+		{ href: '/', label: 'Consti I', match: (p: string) => !['/crimlaw', '/crimpro', '/statcon', '/pfr', '/exam-day'].some((r) => under(p, r)) },
 		{ href: '/crimlaw', label: 'Crim Law', match: (p: string) => under(p, '/crimlaw') },
 		{ href: '/crimpro', label: 'Crim Pro', match: (p: string) => under(p, '/crimpro') },
+		// Hidden subject: shown once unlocked, or while you are on a PFR page.
+		{ href: '/pfr', label: 'PFR', match: (p: string) => under(p, '/pfr'), hidden: true },
 		{ href: '/statcon', label: 'StatCon', match: (p: string) => under(p, '/statcon') },
 		// Not a subject: the go-blank routine and typed-exam advice shared by all of them.
 		{ href: '/exam-day', label: 'Exam day', match: (p: string) => under(p, '/exam-day') }
@@ -131,7 +170,7 @@
 
 <header class="top">
 	<div class="top-in">
-		<a class="brand" href="/" aria-label="1Law-C home">
+		<a class="brand" href="/" aria-label="1Law-C home" onclick={tapLogo}>
 			<svg width="26" height="26" viewBox="0 0 28 28" aria-hidden="true">
 				<rect width="28" height="28" rx="6" style="fill:var(--text)" />
 				<rect x="7" y="8" width="14" height="2" rx="1" style="fill:var(--surface)" />
@@ -142,7 +181,7 @@
 			<span class="stack brand-t"><b>1Law-C</b><span class="hide-sm">Finals practice</span></span>
 		</a>
 		<nav class="subjects" aria-label="Subject">
-			{#each subjects as s (s.href)}
+			{#each subjects.filter((x) => !x.hidden || pfrOn || x.match(page.url.pathname)) as s (s.href)}
 				<a href={s.href} aria-current={s.match(page.url.pathname) ? 'page' : undefined}>{s.label}</a>
 			{/each}
 		</nav>
@@ -431,14 +470,17 @@
 			flex-wrap: wrap;
 			row-gap: 6px;
 		}
+		/* Six links do not fit one line at 375px: wrap them, so none is hidden behind a sideways scroll. */
 		.subjects {
 			order: 3;
 			width: 100%;
 			margin: 0;
-			justify-content: space-between;
+			flex-wrap: wrap;
+			justify-content: center;
+			overflow: visible;
 		}
 		.subjects a {
-			padding: 6px 6px;
+			padding: 5px 9px;
 			font-size: 13px;
 		}
 	}

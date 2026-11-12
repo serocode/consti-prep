@@ -4,6 +4,7 @@
  * StatCon and Crim Law I are both kits; they share every screen and differ only in their data.
  */
 import type { AlacProblem } from './problems';
+import type { Mcq } from './mcq';
 import type { KitState } from './store.svelte';
 
 /** Enumeration kind → color code, matching the rule cards in the other subjects. */
@@ -82,7 +83,7 @@ export interface KitProblem extends AlacProblem {
 	topic: KitTopic;
 }
 
-export type QType = 'scenario' | 'enumeration' | 'definition' | 'computation' | 'distinction' | 'MCQ' | 'case digest';
+export type QType = 'scenario' | 'enumeration' | 'definition' | 'computation' | 'distinction' | 'MCQ' | 'case digest' | 'sequence';
 
 /** One entry in a subject's ranked list of likely exam questions. */
 export interface TopQuestion {
@@ -104,8 +105,29 @@ export interface Focus {
 	topics?: Record<string, string>;
 }
 
+/** A multiple-choice question in a kit's MCQ drill. */
+export interface KitMcq extends Mcq {
+	id: string;
+	group: number;
+	/** Flagged ★ Likely. */
+	star?: boolean;
+}
+
+/**
+ * Linked MCQs: questions that share facts, in order. Each later step names the one fact that changed,
+ * which is what can flip the answer.
+ */
+export interface KitChain {
+	id: string;
+	title: string;
+	/** `ctx`: the question does not stand alone ("Same facts, but…"), so the topic drill shows the earlier steps. */
+	steps: { id: string; tw?: string; ctx?: boolean }[];
+}
+
+export type ExamPart = 'enum' | 'term' | 'mcq' | 'prob';
+
 export interface Kit {
-	id: 'statcon' | 'crimlaw';
+	id: 'statcon' | 'crimlaw' | 'pfr';
 	/** Short name for headings and titles. */
 	name: string;
 	title: string;
@@ -121,6 +143,10 @@ export interface Kit {
 	problems: KitProblem[];
 	maxims?: KitMaxim[];
 	cases?: KitCase[];
+	mcqs?: KitMcq[];
+	chains?: KitChain[];
+	/** Parts of the written mock exam, in order. */
+	examParts: ExamPart[];
 	focus: Focus;
 	/** This kit's slice of the persisted store. */
 	state: () => KitState;

@@ -9,7 +9,9 @@
 				? { missing: 'That problem doesn’t exist.', href: '/statcon/problems', label: 'All StatCon problems' }
 				: page.url.pathname.startsWith('/crimlaw')
 					? { missing: 'That problem doesn’t exist.', href: '/crimlaw/problems', label: 'All Crim Law problems' }
-					: { missing: 'That problem doesn’t exist.', href: '/', label: 'All problems' }
+					: page.url.pathname.startsWith('/pfr')
+						? { missing: 'That problem doesn’t exist.', href: '/pfr/problems', label: 'All PFR problems' }
+						: { missing: 'That problem doesn’t exist.', href: '/', label: 'All problems' }
 	);
 </script>
 

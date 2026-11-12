@@ -1,20 +1,32 @@
 <script lang="ts">
 	import { fmtTime } from '$lib/crimpro-exam';
 	import type { Kit } from '$lib/kit';
-	import { poolSizes, startExam } from '$lib/kit-exam';
+	import { poolSizes, startExam, PART_META } from '$lib/kit-exam';
 
 	let { kit }: { kit: Kit } = $props();
 
 	// The page remounts per kit, so seeding from the initial prop is intended.
 	// svelte-ignore state_referenced_locally
 	let groups: number[] = $state(kit.groups.map((g) => g.id));
-	let enums = $state(3);
-	let terms = $state(5);
-	let probs = $state(2);
+	type Key = 'enums' | 'terms' | 'mcqs' | 'probs';
+	const KEY = { enum: 'enums', term: 'terms', mcq: 'mcqs', prob: 'probs' } as const;
+	// Only the kit's own exam parts, in its order (PFR: multiple choice, then problems).
+	// svelte-ignore state_referenced_locally
+	const want: Record<Key, number> = $state({
+		enums: kit.examParts.includes('enum') ? PART_META.enum.dflt : 0,
+		terms: kit.examParts.includes('term') ? PART_META.term.dflt : 0,
+		mcqs: kit.examParts.includes('mcq') ? PART_META.mcq.dflt : 0,
+		probs: kit.examParts.includes('prob') ? PART_META.prob.dflt : 0
+	});
 
 	const sizes = $derived(poolSizes(kit, groups));
-	const n = $derived({ enums: Math.min(enums, sizes.enums), terms: Math.min(terms, sizes.terms), probs: Math.min(probs, sizes.probs) });
-	const total = $derived(n.enums + n.terms + n.probs);
+	const n = $derived({
+		enums: Math.min(want.enums, sizes.enums),
+		terms: Math.min(want.terms, sizes.terms),
+		mcqs: Math.min(want.mcqs, sizes.mcqs),
+		probs: Math.min(want.probs, sizes.probs)
+	});
+	const total = $derived(n.enums + n.terms + n.mcqs + n.probs);
 	const history = $derived(kit.state().exams.slice(-6).reverse());
 
 	function toggle(g: number) {
@@ -25,23 +37,23 @@
 		window.scrollTo(0, 0);
 	}
 	const fmtDate = (t: number) => new Date(t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
-	const parts: { key: 'enums' | 'terms' | 'probs'; label: string; help: string; opts: number[] }[] = [
-		{ key: 'enums', label: 'I. Enumeration', help: 'List the items and explain each in one line.', opts: [0, 2, 3, 4, 5] },
-		{ key: 'terms', label: 'II. Definition of terms', help: 'Define each term in a sentence or two.', opts: [0, 3, 5, 8, 10] },
-		{ key: 'probs', label: 'III. Problems (ALAC)', help: 'Answer each scenario in Answer, Legal Basis, Application, Conclusion.', opts: [0, 1, 2, 3, 4] }
-	];
-	const get = (k: 'enums' | 'terms' | 'probs') => ({ enums, terms, probs })[k];
-	function set(k: 'enums' | 'terms' | 'probs', v: number) {
-		if (k === 'enums') enums = v;
-		else if (k === 'terms') terms = v;
-		else probs = v;
-	}
+	const ROMAN = ['I', 'II', 'III', 'IV'];
+	const parts = $derived(
+		kit.examParts.map((kind, i) => ({
+			key: KEY[kind] as Key,
+			label: `${ROMAN[i]}. ${PART_META[kind].title}${kind === 'prob' ? ' (ALAC)' : ''}`,
+			help: PART_META[kind].setup,
+			opts: PART_META[kind].opts
+		}))
+	);
+	const what = $derived(kit.examParts.map((k) => ({ enum: 'enumerations', term: 'definitions', mcq: 'multiple choice', prob: 'ALAC problems' })[k]));
 </script>
 
 <div class="col" style="max-width:760px;margin:0">
 	<p class="muted">
-		A written exam: enumerations, definitions, and ALAC problems. Write every answer, submit, then mark yourself against the model answers.
-		Your marks feed the flashcards, so what you miss comes back first.
+		A mock exam: {what.slice(0, -1).join(', ')}{what.length > 1 ? ' and ' : ''}{what.at(-1)}. Answer everything, submit, then check
+		yourself against the model answers{kit.examParts.includes('mcq') ? ' (multiple choice is checked for you)' : ''}. What you miss comes back first in
+		the drills.
 	</p>
 
 	<section class="card form">
@@ -59,7 +71,7 @@
 				<span class="lbl">{p.label} <span class="muted num" style="font-weight:400">· {sizes[p.key]} available</span></span>
 				<div class="seg" role="group" aria-label="{p.label}: how many">
 					{#each p.opts as v (v)}
-						<button aria-pressed={get(p.key) === v} disabled={v > sizes[p.key] && v !== 0} onclick={() => set(p.key, v)}>{v || 'None'}</button>
+						<button aria-pressed={want[p.key] === v} disabled={v > sizes[p.key] && v !== 0} onclick={() => (want[p.key] = v)}>{v || 'None'}</button>
 					{/each}
 				</div>
 				<span class="hint">{p.help}</span>

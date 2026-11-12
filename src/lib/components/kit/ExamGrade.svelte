@@ -1,9 +1,11 @@
 <script lang="ts">
+	import McqChoices from '../McqChoices.svelte';
 	import ScoreScale from '../ScoreScale.svelte';
 	import { fmtTime } from '$lib/crimpro-exam';
 	import type { Kit } from '$lib/kit';
-	import { endExam, enumOf, finishGrading, itemKey, maxPoints, pointsFor, probOf, termOf, tickKey, totals, unmarked, TERM_POINTS } from '$lib/kit-exam';
+	import { endExam, enumOf, examParts, finishGrading, itemKey, maxPoints, mcqOf, mcqOrder, mcqPick, pointsFor, probOf, termOf, tickKey, totals, unmarked, TERM_POINTS } from '$lib/kit-exam';
 	import type { KitExam, KitItem } from '$lib/store.svelte';
+	import { md } from '$lib/text';
 
 	let { kit, x }: { kit: Kit; x: KitExam } = $props();
 
@@ -11,8 +13,7 @@
 	const left = $derived(unmarked(x));
 	const pct = $derived(t.total ? Math.round((t.score / t.total) * 100) : 0);
 	const secs = $derived(((x.finished ?? x.started) - x.started) / 1000);
-	const PART: Record<KitItem['kind'], string> = { enum: 'I. Enumeration', term: 'II. Definition of terms', prob: 'III. Problems' };
-	const kinds = $derived((['enum', 'term', 'prob'] as const).filter((k) => x.items.some((it) => it.kind === k)));
+	const parts = $derived(examParts(kit, x));
 	const termOpts: [number, string][] = [
 		[TERM_POINTS, 'Got it'],
 		[1, 'Partly'],
@@ -36,8 +37,8 @@
 			</div>
 			<p class="muted num" style="font-size:13.5px">{fmtTime(secs)} spent writing</p>
 			<div class="parts">
-				{#each kinds as k (k)}
-					<div><span class="muted">{PART[k]}</span><b class="num">{t.part[k].got}/{t.part[k].max}</b></div>
+				{#each parts as part (part.kind)}
+					<div><span class="muted">{part.label}</span><b class="num">{t.part[part.kind].got}/{t.part[part.kind].max}</b></div>
 				{/each}
 			</div>
 			<div class="row wrap" style="margin-top:8px">
@@ -51,16 +52,29 @@
 			<span class="eyebrow">Check your answers</span>
 			<h2 class="h">Mark yourself against the model</h2>
 			<p class="muted" style="font-size:14px">
-				Be strict. For each enumeration, tick only the items you named <i>and</i> explained.
-				For each problem, use the same 0–5 rubric as the ALAC practice.
+				Be strict.
+				{#if parts.some((p) => p.kind === 'mcq')}Multiple choice is already checked; read the “Why not” under each choice you missed.{/if}
+				{#if parts.some((p) => p.kind === 'enum')}For each enumeration, tick only the items you named <i>and</i> explained.{/if}
+				{#if parts.some((p) => p.kind === 'term')}Mark each definition Got it, Partly, or Missed.{/if}
+				{#if parts.some((p) => p.kind === 'prob')}For each problem, use the same 0–5 rubric as the ALAC practice.{/if}
 			</p>
 		</section>
 	{/if}
 
-	{#each kinds as k (k)}
-		<h2 class="ph">{PART[k]}</h2>
-		{#each x.items.filter((it) => it.kind === k) as it, n (it.id)}
+	{#each parts as part (part.kind)}
+		<h2 class="ph">{part.label}</h2>
+		{#each part.items as it, n (it.id)}
 			{@const pts = pointsFor(kit, x, it)}
+			{#if it.kind === 'mcq'}
+				{@const m = mcqOf(kit, it)}
+				<section class="card item">
+					<div class="between" style="align-items:flex-start">
+						<span class="num" style="font-weight:600">{n + 1}.</span>
+						<span class="tag num {pts === 1 ? 'tag-ok' : 'tag-bad'}">{pts}/1</span>
+					</div>
+					<McqChoices q={m} order={mcqOrder(kit, x, it)} picked={mcqPick(x, it)} reveal locked keys={false} />
+				</section>
+			{:else}
 			<section class="card item">
 				<div class="between" style="align-items:flex-start">
 					<p class="qt legal">
@@ -91,7 +105,7 @@
 						<span class="eyebrow">Model</span>
 						{#if it.kind === 'enum'}
 							{@const e = enumOf(kit, it)}
-							<p class="muted" style="font-size:13px">There are {e.it.length}{e.order ? ', in this order' : ''}. Memory aid: {e.mem}</p>
+							<p class="muted" style="font-size:13px">There are {e.it.length}{e.order ? ', in this order' : ''}.{#if e.mem} Memory aid: {e.mem}{/if}</p>
 							<ol class="ticks">
 								{#each e.it as [item, why], i (i)}
 									<li>
@@ -102,7 +116,7 @@
 												checked={x.marks[tickKey(it, i)] === 1}
 												onchange={(ev) => (x.marks[tickKey(it, i)] = (ev.currentTarget as HTMLInputElement).checked ? 1 : 0)}
 											/>
-											<span><b>{item}</b> — {why}</span>
+											<span><b>{@html md(item)}</b>{#if why} — {@html md(why)}{/if}</span>
 										</label>
 									</li>
 								{/each}
@@ -134,6 +148,7 @@
 					<a class="btn btn-ghost btn-sm" style="align-self:flex-start" href={probOf(kit, it).href}>Practice this problem with the full self-check →</a>
 				{/if}
 			</section>
+			{/if}
 		{/each}
 	{/each}
 

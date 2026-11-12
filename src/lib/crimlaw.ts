@@ -206,6 +206,7 @@ export const CRIMLAW: Kit = {
 	enums: ENUMS,
 	terms: TERMS,
 	problems: PROBLEMS,
+	examParts: ['enum', 'term', 'prob'],
 	focus: FOCUS,
 	state: () => store.crimlaw
 };

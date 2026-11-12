@@ -149,6 +149,7 @@ export const STATCON: Kit = {
 	problems: PROBLEMS,
 	maxims: MAXIMS,
 	cases: CASES,
+	examParts: ['enum', 'term', 'prob'],
 	focus: FOCUS,
 	state: () => store.statcon
 };
