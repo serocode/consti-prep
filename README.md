@@ -1,10 +1,11 @@
 # 1Law-C · Finals practice
 
-Five subjects in one app:
+Six subjects in one app:
 
 - **Consti I** (`/`): practice finals problems in the ALAC format (Answer, Legal Basis, Application, Conclusion), then check yourself against the reference answer and the bar's 0–5 rubric.
 - **Crim Law I** (`/crimlaw`): finals kit for RPC Book One, Arts. 16–113, in the professor's format: enumerations with a brief explanation of each item, definitions of terms, and ALAC scenario problems, plus a written mock exam and a numbers self-test.
 - **PFR** (`/pfr`, hidden): not in the header until unlocked by typing `family` outside a text box or tapping the logo three times quickly (remembered per device in `alac-consti:pfr`; repeat to hide; direct links always work). A finals kit for the Family Code, Art. 74 to Other Provisions: tricky MCQs (every wrong choice explained, linked chains), ALAC problems, enumerations, definitions, case digests, distinctions, a past exam with checked keys, and an MCQ + ALAC mock exam.
+- **Legal Philo** (`/philo`, hidden): not in the header until unlocked by typing `philo` outside a text box or tapping the logo four times quickly (remembered per device in `alac-consti:philo`; repeat to hide; direct links always work). A finals kit for Legal Philosophy Lessons 10 to 13 and the Philippine jurisprudence handouts, built for the professor's four question types (define, differentiate, critique, opinion): essay practice with short model answers and a formula self-check, definitions, enumerations, thinkers, case digests, differentiate tables and pairings, critiques, flashcards, and a four-essay mock exam.
 - **StatCon** (`/statcon`): finals kit for Agpalo Chapters VI–XI in the professor's format: enumerations with a brief explanation of each item, definitions of terms, and scenario problems answered in ALAC, plus a written mock exam.
 - **Crim Pro** (`/crimpro`): the Twist Kit for Rules 110–127. Twist-drill MCQ sets where each question changes one fact, color-coded rule cards, "one fact flips it" pairs, a numbers self-test, and a reason for every wrong choice.
 
@@ -127,6 +128,10 @@ src/routes/crimlaw/(kit)/     Crim Law tabs (thin wrappers) + its own numbers, g
 src/routes/crimlaw/p/[pid]/   one Crim Law ALAC problem (shared Practice screen)
 src/routes/pfr/(kit)/         PFR tabs (thin wrappers) + its own distinctions, numbers, past exam, guide
 src/routes/pfr/p/[pid]/       one PFR ALAC problem (shared Practice screen)
+src/lib/philo.ts              the Legal Philo kit: question types, thinking moves, essay questions and model answers
+src/lib/philo-content.ts      Legal Philo terms, enumerations, cases, thinkers, comparisons, critiques, focus
+src/lib/components/philo/     ModelAnswer (model answer + formula self-check)
+src/routes/philo/(kit)/       Legal Philo tabs: focus, essays, thinkers, compare, critiques, exam, guide + shared kit screens
 ```
 
 ## Rubric → checklist

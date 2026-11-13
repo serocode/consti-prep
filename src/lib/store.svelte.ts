@@ -130,6 +130,22 @@ export interface KitState {
 	mcq: Record<string, number>;
 }
 
+/** Legal Philo mock exam: one essay question of each type, self-marked 0–5 each. */
+export interface PhiloExam {
+	ids: string[];
+	started: number;
+	finished: number | null;
+	/** Self-marked points by question id. */
+	marks: Record<string, number>;
+	graded: boolean;
+}
+
+/** Legal Philo is a kit plus essay answers (drafts by question id; mock-exam answers under `x:<id>`). */
+export interface PhiloState extends KitState {
+	essays: Record<string, string>;
+	pexam: PhiloExam | null;
+}
+
 export interface Saved {
 	version: 1;
 	attempts: Record<string, Attempt[]>;
@@ -139,6 +155,7 @@ export interface Saved {
 	statcon: KitState;
 	crimlaw: KitState;
 	pfr: KitState;
+	philo: PhiloState;
 }
 
 export const emptyDraft = (): Draft => ({ a: '', l: '', p: '', c: '', full: '' });
@@ -153,7 +170,8 @@ const defaults = (): Saved => ({
 	crimpro: { best: {}, q: {}, exams: [], session: null },
 	statcon: emptyKit(),
 	crimlaw: emptyKit(),
-	pfr: emptyKit()
+	pfr: emptyKit(),
+	philo: { ...emptyKit(), essays: {}, pexam: null }
 });
 
 const obj = <T>(x: unknown): Record<string, T> => (x && typeof x === 'object' && !Array.isArray(x) ? (x as Record<string, T>) : {});
@@ -180,6 +198,15 @@ function loadKit(c: Partial<KitState> | undefined): KitState {
 	};
 }
 
+function loadPhilo(c: Partial<PhiloState> | undefined): PhiloState {
+	const x = c?.pexam;
+	return {
+		...loadKit(c),
+		essays: obj(c?.essays),
+		pexam: x && Array.isArray(x.ids) && x.marks && typeof x.marks === 'object' ? x : null
+	};
+}
+
 function load(): Saved {
 	const d = defaults();
 	if (!browser) return d;
@@ -195,7 +222,8 @@ function load(): Saved {
 			crimpro: loadCrimPro(s.crimpro),
 			statcon: loadKit(s.statcon),
 			crimlaw: loadKit(s.crimlaw),
-			pfr: loadKit(s.pfr)
+			pfr: loadKit(s.pfr),
+			philo: loadPhilo(s.philo)
 		};
 	} catch {
 		return d;
@@ -369,6 +397,7 @@ export function importJSON(text: string): { ok: true; count: number } | { ok: fa
 		if (s.statcon) store.statcon = loadKit(s.statcon);
 		if (s.crimlaw) store.crimlaw = loadKit(s.crimlaw);
 		if (s.pfr) store.pfr = loadKit(s.pfr);
+		if (s.philo) store.philo = loadPhilo(s.philo);
 		return { ok: true, count: Object.keys(s.attempts).length };
 	} catch {
 		return { ok: false, error: 'That file could not be read. Choose the .json file you exported.' };
@@ -383,4 +412,5 @@ export function resetAll() {
 	store.statcon = d.statcon;
 	store.crimlaw = d.crimlaw;
 	store.pfr = d.pfr;
+	store.philo = d.philo;
 }

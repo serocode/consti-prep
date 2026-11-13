@@ -83,7 +83,7 @@ export interface KitProblem extends AlacProblem {
 	topic: KitTopic;
 }
 
-export type QType = 'scenario' | 'enumeration' | 'definition' | 'computation' | 'distinction' | 'MCQ' | 'case digest' | 'sequence';
+export type QType = 'scenario' | 'enumeration' | 'definition' | 'computation' | 'distinction' | 'MCQ' | 'case digest' | 'sequence' | 'critique' | 'opinion';
 
 /** One entry in a subject's ranked list of likely exam questions. */
 export interface TopQuestion {
@@ -127,7 +127,7 @@ export interface KitChain {
 export type ExamPart = 'enum' | 'term' | 'mcq' | 'prob';
 
 export interface Kit {
-	id: 'statcon' | 'crimlaw' | 'pfr';
+	id: 'statcon' | 'crimlaw' | 'pfr' | 'philo';
 	/** Short name for headings and titles. */
 	name: string;
 	title: string;

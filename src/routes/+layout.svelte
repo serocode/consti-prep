@@ -99,38 +99,47 @@
 			'font-size:12px'
 		);
 	}
-	// ---- hidden subject easter egg: PFR (Persons and Family Relations) ----
-	// Unlock by typing "family" outside a text box, or by tapping the logo three times quickly (for phones).
-	// Remembered on this device; doing it again hides PFR. The pages always work by direct link.
-	const PFR_KEY = 'alac-consti:pfr';
-	let pfrOn = $state(false);
+	// ---- hidden subjects easter egg: PFR (Persons and Family Relations) and Legal Philo ----
+	// Each has its own word, typed outside a text box: "family" for PFR, "philo" for Legal Philo.
+	// On phones, tap the logo quickly: 3 taps for PFR, 4 taps for Legal Philo.
+	// Remembered on this device; doing it again hides the subject. The pages always work by direct link.
+	const HIDDEN = {
+		pfr: { key: 'alac-consti:pfr', name: 'PFR' },
+		philo: { key: 'alac-consti:philo', name: 'Legal Philo' }
+	} as const;
+	type HiddenId = keyof typeof HIDDEN;
+	let unlocked: Record<HiddenId, boolean> = $state({ pfr: false, philo: false });
 	if (browser) {
 		try {
-			pfrOn = localStorage.getItem(PFR_KEY) === '1';
+			for (const id of Object.keys(HIDDEN) as HiddenId[]) unlocked[id] = localStorage.getItem(HIDDEN[id].key) === '1';
 		} catch {
 			/* private mode: starts hidden */
 		}
 	}
-	function flipPfr() {
-		pfrOn = !pfrOn;
+	function flipHidden(id: HiddenId) {
+		const { key, name } = HIDDEN[id];
+		unlocked[id] = !unlocked[id];
 		try {
-			if (pfrOn) localStorage.setItem(PFR_KEY, '1');
-			else localStorage.removeItem(PFR_KEY);
+			if (unlocked[id]) localStorage.setItem(key, '1');
+			else localStorage.removeItem(key);
 		} catch {
 			/* private mode: lasts until reload */
 		}
-		toast = pfrOn ? 'Hidden subject unlocked: PFR is now in the header.' : 'PFR hidden again.';
+		toast = unlocked[id] ? `Hidden subject unlocked: ${name} is now in the header.` : `${name} hidden again.`;
 		clearTimeout(toastTimer);
 		toastTimer = setTimeout(() => (toast = ''), 3500);
 	}
-	let logoTaps: number[] = [];
+	// Count quick taps on the logo; decide once the taps stop, so 3 and 4 taps can mean different things.
+	let logoTaps = 0;
+	let logoTimer: ReturnType<typeof setTimeout> | undefined;
 	function tapLogo() {
-		const t = Date.now();
-		logoTaps = [...logoTaps.filter((x) => t - x < 1500), t];
-		if (logoTaps.length >= 3) {
-			logoTaps = [];
-			flipPfr();
-		}
+		logoTaps++;
+		clearTimeout(logoTimer);
+		logoTimer = setTimeout(() => {
+			if (logoTaps === 3) flipHidden('pfr');
+			else if (logoTaps === 4) flipHidden('philo');
+			logoTaps = 0;
+		}, 600);
 	}
 
 	let typed = '';
@@ -143,17 +152,21 @@
 			flipAnswerKey();
 		} else if (typed === 'family') {
 			typed = '';
-			flipPfr();
+			flipHidden('pfr');
+		} else if (typed.endsWith('philo')) {
+			typed = '';
+			flipHidden('philo');
 		}
 	}
 
 	const under = (p: string, root: string) => p === root || p.startsWith(root + '/');
 	const subjects = [
-		{ href: '/', label: 'Consti I', match: (p: string) => !['/crimlaw', '/crimpro', '/statcon', '/pfr', '/exam-day'].some((r) => under(p, r)) },
+		{ href: '/', label: 'Consti I', match: (p: string) => !['/crimlaw', '/crimpro', '/statcon', '/pfr', '/philo', '/exam-day'].some((r) => under(p, r)) },
 		{ href: '/crimlaw', label: 'Crim Law', match: (p: string) => under(p, '/crimlaw') },
 		{ href: '/crimpro', label: 'Crim Pro', match: (p: string) => under(p, '/crimpro') },
-		// Hidden subject: shown once unlocked, or while you are on a PFR page.
-		{ href: '/pfr', label: 'PFR', match: (p: string) => under(p, '/pfr'), hidden: true },
+		// Hidden subjects: shown once unlocked, or while you are on one of their pages.
+		{ href: '/pfr', label: 'PFR', match: (p: string) => under(p, '/pfr'), hidden: 'pfr' as HiddenId },
+		{ href: '/philo', label: 'Legal Philo', match: (p: string) => under(p, '/philo'), hidden: 'philo' as HiddenId },
 		{ href: '/statcon', label: 'StatCon', match: (p: string) => under(p, '/statcon') },
 		// Not a subject: the go-blank routine and typed-exam advice shared by all of them.
 		{ href: '/exam-day', label: 'Exam day', match: (p: string) => under(p, '/exam-day') }
@@ -181,7 +194,7 @@
 			<span class="stack brand-t"><b>1Law-C</b><span class="hide-sm">Finals practice</span></span>
 		</a>
 		<nav class="subjects" aria-label="Subject">
-			{#each subjects.filter((x) => !x.hidden || pfrOn || x.match(page.url.pathname)) as s (s.href)}
+			{#each subjects.filter((x) => !x.hidden || unlocked[x.hidden] || x.match(page.url.pathname)) as s (s.href)}
 				<a href={s.href} aria-current={s.match(page.url.pathname) ? 'page' : undefined}>{s.label}</a>
 			{/each}
 		</nav>
@@ -470,7 +483,7 @@
 			flex-wrap: wrap;
 			row-gap: 6px;
 		}
-		/* Six links do not fit one line at 375px: wrap them, so none is hidden behind a sideways scroll. */
+		/* Seven links do not fit one line at 375px: wrap them, so none is hidden behind a sideways scroll. */
 		.subjects {
 			order: 3;
 			width: 100%;
