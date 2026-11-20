@@ -55,6 +55,12 @@
 {#if rule.cls2}
 	<div class="blk k-cls"><h4>Classification · {rule.cls2.t}</h4>{@render table(rule.cls2)}</div>
 {/if}
+{#if rule.ctg}
+	<div class="blk plain"><h4>2017 Continuous Trial Guidelines · A.M. No. 15-06-10-SC</h4>{@render list(rule.ctg)}</div>
+{/if}
+{#if rule.cases}
+	<div class="blk k-doc"><h4>Key cases (Riano)</h4>{@render list(rule.cases)}</div>
+{/if}
 <div class="blk trap"><h4>Exam trap</h4><p>{@html md(rule.trap)}</p></div>
 
 {#if sets.length}

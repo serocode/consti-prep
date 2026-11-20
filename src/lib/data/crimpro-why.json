@@ -192,5 +192,118 @@
 		["Plain view allows seizure of items outside the warrant.", "No second warrant is needed for items in plain view.", "Consent is not needed under plain view."],
 		["A valid search covers only the items in the warrant or in plain view.", "Relevance does not make an illegal seizure admissible.", "Illegally seized items are inadmissible for any purpose."],
 		["Before a case is filed, the motion goes to the issuing court.", "The justice department does not rule on the validity of a warrant.", "The Court of Appeals is not the first forum."]
+	],
+	"ctg": [
+		["Prohibited motions are denied outright; no hearing is set.", "Estafa is a public crime. Desistance does not end a case already in court.", "Prohibited motions do not wait for a comment."],
+		["The right to ask for PI after inquest is limited to 5 days.", "The 60-day suspension is for a petition for review pending at the DOJ or OP, at arraignment.", "The Art. 125 waiver is the route before the information is filed, not after."],
+		["A conflicting schedule is not one of the three allowed grounds.", "The defense's agreement does not create an allowed ground.", "There is no free postponement per party."],
+		["Trial dates are final under the Guidelines; a grant does not reset the calendar.", "One postponement does not touch the 180-day limit.", "A prosecution witness is conditionally examined only before the court where the case is pending, never abroad."],
+		["Spreading one witness over several dates is what the one-day rule prevents.", "The rule applies to all witnesses, experts included.", "A written motion does not create an exception."],
+		["The written offer with a period was replaced by the oral offer.", "Memoranda are discretionary and are not how evidence is offered.", "Marking is not offering; unoffered exhibits are not considered."],
+		["The right to counsel of choice cannot be used to stall the trial.", "Counsel's absence does not waive the accused's evidence.", "Resetting is what the Guidelines avoid; the hearing goes on."]
+	],
+	"demurrer2": [
+		["A motu proprio dismissal needs a prior chance for the prosecution to be heard.", "Memoranda come after both sides rest, and are discretionary.", "The defense has neither presented nor waived its evidence."],
+		["The Guidelines added the oral route to save time.", "The prosecution may object, but its consent is not required.", "The rule applies in the RTC too."],
+		["She may file it; she just bears the risk of a demurrer without leave.", "Denial of leave is not reviewable by appeal or certiorari before judgment.", "Filing a demurrer is not ground to dismiss anything."],
+		["10 days is the period to file the demurrer and the comment.", "90 days is the outer limit for promulgating the decision after submission.", "The 3-month period is for deciding cases, not this motion."],
+		["A demurrer must attack the sufficiency of the evidence after the prosecution rests.", "Leave matters only for a real demurrer.", "A demurrer is available in any criminal case."],
+		["An acquittal on insufficient evidence does not erase civil liability.", "Malversation carries civil liability to restore the funds.", "The civil action was deemed instituted and stays in the criminal case."],
+		["The civil aspect goes with the criminal case to judgment.", "There is no defense evidence to rebut.", "Her waiver of evidence is unqualified."]
+	],
+	"remedies": [
+		["An MR corrects errors in the judgment on the existing record, and March 31 is past the 15 days.", "Certiorari is not a substitute for an available remedy.", "Reopening is also limited to the time before finality."],
+		["The court's own initiative needs the accused's consent.", "That is the purpose of reopening (Rule 119, Sec. 24), which also needs a hearing.", "The prosecution can never move for a new trial after a conviction."],
+		["The written waiver makes it final earlier.", "Entry follows finality; it does not cause it.", "Service of sentence is another way, but the waiver came first."],
+		["Reopening always needs a hearing, and its purpose is to receive more evidence.", "The court cannot modify a conviction on its own motion.", "Modification is available before finality."],
+		["A void acquittal does not enjoy finality.", "Appearing later does not restore remedies unless he surrenders and moves for leave within 15 days.", "Before finality, a valid MR can reverse a conviction."],
+		["The 15-day surrender rule exists to restore those remedies.", "He gets 15 days from notice of the grant, not just a balance.", "Promulgation already happened by recording in the docket."]
+	],
+	"appeal3": [
+		["The rule stays execution only as to the appellant.", "Sonny's judgment became final when his period lapsed.", "Bail does not revive a lapsed appeal."],
+		["Withdrawal does not bar the benefit of Sec. 11(a).", "Finality did not stop Valdez from getting the downgrade.", "The prosecution's consent is irrelevant."],
+		["It must be applicable, not merely favorable.", "A joint information does not make a personal defense applicable.", "Detention status is irrelevant."],
+		["Only a notice of appeal opens the whole case.", "The penalty gives him the option of a notice of appeal, but he chose Rule 45.", "RP cases reach the SC by notice of appeal."],
+		["The civil aspect survives an acquittal.", "The OSG handles the criminal aspect; the offended party appeals the civil aspect on its own.", "The period is 15 days."],
+		["The Rule 40 dismissal applies only to civil appeals.", "A motion cannot create a ground the rule does not give.", "Bail status is irrelevant."],
+		["The appeal is decided on the record, not tried anew.", "New trial on newly discovered evidence on appeal is a CA remedy (Rule 124, Sec. 14).", "The bar covers all new evidence."],
+		["Harmless errors are disregarded.", "Assigning an error does not make it prejudicial.", "The test is prejudice, not admission."]
+	],
+	"jeopardy2": [
+		["Ivler rejected that argument; the light offense rule on complexing does not split the quasi-offense.", "Double jeopardy applies to quasi-offenses.", "The bar covers the whole second information, homicide included."],
+		["The death did not exist when he was first charged, so he was never in jeopardy for homicide.", "His consent is not required.", "How he was first convicted does not matter here."],
+		["One year applies only to offenses punishable by 6 years or less.", "There is no 6-month period.", "The time-bar exists precisely to set a limit."],
+		["The time-bar presupposes a valid provisional dismissal.", "The 1-year period is for lighter offenses, and does not apply here either.", "Prescription and double jeopardy remain available defenses."],
+		["The time-bar is triggered by a provisional dismissal, not a withdrawal.", "No jeopardy attached; he was never arraigned.", "Consent is not what takes it out of Sec. 8."],
+		["Finality protects valid acquittals, not void ones.", "Ordinary appeal from an acquittal would place him in double jeopardy.", "The prosecution can never move for a new trial."]
+	],
+	"search3": [
+		["A visual checkpoint inspection is a recognized exception.", "Consent is not needed for a mere visual inspection.", "A routine checkpoint needs no tip."],
+		["Only a visual inspection is allowed without probable cause.", "Vehicles get less protection, not none.", "Checkpoints are not illegal per se."],
+		["Moving vehicles are an exception to the warrant requirement.", "Probable cause is still needed.", "Specific, verified facts can amount to probable cause."],
+		["Another person's suspicion is not the officer's own genuine reason.", "What is found cannot justify the search after the fact.", "The checkpoint allows only a visual inspection."],
+		["Compliance with a police order is not consent.", "Implied acquiescence under pressure is no consent at all.", "Consent need not be written, just clearly voluntary."],
+		["There is no ground for a new trial; the evidence is simply inadmissible.", "Testimony cannot replace the excluded corpus delicti.", "The case is decided, not remanded."],
+		["The search is limited to the arrestee's immediate reach and control.", "There is no 24-hour rule.", "A search incident to a lawful arrest is a valid exception within its limits."]
+	],
+	"rights": [
+		["The right attaches at custodial investigation, not at every procedure.", "Asking for a lawyer does not turn a line-up into custodial investigation.", "Custodial rights can apply before any charge; that is not the reason."],
+		["A re-enactment communicates his account; it is testimonial.", "Recording it does not cure the compulsion.", "Inadmissible evidence does not become admissible against others this way."],
+		["Physical compulsion is outside the privilege.", "Counsel's presence is not required for a physical test.", "Reliability is a question of weight, not of the privilege."],
+		["Without cross, the testimony is generally stricken.", "It was not a statement about the cause of his own impending death.", "Only the untested testimony is affected."],
+		["Speedy trial is narrower; speedy disposition reaches the PI stage.", "Delay in the PI can violate a constitutional right.", "Dismissal of the case is an available remedy."],
+		["Compulsory process is about securing witnesses.", "Confrontation concerns the accused's own cross of adverse witnesses.", "The judge's right to question is limited and to be used sparingly."],
+		["The prosecution must win on the strength of its own evidence, beyond reasonable doubt.", "A tie in the evidence is not a ground for new trial.", "Witnesses are weighed, not counted."]
+	],
+	"bail3": [
+		["The court can secure his presence by the conditions of the bail itself.", "Seriousness does not allow this condition when bail is authorized.", "Arraignment is never waived by bail."],
+		["A right to bail cannot be denied for flight risk.", "A passport is just evidence of flight risk, with the same effect.", "This is about bail before conviction."],
+		["The order must show how the court weighed the evidence.", "The prosecutor's silence does not excuse the summary.", "Murder is bailable when evidence of guilt is not strong."],
+		["10 days is the period for an MR of the bail ruling.", "90 days is the promulgation limit after submission.", "The rule sets a fixed period, not a trial stage."],
+		["An interlocutory order is not appealable.", "A motion to quash attacks the information, not the bail order.", "Certiorari is available now."],
+		["The constitutional right to bail covers criminal prosecutions.", "The standard is clear and convincing, not preponderance.", "Purganan allows an exception."],
+		["Comendador recognized the military exception.", "The RPC classification does not create a right to bail in a court-martial.", "There is no such commander's-approval rule."]
+	],
+	"pi2": [
+		["PI is not a trial; cross-examination is not part of it.", "Consent does not create the right.", "The complainant's status is irrelevant."],
+		["The DOJ in PI is not a quasi-judicial agency under Rule 43.", "The RTC does not review DOJ resolutions on appeal.", "Rule 45 reviews judgments of courts."],
+		["Prohibited motions are denied outright, without hearing.", "Remand is not the response to this motion.", "The judge must still evaluate; nothing is automatic."],
+		["Certiorari is not a substitute for an available appeal.", "A motion to quash is the accused's remedy, before plea.", "No jeopardy: Mila was never arraigned."],
+		["Reinvestigation is limited by the Guidelines.", "Timeliness does not fix an unmeritorious ground.", "The court rules on the motion itself."],
+		["The order leaves nothing more to be done; it is final.", "Barangay conciliation is not a remedy against a court order.", "A final order can be appealed (on the civil aspect by the offended party, the criminal aspect by the OSG)."],
+		["Rule 43 to the CA covers administrative, not criminal, Ombudsman rulings.", "The Sandiganbayan does not hear appeals from Ombudsman PI rulings.", "Rule 45 reviews judgments of courts."]
+	],
+	"prosec2": [
+		["Issuance is only one of the places.", "The payee's residence is a libel rule, not a B.P. 22 rule.", "Dishonor is only one of the places."],
+		["That was the Zaldivia view, which Pangilinan held not controlling for special laws.", "Under Act No. 3326, B.P. 22 prescribes in 4 years.", "Every offense here prescribes."],
+		["The defect was the absence itself, not the timing of cross.", "The offended party is only a witness; he cannot stand in for the People.", "No special exception exists for B.P. 22."],
+		["The offended party's residence is an alternative venue.", "Mere circulation is not a venue under Art. 360.", "The place of first publication is also proper."],
+		["An essential element occurred in the Philippines.", "The court's jurisdiction does not depend on his return.", "Philippine law and courts govern the offense here."],
+		["After plea, only formal amendments are allowed, and this is not one.", "Changing the offense is substantial, not formal.", "Sec. 19 commits him to answer for the proper offense if there is good cause to detain him."]
+	],
+	"plea3": [
+		["Those are the older, longer periods for a non-detained accused.", "3 days is the raffle period under A.M. No. 12-11-2-SC.", "Pre-trial always follows arraignment."],
+		["Sec. 23 no longer stands.", "The ruling does not turn on the type of drug.", "The court still has discretion (Daan v. Sandiganbayan)."],
+		["There is no private offended party in a drug sale.", "The DOJ Secretary is not part of plea bargaining in court.", "Consent is required."],
+		["A guilty plea leaves nothing to try on guilt.", "Drug cases are not on the mediation list.", "Memoranda are for cases tried on the merits."],
+		["A lighter penalty is not the test.", "Consent cannot cure a lesser offense that is not included.", "Timing does not cure it either."],
+		["The Guidelines dispense with the accused's presence here.", "Due notice is enough.", "No written waiver is required."],
+		["Settlement of the civil liability does not by itself dismiss the criminal case.", "The Guidelines set a fixed mediation period, not an open suspension.", "The case is already in court; mediation is court-annexed."]
+	],
+	"civil2": [
+		["The employer's subsidiary liability is enforced in the criminal case itself.", "The employer is entitled to a hearing with notice.", "A separate case is an option, not a requirement."],
+		["Similar issues are not enough; an independent action never suspends the criminal case.", "Being filed first does not change its independent character.", "Agreement cannot create a prejudicial question."],
+		["It becomes meritorious only if a civil case was previously filed.", "A prejudicial question is not a ground to quash.", "It is not a reinvestigation request."],
+		["Different quanta of proof apply.", "Finality of the acquittal does not change the standard.", "There is no such suspension rule."],
+		["Rule 127 speaks of provisional remedies in general.", "Provisional remedies are available while the case is pending.", "The civil action is in the criminal case, so the remedy is too."],
+		["The rule lets him prove them in the same case.", "Appeal is not where evidence is first presented.", "A wrongful attachment can make the applicant liable for damages."]
+	],
+	"judg3": [
+		["There is no such rule; the record suffices.", "Consent is not required.", "Recalling witnesses is not a condition."],
+		["The modes have different elements and offenders.", "Waiver by silence applies to a variance in the manner of commission, not to a different mode of rape.", "The included lesser offense may still be proved."],
+		["Exact matching is not required where he did not object.", "No amendment is needed in that case.", "Being asleep is not force; it is a different circumstance."],
+		["Marking is not offering.", "The rule is about what the court may consider, not objections.", "Public documents still have to be offered."],
+		["30 days is not the promulgation rule.", "The Guidelines set the 90-day promulgation schedule (the constitutional 3 months is the outer limit for deciding).", "Incomplete transcripts are no excuse."],
+		["The civil liability finding is mandatory.", "No penalty is stated in an acquittal.", "That is not a requirement."]
 	]
 }

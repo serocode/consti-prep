@@ -26,6 +26,10 @@ export interface Rule {
 	exx?: Titled;
 	cls?: Table;
 	cls2?: Table;
+	/** Changes made by the 2017 Revised Guidelines for Continuous Trial of Criminal Cases (A.M. No. 15-06-10-SC). */
+	ctg?: string[];
+	/** Leading cases, as discussed in Riano, Criminal Procedure (The Bar Lectures Series). */
+	cases?: string[];
 	trap: string;
 }
 

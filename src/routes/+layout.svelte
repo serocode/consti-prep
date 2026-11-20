@@ -39,6 +39,8 @@
 	}
 	if (browser) loadVisitors();
 	let showDisclaimer = $state(false);
+	// Tip jar. A plain link, not Ko-fi's widget script, so no third-party code loads.
+	const KOFI = 'https://ko-fi.com/serocode';
 
 	// A different line each page load. Keep them light: this is a study app, not a stand-up set.
 	const quips = [
@@ -227,6 +229,7 @@
 	{#if visitors !== null}
 		<span class="visitors num">· {visitors.toLocaleString()} {visitors === 1 ? 'visitor' : 'visitors'}</span>
 	{/if}
+	<span class="kofi">· <a href={KOFI} target="_blank" rel="noopener noreferrer">☕ Support on Ko-fi</a></span>
 </footer>
 
 <Disclaimer bind:open={showDisclaimer} />
@@ -249,6 +252,8 @@
 			<p>{quip}</p>
 			<p class="riddle">{riddle}</p>
 			<a href="https://serocode.vercel.app/" target="_blank" rel="noopener noreferrer">See more of my work ↗</a>
+			<br />
+			<a href={KOFI} target="_blank" rel="noopener noreferrer">☕ Buy me a coffee on Ko-fi ↗</a>
 		</div>
 	</div>
 </aside>
@@ -418,8 +423,13 @@
 			transition: none;
 		}
 	}
-	.visitors {
+	.visitors,
+	.kofi {
 		white-space: nowrap;
+	}
+	.kofi a {
+		color: var(--accent-text);
+		font-weight: 600;
 	}
 	.btn-link {
 		background: none;

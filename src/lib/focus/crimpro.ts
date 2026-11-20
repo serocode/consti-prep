@@ -8,7 +8,11 @@ export const LIKELY_SETS: Record<string, string> = {
 	pi: 'The 4-2-1 threshold, inquest, and waiver are easy to turn into linked MCQs.',
 	quash: 'Which grounds survive a plea is a favorite one-fact twist.',
 	trial: 'Demurrer with or without leave is asked nearly every year.',
-	amend: 'Before plea vs. after plea changes the answer, which suits linked questions.'
+	amend: 'Before plea vs. after plea changes the answer, which suits linked questions.',
+	ctg: 'The 2017 Continuous Trial Guidelines are new law that Riano folds into every rule: prohibited motions and postponements.',
+	demurrer2: 'Demurrer is asked nearly every year, and the Guidelines changed how leave works.',
+	search3: 'Checkpoints, stop and frisk, and consent are Riano’s most-cited bar topics under Rule 126.',
+	jeopardy2: 'Ivler (reckless imprudence) and the provisional-dismissal requisites are classic bar questions.'
 };
 
 export const LIKELY_RULES: Record<string, string> = {
@@ -28,6 +32,9 @@ export const TOP: TopQuestion[] = [
 	{ q: 'May the information still be amended? Does it matter that the accused has pleaded?', type: 'MCQ', topic: 'Rules 110, 120 · amendment and variance', href: '/crimpro/drill/amend' },
 	{ q: 'The accused moved to quash only after plea. Is the ground waived?', type: 'MCQ', topic: 'Rule 117 · motion to quash', href: '/crimpro/drill/quash' },
 	{ q: 'Is a preliminary investigation required? Was the right waived?', type: 'MCQ', topic: 'Rule 112', href: '/crimpro/drill/pi' },
+	{ q: 'Is this motion or postponement prohibited under the 2017 Continuous Trial Guidelines?', type: 'MCQ', topic: 'Rules 112–119 · A.M. No. 15-06-10-SC', href: '/crimpro/drill/ctg' },
+	{ q: 'Was the checkpoint, stop-and-frisk, or "consented" search valid?', type: 'MCQ', topic: 'Rule 126 · warrantless searches', href: '/crimpro/drill/search3' },
+	{ q: 'One reckless act, two informations: does the first conviction bar the second (Ivler)?', type: 'MCQ', topic: 'Rule 117 · quasi-offenses', href: '/crimpro/drill/jeopardy2' },
 	{ q: 'Is the search warrant valid, and was it properly served? What may be seized?', type: 'MCQ', topic: 'Rule 126', href: '/crimpro/drill/search2' },
 	{ q: 'The prosecution revives a provisionally dismissed case. Is it too late?', type: 'MCQ', topic: 'Rule 117 · 1 year or 2 years', href: '/crimpro/drill/jeopardy' },
 	{ q: 'May the civil case proceed while the criminal case is pending? Is there a prejudicial question?', type: 'MCQ', topic: 'Rule 111', href: '/crimpro/drill/civil' },

@@ -24,8 +24,11 @@
 				"**Qualifying and aggravating** circumstances must be alleged in the information, or they cannot be appreciated (Secs. 8–9).",
 				"**One offense only** (duplicity), unless the law gives a single penalty for several offenses (Sec. 13).",
 				"**Venue** (Sec. 15): where the offense or any essential ingredient happened. Vehicle or aircraft: anywhere it passed, including departure and arrival. Vessel: first port of entry or any place it passed. Art. 2 RPC crimes: the court where first filed.",
-				"All cases are under the **direction and control of the public prosecutor**. A private prosecutor may act with written authority (heavy workload or no prosecutor), subject to court approval.",
-				"Offended party may **intervene by counsel** if the civil action was not waived, reserved, or filed separately (Sec. 16)."
+				"All cases are under the **direction and control of the public prosecutor**. A private prosecutor may try the case to the end, even without the public prosecutor, with **written authority** from the head prosecutor or Regional State Prosecutor (heavy workload or lack of prosecutors), **approved by the court** (A.M. No. 02-2-07-SC).",
+				"Offended party may **intervene by counsel** if the civil action was not waived, reserved, or filed separately (Sec. 16).",
+				"**Prescription** is interrupted by filing the complaint with the prosecutor (or the Ombudsman) for preliminary investigation, whether the offense is under the RPC or a special law like B.P. 22. Filing in a court **without jurisdiction** also interrupts it.",
+				"**Venue is jurisdictional** in criminal cases. **Libel:** where the article was printed and first published, or where the offended party resided (private person) or held office (public officer) at the time (Art. 360 RPC). **B.P. 22** is transitory: where the check was drawn, issued, delivered, or dishonored; the first court to take cognizance excludes the others.",
+				"On appeal, **only the OSG** represents the People on the criminal aspect of a dismissal or acquittal before the CA and SC. The offended party may appeal, or seek certiorari, **only on the civil aspect**. Cases in or from the Sandiganbayan: the Ombudsman's special prosecutor."
 			],
 			"cls": {
 				"t": "Private crimes: who may file (Sec. 5)",
@@ -68,9 +71,55 @@
 				"t": "After plea",
 				"items": [
 					"Only **formal** amendments, **with leave**, and **without prejudice** to the accused. A substantial amendment (e.g., homicide → murder) is not allowed.",
-					"**Substitution:** if the wrong offense was charged, the court dismisses the original once the proper information is filed, provided there is no double jeopardy."
+					"**Substitution:** if the wrong offense was charged, the court dismisses the original once the proper information is filed, provided there is no double jeopardy.",
+					"After plea, a substantial amendment is barred, **unless it is beneficial to the accused** (Ricarze v. CA; Matalam v. Sandiganbayan)."
 				]
 			},
+			"cls2": {
+				"t": "Amendment vs substitution (Teehankee v. Madayag; Pacoy v. Cajigal)",
+				"head": [
+					"",
+					"Amendment",
+					"Substitution"
+				],
+				"rows": [
+					[
+						"Offense",
+						"The same offense, or one included in it",
+						"A different offense, not included in the original"
+					],
+					[
+						"Change",
+						"Formal or substantial",
+						"Always substantial"
+					],
+					[
+						"Leave of court",
+						"Not needed before plea (except downgrading or dropping an accused)",
+						"Always needed; the original is dismissed"
+					],
+					[
+						"New PI and plea",
+						"Not needed if the change is only formal",
+						"New PI and a new plea"
+					],
+					[
+						"Double jeopardy",
+						"Can be invoked (same offense)",
+						"Cannot be invoked (different offense)"
+					]
+				]
+			},
+			"ctg": [
+				"When the private prosecutor handles **only the civil liability**, the head prosecutor must give written authority to try the case even without the public prosecutor, submitted to the court **before** the private prosecutor presents evidence."
+			],
+			"cases": [
+				"**People v. Pangilinan (2012); Panaguiton v. DOJ (2008):** filing the complaint with the prosecutor for PI interrupts prescription, even for B.P. 22 and other special laws.",
+				"**Pinote v. Ayco (2005):** the judge may not let the defense present witnesses when no public prosecutor (or authorized private prosecutor) is present. Offering cross-examination later does not cure it.",
+				"**People v. Piccio (2014):** only the OSG may appeal the criminal aspect of a dismissal or acquittal; the private complainant, only the civil aspect.",
+				"**AAA v. BBB (2018):** psychological violence under R.A. 9262 caused by a husband's affair abroad may be tried in the Philippines, where the wife suffers the anguish.",
+				"**Teehankee v. Madayag (1992); Pacoy v. Cajigal (2007):** the tests that separate amendment from substitution (table above)."
+			],
 			"trap": "An information is valid even if not sworn. A complaint must be sworn."
 		},
 		{
@@ -87,7 +136,10 @@
 				"**Suspension (Sec. 2):** once the criminal case starts, the separate civil action ex delicto cannot proceed until final judgment in the criminal case. A civil case filed earlier is suspended; it may be consolidated.",
 				"**Acquittal** does not end civil liability, unless the judgment finds the act from which it arises **did not exist**.",
 				"**Independent civil actions** (Arts. 32, 33, 34, 2176 Civil Code) proceed on their own and need only preponderance of evidence. No double recovery. Jurisprudence: no reservation needed.",
-				"A final civil judgment for the defendant does not bar the criminal case (Sec. 5)."
+				"A final civil judgment for the defendant does not bar the criminal case (Sec. 5).",
+				"**Employer's subsidiary liability** (Arts. 102–103 RPC) is enforced in the **same criminal case**, at a hearing with notice to the employer, on proof that: (1) he is the employer; (2) he is engaged in an industry; (3) the employee committed the crime in the discharge of his duties; (4) execution against the employee was unsatisfied (insolvency).",
+				"An **independent civil action is never a prejudicial question**; it proceeds regardless of the criminal case.",
+				"Acquittal does not end an **administrative** case on the same act; that case needs only substantial evidence."
 			],
 			"cls": {
 				"t": "Death of the accused (Sec. 4)",
@@ -120,6 +172,16 @@
 			"doc2": [
 				"File the petition to suspend with the prosecutor during PI, or in the criminal case **before the prosecution rests** (Sec. 6)."
 			],
+			"ctg": [
+				"A petition to suspend the criminal case for a prejudicial question is a **prohibited motion if no civil case has been filed yet**. If the civil case was filed first, it is a meritorious motion."
+			],
+			"cases": [
+				"**People v. Bayotas (1994):** death before final judgment extinguishes criminal liability and the civil liability based solely on the crime. Civil liability from other sources (law, contract, quasi-contract, quasi-delict) survives and is pursued in a separate action against the estate.",
+				"**Nissan Gallery-Ortigas v. Felipe (2013):** in B.P. 22, the civil action is deemed included; reserving it is not allowed.",
+				"**Galang v. People (2010):** the four requisites for enforcing the employer's subsidiary liability, determined in the criminal case itself.",
+				"**San Miguel Properties v. Perez (2013):** a prejudicial question exists to avoid conflicting decisions in the civil and criminal cases.",
+				"**Gupilan-Aguilar v. Ombudsman (2014):** acquittal does not bar administrative liability, which needs only substantial evidence."
+			],
 			"trap": "A civil case filed AFTER the criminal case cannot be a prejudicial question."
 		},
 		{
@@ -142,7 +204,13 @@
 				"PI is a **statutory** right but part of due process. Its **absence does not affect jurisdiction** or the validity of the information. It is **waived** if not raised **before plea**. Remedy: ask the court to suspend and remand for PI.",
 				"**Inquest (Sec. 6):** a person lawfully arrested without a warrant may be charged without PI after inquest. Before filing, he may ask for PI by **waiving Art. 125 RPC with counsel**; PI must end in **15 days**; he may still apply for bail. After filing, he may ask for PI within **5 days** of learning of the filing.",
 				"The Secretary of Justice may reverse or modify the prosecutor's resolution.",
-				"MTC judges no longer conduct PI (A.M. No. 05-8-26-SC)."
+				"MTC judges no longer conduct PI (A.M. No. 05-8-26-SC).",
+				"**Two determinations of probable cause.** **Executive:** by the prosecutor during PI (whether to file). **Judicial:** by the judge (whether to issue a warrant). The judge need **not personally examine** the complainant and witnesses; he **personally evaluates** the prosecutor's resolution and evidence, and may dismiss at once if probable cause is clearly lacking (Sec. 5).",
+				"**Clarificatory hearing:** the parties may attend but have **no right to cross-examine**; they may submit questions to the investigating officer (Sec. 3[e]).",
+				"Absence of PI is **not a ground to quash** and does not affect the court's jurisdiction or the validity of the information.",
+				"**Review:** a DOJ Secretary's resolution → **Rule 65 certiorari in the CA** (not Rule 43). An Ombudsman resolution in a criminal case → **Rule 65 in the SC**.",
+				"Once the information is filed, its fate is the **court's**. On a motion to withdraw, the judge must make an **independent assessment**; the DOJ resolution is persuasive, not binding.",
+				"An order dismissing the case for **lack of probable cause**, or granting a withdrawal, is a **final order**: the remedy is **appeal**, not certiorari."
 			],
 			"exc": {
 				"t": "No warrant of arrest needed when…",
@@ -152,6 +220,17 @@
 					"The offense is punishable by fine only."
 				]
 			},
+			"ctg": [
+				"**Prohibited motions** (denied outright, no comment needed): a motion for **judicial determination of probable cause**; a motion for PI filed **after the 5-day period** of Sec. 6; a motion for **reinvestigation** filed without leave, or on unmeritorious grounds (credibility, admissibility of evidence, innocence of the accused, or lack of due process when he was actually notified).",
+				"A **motion to quash the warrant of arrest** is a meritorious motion. If the case was filed after a lawful warrantless arrest, the court issues a **commitment order**, not a warrant."
+			],
+			"cases": [
+				"**Crespo v. Mogul (1987):** once the information is filed in court, any disposition (dismissal, acquittal, conviction) rests on the trial court's sound discretion.",
+				"**Lanier v. People (2014):** granting a withdrawal based solely on the DOJ resolution, without the court's own evaluation, is an abdication of judicial duty.",
+				"**Marinas v. Siochi (1981):** PI is a statutory, not constitutional, right; but once given by law it is part of due process.",
+				"**Cajipe v. People (2014):** a dismissal for lack of probable cause is a final order; appeal it.",
+				"**AAA v. Carbonell (2007):** the judge need not personally examine the complainant and witnesses before issuing a warrant of arrest."
+			],
 			"trap": "Exactly 4 years and 2 months → no PI. It must be at least 4 years, 2 months, and 1 day."
 		},
 		{
@@ -161,7 +240,7 @@
 			"req": {
 				"t": "Valid warrantless arrest (Sec. 5)",
 				"items": [
-					"**In flagrante:** in the officer's presence, the person has committed, is committing, or is attempting an offense — an **overt act** is needed.",
+					"**In flagrante:** two requisites: an **overt act** showing he has just committed, is committing, or is attempting an offense, **done in the presence or within view** of the officer.",
 					"**Hot pursuit:** an offense **has just been committed** and the officer has probable cause based on **personal knowledge** of facts that this person did it.",
 					"**Escapee** from a penal establishment or while being transferred."
 				]
@@ -175,7 +254,9 @@
 				"Objection to an illegal arrest is **waived** if not raised **before plea**. An illegal arrest does not affect the court's jurisdiction over the case.",
 				"Even if the arrest objection is waived, evidence from an **illegal search remains inadmissible**.",
 				"A warrant of arrest has **no expiry**; it stays valid until served or lifted.",
-				"An escaped person may be retaken without a warrant anywhere in the Philippines (Sec. 13)."
+				"An escaped person may be retaken without a warrant anywhere in the Philippines (Sec. 13).",
+				"**Hot pursuit** needs **immediacy**: an arrest the next day, or days later, is not hot pursuit. The officer need not see the crime but must have **personal knowledge of facts** pointing to the suspect, not hearsay.",
+				"**Not subject to arrest:** members of Congress **while Congress is in session**, for offenses punishable by **not more than 6 years** (Const. Art. VI, Sec. 11); foreign ambassadors, public ministers, and their registered domestics (R.A. 75), subject to reciprocity."
 			],
 			"exc": {
 				"t": "The officer need not state the cause of arrest when…",
@@ -185,6 +266,14 @@
 					"(Without warrant) he is caught in the act or pursued right after."
 				]
 			},
+			"cases": [
+				"**People v. Aminnudin (1988):** an informant's tip, with no overt act seen by the officers, does not justify an in flagrante arrest; the marijuana was inadmissible.",
+				"**Malacat v. CA (1997):** eyes \"moving very fast\" and looking at passers-by is not an overt act.",
+				"**Veridiano v. People (2017):** reliable information or a tip alone is not enough. Failing to object to the arrest does not waive the inadmissibility of the evidence seized.",
+				"**Rolito Go v. CA (1992):** an arrest 6 days after the shooting is not hot pursuit.",
+				"**Villamar v. People (2017):** waiving an illegal arrest covers only the arrest, not the evidence from an illegal search.",
+				"**People v. Jalosjos (2000):** the legislator's privilege from arrest does not cover offenses punishable by more than 6 years."
+			],
 			"trap": "Waiving the illegal arrest does NOT make illegally seized evidence admissible."
 		},
 		{
@@ -236,7 +325,15 @@
 				"**Where to file (Sec. 17):** where the case is pending; if the judge is absent, any RTC/MTC judge in the area; if arrested elsewhere, any RTC judge there (MTC if none). Discretionary bail and recognizance: **only** where the case is pending. Not yet charged: any court where held.",
 				"**Sec. 16:** detained for the maximum penalty → release; destierro → release after **30 days**; detained for the minimum → reduced bail or recognizance.",
 				"**Forfeiture:** bondsmen get **30 days** to produce the accused and explain.",
-				"**Sec. 26:** applying for bail does **not** waive objections to the arrest, the warrant, or the PI, if raised **before plea**."
+				"**Sec. 26:** applying for bail does **not** waive objections to the arrest, the warrant, or the PI, if raised **before plea**.",
+				"When bail is a **matter of right**, flight risk is not a ground to deny it; the court may only **raise the amount**. Remedy for a wrongful denial: **certiorari** (and mandamus when bail is a right).",
+				"Bail **cannot be conditioned on arraignment**: the accused must stay free to move to quash before he pleads.",
+				"**Duties of the judge** in an RP or life case: (1) notify the prosecutor or require his recommendation; (2) hold a hearing even if the prosecution presents no evidence; (3) decide whether evidence of guilt is strong based on a **summary of the evidence**; (4) if not strong, discharge the accused on approval of the bond; otherwise deny.",
+				"The order must contain a **summary of the evidence** and the conclusion, issued within **48 hours** after the hearing (A.M. No. 12-11-2-SC).",
+				"Bail-hearing evidence is **automatically reproduced at trial**; a witness may be recalled unless dead, abroad, or unable to testify (Sec. 8).",
+				"A **material witness** may be ordered to post bail even if not in custody (Rule 119, Sec. 14).",
+				"**No bail in the military.** **Extradition:** no right to bail, except on a **clear and convincing** showing that the extraditee is **not a flight risk or danger**, and that there are **special, humanitarian, and compelling** circumstances.",
+				"**Cancellation:** on the bondsmen's application upon surrender or death of the accused; **automatically** upon acquittal, dismissal, or execution of the judgment."
 			],
 			"exc": {
 				"t": "Bail pending appeal (Sec. 5)",
@@ -250,6 +347,19 @@
 					"If the trial court **changed the offense from non-bailable to bailable**, only the **appellate court** may act on the application."
 				]
 			},
+			"ctg": [
+				"A petition for bail filed after the information is set for **summary hearing after arraignment and pre-trial**, and resolved within **30 days** from the first hearing (**20 days** in drug cases), without oral argument or memoranda. An MR is resolved within **10 days**.",
+				"The ruling rests **solely on the prosecution's evidence** at the bail hearing. The prosecution presents only what shows strong evidence of guilt; the accused need not present rebuttal evidence."
+			],
+			"cases": [
+				"**Lavides v. CA (2000):** bail may not be conditioned on prior arraignment.",
+				"**San Miguel v. Maceda (2007):** when bail is a right, a high risk of flight only justifies a higher bond.",
+				"**Narciso v. Santa Romana-Cruz (2000):** the four duties of the judge in a bail application for an RP or life offense.",
+				"**People v. Gomez (2000):** certiorari lies against a denial of bail with grave abuse of discretion.",
+				"**Government of the U.S. v. Purganan (2002):** no bail in extradition, except on the two-tier clear and convincing showing.",
+				"**Comendador v. Villa (1991):** the right to bail is not available in the military.",
+				"**Enrile v. Sandiganbayan (2015):** bail flows from the presumption of innocence; it secures appearance, so the amount should be no higher than needed for that."
+			],
 			"trap": "Bail granted without a hearing in an RP case is void, even if the prosecutor did not object."
 		},
 		{
@@ -260,7 +370,13 @@
 				"Presumed innocent until proven guilty **beyond reasonable doubt**.",
 				"Present and defend in person and by counsel **from arraignment to promulgation**.",
 				"Testify for himself (cross limited to matters on direct); silence not held against him; not compelled to testify against himself.",
-				"Confront and cross-examine witnesses; compulsory process; speedy, impartial, public trial; appeal."
+				"Confront and cross-examine witnesses; compulsory process; speedy, impartial, public trial; appeal.",
+				"**Equipoise rule:** when the evidence is evenly balanced, or the facts allow two interpretations, one consistent with innocence, the accused is acquitted.",
+				"**Self-incrimination** covers only **testimonial compulsion**. A paraffin test or physical examination is allowed; a **forced re-enactment** is not.",
+				"**No right to counsel at a police line-up**: custodial investigation has not yet begun.",
+				"**Speedy trial** applies to criminal cases in court. **Speedy disposition** applies before **any tribunal**, including the prosecutor or Ombudsman during PI. Inordinate delay justifies dismissal. Courts weigh the **length of delay, the reasons, the assertion of the right, and the prejudice**; only vexatious, capricious, and oppressive delay violates the right.",
+				"If the accused loses the chance to cross-examine through no fault of his own, the direct testimony may be **stricken**.",
+				"**Immunity:** **transactional** (no prosecution at all for the related offense) vs **use and derivative use** (his testimony and its fruits cannot be used; independent evidence may)."
 			],
 			"req": {
 				"t": "Trial in absentia",
@@ -284,6 +400,13 @@
 					"Prior testimony of a witness who is **dead, abroad, cannot be found, or unable to testify**, given in another case with the **same parties and subject matter**, where the adverse party **had the chance to cross-examine**."
 				]
 			},
+			"cases": [
+				"**Tatad v. Sandiganbayan (1988):** nearly three years of unexplained delay in the PI violated the right to speedy disposition; the case was dismissed.",
+				"**Cagang v. Sandiganbayan (2018); Coscolluela v. Sandiganbayan (2013):** speedy disposition reaches every tribunal, and inordinate delay is judged case by case, not by counting days alone.",
+				"**People v. Olvis (1987):** a forced re-enactment falls under the ban on self-incrimination; evidence based on it is inadmissible.",
+				"**People v. Tolentino (2004):** no right to counsel during a police line-up.",
+				"**Tabuena v. Sandiganbayan (1997):** a court that questions witnesses like an advocate denies the \"cold neutrality of an impartial judge.\""
+			],
 			"trap": "Trial in absentia needs arraignment first. An unarraigned accused cannot be tried in absentia."
 		},
 		{
@@ -329,7 +452,12 @@
 				"**Plea to a lesser offense (Sec. 2):** with consent of the **offended party and prosecutor**, at arraignment; or after arraignment but before trial by withdrawing the not-guilty plea. No amendment needed. If the offended party fails to appear despite notice, the prosecutor's consent alone suffices (Sec. 1(f)).",
 				"**Improvident plea** of guilty may be withdrawn any time **before the judgment becomes final**.",
 				"**Bill of particulars:** move **before arraignment**, specifying the defects.",
-				"The court must inform the accused of his right to counsel and appoint counsel de oficio if needed."
+				"The court must inform the accused of his right to counsel and appoint counsel de oficio if needed.",
+				"**Plea to a lesser offense** needs: (1) a lesser offense **necessarily included** in the charge; (2) consent of the **offended party and the prosecutor**. It is **not a right** of the accused; the court has discretion. One charged with robbery or theft cannot plead guilty to estafa.",
+				"**Drug cases:** Sec. 23 of R.A. 9165, which barred plea bargaining, is **unconstitutional**: it intruded on the Supreme Court's rule-making power.",
+				"A belated arraignment does not void the trial if the accused took part fully without objecting and was not prejudiced. The court got jurisdiction over him by his **arrest**, not by arraignment.",
+				"Failing to ask for a **bill of particulars** before plea waives the defect (e.g., only the month and year are stated).",
+				"**Sec. 10:** the court may order the prosecution to let the accused inspect and copy the statements of the complainant and witnesses, and other material evidence in its possession."
 			],
 			"req": {
 				"t": "Grounds to suspend arraignment (Sec. 11)",
@@ -339,6 +467,17 @@
 					"Petition for review pending at the DOJ or OP (max 60 days)"
 				]
 			},
+			"ctg": [
+				"Arraignment and pre-trial are set on the **same date**: within **10 days** from the court's receipt of the case (detained accused), or **30 days** from acquiring jurisdiction (not detained).",
+				"Plea bargaining proceeds at once if the **offended party** (private crimes) or the **arresting officer** (victimless crimes) is present to consent, with the public prosecutor's conformity. **Judgment is rendered immediately** in the same proceedings.",
+				"**Prohibited:** a motion to suspend arraignment on grounds **not in Sec. 11**; a motion for bill of particulars that does not specify the defects and the details desired."
+			],
+			"cases": [
+				"**Estipona v. Lobrigo (2017):** Sec. 23 of R.A. 9165 (no plea bargaining in drug cases) is unconstitutional.",
+				"**Daan v. Sandiganbayan (2008):** a plea to a lesser offense is addressed to the court's discretion, not demandable as a right.",
+				"**People v. Jalbuena (2007):** not asking for a bill of particulars before plea waives a vague date.",
+				"**Lavides v. CA (2000):** see Rule 114; the accused may move to quash before arraignment, so bail cannot wait for arraignment."
+			],
 			"trap": "A counsel cannot enter the plea for the accused; the accused pleads personally."
 		},
 		{
@@ -409,7 +548,13 @@
 				"The second prosecution is barred if it is for the **same offense**, its attempt or frustration, or an offense that **necessarily includes or is included** in it.",
 				"Defect curable by amendment → court orders amendment before quashing (Sec. 4).",
 				"**Provisional dismissal** needs the accused's **express consent** and **notice to the offended party** (Sec. 8).",
-				"Jurisprudence (Gomez v. People, 2020): lack of the head prosecutor's prior written approval is **waivable**."
+				"Jurisprudence (Gomez v. People, 2020): lack of the head prosecutor's prior written approval is **waivable**.",
+				"**Not grounds to quash:** an affidavit of desistance; absence of PI; absence of probable cause for the warrant (a ground to **dismiss**, not to quash); matters of defense not appearing in the information (e.g., self-defense).",
+				"**Quasi-offenses:** reckless imprudence is **one offense**, whatever its results. Conviction or acquittal for one result bars prosecution for the other results of the **same act**.",
+				"A **provisional dismissal** needs the accused's **express consent** and **notice to the offended party**. Without them, the time-bar does not apply (prescription or double jeopardy may still). It is **not an acquittal**. The State may revive beyond the 1- or 2-year period only on a justifiable necessity for the delay.",
+				"**Withdrawal of the information ≠ dismissal.** A withdrawal is without prejudice to refiling after reinvestigation and is **not** covered by the time-bar. A dismissal becomes final after 15 days and triggers Sec. 8.",
+				"An erroneous **acquittal** may be reviewed only by **certiorari**, for grave abuse amounting to lack of jurisdiction (a sham trial, the prosecution denied due process). Such an acquittal is **void**, so jeopardy does not attach.",
+				"Double jeopardy does **not** bar an appeal of the **civil aspect** after acquittal, by the offended party or the accused."
 			],
 			"exc": {
 				"t": "Dismissal does NOT bar refiling when…",
@@ -445,6 +590,16 @@
 					]
 				]
 			},
+			"ctg": [
+				"A motion to quash **not based on the grounds in Sec. 3** is a **prohibited motion**, denied outright."
+			],
+			"cases": [
+				"**Ivler v. Modesto-San Pedro (2010):** conviction for reckless imprudence resulting in slight physical injuries barred a second case for reckless imprudence resulting in homicide and damage to property, from the same act.",
+				"**People v. Lacson (2003):** the time-bar for revival of a provisionally dismissed case; the requisites must first be met.",
+				"**Saldariega v. Panganiban (2015):** a provisional dismissal with the accused's express consent is not an acquittal; no jeopardy.",
+				"**People v. Sandiganbayan (2004):** lack of probable cause for a warrant is a ground to dismiss, not to quash.",
+				"**People v. Ramirez (2004):** an affidavit of desistance is not a ground to dismiss once the case is in court."
+			],
 			"trap": "Credit for time served applies when he is later convicted of the graver offense."
 		},
 		{
@@ -466,7 +621,17 @@
 			"doc": [
 				"Matters: plea bargaining, stipulation of facts, marking of evidence, waiver of objections, modified order of trial, other matters.",
 				"Non-appearance of counsel or prosecutor without excuse → sanctions (Sec. 3).",
-				"The **pre-trial order** binds the parties and limits the trial to matters not disposed of, unless modified to prevent manifest injustice."
+				"The **pre-trial order** binds the parties and limits the trial to matters not disposed of, unless modified to prevent manifest injustice.",
+				"Pre-trial is mandatory in the **Sandiganbayan, RTC, and first-level courts**.",
+				"No evidence may be presented at trial unless **marked at pre-trial**, except for good cause (A.M. No. 03-1-09-SC).",
+				"Plea bargaining agreed at pre-trial → the court issues an order, receives evidence on the **civil aspect**, then renders a judgment of conviction with the civil liability.",
+				"**Criminal vs civil pre-trial:** no motion by the prosecution is needed to set it; no pre-trial brief is required by Rule 118; amicable settlement of the crime is **not** a purpose (an offer of compromise by the accused may be an **implied admission of guilt**, except in quasi-offenses or where the law allows compromise); sanctions fall on **counsel or the prosecutor**, not the party.",
+				"The **pre-trial order** issues within **10 days** after pre-trial (A.M. No. 03-1-09-SC); the Guidelines require it to be served on the parties the **same day** pre-trial ends."
+			],
+			"ctg": [
+				"Pre-trial proceeds even if the **accused or private complainant is absent**, if duly notified, so long as counsel for the accused and the public prosecutor are present.",
+				"The court itself must push for stipulations, especially on witnesses with **no personal knowledge** of the material facts: forensic chemists, medico-legal officers, investigators, custodians, experts, corroborative witnesses, and civil-liability witnesses.",
+				"**Mediation of the civil liability** (Philippine Mediation Center, **30 days**, non-extendible) after arraignment and pre-trial, for: B.P. 22, SSS and Pag-IBIG violations; theft (first-level courts), estafa under Art. 315(1), other swindling and deceits, malicious mischief; libel, slander, and cyberlibel; criminal negligence; and IP cases where the liability may be civil in nature."
 			],
 			"trap": "An admission signed only by counsel cannot be used against the accused."
 		},
@@ -478,7 +643,8 @@
 				"At least **15 days** to prepare for trial after a not-guilty plea; trial starts within **30 days** from receipt of the pre-trial order.",
 				"Trial must not exceed **180 days** from the first day.",
 				"Demurrer: leave within **5 days** after prosecution rests (opposition **5 days**); demurrer within **10 days** from notice of leave (opposition **10 days**). All non-extendible.",
-				"New trial after order: start within **30 days**. Reopening: finish within **30 days**."
+				"New trial after order: start within **30 days**. Reopening: finish within **30 days**.",
+				"Arraignment to start of trial: **80 days** (Sec. 6, the last step of the phase-in). So a case should be tried in well under a year, excluded delays aside."
 			],
 			"req": {
 				"t": "Discharge as state witness (Sec. 17) — all five",
@@ -516,7 +682,19 @@
 				"**Speedy trial dismissal (Sec. 9):** move before trial, or it is waived. Accused proves it; prosecution must show excluded delays.",
 				"**Reverse trial:** when the accused admits the act but claims a lawful defense.",
 				"**Conditional examination:** prosecution witness too sick or leaving the country → examined before the court where the case is pending. Defense witness (sick, over 100 km and no means, etc.) → before a judge, a member of the bar, or an inferior court judge.",
-				"**Sec. 19:** wrong offense charged and he cannot be convicted of it or an included offense → commit him for the proper offense and dismiss the original once the new information is filed."
+				"**Sec. 19:** wrong offense charged and he cannot be convicted of it or an included offense → commit him for the proper offense and dismiss the original once the new information is filed.",
+				"**Absent** essential witness: whereabouts unknown or cannot be found with due diligence. **Unavailable**: whereabouts known, but presence cannot be obtained with due diligence (Sec. 3[b]).",
+				"**Never grounds for continuance:** court congestion, lack of diligent preparation, the prosecutor's failure to get available witnesses (Sec. 4).",
+				"**Sanctions (Sec. 8):** privately retained counsel, fine up to **₱20,000**; counsel de oficio, public attorney, or prosecutor, up to **₱5,000**; any of them may be barred from that court for up to **30 days**.",
+				"**State witness:** he need not be the least guilty, only **not appear to be the most guilty**. Discharge is improper when his testimony is merely **corroborative**. Courts generally **defer** to the prosecutor and deny only in clear cases. Jeopardy protects him only if he was already arraigned.",
+				"**Conditional examination.** Defense witness: before a judge, or a member of the bar if that is impractical; the order is served **3 days** ahead; it proceeds even if the notified prosecutor is absent. Prosecution witness: **only before the court where the case is pending**, so it cannot be taken abroad.",
+				"**Demurrer** tests the whole prosecution evidence against **proof beyond reasonable doubt**. To defeat it, the evidence must prove the **crime** and the accused's **precise participation**. Filed before the prosecution rests, it is **premature**.",
+				"**Granted demurrer** = acquittal; review only by **Rule 65** (e.g., sham trial, prosecution denied due process). Misweighing evidence is an error of judgment and cannot be corrected. **Denied demurrer:** no certiorari as a rule, but the SC may still strike down grave abuse.",
+				"A motion to dismiss is a demurrer only if it attacks the **sufficiency of the evidence** after the prosecution rests. Look at good faith, timing, and main objective.",
+				"When granting a demurrer, the court may not decide the **civil aspect** at once; the accused has not presented evidence on it (unless the act giving rise to civil liability did not exist). If a demurrer **without leave** is denied, the whole case, civil aspect included, is submitted for judgment.",
+				"**Civil vs criminal demurrer:** in a civil case, no leave is needed; a denial keeps the defendant's right to present evidence; a grant may be appealed (and on reversal, the defendant loses the right to present evidence); the court never demurs on its own.",
+				"**Formal offer** is required: exhibits marked but never offered are not evidence. Relaxed only if they were identified in recorded testimony and incorporated in the records.",
+				"The judge may ask **clarificatory** questions, sparingly. A judge who acts as an advocate denies the accused an impartial trial."
 			],
 			"exc": {
 				"t": "Discharge operates as an acquittal (Sec. 18)…",
@@ -524,6 +702,29 @@
 					"…**unless** he fails or refuses to testify according to his sworn statement."
 				]
 			},
+			"ctg": [
+				"**Motions for postponement are prohibited**, except for **acts of God, force majeure, or physical inability of the witness** to appear and testify. The motion needs the **postponement fee** receipt, and the movant must still finish its evidence on the dates agreed.",
+				"Trial **Monday to Thursday** (calls at 8:30 a.m. and 2:00 p.m.); motions, arraignment and pre-trial, and promulgation on **Friday mornings**. Trial dates are final.",
+				"**One-day examination rule:** each witness must be fully examined in one day.",
+				"**Form of testimony.** First-level courts: the sworn statements given to police and the affidavits from the PI (else judicial affidavits), subject to additional direct and cross. RTC, Sandiganbayan, CTA: the same for witnesses whose **demeanor is not essential** (chemists, medico-legal officers, auditors, custodians, experts) and in **document-based** crimes (falsification, malversation, estafa); **oral** testimony when guilt rests on eyewitnesses.",
+				"**Oral offer of evidence** on the day the last witness testifies; the other side objects at once; the court rules in open court.",
+				"**Demurrer:** after the prosecution rests, the court asks the accused whether he will move for leave or present evidence. Leave may be asked **orally** and is resolved orally. If leave is denied but he files the demurrer anyway, his evidence dates are cancelled (it is treated as **without leave**). Demurrer within **10 days** of the grant of leave; comment **10 days**; resolution within **30 days**.",
+				"A motion to **discharge a state witness** is a meritorious motion, resolved within **10 days** after its hearing.",
+				"If counsel de parte is absent, the hearing proceeds with a **counsel de oficio**. **Memoranda** are discretionary (25 pages max) and do not move the promulgation date."
+			],
+			"cases": [
+				"**Jimenez v. People (2014):** a state witness need not be the least guilty, only not the most guilty.",
+				"**People v. Sandiganbayan (2013); Ampatuan v. De Lima (2013):** courts defer to the prosecution and deny a discharge only in clear cases.",
+				"**Napoles v. Sandiganbayan (2018):** a demurrer tests proof beyond reasonable doubt, unlike a bail hearing (evidence of guilt strong).",
+				"**Singian v. Sandiganbayan (2013):** to defeat a demurrer, the evidence must prove the crime and the accused's precise participation.",
+				"**Cabador v. People (2009):** a speedy-trial motion to dismiss, filed before the prosecution rested, is not a demurrer; no waiver of defense evidence.",
+				"**Hun Hyung Park v. Eung Won Choi (2007):** a denied demurrer without leave submits the whole case, civil aspect included, for judgment.",
+				"**People v. Sandiganbayan (2015); People v. Ting (2018):** a granted demurrer is reviewable only by Rule 65 for grave abuse, not by appeal.",
+				"**Macapagal-Arroyo v. People (2016):** despite Sec. 23, the SC may review the denial of a demurrer tainted with grave abuse.",
+				"**Cabarles v. Maceda (2007):** requisites of reopening: before finality, by the judge or on motion, after a hearing, to prevent a miscarriage of justice, finished in 30 days.",
+				"**Go v. People (2012):** a prosecution witness is conditionally examined only before the court where the case is pending, not abroad.",
+				"**People v. Villanueva (2010):** a birth certificate marked but not offered could not prove minority; qualified rape became simple rape."
+			],
 			"trap": "Demurrer without leave + denial = no more defense evidence."
 		},
 		{
@@ -534,7 +735,15 @@
 				"**Variance (Secs. 4–5):** convict of the offense **proved** if it is included in the offense charged, or of the offense **charged** if it is included in the offense proved.",
 				"Conviction must state: legal qualification and circumstances, participation, penalty, civil liability. **Acquittal** must state whether evidence **absolutely failed** or only failed to prove guilt **beyond reasonable doubt**, and whether the act giving rise to civil liability **existed**.",
 				"Two offenses in one information **without objection before trial** → convict of each proven (Sec. 3).",
-				"**Promulgation (Sec. 6):** read in the presence of the accused. Absent without justification → record in docket and serve; he **loses his remedies** and a warrant issues. Within **15 days** he may surrender and move for leave, proving justifiable cause."
+				"**Promulgation (Sec. 6):** read in the presence of the accused. Absent without justification → record in docket and serve; he **loses his remedies** and a warrant issues. Within **15 days** he may surrender and move for leave, proving justifiable cause.",
+				"**Formal requisites:** written in the official language; personally and directly prepared and signed by the judge; states clearly and distinctly the **facts and the law** (Sec. 1). The losing party is entitled to know why he lost.",
+				"A judge who **did not hear** the witnesses may still decide on the records.",
+				"Charged with rape by **sexual intercourse**, proved rape by **sexual assault**: no conviction for sexual assault (a different mode); at most, acts of lasciviousness. A variance in the **mode** of commission is waived if the accused does not object to the evidence.",
+				"If the accused lost his remedies by skipping promulgation, an MR he files must be **dismissed outright**. An acquittal granted on it is **void**, and jeopardy does not attach. An accused on bail who skips promulgation **loses his standing** in court.",
+				"**Probation and appeal** are mutually exclusive: applying for probation waives the appeal.",
+				"**Modification** (Sec. 7): only on the **accused's motion**, before finality or perfection of appeal; no hearing needed. Compare **reopening** (Rule 119, Sec. 24): the judge may act on his own, but **with a hearing**.",
+				"**Time to decide** (Const. Art. VIII, Sec. 15), from submission: SC **24 months**; lower collegiate courts **12 months**; other lower courts **3 months**. Illness, extra assignments, a heavy caseload, or missing transcripts are not excuses; ask the SC for an extension.",
+				"A judgment of acquittal is **immediately final**. A compromise with the offended party does not erase criminal liability."
 			],
 			"req": {
 				"t": "Judgment becomes final when (Sec. 7)",
@@ -567,9 +776,38 @@
 						"Rape",
 						"Acts of lasciviousness",
 						"Acts of lasciviousness"
+					],
+					[
+						"Robbery",
+						"Theft",
+						"Theft"
+					],
+					[
+						"Rape by sexual intercourse",
+						"Rape by sexual assault",
+						"Acts of lasciviousness at most"
+					],
+					[
+						"Acts of lasciviousness",
+						"Rape",
+						"Acts of lasciviousness"
 					]
 				]
 			},
+			"ctg": [
+				"The **promulgation date** is announced when the case is submitted for decision, not more than **90 days** from submission.",
+				"An **MR or MNT** of a conviction is resolved within **10 days** from the prosecution's comment, with or without it.",
+				"Missing transcripts do not justify deferring submission. A successor judge orders complete transcripts within **30 days** of assuming office."
+			],
+			"cases": [
+				"**Lumanog v. People (2010):** the decision must state the facts and law so the losing party can point out errors on appeal.",
+				"**People v. Alfredo (2010):** a judge who did not hear the witnesses may decide on the records.",
+				"**People v. Caoili (2017):** charged with rape by sexual intercourse, the accused cannot be convicted of rape by sexual assault.",
+				"**People v. Abella (2009):** a variance in the mode of commission is waived by failure to object to the evidence.",
+				"**Jaylo v. Sandiganbayan (2015):** an accused on bail who skips promulgation of a conviction loses standing to seek relief, unless he surrenders and moves for leave within 15 days.",
+				"**Javier v. Gonzales (2017):** an acquittal granted on such an accused's MR is void; no double jeopardy.",
+				"**Almero v. People (2014):** applying for probation is a waiver of appeal."
+			],
 			"trap": "An unalleged qualifying circumstance cannot raise the crime, even if proven."
 		},
 		{
@@ -611,7 +849,19 @@
 			},
 			"doc": [
 				"In all cases the original judgment is set aside and a new one rendered.",
-				"Newly discovered evidence motions need affidavits or authenticated documents."
+				"Newly discovered evidence motions need affidavits or authenticated documents.",
+				"Must be filed **before finality**; after that, no new trial or reconsideration. The key requisite of newly discovered evidence: it could not have been found and produced at trial **even with reasonable diligence**.",
+				"A **hearing** is needed only when the motion raises a question of fact; evidence may be by affidavits (Sec. 5).",
+				"Filing interrupts the appeal period. If denied, the accused gets a **fresh 15 days** to appeal, not just the balance.",
+				"A new trial on newly discovered evidence may also be asked **in the CA** (Rule 124, Sec. 14).",
+				"There is **no MR or new trial against an acquittal**; double jeopardy bars it."
+			],
+			"ctg": [
+				"The MR or MNT, filed within the 15 days, is resolved within **10 days** from the prosecution's comment."
+			],
+			"cases": [
+				"**Tadeja v. People (2013):** after finality, pleas for new trial can no longer be entertained; the evidence must not have been discoverable with reasonable diligence.",
+				"**Neypes v. CA (2005); Yu v. Samson-Tatad (2011):** fresh 15-day period to appeal from notice of the denial of an MR or MNT, applied to criminal cases."
 			],
 			"trap": "The prosecution cannot move for new trial after a conviction."
 		},
@@ -660,6 +910,21 @@
 						"CA (other cases)",
 						"SC",
 						"Petition for review on certiorari (Rule 45)"
+					],
+					[
+						"RTC imposing death (now RP or life under R.A. 9346)",
+						"CA",
+						"Automatic review"
+					],
+					[
+						"CA imposing RP or life, pure questions of law",
+						"SC",
+						"Rule 45 (optional)"
+					],
+					[
+						"Sandiganbayan",
+						"SC",
+						"Rule 45; notice of appeal if RP or life"
 					]
 				]
 			},
@@ -668,7 +933,26 @@
 				"An appeal **opens the whole case**; the appellate court may increase the penalty.",
 				"**Sec. 11:** an appeal by one accused helps the others only if the judgment is **favorable and applicable** to them. The offended party's appeal of the civil aspect does not affect the criminal aspect. Appeal stays execution as to the appellant.",
 				"**Withdrawal (Sec. 12):** allowed before the records are forwarded; the judgment becomes final.",
-				"An **acquittal** cannot be appealed by the prosecution. Only Rule 65 for grave abuse amounting to lack of jurisdiction."
+				"An **acquittal** cannot be appealed by the prosecution. Only Rule 65 for grave abuse amounting to lack of jurisdiction.",
+				"**Appeal is statutory**, not a natural right; but once granted by law, denying it violates due process.",
+				"In criminal appeals the court corrects errors **whether assigned or not**; in civil appeals, generally only assigned errors. Trial-court findings on **credibility** get great respect, especially when the CA affirms them.",
+				"**CA imposes RP or life:** go to the SC by **notice of appeal** (the whole case is open), or by **Rule 45** if raising only questions of law. Rule 45 never reaches questions of fact like credibility.",
+				"The **stay of execution** benefits only the appellant; the appeal period keeps running against co-accused who did not appeal.",
+				"A co-accused who **withdrew** his appeal still benefits from a later ruling that is favorable and applicable to him.",
+				"The offended party appeals the **civil aspect** within the **same period** as the accused.",
+				"**RTC as appellate court** decides on the record and memoranda (filed within **15 days** of notice); it does **not** receive new evidence. The **CA** may receive evidence and hold a new trial. Failing to file a memorandum in an RTC criminal appeal is **not** a ground to dismiss it.",
+				"**Death penalty** (now barred by R.A. 9346): automatic review by the **CA first**. If the CA finds death proper, it renders but does not enter judgment, and certifies the case to the SC.",
+				"Using the **wrong mode** of appeal does not stop the period; the judgment becomes final."
+			],
+			"cases": [
+				"**Trono v. U.S. (1905); People v. Torres (2014):** the accused's appeal waives double jeopardy and opens the whole case; the penalty may be increased.",
+				"**Dungo v. People (2015):** from a CA decision imposing RP or life, the accused may file a notice of appeal (matter of right) or a Rule 45 petition (questions of law only).",
+				"**People v. Valdez (2013):** a co-accused who withdrew his appeal benefits from a downgrade of the crime from murder to homicide.",
+				"**Lubrica v. People (2007):** the stay of execution does not extend to a co-accused who did not appeal.",
+				"**Ching v. Nicdao (2007):** the offended party has the same period as the accused to appeal the civil aspect.",
+				"**Sanico v. People (2015):** non-filing of a memorandum in an RTC criminal appeal is not a ground for dismissal.",
+				"**People v. Mateo (2004):** intermediate review by the CA of death, RP, and life cases before they reach the SC.",
+				"**Ramirez v. People (2013):** a notice of appeal filed after finality cannot be entertained."
 			],
 			"trap": "An accused who appeals may end up with a higher penalty."
 		},
@@ -677,7 +961,9 @@
 			"name": "Procedure in the MTC",
 			"hook": "Same as RTC, except where a rule applies only to the RTC or summary procedure applies.",
 			"doc": [
-				"Uniform procedure: MTC cases follow the same procedure as RTC cases, except provisions that apply only to the RTC and cases under the Rule on Summary Procedure."
+				"Uniform procedure: MTC cases follow the same procedure as RTC cases, except provisions that apply only to the RTC and cases under the Rule on Summary Procedure.",
+				"Under the Guidelines, testimony in first-level courts is generally the sworn statements to police and the affidavits from the PI (else judicial affidavits), plus additional direct and cross.",
+				"**Summary procedure:** no warrant of arrest, unless the accused fails to appear when required. Summary cases are not referred to mediation, except those on the mediation list."
 			],
 			"trap": "Remember MTC judges no longer conduct preliminary investigations."
 		},
@@ -694,7 +980,10 @@
 				"**Scope (Sec. 11):** reverse, affirm, modify, increase or reduce the penalty, remand for new trial, or dismiss.",
 				"CA imposing **RP or life**: renders and enters judgment; appeal to the SC by **notice of appeal**.",
 				"**New trial at the CA (Sec. 14):** after appeal is perfected and before the CA judgment becomes final, on newly discovered evidence.",
-				"The CA may receive evidence in limited cases (Sec. 12)."
+				"The CA may receive evidence in limited cases (Sec. 12).",
+				"Trials or hearings in the CA must be **continuous** and finished within **3 months**, unless extended by the Chief Justice.",
+				"**Harmless error (Sec. 10):** no reversal unless the error **injuriously affects the substantial rights** of the appellant.",
+				"If the CA finds that **death** should be imposed, it renders but does **not enter** judgment and certifies the case to the SC (Sec. 13[a])."
 			],
 			"exc": {
 				"t": "No dismissal for failure to file a brief when…",
@@ -702,6 +991,10 @@
 					"The appellant is represented by **counsel de oficio**."
 				]
 			},
+			"cases": [
+				"**People v. Mateo (2004):** the CA reviews death, RP, and life cases first.",
+				"**People v. Teehankee (1995):** errors that do not affect substantial rights are harmless."
+			],
 			"trap": "Jumping bail during appeal lets the CA dismiss the appeal."
 		},
 		{
@@ -711,7 +1004,11 @@
 			"doc": [
 				"Procedure is the same as in the CA unless the Constitution or law provides otherwise.",
 				"Review of CA decisions: petition for review on certiorari, as in civil cases.",
-				"If the SC en banc is equally divided (or no majority) on whether to acquit, the case is deliberated again; if still no decision, the **conviction is reversed and the accused acquitted** (Sec. 3)."
+				"If the SC en banc is equally divided (or no majority) on whether to acquit, the case is deliberated again; if still no decision, the **conviction is reversed and the accused acquitted** (Sec. 3).",
+				"The CA's grounds to dismiss an appeal (no brief except with counsel de oficio; escaping, jumping bail, fleeing abroad) apply in the SC too (Sec. 1)."
+			],
+			"cases": [
+				"**People v. Taruc (2009):** Rule 124, Sec. 8 (dismissal when the appellant escapes or jumps bail) applies to appeals in the SC through Rule 125, Sec. 1."
 			],
 			"trap": "A tie does not affirm a conviction; it ends in acquittal."
 		},
@@ -758,7 +1055,16 @@
 			"doc": [
 				"Seizable: subject of the offense; stolen or embezzled property and fruits; means used or intended to commit it (Sec. 3).",
 				"**Motion to quash warrant / suppress evidence (Sec. 14):** in the court where the case is filed; if none yet, the issuing court.",
-				"Officer may break doors or windows if refused entry after giving notice (Sec. 7). Leave a detailed receipt (Sec. 11)."
+				"Officer may break doors or windows if refused entry after giving notice (Sec. 7). Leave a detailed receipt (Sec. 11).",
+				"A search warrant application is a **criminal process**, not a criminal action. Venue is not jurisdictional; a venue objection must be raised in a motion to quash the warrant.",
+				"**Heinous crimes, illegal gambling, drugs, illegal firearms** (A.M. No. 99-10-09-SC): the Executive and Vice-Executive Judges of the **RTCs of Manila and Quezon City** may act on applications by the PNP, NBI, PAOC-TF, or REACT-TF, personally endorsed by their heads. The warrants may be served **anywhere** in the country.",
+				"The place is described with particularity if the officer can, **with reasonable effort**, identify it. **Ownership** of the things seized is not required.",
+				"Only the party whose rights were impaired may object; the right is **personal**.",
+				"**Search incident to arrest:** a **lawful arrest must come first**. It covers dangerous weapons and anything used in or proving the offense, within the arrestee's **immediate reach and control** (not the whole house).",
+				"**Moving vehicles** may be searched without a warrant, but only on **probable cause**. **Checkpoints** are valid if limited to a **visual** inspection; an extensive search needs probable cause.",
+				"**Stop and frisk** needs a **genuine reason** from the officer's **own observation**, not someone else's suspicion.",
+				"**Consent** must be unequivocal, specific, intelligent, and free. The State proves it by clear and positive evidence. **Silence or passive conformity is not consent.**",
+				"Illegally seized evidence is **fruit of the poisonous tree**. If it is the corpus delicti (e.g., the drugs), the accused must be acquitted."
 			],
 			"exc": {
 				"t": "Valid warrantless searches",
@@ -782,6 +1088,15 @@
 					"Noticed **without further search**"
 				]
 			},
+			"cases": [
+				"**Valmonte v. De Villa (1990); People v. Vinecario (2004):** checkpoints are not illegal per se; a visual search is valid, an extensive one needs probable cause.",
+				"**People v. Cogaed (2014):** a stop and frisk based on the jeepney driver's suspicion, not the officer's own observation, was invalid; silence was not consent.",
+				"**Posadas v. CA (1990); Manalili v. CA (1997):** valid stop and frisk on the officers' own observation of suspicious conduct.",
+				"**Veridiano v. People (2017):** a checkpoint search is a variant of a moving-vehicle search; a tip alone is not probable cause.",
+				"**People v. Lua (1996):** searching the house after an arrest outside it is not a search incident to arrest.",
+				"**Marimla v. People (2009):** a Manila RTC warrant in a drugs case may be served in Pampanga under A.M. No. 99-10-09-SC.",
+				"**People v. Villareal (2013):** shabu seized after an invalid arrest is inadmissible; without the corpus delicti, the accused is acquitted."
+			],
 			"trap": "A warrant for two different offenses is a void scatter-shot warrant."
 		},
 		{
@@ -798,7 +1113,11 @@
 				]
 			},
 			"doc": [
-				"Civil provisional remedies apply **only to the civil action deemed instituted** with the criminal case (Sec. 1)."
+				"Civil provisional remedies apply **only to the civil action deemed instituted** with the criminal case (Sec. 1).",
+				"Because provisional remedies ride with the civil action, they are **not available** in the criminal case if the civil action was **waived, reserved, or filed separately**; apply in the separate civil case instead.",
+				"All civil provisional remedies may apply as far as applicable: attachment, injunction, receivership, replevin, and **support pendente lite** (e.g., for a child born of the crime).",
+				"The attachment grounds in criminal cases are **fewer** than in Rule 57. For money embezzled by an officer, agent, or fiduciary, there is no need to show that the accused concealed or disposed of property.",
+				"The accused may prove the **damages** he suffered from a wrongful provisional remedy when he presents his evidence (Rule 119, Sec. 11[b])."
 			],
 			"trap": "If the civil action was reserved or filed separately, seek attachment there, not in the criminal case."
 		}
@@ -2805,6 +3124,1176 @@
 					"ex": "Rule 126, Sec. 14. Once a criminal case is filed, the motion goes to the court where it is filed."
 				}
 			]
+		},
+		{
+			"id": "ctg",
+			"title": "The 2017 Continuous Trial Guidelines",
+			"rules": [
+				"119",
+				"112",
+				"117"
+			],
+			"base": "Rico is charged with estafa in the RTC. The case is governed by the Revised Guidelines for Continuous Trial of Criminal Cases (A.M. No. 15-06-10-SC).",
+			"qs": [
+				{
+					"q": "Before arraignment, Rico moves to quash because the complainant has since signed an affidavit of desistance. How should the court treat the motion?",
+					"o": [
+						"Deny it outright as a prohibited motion",
+						"Set it for hearing; every motion to quash deserves one",
+						"Grant it; the offended party no longer wants to prosecute",
+						"Hold it until the prosecution comments"
+					],
+					"a": 0,
+					"ex": "A motion to quash not based on a ground in Rule 117, Sec. 3 is a prohibited motion under the Guidelines and is denied outright, without need of comment. An affidavit of desistance is not a ground to quash, nor to dismiss once the case is in court (People v. Ramirez)."
+				},
+				{
+					"tw": "Rico was in fact arrested without a warrant, and the information was filed after inquest. Eight days after learning of the filing, he moves for a preliminary investigation.",
+					"q": "What happens to the motion?",
+					"o": [
+						"It is granted; PI is part of due process",
+						"It is denied outright as prohibited; it was filed after the 5-day period",
+						"It suspends the trial for 60 days",
+						"It is granted if he waives Art. 125 of the RPC"
+					],
+					"a": 1,
+					"ex": "Rule 112, Sec. 6 gives the accused 5 days from learning of the filing to ask for a PI. Under the Guidelines, a motion for PI filed after the 5 days is a prohibited motion."
+				},
+				{
+					"tw": "At trial, the prosecutor moves to postpone because his witness has a hearing in another court that day.",
+					"q": "Should the postponement be granted?",
+					"o": [
+						"Yes, a conflicting schedule is good cause",
+						"No. Postponement is allowed only for acts of God, force majeure, or physical inability of the witness to appear",
+						"Yes, if the defense agrees",
+						"Yes, once for each party"
+					],
+					"a": 1,
+					"ex": "The Guidelines prohibit motions for postponement except for acts of God, force majeure, or the physical inability of the witness to appear and testify."
+				},
+				{
+					"tw": "Instead, the witness is hospitalized on the hearing date, and the court grants the postponement.",
+					"q": "What else applies to the prosecution?",
+					"o": [
+						"Nothing; the trial calendar is simply reset",
+						"It must pay the postponement fee and still finish its evidence on the dates already agreed",
+						"It must ask the Supreme Court to extend the 180-day trial period",
+						"It must take the witness's deposition abroad"
+					],
+					"a": 1,
+					"ex": "A motion for postponement, written or oral, must come with the official receipt of the postponement fee (Rule 141, Sec. 21[b]). The movant is warned that its evidence must still be completed on the dates previously agreed."
+				},
+				{
+					"tw": "The witness recovers. Her direct examination runs past noon.",
+					"q": "May her cross-examination be moved to another hearing date?",
+					"o": [
+						"Yes, cross-examination may take several hearings",
+						"As a rule no; a witness must be fully examined in one day",
+						"Only if she is an expert witness",
+						"Yes, on a written motion of the defense"
+					],
+					"a": 1,
+					"ex": "The Guidelines adopt the one-day examination of witness rule: each witness is fully examined in one day."
+				},
+				{
+					"tw": "The prosecution presents its last witness.",
+					"q": "How does it offer its documentary exhibits?",
+					"o": [
+						"By a written formal offer within 15 days",
+						"Orally, that same day; the defense objects at once and the court rules in open court",
+						"In its memorandum",
+						"No offer is needed for exhibits marked at pre-trial"
+					],
+					"a": 1,
+					"ex": "Under the Guidelines, the offer of evidence, the objection, and the ruling are made orally, on the day the last witness is presented. Exhibits marked but never offered are not evidence (Rule 132, Sec. 34)."
+				},
+				{
+					"tw": "On the defense's first trial date, Rico's counsel de parte does not show up.",
+					"q": "What should the court do?",
+					"o": [
+						"Postpone; Rico has a right to counsel of his choice",
+						"Proceed, after appointing a counsel de oficio for the hearing",
+						"Declare that Rico waived his evidence",
+						"Cite counsel in contempt and reset"
+					],
+					"a": 1,
+					"ex": "Under the Guidelines, if counsel de parte is absent, the hearing proceeds upon the appointment of a counsel de oficio."
+				}
+			]
+		},
+		{
+			"id": "demurrer2",
+			"title": "Demurrer under the Guidelines",
+			"rules": [
+				"119"
+			],
+			"base": "Lea is charged with malversation in the RTC. The prosecution has just rested its case.",
+			"qs": [
+				{
+					"q": "Under the Guidelines, what does the court do first?",
+					"o": [
+						"Dismiss the case on its own if the evidence looks weak",
+						"Ask Lea whether she will move for leave to file a demurrer or present her evidence",
+						"Require memoranda from both sides",
+						"Submit the case for decision"
+					],
+					"a": 1,
+					"ex": "The Guidelines direct the court to ask the accused whether she wants to move for leave to file a demurrer or to proceed with her evidence. The court may still dismiss on its own under Rule 119, Sec. 23, but only after hearing the prosecution."
+				},
+				{
+					"tw": "Lea's counsel moves for leave orally, right there in court.",
+					"q": "Is an oral motion for leave allowed?",
+					"o": [
+						"No, it must be written, state its grounds, and be filed within 5 days",
+						"Yes; the Guidelines allow an oral motion for leave, resolved orally",
+						"Only with the prosecutor's consent",
+						"Only in first-level courts"
+					],
+					"a": 1,
+					"ex": "The Guidelines expressly allow an oral motion for leave, which the court resolves orally. The written 5-day motion is the Rules of Court route."
+				},
+				{
+					"tw": "Leave is denied. Lea files her demurrer anyway.",
+					"q": "What is the effect?",
+					"o": [
+						"The demurrer is stricken and she must present evidence",
+						"It is treated as filed without leave: her evidence dates are cancelled, and if it is denied she can no longer present evidence",
+						"She may question the denial of leave by certiorari right away",
+						"The case is dismissed for her defiance"
+					],
+					"a": 1,
+					"ex": "Under the Guidelines, if the accused insists on filing the demurrer after leave is denied, the scheduled dates for her evidence are cancelled. If the demurrer is then denied, she waives the right to present evidence (Rule 119, Sec. 23)."
+				},
+				{
+					"tw": "Instead, leave is granted. Lea files her demurrer within 10 days, and the prosecution comments within 10 days after.",
+					"q": "Within what period must the court resolve the demurrer?",
+					"o": [
+						"10 days",
+						"30 days from the comment (or the lapse of the period to comment)",
+						"90 days",
+						"3 months, the constitutional period"
+					],
+					"a": 1,
+					"ex": "Under the Guidelines: demurrer within 10 days from the grant of leave; comment within 10 days; resolution within a non-extendible 30 days."
+				},
+				{
+					"tw": "Different timing: before the prosecution has made its formal offer, Lea moves to dismiss because the case has dragged on for years. The court treats it as a demurrer without leave, denies it, and rules that she waived her evidence.",
+					"q": "Was that correct?",
+					"o": [
+						"Yes, any motion to dismiss on the evidence is a demurrer",
+						"No. A motion based on speedy trial, filed before the prosecution rested, is not a demurrer; she keeps her right to present evidence",
+						"Yes, because she did not ask for leave",
+						"No, because demurrers are not allowed in malversation"
+					],
+					"a": 1,
+					"ex": "Cabador v. People (2009): look at good faith, the stage of filing, and the main objective. A demurrer assumes the prosecution has rested and attacks the sufficiency of its evidence. A demurrer filed before the prosecution rests is premature."
+				},
+				{
+					"tw": "Back to a proper demurrer, filed with leave. It is granted, and in the same order the court clears Lea of all civil liability without hearing her evidence on it.",
+					"q": "Was the civil ruling proper?",
+					"o": [
+						"Yes, an acquittal always carries civil absolution",
+						"No. Unless the act giving rise to civil liability did not exist, the court must hear the accused on the civil aspect",
+						"Yes, malversation has no civil aspect",
+						"No, the civil aspect must always be filed separately"
+					],
+					"a": 1,
+					"ex": "Salazar v. People (2003): granting a demurrer does not let the court decide the civil aspect at once, since the accused has not presented evidence on it; trial continues on the civil aspect unless the act did not exist."
+				},
+				{
+					"tw": "Rewind: Lea filed her demurrer without leave, and it was denied.",
+					"q": "What does the court decide next?",
+					"o": [
+						"Only the criminal aspect",
+						"The whole case, civil aspect included, on the prosecution's evidence (unless the civil action was reserved or waived)",
+						"Nothing until the prosecution presents rebuttal",
+						"Whether to let her present evidence after all"
+					],
+					"a": 1,
+					"ex": "Hun Hyung Park v. Eung Won Choi (2007): a denied demurrer without leave submits the whole case, including its civil aspect, for judgment on the prosecution's evidence."
+				}
+			]
+		},
+		{
+			"id": "remedies",
+			"title": "Remedies after a conviction",
+			"rules": [
+				"120",
+				"121",
+				"119"
+			],
+			"base": "Carlo is convicted of homicide by the RTC. The judgment is promulgated on March 1, in his presence.",
+			"qs": [
+				{
+					"q": "On March 10, a store owner tells Carlo's lawyer that her CCTV, which she never checked because she was abroad during the trial, shows someone else stabbing the victim. What should Carlo file, and by when?",
+					"o": [
+						"A motion for reconsideration by March 31",
+						"A motion for new trial on newly discovered evidence by March 16, with the owner's affidavit and an authenticated copy of the video",
+						"A petition for certiorari within 60 days",
+						"A motion to reopen, any time before he serves his sentence"
+					],
+					"a": 1,
+					"ex": "Rule 121, Secs. 1, 2(b), 4: new trial on newly discovered evidence, filed within the 15-day period, supported by affidavits or duly authenticated documents, with notice to the prosecutor."
+				},
+				{
+					"tw": "No motion is filed. On March 5, the judge, troubled by the case, orders a new trial on his own, over Carlo's objection.",
+					"q": "Is that allowed?",
+					"o": [
+						"Yes, the court may always order a new trial on its own",
+						"No. The court may grant a new trial on its own initiative only with the accused's consent",
+						"Yes, to avoid a miscarriage of justice",
+						"No, only the prosecution may ask for it"
+					],
+					"a": 1,
+					"ex": "Rule 121, Sec. 1: the court may grant a new trial or reconsideration on motion of the accused, or at its own instance but with the consent of the accused."
+				},
+				{
+					"tw": "Instead, on March 5 Carlo files a written waiver of his right to appeal.",
+					"q": "When does the judgment become final?",
+					"o": [
+						"March 16, when the appeal period ends",
+						"March 5, upon the written waiver",
+						"Only upon entry of judgment",
+						"Only when he starts serving his sentence"
+					],
+					"a": 1,
+					"ex": "Rule 120, Sec. 7: a judgment of conviction becomes final when the period to appeal lapses, when the sentence is partly or fully served, when the accused waives appeal in writing, or when he applies for probation."
+				},
+				{
+					"tw": "No waiver. On March 8, Carlo asks the judge to lower his penalty because a mitigating circumstance was overlooked.",
+					"q": "Which remedy fits, and can the judge do it without being asked?",
+					"o": [
+						"Modification of judgment; only on the accused's motion, before finality or perfection of appeal",
+						"Reopening; the judge may do it on his own, without a hearing",
+						"Modification; the judge may do it on his own",
+						"Only an appeal will do"
+					],
+					"a": 0,
+					"ex": "Rule 120, Sec. 7: modification is only on the accused's motion and needs no hearing. Reopening (Rule 119, Sec. 24) may be done motu proprio but always with a hearing, and must end in 30 days."
+				},
+				{
+					"tw": "Different path: Carlo, out on bail, skipped promulgation without reason. He later files a motion for reconsideration, and the judge grants it and acquits him.",
+					"q": "Is the acquittal valid?",
+					"o": [
+						"Yes, an acquittal is final and unappealable",
+						"No. Having lost his remedies, his MR should have been dismissed outright; the acquittal is void and jeopardy does not attach",
+						"Yes, because he eventually appeared",
+						"No, because only an appeal can reverse a conviction"
+					],
+					"a": 1,
+					"ex": "Javier v. Gonzales (2017): entertaining the MR of an accused who lost his remedies under Rule 120, Sec. 6 is a blatant abuse of authority; the resulting acquittal is void and does not trigger double jeopardy. Jaylo v. Sandiganbayan (2015): he lost his standing in court."
+				},
+				{
+					"tw": "Same absence, but Carlo surrenders on day 10 after promulgation, moves for leave, and proves he was hospitalized.",
+					"q": "What may he do now?",
+					"o": [
+						"Nothing; his remedies were lost the moment he missed promulgation",
+						"File an MR, MNT, or appeal within 15 days from notice of the order granting leave",
+						"Appeal within the balance of the original 15 days only",
+						"Ask for a new promulgation"
+					],
+					"a": 1,
+					"ex": "Rule 120, Sec. 6: within 15 days from promulgation, the absent accused may surrender and move for leave. If his absence was justified, he may avail of the remedies within 15 days from notice."
+				}
+			]
+		},
+		{
+			"id": "appeal3",
+			"title": "Appeal: who benefits and what is reviewed",
+			"rules": [
+				"122",
+				"124"
+			],
+			"base": "Ramon and Sonny, as co-conspirators, are convicted of murder by the RTC.",
+			"qs": [
+				{
+					"q": "Only Ramon appeals. Sonny's 15 days lapse. Is the execution of the judgment against Sonny stayed by Ramon's appeal?",
+					"o": [
+						"Yes, an appeal stays execution for all the accused",
+						"No. The stay applies only to the appealing party; the period kept running against Sonny",
+						"Yes, until the appellate court decides",
+						"Only if Sonny posts bail"
+					],
+					"a": 1,
+					"ex": "Rule 122, Sec. 11(c); Lubrica v. People (2007): the stay of execution cannot be extended to an accused who did not appeal."
+				},
+				{
+					"tw": "Both appealed, but Sonny later withdrew his appeal and his conviction became final. The SC then downgrades Ramon's crime to homicide because the qualifying circumstance was not proved.",
+					"q": "Does Sonny benefit?",
+					"o": [
+						"No, he withdrew his appeal",
+						"Yes. A favorable judgment applicable to him benefits him, whether or not he appealed or withdrew",
+						"No, his judgment is already final",
+						"Only if the prosecution agrees"
+					],
+					"a": 1,
+					"ex": "People v. Valdez (2013): Sec. 11(a) applies regardless of whether a co-accused appealed or withdrew, as long as the judgment is favorable and applicable to him. Acting in conspiracy, they deserve equal liability."
+				},
+				{
+					"tw": "Suppose instead the SC acquitted Ramon only because of his personal alibi.",
+					"q": "Does Sonny benefit?",
+					"o": [
+						"Yes, any acquittal of a co-accused benefits all",
+						"No; the ruling is favorable to Ramon but not applicable to Sonny",
+						"Yes, because they were charged in one information",
+						"Only if Sonny is still detained"
+					],
+					"a": 1,
+					"ex": "Rule 122, Sec. 11(a): the judgment must be favorable and applicable to the non-appealing accused. Ramon's alibi says nothing about Sonny's participation."
+				},
+				{
+					"tw": "Different path: the CA affirms Ramon's conviction with reclusion perpetua. Ramon files a Rule 45 petition arguing that the eyewitness was not credible.",
+					"q": "Will the SC review the credibility issue?",
+					"o": [
+						"Yes, an appeal opens the whole case",
+						"No. Rule 45 raises only questions of law; to reopen the facts he should have filed a notice of appeal",
+						"Yes, because the penalty is reclusion perpetua",
+						"No, the SC never reviews RP cases"
+					],
+					"a": 1,
+					"ex": "Dungo v. People (2015): when the CA imposes RP or life, the accused may file a notice of appeal (the whole case open) or a Rule 45 petition, which raises only questions of law. Credibility is a question of fact."
+				},
+				{
+					"tw": "Different path: the RTC acquits Ramon. The victim's heirs want to appeal the award of damages.",
+					"q": "May they, and in what period?",
+					"o": [
+						"No, an acquittal ends everything",
+						"Yes, within the same 15 days given to the accused; their appeal does not affect the acquittal",
+						"Yes, but only through the OSG",
+						"Yes, within 30 days"
+					],
+					"a": 1,
+					"ex": "Rule 122, Sec. 11(b); Ching v. Nicdao (2007): the offended party may appeal the civil aspect within the same period as the accused. The appeal does not affect the criminal aspect."
+				},
+				{
+					"tw": "Different case: Ramon was convicted by the MTC and appealed to the RTC. He never filed the memorandum the RTC allowed.",
+					"q": "May the RTC dismiss his appeal for that?",
+					"o": [
+						"Yes, just as in civil appeals under Rule 40",
+						"No. In criminal appeals to the RTC, memoranda are optional, so not filing one is no ground to dismiss",
+						"Yes, on the prosecution's motion",
+						"Only if he is out on bail"
+					],
+					"a": 1,
+					"ex": "Rule 122, Sec. 9(c); Sanico v. People (2015). The RTC decides on the entire record and whatever memoranda were filed."
+				},
+				{
+					"tw": "In that RTC appeal, Ramon asks the RTC to hear a new witness.",
+					"q": "May the RTC receive the new evidence?",
+					"o": [
+						"Yes, an appeal to the RTC is a trial de novo",
+						"No. The RTC decides on the record and memoranda; it does not receive new evidence or hold a trial",
+						"Yes, if the witness is newly discovered",
+						"Yes, but only documents"
+					],
+					"a": 1,
+					"ex": "Rule 122, Sec. 9(c): the RTC decides on the entire record and the memoranda. Unlike the CA (Rule 124, Sec. 12), it does not take evidence on appeal."
+				},
+				{
+					"tw": "Different case in the CA: the record shows an error at trial that did not affect Ramon's substantial rights.",
+					"q": "Must the CA reverse?",
+					"o": [
+						"Yes, any error requires reversal",
+						"No. Harmless error: reverse only for errors that injuriously affect the appellant's substantial rights",
+						"Yes, if the error was assigned",
+						"Only if the prosecution admits it"
+					],
+					"a": 1,
+					"ex": "Rule 124, Sec. 10: no judgment shall be reversed or modified unless the error injuriously affects the substantial rights of the appellant."
+				}
+			]
+		},
+		{
+			"id": "jeopardy2",
+			"title": "Quasi-offenses, revivals, and void acquittals",
+			"rules": [
+				"117"
+			],
+			"base": "Ivan, driving recklessly, hits Tess's car. Tess suffers slight injuries, her husband dies, and the car is wrecked.",
+			"qs": [
+				{
+					"q": "Two informations are filed: reckless imprudence resulting in slight physical injuries, and reckless imprudence resulting in homicide and damage to property. Ivan pleads guilty to the first and is sentenced. May he quash the second?",
+					"o": [
+						"No; slight physical injuries cannot be complexed with homicide, so they are different offenses",
+						"Yes. Reckless imprudence is a single quasi-offense; his conviction bars the second case",
+						"No; double jeopardy does not apply to quasi-offenses",
+						"Yes, but only as to the damage to property"
+					],
+					"a": 1,
+					"ex": "Ivler v. Modesto-San Pedro (2010): the law punishes the negligent act, not its results. One reckless act is one quasi-offense, which cannot be split into separate prosecutions."
+				},
+				{
+					"tw": "Different facts: Ivan punched Tess and was convicted of slight physical injuries. Weeks later, Tess dies from the same blow.",
+					"q": "May Ivan now be charged with homicide?",
+					"o": [
+						"No, that is double jeopardy",
+						"Yes. The graver offense developed from a supervening fact arising from the same act",
+						"Only if he consents",
+						"Only if the first conviction was on a plea of guilty"
+					],
+					"a": 1,
+					"ex": "Rule 117, Sec. 7(a): a conviction does not bar a graver offense that developed from supervening facts arising from the same act. He gets credit for the time served."
+				},
+				{
+					"tw": "Different case: Ivan's homicide case drags on. On Ivan's motion, with notice to the heirs, the court provisionally dismisses it. Homicide is punishable by reclusion temporal.",
+					"q": "The prosecution revives it 18 months later. Too late?",
+					"o": [
+						"Yes, the one-year period has passed",
+						"No. For offenses punishable by more than 6 years, the dismissal becomes permanent only after 2 years",
+						"Yes, revival must be within 6 months",
+						"No, there is never a time limit"
+					],
+					"a": 1,
+					"ex": "Rule 117, Sec. 8: one year for offenses punishable by not more than 6 years or a fine; two years for those punishable by more than 6 years."
+				},
+				{
+					"tw": "Instead, the dismissal was ordered on the prosecutor's motion, with no express consent from Ivan and no notice to the heirs.",
+					"q": "Does the 2-year time-bar of Sec. 8 apply?",
+					"o": [
+						"Yes, after 2 years it becomes permanent",
+						"No. The time-bar operates only for a provisional dismissal with the accused's express consent and notice to the offended party",
+						"Yes, but it is 1 year",
+						"No, and nothing at all bars a refiling"
+					],
+					"a": 1,
+					"ex": "Riano, citing People v. Lacson: without the requisites of the first paragraph of Sec. 8, the time-bar does not operate. Prescription or double jeopardy may still apply. A dismissal after arraignment without the accused's express consent may itself bar a new case."
+				},
+				{
+					"tw": "Instead, before arraignment, the prosecutor withdraws the information to reinvestigate, and the court grants it. Three years later, a new information is filed.",
+					"q": "Is the new information barred by the Sec. 8 time-bar?",
+					"o": [
+						"Yes, more than 2 years have passed",
+						"No. A withdrawal is not a provisional dismissal; it is without prejudice to refiling after reinvestigation",
+						"Yes, a withdrawal is an acquittal",
+						"No, but only because Ivan consented"
+					],
+					"a": 1,
+					"ex": "Riano: a motion to withdraw the information differs from a motion to dismiss. A withdrawal is without prejudice to refiling upon reinvestigation and is not within Sec. 8. Prescription still applies."
+				},
+				{
+					"tw": "Instead, the case goes to trial, and the judge acquits Ivan after refusing to let the prosecution present any witnesses.",
+					"q": "Can the acquittal be set aside?",
+					"o": [
+						"No, an acquittal is always final",
+						"Yes, by certiorari: denying the prosecution due process is grave abuse; the acquittal is void and jeopardy does not attach",
+						"Yes, by ordinary appeal",
+						"Yes, by a motion for new trial by the prosecution"
+					],
+					"a": 1,
+					"ex": "Riano: an acquittal may be reviewed by certiorari only for grave abuse amounting to lack of jurisdiction, such as a sham trial or denial of the prosecution's due process. The void acquittal does not place the accused in jeopardy."
+				}
+			]
+		},
+		{
+			"id": "search3",
+			"title": "Checkpoints, frisks, and consent",
+			"rules": [
+				"126",
+				"113"
+			],
+			"base": "PO1 Cruz is assigned to a checkpoint along a national highway.",
+			"qs": [
+				{
+					"q": "Cruz shines a flashlight into a car and looks at the seats, without opening anything. Valid?",
+					"o": [
+						"Yes. A routine checkpoint limited to a visual search is not unreasonable",
+						"No, any search needs a warrant",
+						"Only with the driver's written consent",
+						"Only after a prior tip"
+					],
+					"a": 0,
+					"ex": "Valmonte v. De Villa (1990); People v. Vinecario (2004): checkpoints are not illegal per se. A visual inspection, with no search of the vehicle or body search of its occupants, is valid."
+				},
+				{
+					"tw": "Cruz orders everyone out and opens the trunk and bags, for no reason other than that it is a checkpoint.",
+					"q": "Valid?",
+					"o": [
+						"Yes, checkpoints allow full searches",
+						"No. An extensive checkpoint search needs probable cause",
+						"Yes, vehicles have no expectation of privacy",
+						"No, checkpoints are illegal per se"
+					],
+					"a": 1,
+					"ex": "Valmonte v. De Villa: if a vehicle is extensively searched, it must be on probable cause that the motorist is an offender or the vehicle carries evidence of an offense."
+				},
+				{
+					"tw": "Instead, Cruz had verified surveillance reports naming a specific van, its plate number, and the marijuana it would carry. He stops and searches it.",
+					"q": "Valid?",
+					"o": [
+						"No, he needed a warrant",
+						"Yes; a moving vehicle may be searched without a warrant on probable cause",
+						"Yes, any vehicle may be searched at will",
+						"No, information can never be probable cause"
+					],
+					"a": 1,
+					"ex": "Search of a moving vehicle (Carroll doctrine): warrantless search is allowed because the vehicle can quickly move, but only on probable cause, i.e., facts known to the officer reasonably showing it carries items subject to seizure (People v. Libnao)."
+				},
+				{
+					"tw": "Different stop: a jeepney driver signals to Cruz that a passenger is 'acting suspicious.' Cruz stops him and opens his bag, finding marijuana.",
+					"q": "Valid stop and frisk?",
+					"o": [
+						"Yes, the driver's signal gave reasonable suspicion",
+						"No. The 'genuine reason' must come from the officer's own observation, not someone else's suspicion",
+						"Yes, because marijuana was found",
+						"Yes, because it happened at a checkpoint"
+					],
+					"a": 1,
+					"ex": "People v. Cogaed (2014): the officer merely adopted the driver's suspicion. Compare Posadas and Manalili, where the officers themselves observed suspicious conduct."
+				},
+				{
+					"tw": "The passenger said nothing and handed over the bag when told to open it.",
+					"q": "Was there valid consent?",
+					"o": [
+						"Yes, he handed it over",
+						"No. Silence or passive conformity under coercive circumstances is not consent; the State must prove free and voluntary consent",
+						"Yes, consent may be implied from conduct",
+						"No, consent must always be written"
+					],
+					"a": 1,
+					"ex": "People v. Cogaed; Veridiano v. People (2017): consent must be unequivocal, specific, intelligently given, and free from coercion, proven by clear and positive evidence."
+				},
+				{
+					"tw": "The marijuana is excluded as fruit of the poisonous tree. It is the only evidence of the crime.",
+					"q": "What follows?",
+					"o": [
+						"Acquittal; without the drugs, there is no corpus delicti",
+						"A new trial",
+						"Conviction on Cruz's testimony",
+						"Remand to the prosecutor"
+					],
+					"a": 0,
+					"ex": "People v. Villareal (2013): where the excluded drug is the very corpus delicti, the accused must be acquitted."
+				},
+				{
+					"tw": "Different case: police arrest Dan at his gate on a warrant, then search his whole house without a search warrant.",
+					"q": "Is the house search valid as incident to the arrest?",
+					"o": [
+						"Yes, anything in the house may be searched",
+						"No. It covers only his person and the area within his immediate reach and control",
+						"Yes, if done within 24 hours",
+						"No, a search incident to arrest is never valid"
+					],
+					"a": 1,
+					"ex": "Rule 126, Sec. 13; People v. Lua (1996): the house was not within the arrestee's reach and control, so the search was not incident to the arrest."
+				}
+			]
+		},
+		{
+			"id": "rights",
+			"title": "Rights of the accused",
+			"rules": [
+				"115"
+			],
+			"base": "Nestor is suspected of a robbery in which a guard was killed.",
+			"qs": [
+				{
+					"q": "Police place Nestor in a line-up, where a witness identifies him. He had no lawyer. Was his right to counsel violated?",
+					"o": [
+						"Yes, counsel is required in every police procedure",
+						"No. A police line-up is not part of custodial investigation; the right to counsel does not yet attach",
+						"Yes, if he asked for a lawyer",
+						"No, because he was not yet charged in court"
+					],
+					"a": 1,
+					"ex": "People v. Tolentino (2004): during a line-up, the accused is not yet being investigated, so the right to counsel cannot yet be claimed."
+				},
+				{
+					"tw": "Next, police make Nestor re-enact the crime on video, without counsel.",
+					"q": "Is the re-enactment admissible?",
+					"o": [
+						"Yes, it is physical evidence",
+						"No. A forced re-enactment falls under the right against self-incrimination",
+						"Yes, because it was recorded",
+						"Only against his co-accused"
+					],
+					"a": 1,
+					"ex": "People v. Olvis (1987): forced re-enactments, like uncounselled and coerced confessions, are within the ban against self-incrimination."
+				},
+				{
+					"tw": "Police also take a paraffin test on Nestor's hands over his objection.",
+					"q": "Was the privilege violated?",
+					"o": [
+						"Yes, he was compelled",
+						"No. The privilege covers only testimonial compulsion, not examination of the body",
+						"Yes, unless counsel was present",
+						"No, because paraffin tests are unreliable"
+					],
+					"a": 1,
+					"ex": "The right against self-incrimination extends only to testimonial compulsion, not to examining the body of the accused."
+				},
+				{
+					"tw": "At trial, the prosecution's eyewitness dies after direct examination, before cross, through no fault of Nestor.",
+					"q": "What happens to the direct testimony?",
+					"o": [
+						"It stays in full",
+						"Nestor may have it stricken; testimony not subjected to cross-examination, through no fault of his, is generally stricken",
+						"It becomes a dying declaration",
+						"The trial starts over"
+					],
+					"a": 1,
+					"ex": "Riano, citing People v. Seneris: one deprived of cross-examination without fault on his part is generally entitled to have the direct examination stricken."
+				},
+				{
+					"tw": "Separately, the Ombudsman's preliminary investigation of a graft charge against Nestor, a barangay official, sat idle for six years with no explanation.",
+					"q": "What right may he invoke?",
+					"o": [
+						"Speedy trial, but only once a case is in court",
+						"Speedy disposition of cases, which applies before any tribunal, including the Ombudsman during PI",
+						"None; PI is not part of the criminal action",
+						"Only an administrative complaint against the investigator"
+					],
+					"a": 1,
+					"ex": "Tatad v. Sandiganbayan; Coscolluela v. Sandiganbayan; Cagang v. Sandiganbayan: speedy disposition applies to all proceedings, judicial or quasi-judicial. Inordinate, unexplained delay warrants dismissal."
+				},
+				{
+					"tw": "At trial, the judge asks Nestor's alibi witnesses long, hostile questions, more than the prosecutor does.",
+					"q": "What right is at stake?",
+					"o": [
+						"Compulsory process",
+						"An impartial trial: the judge may ask clarificatory questions sparingly but must not act as an advocate",
+						"Confrontation",
+						"None; judges may question freely"
+					],
+					"a": 1,
+					"ex": "Tabuena v. Sandiganbayan (1997): a judge who takes up the cudgels for the prosecution denies the \"cold neutrality of an impartial judge.\" Mere sarcasm, without partiality, is not enough (People v. Moriera)."
+				},
+				{
+					"tw": "At the end, the evidence is evenly balanced: two credible accounts, one consistent with innocence.",
+					"q": "What is the verdict?",
+					"o": [
+						"Conviction, since the prosecution's account is credible",
+						"Acquittal, under the equipoise rule",
+						"A new trial",
+						"Judgment for the side with more witnesses"
+					],
+					"a": 1,
+					"ex": "The equipoise rule follows from the presumption of innocence: when the evidence is evenly balanced, the accused is acquitted."
+				}
+			]
+		},
+		{
+			"id": "bail3",
+			"title": "Bail: hearings and special cases",
+			"rules": [
+				"114"
+			],
+			"base": "Victor is arrested and charged with child abuse under R.A. 7610, a bailable offense.",
+			"qs": [
+				{
+					"q": "The judge rules that Victor may post bail only after he is arraigned. Proper?",
+					"o": [
+						"Yes, so he cannot avoid arraignment later",
+						"No. Bail cannot be conditioned on arraignment; he must stay free to move to quash before pleading",
+						"Yes, if the offense is serious",
+						"No, because posting bail waives arraignment"
+					],
+					"a": 1,
+					"ex": "Lavides v. CA (2000): requiring arraignment first would force the accused to choose between a motion to quash (and delayed release) and giving it up."
+				},
+				{
+					"tw": "The prosecutor proves that Victor is a flight risk.",
+					"q": "May bail be denied?",
+					"o": [
+						"Yes, flight risk justifies denial",
+						"No. When bail is a matter of right, flight risk only justifies a higher amount",
+						"Yes, if he has a passport",
+						"Only after conviction"
+					],
+					"a": 1,
+					"ex": "San Miguel v. Maceda (2007): when bail is a matter of right, a high probability of flight gives the court no more discretion than to raise the bond, within the bar on excessive bail."
+				},
+				{
+					"tw": "Change the charge: Victor is now charged with murder. After a hearing, the judge grants bail in a one-line order: \"Bail granted.\"",
+					"q": "Is the order valid?",
+					"o": [
+						"Yes, the hearing is what counts",
+						"No. The order must summarize the prosecution's evidence and state the conclusion on whether evidence of guilt is strong",
+						"Yes, if the prosecutor did not object",
+						"No, murder is never bailable"
+					],
+					"a": 1,
+					"ex": "Narciso v. Santa Romana-Cruz (2000): the judge decides on a summary of the evidence. A.M. No. 12-11-2-SC: the order, with a brief summary of the evidence and the conclusion, issues within 48 hours after the hearing."
+				},
+				{
+					"tw": "Under the Guidelines, Victor's petition for bail (filed after the information) is heard.",
+					"q": "Within what period must it be resolved?",
+					"o": [
+						"10 days",
+						"30 days from the first hearing (20 days in drug cases)",
+						"90 days",
+						"Before the prosecution rests"
+					],
+					"a": 1,
+					"ex": "A.M. No. 15-06-10-SC: summary hearing after arraignment and pre-trial; resolved within a non-extendible 30 days from the first hearing, or 20 days in drug cases, without oral argument or memoranda."
+				},
+				{
+					"tw": "The judge holds the hearing and denies bail.",
+					"q": "Besides reconsideration, what is Victor's remedy?",
+					"o": [
+						"Appeal the denial to the CA",
+						"A petition for certiorari, if the denial was made with grave abuse of discretion",
+						"A motion to quash",
+						"None until judgment"
+					],
+					"a": 1,
+					"ex": "People v. Gomez (2000): the remedy against an order denying bail is certiorari for grave abuse amounting to lack or excess of jurisdiction."
+				},
+				{
+					"tw": "Different person: Hans faces extradition to the U.S. and asks for bail.",
+					"q": "What standard applies?",
+					"o": [
+						"Bail is a matter of right, as in criminal cases",
+						"No right to bail; granted only on clear and convincing proof that he is not a flight risk or danger, plus special, humanitarian, and compelling circumstances",
+						"Discretionary, on preponderance of evidence",
+						"Bail is never available in extradition"
+					],
+					"a": 1,
+					"ex": "Government of the U.S. v. Purganan (2002): extradition is not a criminal proceeding, so the constitutional right to bail does not apply; the exception requires the two-tier clear and convincing showing."
+				},
+				{
+					"tw": "Different person: Lt. Reyes, a soldier facing court-martial, asks for bail.",
+					"q": "Is he entitled to it?",
+					"o": [
+						"Yes, the Constitution covers all persons",
+						"No. The right to bail has traditionally not been recognized in the military",
+						"Yes, if the offense is bailable under the RPC",
+						"Only with his commander's approval"
+					],
+					"a": 1,
+					"ex": "Comendador v. Villa (1991): the unique structure of the military justifies exempting military personnel from the right to bail; the speedy trial right is emphasized instead."
+				}
+			]
+		},
+		{
+			"id": "pi2",
+			"title": "Probable cause, review, and withdrawal",
+			"rules": [
+				"112"
+			],
+			"base": "A complaint for estafa against Mila is filed with the city prosecutor. The penalty exceeds 4 years, 2 months, and 1 day.",
+			"qs": [
+				{
+					"q": "At a clarificatory hearing, Mila's lawyer insists on cross-examining the complainant. Allowed?",
+					"o": [
+						"Yes, due process requires cross-examination",
+						"No. Parties may attend but have no right to cross-examine; they may submit questions to the investigating officer",
+						"Yes, if the prosecutor consents",
+						"Only if the complainant is a public officer"
+					],
+					"a": 1,
+					"ex": "Rule 112, Sec. 3(e): the parties may be present at the clarificatory hearing, but without the right to examine or cross-examine."
+				},
+				{
+					"tw": "The prosecutor finds probable cause, and the DOJ Secretary affirms on review.",
+					"q": "How does Mila challenge the DOJ resolution in court?",
+					"o": [
+						"Petition for review under Rule 43 with the CA",
+						"Petition for certiorari under Rule 65 with the CA, for grave abuse of discretion",
+						"Appeal to the RTC",
+						"Petition under Rule 45 to the SC"
+					],
+					"a": 1,
+					"ex": "Riano: the DOJ Secretary's resolution is reviewable only for grave abuse of discretion, by Rule 65 certiorari filed with the CA. Rule 43 does not apply."
+				},
+				{
+					"tw": "The information is filed in the RTC. Mila moves for a judicial determination of probable cause.",
+					"q": "What does the judge do?",
+					"o": [
+						"Hold a hearing on the motion",
+						"Deny it as a prohibited motion; the judge personally evaluates the prosecutor's resolution and evidence anyway",
+						"Return the case to the prosecutor",
+						"Issue a warrant automatically"
+					],
+					"a": 1,
+					"ex": "Rule 112, Sec. 5; A.M. No. 15-06-10-SC: the motion is prohibited and superfluous, since the judge must personally evaluate the record with or without it."
+				},
+				{
+					"tw": "The judge finds that the evidence clearly fails to show probable cause and dismisses the case.",
+					"q": "What is the prosecution's remedy?",
+					"o": [
+						"Certiorari under Rule 65",
+						"Appeal; the dismissal is a final order",
+						"A motion to quash",
+						"None; jeopardy attached"
+					],
+					"a": 1,
+					"ex": "Cajipe v. People (2014): a dismissal for lack of probable cause disposes of the case, so it is a final order; appeal, not certiorari, is the remedy."
+				},
+				{
+					"tw": "Instead, the judge finds probable cause. After the information is filed, Mila moves for reinvestigation, arguing that the complainant's witnesses are not credible.",
+					"q": "How should the court treat it?",
+					"o": [
+						"Grant it; reinvestigation is always allowed",
+						"Deny it as prohibited; credibility is an unmeritorious ground for reinvestigation",
+						"Grant it if filed within 15 days",
+						"Refer it to the DOJ"
+					],
+					"a": 1,
+					"ex": "A.M. No. 15-06-10-SC: a motion for reinvestigation on unmeritorious grounds, such as credibility, admissibility of evidence, innocence, or lack of due process when the accused was actually notified, is prohibited."
+				},
+				{
+					"tw": "Later, the prosecutor moves to withdraw the information, and the court grants it.",
+					"q": "If the complainant wants to question the order, what is the remedy?",
+					"o": [
+						"Certiorari, since the order is interlocutory",
+						"Appeal, since the order is final; it ends the case",
+						"A new complaint with the barangay",
+						"None; withdrawal is unreviewable"
+					],
+					"a": 1,
+					"ex": "Riano, citing Santos v. Orda: an order granting the prosecution's motion to withdraw the information and dismissing the case is a final order, so appeal is the remedy."
+				},
+				{
+					"tw": "Different case: Mila is the respondent in an Ombudsman graft complaint, and the Ombudsman finds probable cause.",
+					"q": "Where does she go to court?",
+					"o": [
+						"Rule 43 petition to the CA",
+						"Rule 65 certiorari to the SC",
+						"Appeal to the Sandiganbayan",
+						"Rule 45 petition to the SC"
+					],
+					"a": 1,
+					"ex": "Riano: in criminal cases, the Ombudsman's ruling goes to the SC by Rule 65, limited to grave abuse of discretion (Villanueva v. Ople)."
+				}
+			]
+		},
+		{
+			"id": "prosec2",
+			"title": "Prescription, venue, and substitution",
+			"rules": [
+				"110"
+			],
+			"base": "Arnel issues a bouncing check to Ben in Makati. Ben deposits it in Pasig, where it is dishonored.",
+			"qs": [
+				{
+					"q": "Where may the B.P. 22 case be filed?",
+					"o": [
+						"Only in Makati, where the check was issued",
+						"In Makati or Pasig, where any element occurred; the first court to take cognizance excludes the other",
+						"Only where Ben lives",
+						"Only in Pasig, where it was dishonored"
+					],
+					"a": 1,
+					"ex": "Riano: B.P. 22 is a transitory or continuing crime; the case may be filed where the check was drawn, issued, delivered, or dishonored (Rule 110, Sec. 15[a])."
+				},
+				{
+					"tw": "B.P. 22 prescribes in 4 years. Ben filed his complaint with the Makati prosecutor 3 years and 11 months after the offense; the information reached court only after 4 years.",
+					"q": "Has the offense prescribed?",
+					"o": [
+						"Yes, only filing in court interrupts prescription for special laws",
+						"No. Filing the complaint with the prosecutor for PI interrupted the period",
+						"Yes, B.P. 22 prescribes in 1 year",
+						"No, B.P. 22 does not prescribe"
+					],
+					"a": 1,
+					"ex": "People v. Pangilinan (2012); Panaguiton v. DOJ (2008): for offenses under the RPC or special laws alike, filing the complaint with the prosecutor for PI interrupts prescription."
+				},
+				{
+					"tw": "At trial, the public prosecutor is in the hospital. The judge lets the defense present two witnesses with no prosecutor present, then offers the prosecution a chance to cross them later.",
+					"q": "Proper?",
+					"o": [
+						"Yes, the later cross cures it",
+						"No. Criminal cases are under the public prosecutor's direction and control; trial without him or an authorized private prosecutor is irregular and not cured by a later cross",
+						"Yes, if Ben was present",
+						"Yes, in B.P. 22 cases"
+					],
+					"a": 1,
+					"ex": "Pinote v. Ayco (2005): letting the defense present evidence in the absence of a public prosecutor or a designated private prosecutor transgressed Rule 110, Sec. 5; a later chance to cross does not rectify it."
+				},
+				{
+					"tw": "Different case: Ben is libeled in a newspaper printed and first published in Manila. Ben, a private person, lives in Cebu.",
+					"q": "Where may the libel case be filed?",
+					"o": [
+						"Only in Manila",
+						"In Manila, where it was printed and first published, or in Cebu, where Ben resided",
+						"Anywhere the paper circulated",
+						"Only in Cebu"
+					],
+					"a": 1,
+					"ex": "Art. 360 RPC, as amended: where the article was printed and first published, or where the offended party actually resided at the time (or held office, if a public officer)."
+				},
+				{
+					"tw": "Different case: Ben's wife suffers anguish in Manila because Ben carries on an affair in Singapore. She files a case for psychological violence under R.A. 9262.",
+					"q": "Can a Philippine court try it?",
+					"o": [
+						"No, the affair happened abroad",
+						"Yes. The mental and emotional anguish, an element of the offense, is suffered here",
+						"Only if Ben returns",
+						"Only the Family Court of Singapore can"
+					],
+					"a": 1,
+					"ex": "AAA v. BBB (2018): the Supreme Court upheld the trial court's jurisdiction; the offended wife was even allowed to appeal the dismissal directly in the interest of justice."
+				},
+				{
+					"tw": "Different case: Arnel is charged with theft and pleads. The evidence shows he received the money lawfully as an agent and then misappropriated it.",
+					"q": "The prosecution wants to charge estafa instead. Amendment or substitution?",
+					"o": [
+						"Amendment, without leave",
+						"Substitution, with leave: estafa is a different offense not included in theft; the theft case is dismissed once the new information is filed, with no double jeopardy",
+						"Amendment with leave, as a formal change",
+						"Neither; he must be acquitted"
+					],
+					"a": 1,
+					"ex": "Rule 110, Sec. 14 (second paragraph); Rule 119, Sec. 19; Teehankee v. Madayag: substitution presupposes a different offense, so the accused cannot claim double jeopardy. A new PI and a new plea are needed."
+				}
+			]
+		},
+		{
+			"id": "plea3",
+			"title": "Plea bargaining and pre-trial, Guidelines era",
+			"rules": [
+				"116",
+				"118"
+			],
+			"base": "Jojo, a detained accused, is charged in the RTC with illegal sale of shabu.",
+			"qs": [
+				{
+					"q": "Under the Guidelines, when must his arraignment and pre-trial be set?",
+					"o": [
+						"Arraignment within 30 days of the court acquiring jurisdiction; pre-trial 30 days later",
+						"On the same date, within 10 days from the court's receipt of the case",
+						"Arraignment within 3 days; pre-trial within 10 days after",
+						"Pre-trial first, then arraignment"
+					],
+					"a": 1,
+					"ex": "A.M. No. 15-06-10-SC: arraignment and pre-trial are set on the same date, within 10 calendar days from receipt of the case for a detained accused, or 30 days from acquiring jurisdiction for one not detained."
+				},
+				{
+					"tw": "Jojo offers to plead guilty to a lesser drug offense. The prosecutor objects only because Sec. 23 of R.A. 9165 bars plea bargaining in drug cases.",
+					"q": "Is the objection valid?",
+					"o": [
+						"Yes, Sec. 23 bars plea bargaining in every drug case",
+						"No. Sec. 23 was struck down as unconstitutional; the plea is still subject to the required consent and the court's discretion",
+						"Yes, unless the drug is marijuana",
+						"No, plea bargaining is a right of the accused"
+					],
+					"a": 1,
+					"ex": "Estipona v. Lobrigo (2017): Sec. 23 encroached on the Supreme Court's exclusive power to promulgate rules of procedure. A plea to a lesser offense remains discretionary, not a right."
+				},
+				{
+					"tw": "Plea bargaining proceeds at arraignment.",
+					"q": "For a victimless crime like this, whose presence and consent does the Guidelines require?",
+					"o": [
+						"The offended party's",
+						"The arresting officer's, with the public prosecutor's conformity",
+						"The DOJ Secretary's",
+						"No one's; the accused's offer is enough"
+					],
+					"a": 1,
+					"ex": "A.M. No. 15-06-10-SC: the private offended party in private crimes, or the arresting officer in victimless crimes, must be present to consent, with the conformity of the public prosecutor."
+				},
+				{
+					"tw": "The plea to the lesser offense is accepted.",
+					"q": "What does the court do next?",
+					"o": [
+						"Set the case for trial on the lesser offense",
+						"Render judgment immediately in the same proceedings",
+						"Refer the case to mediation",
+						"Require memoranda"
+					],
+					"a": 1,
+					"ex": "A.M. No. 15-06-10-SC: after plea bargaining, judgment shall be immediately rendered in the same proceedings."
+				},
+				{
+					"tw": "Different case: Jojo is charged with robbery and wants to plead guilty to estafa.",
+					"q": "Allowed?",
+					"o": [
+						"Yes, estafa carries a lighter penalty",
+						"No. The lesser offense must be necessarily included in the offense charged; estafa is not included in robbery",
+						"Yes, with the offended party's consent",
+						"Yes, if made before trial"
+					],
+					"a": 1,
+					"ex": "Rule 116, Sec. 2; Daan v. Sandiganbayan: the elements of estafa are not included in robbery or theft."
+				},
+				{
+					"tw": "Different case: a theft case in the MTC. At pre-trial, the accused and the complainant are absent though duly notified; defense counsel and the prosecutor are present.",
+					"q": "May pre-trial proceed?",
+					"o": [
+						"No, the accused must be present",
+						"Yes; the court proceeds if they were duly notified and counsel and the prosecutor are present",
+						"No, the complainant must attend",
+						"Only if the accused waives in writing"
+					],
+					"a": 1,
+					"ex": "A.M. No. 15-06-10-SC: the court proceeds with pre-trial despite the absence of the accused or private complainant, if duly notified, so long as defense counsel and the public prosecutor are present."
+				},
+				{
+					"tw": "Different case: a B.P. 22 case in the MTC. After arraignment and pre-trial, the parties are close to settling the civil liability.",
+					"q": "What happens?",
+					"o": [
+						"The case is dismissed upon settlement",
+						"It is referred to mediation of the civil liability for a non-extendible 30 days; trial proceeds if mediation fails",
+						"It is suspended until payment",
+						"It is referred to barangay conciliation"
+					],
+					"a": 1,
+					"ex": "A.M. No. 15-06-10-SC: B.P. 22 is among the cases referred to the Philippine Mediation Center after arraignment and pre-trial, for 30 non-extendible days."
+				}
+			]
+		},
+		{
+			"id": "civil2",
+			"title": "Civil liability beyond the basics",
+			"rules": [
+				"111",
+				"127"
+			],
+			"base": "Rey, a bus driver for Star Lines, is convicted of reckless imprudence resulting in homicide and ordered to pay civil indemnity.",
+			"qs": [
+				{
+					"q": "The writ of execution against Rey is returned unsatisfied; he is insolvent. Can the heirs go after Star Lines in the same criminal case?",
+					"o": [
+						"No, Star Lines was not a party",
+						"Yes, on its subsidiary liability, after a hearing with notice proving it is the employer, is engaged in industry, Rey acted in the discharge of his duties, and Rey is insolvent",
+						"Yes, at once, without a hearing",
+						"Only in a separate quasi-delict case"
+					],
+					"a": 1,
+					"ex": "Arts. 102–103 RPC; Galang v. People (2010): the subsidiary liability is deemed written into the judgment and is enforced in the same criminal case, in a hearing set for that purpose with due notice to the employer."
+				},
+				{
+					"tw": "Instead, before the criminal case, the heirs had sued Star Lines for quasi-delict. Rey argues that the civil case is a prejudicial question to his criminal case.",
+					"q": "Is he right?",
+					"o": [
+						"Yes, the issue of negligence is the same",
+						"No. An independent civil action does not operate as a prejudicial question",
+						"Yes, because it was filed first",
+						"Only if the heirs agree"
+					],
+					"a": 1,
+					"ex": "Riano: independent civil actions (Arts. 32, 33, 34, 2176) proceed independently of the criminal case and do not operate as prejudicial questions."
+				},
+				{
+					"tw": "Different case: Rey is the accused in an estafa case and, before any civil case is filed, petitions to suspend the criminal case for a prejudicial question.",
+					"q": "How is the petition treated under the Guidelines?",
+					"o": [
+						"As a meritorious motion, set for hearing",
+						"As a prohibited motion, because no civil case has yet been filed",
+						"As a motion to quash",
+						"As a request for reinvestigation"
+					],
+					"a": 1,
+					"ex": "A.M. No. 15-06-10-SC: a petition to suspend the criminal action on a prejudicial question is prohibited when no civil case has been filed. If the civil case was filed first, it is meritorious."
+				},
+				{
+					"tw": "Different case: a public employee is acquitted of malversation on reasonable doubt. An administrative case for the same act is pending.",
+					"q": "Does the acquittal end the administrative case?",
+					"o": [
+						"Yes, the facts are the same",
+						"No; the administrative case needs only substantial evidence",
+						"Yes, if the acquittal is final",
+						"No, but it must be suspended until the civil aspect ends"
+					],
+					"a": 1,
+					"ex": "Gupilan-Aguilar v. Ombudsman (2014): acquittal does not conclude the administrative case, which requires only substantial evidence."
+				},
+				{
+					"tw": "Different case: Odin is charged with rape. A child is born of the crime. The civil action has not been waived, reserved, or filed separately.",
+					"q": "May the court order support pendente lite in the criminal case?",
+					"o": [
+						"No, provisional remedies are limited to attachment",
+						"Yes; civil provisional remedies, including support pendente lite, are available in connection with the civil action deemed instituted",
+						"Only after conviction",
+						"No, support needs a separate family case"
+					],
+					"a": 1,
+					"ex": "Rule 127, Sec. 1; Riano: provisional remedies apply as far as applicable to the civil action deemed instituted, including support pendente lite (Rule 61, Sec. 6)."
+				},
+				{
+					"tw": "Different case: the complainant had Odin's property attached in the criminal case. Odin is later acquitted, and the attachment caused him losses.",
+					"q": "When does Odin prove those damages?",
+					"o": [
+						"Only in a separate civil suit",
+						"When he presents his evidence at trial; the accused may prove damages from a provisional remedy issued in the case",
+						"On appeal only",
+						"He cannot; attachments carry no liability"
+					],
+					"a": 1,
+					"ex": "Rule 119, Sec. 11(b): the accused may present evidence to prove his defense and damages, if any, arising from the issuance of a provisional remedy in the case."
+				}
+			]
+		},
+		{
+			"id": "judg3",
+			"title": "Judgment: form, mode, and offer",
+			"rules": [
+				"120",
+				"119"
+			],
+			"base": "Edgar is tried in the RTC for rape.",
+			"qs": [
+				{
+					"q": "The judge who heard all the witnesses retires. Her successor writes the decision from the records. Edgar says the decision is void. Is it?",
+					"o": [
+						"Yes, only the judge who saw the witnesses may decide",
+						"No. A judge who did not hear the witnesses may decide on the records",
+						"Yes, unless Edgar consents",
+						"No, but the witnesses must be recalled first"
+					],
+					"a": 1,
+					"ex": "People v. Alfredo (2010): relying on the records, rather than observing the witnesses' demeanor, does not by itself make the judgment erroneous, especially where the record supports it."
+				},
+				{
+					"tw": "The information charged rape by sexual intercourse. At trial, only rape by sexual assault (insertion of an object) is proved.",
+					"q": "Can Edgar be convicted of rape by sexual assault?",
+					"o": [
+						"Yes, rape is rape",
+						"No. The two modes differ substantially; he may be convicted at most of acts of lasciviousness",
+						"Yes, if he did not object",
+						"No, he must be acquitted outright"
+					],
+					"a": 1,
+					"ex": "People v. Caoili (2017): rape by sexual intercourse and rape by sexual assault are substantially distinct; conviction for the unalleged mode violates the right to be informed. The lesser offense of acts of lasciviousness may be found."
+				},
+				{
+					"tw": "Different variance: the information alleged \"force and intimidation,\" but the victim testified she was asleep. Edgar did not object to the evidence.",
+					"q": "Is the variance fatal?",
+					"o": [
+						"Yes, the information must match the proof exactly",
+						"No. A variance in the manner of commission binds the accused if he fails to object",
+						"Yes, unless the information is amended",
+						"No, because sleep is a form of force"
+					],
+					"a": 1,
+					"ex": "People v. Abella (2009): a variance in the mode of commission is binding on the accused if he does not object to evidence showing a different manner."
+				},
+				{
+					"tw": "To prove qualified rape, the prosecution marked the victim's birth certificate at pre-trial but never formally offered it.",
+					"q": "Can the court use it to prove minority?",
+					"o": [
+						"Yes, it was marked",
+						"No. Evidence not formally offered cannot be considered; the conviction is for simple rape",
+						"Yes, the accused did not object",
+						"Yes, birth certificates are public documents"
+					],
+					"a": 1,
+					"ex": "People v. Villanueva (2010): the court shall consider no evidence not formally offered (Rule 132, Sec. 34). Qualified rape was reduced to simple rape."
+				},
+				{
+					"tw": "Under the Guidelines, the case is submitted for decision.",
+					"q": "By when must the decision be promulgated?",
+					"o": [
+						"Within 30 days",
+						"Within 90 days from submission, on a date announced in open court",
+						"Within 3 months, as the Constitution allows",
+						"Whenever the transcripts are complete"
+					],
+					"a": 1,
+					"ex": "A.M. No. 15-06-10-SC: the promulgation date is announced in open court and set not more than 90 calendar days from submission. Missing transcripts do not justify delay."
+				},
+				{
+					"tw": "Edgar is acquitted. The judgment only says the prosecution \"failed to prove guilt beyond reasonable doubt.\"",
+					"q": "What else must it state?",
+					"o": [
+						"Nothing more",
+						"Whether the act or omission from which civil liability might arise did not exist",
+						"The penalty that would have applied",
+						"The participation of each witness"
+					],
+					"a": 1,
+					"ex": "Rule 120, Sec. 2: an acquittal must state whether the evidence absolutely failed or merely failed to prove guilt beyond reasonable doubt, and in either case determine whether the act giving rise to civil liability did not exist."
+				}
+			]
 		}
 	],
 	"F": [
@@ -3059,6 +4548,186 @@
 				"Seek attachment in the civil case"
 			],
 			"ref": "Rule 127, Sec. 1"
+		},
+		{
+			"t": "Bail as a right vs flight risk",
+			"a": [
+				"Bail is a matter of right, but the accused is a flight risk",
+				"Bail granted; the court may only raise the amount"
+			],
+			"b": [
+				"Charged with an RP offense; evidence of guilt is strong",
+				"Bail denied"
+			],
+			"ref": "Rule 114, Secs. 4, 7; San Miguel v. Maceda"
+		},
+		{
+			"t": "Hot pursuit: timing",
+			"a": [
+				"Arrest minutes after the crime, on the officers' personal knowledge of facts",
+				"Valid warrantless arrest"
+			],
+			"b": [
+				"Arrest the next day, or days later, on witness accounts",
+				"Invalid; get a warrant"
+			],
+			"ref": "Rule 113, Sec. 5(b); Rolito Go v. CA"
+		},
+		{
+			"t": "Checkpoint search",
+			"a": [
+				"Visual inspection only",
+				"Valid without probable cause"
+			],
+			"b": [
+				"Trunk and bags opened",
+				"Needs probable cause"
+			],
+			"ref": "Rule 126; Valmonte v. De Villa"
+		},
+		{
+			"t": "Stop and frisk: whose suspicion",
+			"a": [
+				"The officer's own observation of suspicious acts",
+				"Valid frisk (Posadas; Manalili)"
+			],
+			"b": [
+				"Someone else's tip or signal",
+				"Invalid (Cogaed)"
+			],
+			"ref": "Rule 126; People v. Cogaed"
+		},
+		{
+			"t": "Self-incrimination",
+			"a": [
+				"Paraffin test or physical examination",
+				"Allowed; not testimonial"
+			],
+			"b": [
+				"Forced re-enactment",
+				"Inadmissible"
+			],
+			"ref": "Const. Art. III, Sec. 17; People v. Olvis"
+		},
+		{
+			"t": "One act, two charges",
+			"a": [
+				"One reckless act; convicted for one of its results",
+				"Second case barred (Ivler)"
+			],
+			"b": [
+				"Intentional blow; the victim later dies of it",
+				"Homicide charge allowed (supervening fact)"
+			],
+			"ref": "Rule 117, Sec. 7"
+		},
+		{
+			"t": "Withdrawal vs provisional dismissal",
+			"a": [
+				"Prosecutor's motion to withdraw the information is granted",
+				"Refile after reinvestigation; no time-bar"
+			],
+			"b": [
+				"Provisional dismissal with the accused's express consent and notice",
+				"Time-bar: 1 or 2 years"
+			],
+			"ref": "Rule 117, Sec. 8"
+		},
+		{
+			"t": "Postponement under the Guidelines",
+			"a": [
+				"Witness is hospitalized",
+				"May be granted, with the postponement fee"
+			],
+			"b": [
+				"Witness has a hearing elsewhere",
+				"Denied; prohibited ground"
+			],
+			"ref": "A.M. No. 15-06-10-SC"
+		},
+		{
+			"t": "Leave to file demurrer denied, then…",
+			"a": [
+				"The accused presents evidence",
+				"Trial continues on the scheduled dates"
+			],
+			"b": [
+				"The accused files the demurrer anyway",
+				"Treated as without leave; if denied, no defense evidence"
+			],
+			"ref": "Rule 119, Sec. 23; A.M. No. 15-06-10-SC"
+		},
+		{
+			"t": "Modification vs reopening",
+			"a": [
+				"Modification of judgment",
+				"Accused's motion only; no hearing"
+			],
+			"b": [
+				"Reopening of the proceedings",
+				"Judge may act on his own; hearing required; ends in 30 days"
+			],
+			"ref": "Rule 120, Sec. 7; Rule 119, Sec. 24"
+		},
+		{
+			"t": "CA imposes RP: what to file",
+			"a": [
+				"Notice of appeal",
+				"Matter of right; whole case open, facts and law"
+			],
+			"b": [
+				"Rule 45 petition",
+				"Discretionary; questions of law only"
+			],
+			"ref": "Rule 124, Sec. 13(c); Dungo v. People"
+		},
+		{
+			"t": "Plea to a lesser offense",
+			"a": [
+				"Murder → homicide (included)",
+				"Allowed, with the required consents"
+			],
+			"b": [
+				"Robbery → estafa (not included)",
+				"Not allowed"
+			],
+			"ref": "Rule 116, Sec. 2; Daan v. Sandiganbayan"
+		},
+		{
+			"t": "Prejudicial question petition (Guidelines)",
+			"a": [
+				"A civil case was filed before the criminal case",
+				"Meritorious motion"
+			],
+			"b": [
+				"No civil case has been filed yet",
+				"Prohibited motion"
+			],
+			"ref": "Rule 111, Sec. 6; A.M. No. 15-06-10-SC"
+		},
+		{
+			"t": "Rape: mode charged vs mode proved",
+			"a": [
+				"Charged sexual intercourse; proved sexual assault",
+				"No conviction for sexual assault; acts of lasciviousness at most"
+			],
+			"b": [
+				"Charged force; proved the victim was asleep; no objection",
+				"Variance in manner waived; conviction stands"
+			],
+			"ref": "Rule 120, Sec. 4; People v. Caoili; People v. Abella"
+		},
+		{
+			"t": "Co-accused who did not appeal",
+			"a": [
+				"Appellate ruling: no crime was committed",
+				"Benefits him too (favorable and applicable)"
+			],
+			"b": [
+				"Appellate ruling: the appellant's personal alibi",
+				"Does not benefit him"
+			],
+			"ref": "Rule 122, Sec. 11(a); People v. Valdez"
 		}
 	],
 	"N": [
@@ -3251,6 +4920,106 @@
 			"4",
 			"Non-waivable grounds to quash: a, b, g, i",
 			"117, Sec. 9"
+		],
+		[
+			"80 days",
+			"Arraignment to start of trial (last step of the phase-in)",
+			"119, Sec. 6"
+		],
+		[
+			"30 days",
+			"Maximum excludable delay for pre-trial, and for a matter under advisement",
+			"119, Sec. 3(a)"
+		],
+		[
+			"₱20,000 / ₱5,000",
+			"Maximum fine for dilatory acts: private counsel / de oficio, public attorney, or prosecutor",
+			"119, Sec. 8"
+		],
+		[
+			"30 days",
+			"Maximum bar from appearing before that court for dilatory counsel or prosecutor",
+			"119, Sec. 8"
+		],
+		[
+			"3 days",
+			"Order for conditional examination of a defense witness served before the date",
+			"119, Sec. 13"
+		],
+		[
+			"10 / 30 days",
+			"Arraignment and pre-trial on the same date: detained / not detained",
+			"A.M. No. 15-06-10-SC"
+		],
+		[
+			"30 days (20 in drug cases)",
+			"Resolve a petition for bail, from the first hearing",
+			"A.M. No. 15-06-10-SC"
+		],
+		[
+			"48 hours",
+			"Order on bail, with a summary of the evidence, after the hearing",
+			"A.M. No. 12-11-2-SC"
+		],
+		[
+			"30 days",
+			"Mediation of the civil liability (non-extendible)",
+			"A.M. No. 15-06-10-SC"
+		],
+		[
+			"10 days",
+			"Resolve a motion to discharge a state witness, after its hearing",
+			"A.M. No. 15-06-10-SC"
+		],
+		[
+			"10 / 10 / 30 days",
+			"Demurrer after leave / comment / resolution",
+			"A.M. No. 15-06-10-SC"
+		],
+		[
+			"25 pages",
+			"Maximum length of memoranda",
+			"A.M. No. 15-06-10-SC"
+		],
+		[
+			"90 days",
+			"Promulgation after the case is submitted for decision",
+			"A.M. No. 15-06-10-SC"
+		],
+		[
+			"10 days",
+			"Resolve an MR or MNT of a conviction, from the prosecution's comment",
+			"A.M. No. 15-06-10-SC"
+		],
+		[
+			"3 / 12 / 24 months",
+			"Decide cases: lower courts / lower collegiate courts / SC",
+			"Const. Art. VIII, Sec. 15"
+		],
+		[
+			"10 days",
+			"Pre-trial order after pre-trial (Guidelines: served the same day)",
+			"A.M. No. 03-1-09-SC"
+		],
+		[
+			"15 days",
+			"Memoranda in an appeal to the RTC, from notice that the record was received",
+			"122, Sec. 9"
+		],
+		[
+			"3 months",
+			"Trials or hearings in the CA must be finished, unless extended by the Chief Justice",
+			"124, Sec. 12"
+		],
+		[
+			"6 years",
+			"Legislators are privileged from arrest during session for offenses punishable by not more than this",
+			"Const. Art. VI, Sec. 11"
+		],
+		[
+			"4 years",
+			"Prescription of B.P. 22 (Act No. 3326)",
+			"Panaguiton v. DOJ"
 		]
 	]
 }

@@ -13,7 +13,7 @@ Six subjects in one app:
 
 The content follows one study spec, in this order: **★ Exam focus → enumerations → definitions → case digests → numbers → scenarios / MCQs**.
 
-- **★ Exam focus** (`/consti/focus`, `/crimlaw/focus`, `/crimpro/focus`, `/statcon/focus`): a ranked list of the 14–15 most likely questions, each labeled by type and topic and linked to practice, plus "★ Likely" flags with a one-line reason on about a quarter to a third of the content. The flags live in `src/lib/focus/*.ts`. Lists, definitions and flashcards have a "★ Likely only" filter.
+- **★ Exam focus** (`/consti/focus`, `/crimlaw/focus`, `/crimpro/focus`, `/statcon/focus`): a ranked list of the 14–18 most likely questions, each labeled by type and topic and linked to practice, plus "★ Likely" flags with a one-line reason on about a quarter to a third of the content. The flags live in `src/lib/focus/*.ts`. Lists, definitions and flashcards have a "★ Likely only" filter.
 - **Exam day** (`/exam-day`): one "If I go blank" routine for all subjects (with the first line for each answer format) and advice for typed exams in ExamSoft (Examplify). Subject guides keep only what is specific to them (chapter finder, penalty ladder, topic spotter).
 - **Scope rules**: current law only (Crim Law's historical death-penalty lists are filtered out in `crimlaw.ts`); the Law part of every reference ALAC answer is written as "The Constitution provides…", "The law provides…" or "Jurisprudence provides…", with no section numbers or case names.
 
@@ -57,7 +57,8 @@ Both subjects are built on one "finals kit" (`src/lib/kit.ts`): a subject suppli
 
 ## Crim Pro
 
-- 23 twist sets (148 questions), 18 rule cards, 21 flip pairs, 38 numbers.
+- 36 twist sets (235 questions), 18 rule cards, 36 flip pairs, 58 numbers.
+- **Riano layer**: doctrines and key cases follow Riano, *Criminal Procedure (The Bar Lectures Series)*, 2019 edition. Rule cards have two optional blocks: `cases` ("Key cases (Riano)") and `ctg` (what the 2017 Revised Guidelines for Continuous Trial, A.M. No. 15-06-10-SC, changed: prohibited motions, postponements, the demurrer procedure, form of testimony, bail and promulgation periods). Thirteen sets drill this layer: `ctg`, `demurrer2`, `remedies`, `appeal3`, `jeopardy2`, `search3`, `rights`, `bail3`, `pi2`, `prosec2`, `plea3`, `civil2`, `judg3`.
 - Choices are shuffled per question. The best score per set is saved in the same store (`crimpro.best`), so it is included in the backup export.
 - Every wrong choice has a one-line "Why not" (`src/lib/data/crimpro-why.json`: per set, per question, the reasons for the wrong choices in order; checked against the questions at load).
 - `/crimpro/rules#r114` opens a rule card directly (used by the drill summary's "Review Rule" links).
@@ -73,6 +74,10 @@ SvelteKit 2 · Svelte 5 (runes) · TypeScript · `@sveltejs/adapter-vercel`. Eve
 
 - **Footer counter** (`src/routes/api/visitors/+server.ts`, the app's only server code): counts each browser once (a flag in localStorage, no id or cookie sent) in an Upstash Redis key `visitors`. It needs `KV_REST_API_URL` and `KV_REST_API_TOKEN` (set by Vercel's Upstash integration) or `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN`. Without them the API returns `null` and the counter stays hidden. Only same-origin POSTs count; this stops casual inflation, not a determined script.
 - **Vercel Web Analytics** (`injectAnalytics` in `src/routes/+layout.svelte`): page views and visitors per page, visible in the Vercel dashboard once Analytics is enabled for the project.
+
+## Support
+
+If this helped you study, you can buy me a coffee on [Ko-fi](https://ko-fi.com/serocode). The app links to it from the footer and the developer card, as a plain link with no Ko-fi script.
 
 ## Run locally
 

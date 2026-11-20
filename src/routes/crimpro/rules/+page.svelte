@@ -36,8 +36,9 @@
 		['tag-en', 'Requisites'],
 		['tag-ok', 'Exceptions'],
 		['tag-warn', 'Exception to exception'],
-		['tag-purple', 'Doctrine / rule'],
+		['tag-purple', 'Doctrine / key cases'],
 		['tag-teal', 'Classification'],
+		['tag-line', '2017 Continuous Trial Guidelines'],
 		['tag-accent', 'Exam trap']
 	];
 </script>
@@ -47,6 +48,8 @@
 <div class="stack" style="gap:12px">
 	<p class="muted" style="max-width:64ch">
 		Each rule opens to color-coded notes. Read the hook first and try to recall what it covers before you open the card.
+		Doctrines and key cases follow Riano, <i>Criminal Procedure (The Bar Lectures Series)</i>, 2019 edition, including the
+		2017 Continuous Trial Guidelines.
 	</p>
 	<div class="row wrap" aria-label="Color code" style="gap:6px">
 		{#each legend as [cls, label] (label)}<span class="tag {cls}">{label}</span>{/each}
