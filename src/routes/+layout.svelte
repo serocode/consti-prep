@@ -205,6 +205,9 @@
 				🔑 Answer key <span class="x">· Turn off</span>
 			</button>
 		{/if}
+		<a class="kofi-btn" href={KOFI} target="_blank" rel="noopener noreferrer" title="Support 1Law-C on Ko-fi">
+			<span aria-hidden="true">☕</span> <span class="hide-sm">Support on&nbsp;</span>Ko-fi
+		</a>
 		<div class="seg theme" role="group" aria-label="Theme">
 			{#each themes as [value, label] (value)}
 				<button aria-pressed={store.prefs.theme === value} onclick={() => (store.prefs.theme = value)}>{label}</button>
@@ -229,7 +232,10 @@
 	{#if visitors !== null}
 		<span class="visitors num">· {visitors.toLocaleString()} {visitors === 1 ? 'visitor' : 'visitors'}</span>
 	{/if}
-	<span class="kofi">· <a href={KOFI} target="_blank" rel="noopener noreferrer">☕ Support on Ko-fi</a></span>
+	<div class="foot-kofi">
+		<span>Free to use, no ads. If 1Law-C helped you study, a coffee keeps it running.</span>
+		<a class="kofi-btn" href={KOFI} target="_blank" rel="noopener noreferrer"><span aria-hidden="true">☕</span> Buy me a coffee on Ko-fi</a>
+	</div>
 </footer>
 
 <Disclaimer bind:open={showDisclaimer} />
@@ -423,13 +429,49 @@
 			transition: none;
 		}
 	}
-	.visitors,
-	.kofi {
+	.visitors {
 		white-space: nowrap;
 	}
-	.kofi a {
-		color: var(--accent-text);
-		font-weight: 600;
+	/* Ko-fi: a filled button, in the header on every page and again in the footer. */
+	.kofi-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		min-height: 30px;
+		padding: 0 12px;
+		border-radius: 999px;
+		background: var(--accent-strong);
+		color: var(--on-accent);
+		font-size: 13px;
+		font-weight: 700;
+		text-decoration: none;
+		white-space: nowrap;
+		flex: none;
+		transition: filter 0.15s;
+	}
+	.kofi-btn:hover {
+		filter: brightness(1.1);
+	}
+	.kofi-btn:focus-visible {
+		outline: 2px solid var(--accent-strong);
+		outline-offset: 2px;
+	}
+	.foot-kofi {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px 12px;
+		margin-top: 14px;
+		padding: 12px 14px;
+		border-radius: 10px;
+		background: var(--accent-soft);
+		border: 1px solid var(--accent-line);
+		font-size: 13px;
+		color: var(--text);
+	}
+	.foot-kofi .kofi-btn {
+		min-height: 34px;
+		font-size: 13.5px;
 	}
 	.btn-link {
 		background: none;
