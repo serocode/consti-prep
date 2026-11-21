@@ -19,6 +19,7 @@ The content follows one study spec, in this order: **★ Exam focus → enumerat
 
 ## Consti I
 
+- **Study notes** (`/consti/study`): the 1987 Constitution behind the 28 cases in 29 topics (`src/lib/consti-study.ts`). Each topic has the text to memorize, requisites (blue), exceptions (green), exceptions to the exception (amber), notable details, a distinguish table where useful (pardon vs. amnesty, impeachment vs. quo warranto, control vs. supervision, ad interim vs. acting), the exam trap, and links to its case digests and drills. Recall mode hides the lists until tapped; `#s-<topic id>` opens a topic. Jurisprudence outside the 28 cases is marked as such. Each Consti problem links to its topics from "Rule and provisions".
 - **Case digests** (`/consti/cases`): Facts, Issue, Ruling and Doctrine for all 28 cases (`src/lib/data/consti-digests.json`; the doctrine is each case's `rule`). **Numbers** (`/consti/numbers`): every period, vote, age and count in the coverage.
 
 - 112 problems: 28 case drills + 84 twin problems (same rule / twist), from the Consti I Recall Kit.
@@ -105,7 +106,8 @@ src/lib/crimpro-exam.ts       Crim Pro question pools, exam/practice sessions, p
 src/lib/focus/                exam focus per subject: ranked likely questions and ★ Likely flags
 src/lib/components/FocusView.svelte, NumberTable.svelte, CaseDigests.svelte, McqChoices.svelte, ConstiTabs.svelte   shared across subjects
 src/routes/exam-day/          If I go blank + ExamSoft tips (all subjects)
-src/routes/consti/            Consti exam focus, case digests, numbers
+src/lib/consti-study.ts       Consti study notes: provisions, requisites, exceptions, notable details per topic
+src/routes/consti/            Consti exam focus, study notes, case digests, numbers
 src/lib/kit.ts                finals-kit types (Kit, KitEnum, KitTerm, KitProblem, KitMcq, KitChain), color kinds, card keys
 src/lib/mcq.ts                the Mcq type and the shuffle rule shared by Crim Pro and PFR
 src/lib/digest.ts             the case-digest type shared by Consti, StatCon and PFR

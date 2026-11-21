@@ -1,8 +1,12 @@
 <script lang="ts">
-	import type { AlacProblem } from '$lib/problems';
+	import { TOPICS_BY_CASE } from '$lib/consti-study';
+	import type { AlacProblem, Problem } from '$lib/problems';
 	import { md } from '$lib/text';
 
 	let { problem, open = false }: { problem: AlacProblem; open?: boolean } = $props();
+
+	// Consti problems link to the study notes (requisites, exceptions) for their case.
+	const topics = $derived(problem.subject === 'consti' ? (TOPICS_BY_CASE[(problem as Problem).c.id] ?? []) : []);
 </script>
 
 <details class="disc" {open}>
@@ -29,5 +33,11 @@
 			</ul>
 		{/if}
 		<p class="muted" style="font-size:13px">{problem.c.cite}</p>
+		{#if topics.length}
+			<p style="font-size:14px">
+				Study notes:
+				{#each topics as t, i (t.id)}{i ? ' · ' : ''}<a href="/consti/study#s-{t.id}">{t.title}</a>{/each}
+			</p>
+		{/if}
 	</div>
 </details>

@@ -4,6 +4,7 @@
 	const tabs = [
 		{ href: '/', label: 'ALAC problems', match: (p: string) => p === '/' || p.startsWith('/p/') },
 		{ href: '/consti/focus', label: '★ Exam focus' },
+		{ href: '/consti/study', label: 'Study notes' },
 		{ href: '/consti/cases', label: 'Case digests' },
 		{ href: '/consti/numbers', label: 'Numbers' }
 	];
